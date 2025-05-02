@@ -1,0 +1,15 @@
+.background {
+  background:
+    linear-gradient(270deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.85) 100%),
+    url('./hero.jpg') lightgray no-repeat center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .background {
+    background:
+      linear-gradient(270deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.85) 100%),
+      url('./hero.jpg') lightgray -503.655px 0px / 273.504% 100% no-repeat;
+  }
+}
