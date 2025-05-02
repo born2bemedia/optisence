@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
 
 import { cn } from '@/shared/lib/utils';
+import { Footer } from '@/shared/ui/components/footer';
+import { Header } from '@/shared/ui/components/header';
 
 import './globals.css';
 
@@ -24,7 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(urbanist.variable, 'antialiased')}>{children}</body>
+      <body className={cn(urbanist.variable, 'antialiased')}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
