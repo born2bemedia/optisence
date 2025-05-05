@@ -59,6 +59,7 @@ export function Footer() {
               Cape Town, Western Cape, 8000, South Africa
             </li>
             <li>Registered Number: 334070</li>
+            <li>Krouder Pty Ltd.</li>
           </ul>
         </div>
         <div className="flex gap-6 max-md:grid max-md:grid-cols-2">
