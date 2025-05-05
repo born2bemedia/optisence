@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
+import Script from 'next/script';
 
 import { cn } from '@/shared/lib/utils';
 import { Footer } from '@/shared/ui/components/footer';
@@ -26,6 +27,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-94D72LRWQJ"
+        />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-94D72LRWQJ');
+          `}
+        </Script>
+      </head>
       <body className={cn(urbanist.variable, 'antialiased')}>
         <Header />
         {children}
