@@ -3,6 +3,7 @@
 import Image from 'next/image';
 
 import { cn } from '@/shared/lib/utils';
+import { FadeIn } from '@/shared/ui/components/fade-in';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
@@ -58,7 +59,7 @@ const Card = ({
   special?: boolean;
 }) => {
   return (
-    <article
+    <FadeIn
       className={cn(
         'relative flex flex-col items-center gap-12 overflow-hidden p-12 text-center max-sm:h-[400px] max-sm:justify-between max-sm:p-4',
         special ? 'px-12 py-24' : 'p-12',
@@ -81,6 +82,6 @@ const Card = ({
         fill
         unoptimized
       />
-    </article>
+    </FadeIn>
   );
 };

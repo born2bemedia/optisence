@@ -99,7 +99,9 @@ export const BurgerMenu = () => {
               </Link>
               <footer className="mt-auto flex flex-col items-center justify-center gap-6 py-6 text-white">
                 <section className="flex items-center gap-2.5">
-                  <Link href="mailto:example@gmail.com">example@gmail.com</Link>
+                  <Link href="mailto:example@gmail.com">
+                    info@optisence.com
+                  </Link>
                   <Link href="tel:+1 000 000 000">+1 000 000 000</Link>
                 </section>
                 <section>

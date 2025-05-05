@@ -12,8 +12,10 @@ import { BurgerMenu } from './burger-menu';
 
 const ContactInfo = () => (
   <div className="flex items-center gap-2.5">
-    <Link href="mailto:example@gmail.com">
-      <Text size="sm">example@gmail.com</Text>
+    <Link href="mailto:info@optisence.com">
+      <Text size="sm" hover>
+        info@optisence.com
+      </Text>
     </Link>
     <Link href="tel:+1 000 000 000">
       <Text size="sm">+1 000 000 000</Text>
