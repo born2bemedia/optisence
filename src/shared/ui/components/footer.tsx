@@ -36,6 +36,10 @@ export function Footer() {
                 <Text color="dark" hover>
                   info@optisence.com
                 </Text>
+              <Link href="mailto:info@optisence.com">
+                <Text color="dark" hover>
+                  info@optisence.com
+                </Text>
               </Link>
               <Link href="tel:+1 000 000 000">
                 <Text color="dark">+1 000 000 000</Text>
