@@ -1,8 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import { title } from 'process';
-import { text } from 'stream/consumers';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
