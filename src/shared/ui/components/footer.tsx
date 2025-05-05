@@ -32,8 +32,10 @@ export function Footer() {
               <FacebookFillIcon />
             </div>
             <div className="flex items-center gap-2.5">
-              <Link href="mailto:example@gmail.com">
-                <Text color="dark">example@gmail.com</Text>
+              <Link href="mailto:info@optisence.com">
+                <Text color="dark" hover>
+                  info@optisence.com
+                </Text>
               </Link>
               <Link href="tel:+1 000 000 000">
                 <Text color="dark">+1 000 000 000</Text>
@@ -41,9 +43,13 @@ export function Footer() {
             </div>
           </section>
           <ul className="flex flex-col gap-3">
-            <li>Registered Address:</li>
+            <li>
+              Registered Address: <br />
+              134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
+              8000
+            </li>
             <li>Office Address:</li>
-            <li>Registered Number:</li>
+            <li>Registered Number: 334070</li>
           </ul>
         </div>
         <div className="flex gap-6 max-md:grid max-md:grid-cols-2">
