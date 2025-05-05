@@ -37,11 +37,6 @@ export function Footer() {
                   info@optisence.com
                 </Text>
               </Link>
-              <Link href="mailto:info@optisence.com">
-                <Text color="dark" hover>
-                  info@optisence.com
-                </Text>
-              </Link>
               <Link href="tel:+1 000 000 000">
                 <Text color="dark">+1 000 000 000</Text>
               </Link>
@@ -59,6 +54,7 @@ export function Footer() {
               Cape Town, Western Cape, 8000, South Africa
             </li>
             <li>Registered Number: 334070</li>
+            <li>Krouder Pty Ltd.</li>
           </ul>
         </div>
         <div className="flex gap-6 max-md:grid max-md:grid-cols-2">
