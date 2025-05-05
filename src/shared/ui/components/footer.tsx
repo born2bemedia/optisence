@@ -48,7 +48,11 @@ export function Footer() {
               134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
               8000
             </li>
-            <li>Office Address:</li>
+            <li>
+              Office Address: <br />
+              Office 706, 7th Floor, 134 Bree Street, Cape Town City Centre,
+              Cape Town, Western Cape, 8000, South Africa
+            </li>
             <li>Registered Number: 334070</li>
           </ul>
         </div>
