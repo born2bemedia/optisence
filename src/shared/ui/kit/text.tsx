@@ -25,6 +25,7 @@ const textVariants = cva('transition duration-300 ease-in-out', {
       light: 'text-white',
       ghost: 'text-[rgba(255,255,255,0.8)]',
       foreground: 'text-[#575551]',
+      danger: 'text-[#FF4C4C]',
     },
     weight: {
       400: 'font-normal',

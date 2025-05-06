@@ -40,12 +40,16 @@ export const Button = ({
   variant,
   textAlign,
   onClick,
+  disabled,
   fullWidth = false,
+  type = 'button',
 }: {
   children: ReactNode;
   className?: string;
   fullWidth?: boolean;
   onClick?: () => void;
+  type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
 } & ButtonVariants) => {
   return (
     <button
@@ -55,6 +59,8 @@ export const Button = ({
         className,
       )}
       onClick={onClick}
+      type={type}
+      disabled={disabled}
     >
       {children}
     </button>
