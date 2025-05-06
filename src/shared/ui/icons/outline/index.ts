@@ -1,3 +1,6 @@
+export * from './arrow-bottom';
 export * from './arrow-right';
+export * from './check';
 export * from './chevron-down';
+export * from './close';
 export * from './menu';

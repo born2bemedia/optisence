@@ -3,6 +3,12 @@ import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
 import Script from 'next/script';
 
+import {
+  RequestDialog,
+  RequestStepsForm,
+} from '@/features/request-form/components';
+
+import { Toaster } from '@/shared/lib/toast';
 import { cn } from '@/shared/lib/utils';
 import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
@@ -45,6 +51,10 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <RequestDialog>
+          <RequestStepsForm />
+        </RequestDialog>
+        <Toaster />
       </body>
     </html>
   );

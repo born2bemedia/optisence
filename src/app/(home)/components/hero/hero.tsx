@@ -1,5 +1,7 @@
 'use client';
 
+import { useRequestDialogStore } from '@/features/request-form/services';
+
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
@@ -10,6 +12,8 @@ import { Title } from '@/shared/ui/kit/title';
 import st from './hero.module.css';
 
 export const Hero = () => {
+  const { setOpen } = useRequestDialogStore();
+
   return (
     <section
       className={cn(
@@ -29,7 +33,10 @@ export const Hero = () => {
         </Text>
       </FadeIn>
       <FadeIn>
-        <Button className="max-sm:w-full max-sm:justify-center">
+        <Button
+          className="max-sm:w-full max-sm:justify-center"
+          onClick={() => setOpen(true)}
+        >
           Get Your Free Consultation <ArrowRightIcon />
         </Button>
       </FadeIn>
