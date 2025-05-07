@@ -8,6 +8,7 @@ import { cn } from '@/shared/lib/utils';
 const titleVariants = cva('transition duration-300 ease-in-out leading-[1.2]', {
   variants: {
     size: {
+      md: 'text-[28px]',
       lg: 'text-[32px]',
       xl: 'text-[64px] max-sm:text-[32px]',
     },

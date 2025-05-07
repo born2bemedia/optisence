@@ -51,11 +51,13 @@ export const Text = ({
   size,
   hover = false,
   italic = false,
+  underline = false,
 }: {
   children: ReactNode;
   className?: string;
   hover?: boolean;
   italic?: boolean;
+  underline?: boolean;
 } & TextVariants) => {
   return (
     <p
@@ -63,6 +65,7 @@ export const Text = ({
         textVariants({ color, weight, size }),
         hover && 'hover:text-primary cursor-pointer',
         italic && 'italic',
+        underline && 'underline',
         className,
       )}
     >
