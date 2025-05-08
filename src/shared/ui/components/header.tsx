@@ -67,7 +67,9 @@ const NavigationMenu = () => (
     <Text hover>Industries We Shape</Text>
     <Text hover>Our Work</Text>
     <Text hover>Careers</Text>
-    <Text hover>Media Center</Text>
+    <Link href="/media-center/5-signs-your-business">
+      <Text hover>Media Center</Text>
+    </Link>
   </section>
 );
 

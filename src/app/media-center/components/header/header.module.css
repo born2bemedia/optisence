@@ -1,0 +1,26 @@
+.imgBg {
+  border-radius: 32px;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(12, 3, 1, 0) 42.63%,
+      rgba(12, 3, 1, 0.63) 100%
+    ),
+    url('./hero.jpg') lightgray -70.5px 0px / 155.902% 100% no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .imgBg {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(12, 3, 1, 0) 42.63%,
+        rgba(12, 3, 1, 0.63) 100%
+      ),
+      url('./hero.jpg') lightgray -150.5px 0px / 155.902% 100% no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+}

@@ -88,7 +88,10 @@ export const BurgerMenu = () => {
                   Careers
                 </Link>
                 <Divider color="dark" />
-                <Link className="p-3" href="/media-center">
+                <Link
+                  className="p-3"
+                  href="/media-center/5-signs-your-business"
+                >
                   Media Center
                 </Link>
               </section>
