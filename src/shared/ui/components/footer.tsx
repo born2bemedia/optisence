@@ -112,13 +112,24 @@ export function Footer() {
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
-                <Text hover>Terms and Conditions</Text>
+                <Link href="/terms-and-conditions">
+                  <Text hover>Terms and Conditions</Text>
+                </Link>
               </li>
               <li>
-                <Text hover>Privacy Policy</Text>
+                <Link href="/privacy-policy">
+                  <Text hover>Privacy Policy</Text>
+                </Link>
               </li>
               <li>
-                <Text hover>Refund Policy</Text>
+                <Link href="/refund-policy">
+                  <Text hover>Refund Policy</Text>
+                </Link>
+              </li>
+              <li>
+                <Link href="/cookie-policy">
+                  <Text hover>Cookie Policy</Text>
+                </Link>
               </li>
             </ul>
           </section>

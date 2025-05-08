@@ -40,7 +40,7 @@ export const BurgerMenu = () => {
         </button>
       </Trigger>
       <Portal>
-        <Content className="fixed bottom-0 left-0 z-[995] h-[94vh] w-screen animate-[menuOpen_0.3s_ease-out_forwards] overflow-y-auto bg-black/85 p-6 backdrop-blur-md max-sm:h-[93.5vh]">
+        <Content className="fixed bottom-0 left-0 z-[995] h-[96%] w-screen animate-[menuOpen_0.3s_ease-out_forwards] overflow-y-auto bg-black/85 p-6 backdrop-blur-md max-sm:h-[94%]">
           <Title />
           <Description asChild>
             <section className="flex h-full flex-col">
@@ -92,7 +92,7 @@ export const BurgerMenu = () => {
                   Media Center
                 </Link>
               </section>
-              <Link href="/contact" className="mt-6">
+              <Link href="/contact-us" className="mt-6">
                 <Button textAlign="center" fullWidth>
                   Contact
                 </Button>
