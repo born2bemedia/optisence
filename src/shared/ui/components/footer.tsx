@@ -86,7 +86,9 @@ export function Footer() {
                 <Text hover>Careers</Text>
               </li>
               <li>
-                <Text hover>Media Center</Text>
+                <Link href="/media-center/5-signs-your-business">
+                  <Text hover>Media Center</Text>
+                </Link>
               </li>
             </ul>
           </section>
