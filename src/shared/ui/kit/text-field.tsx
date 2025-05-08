@@ -8,10 +8,10 @@ import { cn } from '@/shared/lib/utils';
 import { Text } from '@/shared/ui/kit/text';
 
 const textFieldVariants = cva(
-  'px-4 py-3 text-base font-normal text-[#575551] border border-gray-200 transition-all duration-300 focus:outline-none',
+  'px-4 py-3 text-base font-normal text-[#575551] transition-all duration-300 focus:outline-none',
   {
     variants: {
-      color: {
+      variant: {
         gray: 'bg-[#F3F3F3]',
         white: 'bg-white',
       },
@@ -25,7 +25,7 @@ const textFieldVariants = cva(
       },
     },
     defaultVariants: {
-      color: 'gray',
+      variant: 'gray',
       rounded: 'sm',
       intent: 'primary',
     },
@@ -39,7 +39,7 @@ export function TextField({
   label,
   hint,
   intent,
-  color,
+  variant,
   rounded,
   ...args
 }: InputHTMLAttributes<HTMLInputElement> & {
@@ -57,7 +57,10 @@ export function TextField({
         )}
       </div>
       <input
-        className={cn(textFieldVariants({ rounded, color, intent }), className)}
+        className={cn(
+          textFieldVariants({ rounded, variant, intent }),
+          className,
+        )}
         {...args}
       />
     </label>

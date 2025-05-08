@@ -10,7 +10,8 @@ const titleVariants = cva('transition duration-300 ease-in-out leading-[1.2]', {
     size: {
       md: 'text-[28px]',
       lg: 'text-[32px]',
-      xl: 'text-[64px] max-sm:text-[32px]',
+      xl: 'text-[52px] max-sm:text-[32px]',
+      '2xl': 'text-[64px] max-sm:text-[32px]',
     },
     color: {
       primary: 'text-primary',
@@ -24,7 +25,7 @@ const titleVariants = cva('transition duration-300 ease-in-out leading-[1.2]', {
     },
   },
   defaultVariants: {
-    size: 'xl',
+    size: '2xl',
     color: 'dark',
     weight: 500,
   },

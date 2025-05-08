@@ -39,7 +39,9 @@ const SocialIcons = () => (
 
 const NavigationMenu = () => (
   <section className="flex items-center gap-6">
-    <Text hover>Home</Text>
+    <Link href="/">
+      <Text hover>Home</Text>
+    </Link>
     <Text hover>Who We Are</Text>
     <Dropdown
       value="Consulting Solutions"
@@ -74,7 +76,7 @@ export const Header = () => {
 
   return (
     <header>
-      {width > 768 ? (
+      {width > 1024 ? (
         <>
           <section className="flex items-center justify-between bg-[#F9FAFF] px-6 py-3">
             <ContactInfo />
@@ -85,7 +87,9 @@ export const Header = () => {
               Optisence
             </Text>
             <NavigationMenu />
-            <Button size="sm">Contact</Button>
+            <Link href="/contact-us">
+              <Button size="sm">Contact</Button>
+            </Link>
           </section>
         </>
       ) : (
