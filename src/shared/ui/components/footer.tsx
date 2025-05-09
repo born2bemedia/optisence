@@ -77,7 +77,9 @@ export function Footer() {
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
-                <Text hover>Who We Are</Text>
+                <Link href="/who-we-are">
+                  <Text hover>Who We Are</Text>
+                </Link>
               </li>
               <li>
                 <Text hover>Industries We Shape</Text>
