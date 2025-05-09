@@ -12,7 +12,7 @@ export const FadeIn = ({
   children: ReactNode;
   className?: string;
 }) => (
-  <motion.div
+  <motion.section
     initial="hidden"
     whileInView="visible"
     viewport={{ once: true }}
@@ -20,5 +20,5 @@ export const FadeIn = ({
     className={className}
   >
     {children}
-  </motion.div>
+  </motion.section>
 );

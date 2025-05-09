@@ -42,7 +42,9 @@ const NavigationMenu = () => (
     <Link href="/">
       <Text hover>Home</Text>
     </Link>
-    <Text hover>Who We Are</Text>
+    <Link href="/who-we-are">
+      <Text hover>Who We Are</Text>
+    </Link>
     <Dropdown
       value="Consulting Solutions"
       options={[
