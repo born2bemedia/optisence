@@ -1,0 +1,31 @@
+.paginationBullet {
+  border-radius: 12px;
+  width: 32px;
+}
+
+.activePaginationBullet {
+  background: #ff572d !important;
+}
+
+.swiperWrapper {
+  padding: 0 4px 50px 4px;
+  height: 1400px;
+
+  @media (max-width: 376px) {
+    height: 1600px;
+  }
+}
+
+.swiperContainer {
+  width: 100%;
+}
+
+.swiperSlide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  height: 100%;
+}
