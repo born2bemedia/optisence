@@ -5,31 +5,34 @@ import { cva, type VariantProps } from 'class-variance-authority';
 
 import { cn } from '@/shared/lib/utils';
 
-const titleVariants = cva('transition duration-300 ease-in-out leading-[1.2]', {
-  variants: {
-    size: {
-      md: 'text-[28px]',
-      lg: 'text-[32px]',
-      xl: 'text-[52px] max-sm:text-[32px]',
-      '2xl': 'text-[64px] max-sm:text-[32px]',
+const titleVariants = cva(
+  'transition duration-300 ease-in-out leading-[120%]',
+  {
+    variants: {
+      size: {
+        md: 'text-[28px]',
+        lg: 'text-[32px]',
+        xl: 'text-[52px] max-sm:text-[32px]',
+        '2xl': 'text-[64px] max-sm:text-[32px]',
+      },
+      color: {
+        primary: 'text-primary',
+        dark: 'text-dark',
+        light: 'text-white',
+      },
+      weight: {
+        500: 'font-medium',
+        600: 'font-semibold',
+        700: 'font-bold',
+      },
     },
-    color: {
-      primary: 'text-primary',
-      dark: 'text-dark',
-      light: 'text-white',
-    },
-    weight: {
-      500: 'font-medium',
-      600: 'font-semibold',
-      700: 'font-bold',
+    defaultVariants: {
+      size: '2xl',
+      color: 'dark',
+      weight: 500,
     },
   },
-  defaultVariants: {
-    size: '2xl',
-    color: 'dark',
-    weight: 500,
-  },
-});
+);
 
 export type TitleVariants = VariantProps<typeof titleVariants>;
 

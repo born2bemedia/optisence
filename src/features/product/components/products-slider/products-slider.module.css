@@ -1,0 +1,38 @@
+.paginationBullet {
+  border-radius: 12px;
+  width: 52px;
+}
+
+@media (max-width: 768px) {
+  .paginationBullet {
+    width: 32px;
+  }
+}
+
+.activePaginationBullet {
+  background: #ff572d !important;
+}
+
+.swiperWrapper {
+  margin-bottom: 36px;
+  height: 468px;
+}
+
+@media (max-width: 768px) {
+  .swiperWrapper {
+    height: 500px;
+    margin-bottom: 80px;
+  }
+}
+
+.swiperContainer {
+  width: 100%;
+}
+
+.swiperSlide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
