@@ -9,6 +9,7 @@ import { Dropdown } from '@/shared/ui/kit/dropdown';
 import { Text } from '@/shared/ui/kit/text';
 
 import { BurgerMenu } from './burger-menu';
+import Image from 'next/image';
 
 const ContactInfo = () => (
   <div className="flex items-center gap-2.5">
@@ -87,9 +88,12 @@ export const Header = () => {
             <SocialIcons />
           </section>
           <section className="flex items-center justify-between px-6 py-3">
-            <Text color="primary" size="2xl">
-              Optisence
-            </Text>
+            <Image
+              src="/full-logo.svg"
+              alt="Optisence"
+              width={132}
+              height={34}
+            />
             <NavigationMenu />
             <Link href="/contact-us">
               <Button size="sm">Contact</Button>
@@ -98,9 +102,7 @@ export const Header = () => {
         </>
       ) : (
         <section className="flex items-center justify-between border-b border-[#F2F2F2] px-6 py-3">
-          <Text color="primary" size="2xl">
-            Optisence
-          </Text>
+          <Image src="/full-logo.svg" alt="Optisence" width={132} height={34} />
           <BurgerMenu />
         </section>
       )}

@@ -14,6 +14,7 @@ import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
 
 import './globals.css';
+import { Preloader } from '@/shared/ui/components/preloader';
 
 const urbanist = Urbanist({
   subsets: ['latin'],
@@ -48,6 +49,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={cn(urbanist.variable, 'antialiased')}>
+        <Preloader />
         <Header />
         {children}
         <Footer />
