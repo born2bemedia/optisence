@@ -18,6 +18,13 @@
   height: 468px;
 }
 
+@media (max-width: 1520) {
+  .swiperWrapper {
+    height: 600px;
+    margin-bottom: 60px;
+  }
+}
+
 @media (max-width: 768px) {
   .swiperWrapper {
     height: 500px;

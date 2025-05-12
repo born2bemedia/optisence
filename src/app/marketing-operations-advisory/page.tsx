@@ -1,3 +1,5 @@
+import { OrderDialog } from '@/features/order/components';
+
 import {
   DownloadPrice,
   Hero,
@@ -18,6 +20,7 @@ export default function MarketingOperationsAdvisory() {
       <DownloadPrice />
       <WhyChoose />
       <NextSteps />
+      <OrderDialog />
     </main>
   );
 }

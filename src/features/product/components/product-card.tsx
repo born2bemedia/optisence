@@ -1,17 +1,23 @@
 'use client';
 
+import { useCallback } from 'react';
+
+import { useOrderDialogStore } from '@/features/order/services';
+
 import { ArrowRightIcon, LineRightIcon } from '@/shared/ui/icons/outline';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 
 import type { Product } from '../lib';
 
-export const ProductCard = ({
-  name,
-  description,
-  serviceDetails,
-  onOrder,
-}: Product & { onOrder?: () => void }) => {
+export const ProductCard = ({ name, description, serviceDetails }: Product) => {
+  const { setProductName, setOpen } = useOrderDialogStore();
+
+  const onOrder = useCallback(() => {
+    setProductName(name);
+    setOpen(true);
+  }, [setProductName, setOpen, name]);
+
   return (
     <article className="flex h-full flex-col gap-5 rounded-4xl bg-[#F5F5F5] p-8">
       <section className="flex flex-col gap-5">
