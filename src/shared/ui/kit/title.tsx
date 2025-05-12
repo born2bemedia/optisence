@@ -12,8 +12,8 @@ const titleVariants = cva(
       size: {
         md: 'text-[28px]',
         lg: 'text-[32px]',
-        xl: 'text-[52px] max-sm:text-[32px]',
-        '2xl': 'text-[64px] max-sm:text-[32px]',
+        xl: 'text-[52px] max-md:text-[32px]',
+        '2xl': 'text-[64px] max-md:text-[32px]',
       },
       color: {
         primary: 'text-primary',

@@ -12,6 +12,8 @@ const btnVariants = cva(
       variant: {
         primary:
           'bg-primary text-white border border-primary hover:bg-[#C74524] hover:border-[#C74524]',
+        outline:
+          'bg-primary text-primary hover:text-white border border-primary bg-transparent hover:bg-[#C74524] hover:border-[#C74524]',
       },
       size: {
         sm: 'py-3 px-6',
