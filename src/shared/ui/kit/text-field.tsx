@@ -41,16 +41,18 @@ export function TextField({
   intent,
   variant,
   rounded,
+  hintPosition = 'top',
   ...args
 }: InputHTMLAttributes<HTMLInputElement> & {
   label?: string;
   hint?: string;
+  hintPosition?: 'top' | 'bottom';
 } & TextFieldVariants) {
   return (
     <label className="relative flex w-full flex-col gap-1.5">
       <div className="flex items-center gap-1">
         <Text color="dark">{label}</Text>
-        {hint && (
+        {hint && hintPosition === 'top' && (
           <Text color="danger" italic>
             {hint}
           </Text>
@@ -63,6 +65,13 @@ export function TextField({
         )}
         {...args}
       />
+      {hint && hintPosition === 'bottom' && (
+        <span className="absolute bottom-[-18px] left-0">
+          <Text color="danger" size="sm" italic>
+            {hint}
+          </Text>
+        </span>
+      )}
     </label>
   );
 }

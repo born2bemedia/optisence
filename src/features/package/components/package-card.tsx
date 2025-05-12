@@ -1,5 +1,9 @@
 'use client';
 
+import { useCallback } from 'react';
+
+import { useOrderDialogStore } from '@/features/order/services';
+
 import { cn } from '@/shared/lib/utils';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
 import { Button } from '@/shared/ui/kit/button';
@@ -15,8 +19,14 @@ export const PackageCard = ({
   price,
   reasonToChoose,
   className,
-  onOrder,
-}: Package & { onOrder?: () => void; className?: string }) => {
+}: Package & { className?: string }) => {
+  const { setProductName, setOpen } = useOrderDialogStore();
+
+  const onOrder = useCallback(() => {
+    setProductName(name);
+    setOpen(true);
+  }, [setProductName, setOpen, name]);
+
   return (
     <article
       className={cn(
@@ -29,7 +39,7 @@ export const PackageCard = ({
           <Text size="3xl" color="dark" weight={600}>
             {name}
           </Text>
-          <span className="w-max rounded-full bg-[#DFDFDF] px-3 py-1.5">
+          <span className="w-max shrink-0 rounded-full bg-[#DFDFDF] px-3 py-1.5">
             {price}
           </span>
         </section>
