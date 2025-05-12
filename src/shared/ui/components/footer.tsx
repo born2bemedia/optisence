@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 import {
@@ -16,9 +17,12 @@ export function Footer() {
       <section className="flex justify-between gap-16 px-[100px] max-lg:flex-col max-md:px-8">
         <div className="flex flex-col gap-8 max-lg:items-center max-lg:text-center">
           <section>
-            <Text color="primary" size="2xl">
-              Optisence
-            </Text>
+            <Image
+              src="/full-logo.svg"
+              alt="Optisence"
+              width={132}
+              height={34}
+            />
             <Text className="w-[300px] max-sm:w-full">
               Your online trading academy for independent learners. Study with
               structured video lessons, follow your pace, and check progress
