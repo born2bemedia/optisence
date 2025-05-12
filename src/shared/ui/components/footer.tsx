@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 import {
@@ -9,7 +10,6 @@ import {
 } from '@/shared/ui/icons/socials';
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
-import Image from 'next/image';
 
 export function Footer() {
   return (

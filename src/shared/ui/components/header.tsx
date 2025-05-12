@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { useWindow } from '@/shared/lib/hooks';
@@ -9,7 +10,6 @@ import { Dropdown } from '@/shared/ui/kit/dropdown';
 import { Text } from '@/shared/ui/kit/text';
 
 import { BurgerMenu } from './burger-menu';
-import Image from 'next/image';
 
 const ContactInfo = () => (
   <div className="flex items-center gap-2.5">

@@ -12,9 +12,9 @@ import { Toaster } from '@/shared/lib/toast';
 import { cn } from '@/shared/lib/utils';
 import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
+import { Preloader } from '@/shared/ui/components/preloader';
 
 import './globals.css';
-import { Preloader } from '@/shared/ui/components/preloader';
 
 const urbanist = Urbanist({
   subsets: ['latin'],
