@@ -1,5 +1,6 @@
 'use client';
 
+import { useWindow } from '@/shared/lib/hooks';
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
@@ -8,30 +9,40 @@ const cards = [
   {
     title: 'Integrity Beyond Expectations',
     text: 'We don’t discuss integrity — we live it. Our commitment to transparency and honesty is reflected in everything we do. Trust is built on delivering results ethically and responsibly from our internal operations to client relationships. Every decision is rooted in the idea that integrity is the foundation for lasting success.',
+    number: 1,
   },
   {
     title: 'Collaboration that Fuels Success',
     text: 'Collaboration is our secret weapon. We believe the best results come from working together — within our team and with our clients. We create deep, collaborative partnerships where open communication, shared goals, and collective problem-solving take center stage.',
+    number: 4,
   },
   {
     title: 'Relentless Innovations',
     text: 'Innovation is at the heart of what we do. We understand that the business world constantly evolves, and we always seek new ways to enhance our strategies and methodologies. Our approach is forward-thinking and data-driven, utilizing the latest technologies, tools, and creative solutions to keep our clients at the cutting edge of their industries. ',
+    number: 2,
   },
   {
     title: 'Empowering People and Businesses',
     text: 'We believe that empowered people lead to empowered businesses. We aim to give clients the tools, strategies, and knowledge they need to thrive in an ever-changing landscape. We believe in nurturing talent, empowering our team to think creatively, and providing our clients with the insights they need.',
+    number: 5,
   },
   {
     title: 'Excellence as a Standard',
     text: 'Excellence is not just a goal but a mindset. We push ourselves to exceed expectations and deliver superior outcomes, ensuring that every strategy we craft is of the highest quality. We hold ourselves accountable for exceptional performance from the initial consultation to the final strategy execution.',
+    number: 3,
   },
   {
     title: 'Sustainability and Responsibility',
     text: 'Sustainability isn’t just a trend — it’s an essential pillar of long-term success. We take a responsible approach to business by integrating sustainable practices into our strategies. Helping clients reduce their environmental footprint or advising on ethical business practices, we strive to create lasting value that benefits our clients and society.',
+    number: 6,
   },
 ];
 
+const orderedCards = cards.sort((a, b) => a.number - b.number);
+
 export const OurValues = () => {
+  const { width } = useWindow();
+
   return (
     <section className="flex flex-col gap-16 px-[100px] pt-[100px] pb-[145px] max-sm:px-4 max-sm:py-8">
       <FadeIn className="flex flex-col items-center gap-3 text-center">
@@ -43,23 +54,31 @@ export const OurValues = () => {
           impact.
         </Text>
       </FadeIn>
-      <section className="flex gap-8 max-sm:flex-col">
-        <FadeIn className="flex flex-col gap-8">
-          {cards.slice(0, 2).map((card, i) => (
-            <Card key={card.title} {...card} number={++i} />
+      {width > 768 ? (
+        <section className="flex gap-8">
+          <FadeIn className="flex flex-col gap-8">
+            {cards.slice(0, 2).map(card => (
+              <Card key={card.title} {...card} />
+            ))}
+          </FadeIn>
+          <FadeIn className="mt-[30px] flex flex-col gap-8 max-sm:mt-0">
+            {cards.slice(2, 4).map(card => (
+              <Card key={card.title} {...card} />
+            ))}
+          </FadeIn>
+          <FadeIn className="mt-[60px] flex flex-col gap-8 max-sm:mt-0">
+            {cards.slice(4, 6).map(card => (
+              <Card key={card.title} {...card} />
+            ))}
+          </FadeIn>
+        </section>
+      ) : (
+        <section className="flex flex-col gap-8">
+          {orderedCards.map(card => (
+            <Card key={card.title} {...card} />
           ))}
-        </FadeIn>
-        <FadeIn className="mt-[30px] flex flex-col gap-8 max-sm:mt-0">
-          {cards.slice(2, 4).map((card, i) => (
-            <Card key={card.title} {...card} number={++i} />
-          ))}
-        </FadeIn>
-        <FadeIn className="mt-[60px] flex flex-col gap-8 max-sm:mt-0">
-          {cards.slice(4, 6).map((card, i) => (
-            <Card key={card.title} {...card} number={++i} />
-          ))}
-        </FadeIn>
-      </section>
+        </section>
+      )}
     </section>
   );
 };

@@ -16,17 +16,18 @@ export function Footer() {
     <footer className="flex flex-col gap-12 border-t border-[#F2F2F2] py-[72px] max-md:py-8">
       <section className="flex justify-between gap-16 px-[100px] max-lg:flex-col max-md:px-8">
         <div className="flex flex-col gap-8 max-lg:items-center max-lg:text-center">
-          <section>
+          <section className="flex flex-col gap-3">
             <Image
               src="/full-logo.svg"
               alt="Optisence"
               width={132}
               height={34}
             />
-            <Text className="w-[300px] max-sm:w-full">
-              Your online trading academy for independent learners. Study with
-              structured video lessons, follow your pace, and check progress
-              with quizzes.
+            <Text className="w-[350px] max-sm:w-full">
+              Your partner for transforming business strategies and driving
+              growth. Work with experts to develop tailored solutions, implement
+              cutting-edge technologies, and measure results for long-term
+              success.
             </Text>
           </section>
           <section className="flex flex-col gap-3">
