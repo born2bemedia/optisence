@@ -10,7 +10,7 @@ export const DownloadPrice = () => (
     text="Get a detailed overview of all our services and packages with our full-price list. Download it now to explore all options and choose the best fit for your business."
     bottomContent={
       <Button>
-        DownLoad Now
+        Download Now
         <ArrowRightIcon />
       </Button>
     }
