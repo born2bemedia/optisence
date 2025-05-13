@@ -1,6 +1,9 @@
 'use server';
 
+import { format } from 'date-fns';
 import { google } from 'googleapis';
+
+import { orderEmailBody } from '@/features/email-letters/components';
 
 import {
   EMAIL_CLIENT_ID,
@@ -8,7 +11,7 @@ import {
   EMAIL_REFRESH_TOKEN,
   EMAIL_USER,
 } from '@/shared/config/env';
-import { makeEmailBody } from '@/shared/lib/utils';
+import { makeEmailBody, removeKeyFromString } from '@/shared/lib/utils';
 
 import type { OrderSchema } from '../lib';
 
@@ -22,7 +25,8 @@ export async function order({
   phone,
   message,
   productName,
-}: OrderSchema & { productName: string }) {
+  productPrice,
+}: OrderSchema & { productName: string; productPrice?: string }) {
   try {
     const OAuth2 = google.auth.OAuth2;
     const oauth2Client = new OAuth2(
@@ -47,7 +51,17 @@ export async function order({
       to: email,
       from: EMAIL_USER,
       subject: 'Thank You for Ordering from Optisence!',
-      message: `<p>Mock</p>`,
+      message: orderEmailBody({
+        username: `${firstName} ${lastName}`,
+        order: {
+          number: String(Date.now()),
+          date: format(new Date(), 'MMMM dd, yyyy'),
+          services: productName,
+          amount: productPrice
+            ? removeKeyFromString('Price:', productPrice)
+            : undefined,
+        },
+      }),
     });
 
     const res = await gmail.users.messages.send({

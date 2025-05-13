@@ -9,3 +9,6 @@ export const isPhoneValid = (phone: string) => {
     return false;
   }
 };
+
+export const removeKeyFromString = (key: string, str: string) =>
+  str.startsWith(key) ? str.slice(key.length).trimStart() : str;

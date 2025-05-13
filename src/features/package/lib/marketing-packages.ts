@@ -20,7 +20,7 @@ export const marketingPackages: Package[] = [
   },
   {
     name: 'Growth Marketing Accelerator Package',
-    price: 'Price: rom €10,000',
+    price: 'Price: from €10,000',
     description:
       'This package is perfect for growing businesses that need to optimize existing marketing strategies and integrate more advanced marketing tools. It is designed to accelerate growth and improve efficiency and scale in marketing operations.',
     features: [

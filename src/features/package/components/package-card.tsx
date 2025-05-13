@@ -20,12 +20,13 @@ export const PackageCard = ({
   reasonToChoose,
   className,
 }: Package & { className?: string }) => {
-  const { setProductName, setOpen } = useOrderDialogStore();
+  const { setProductName, setOpen, setProductPrice } = useOrderDialogStore();
 
   const onOrder = useCallback(() => {
     setProductName(name);
+    setProductPrice(price);
     setOpen(true);
-  }, [setProductName, setOpen, name]);
+  }, [setProductName, name, setProductPrice, price, setOpen]);
 
   return (
     <article

@@ -13,9 +13,11 @@ import { order } from '../services';
 
 export const OrderForm = ({
   productName,
+  productPrice,
   onSuccess,
 }: {
   productName: string;
+  productPrice?: string;
   onSuccess: () => void;
 }) => {
   const {
@@ -41,7 +43,7 @@ export const OrderForm = ({
 
   const onSubmit = handleSubmit(async data => {
     try {
-      await order({ ...data, productName });
+      await order({ ...data, productName, productPrice });
       reset();
       onSuccess();
     } catch (err) {

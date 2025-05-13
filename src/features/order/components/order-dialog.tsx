@@ -20,16 +20,31 @@ import { OrderForm } from './order-form';
 import { ThankYouView } from './trank-you-view';
 
 export const OrderDialog = () => {
-  const { open, setOpen, sent, setSent, productName, setProductName } =
-    useOrderDialogStore();
+  const {
+    open,
+    setOpen,
+    sent,
+    setSent,
+    productName,
+    setProductName,
+    productPrice,
+    setProductPrice,
+  } = useOrderDialogStore();
 
   const onSuccess = useCallback(() => {
     setSent(true);
     setProductName('');
-  }, [setProductName, setSent]);
+    setProductPrice('');
+  }, [setProductName, setProductPrice, setSent]);
 
   return (
-    <Root open={open} onOpenChange={setOpen}>
+    <Root
+      open={open}
+      onOpenChange={() => {
+        setOpen(false);
+        setSent(false);
+      }}
+    >
       <Trigger />
       <Portal>
         <Overlay className="animate-overlayShow fixed inset-0 z-[998] bg-black/55 backdrop-blur-sm" />
@@ -53,7 +68,11 @@ export const OrderDialog = () => {
                   >
                     {productName}
                   </Title>
-                  <OrderForm productName={productName} onSuccess={onSuccess} />
+                  <OrderForm
+                    productName={productName}
+                    productPrice={productPrice}
+                    onSuccess={onSuccess}
+                  />
                 </section>
               </ScrollContainer>
             )}
