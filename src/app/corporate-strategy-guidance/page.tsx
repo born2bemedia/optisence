@@ -5,22 +5,22 @@ import {
   Hero,
   HowWeHelp,
   NextSteps,
-  OurMarketingServices,
-  ReadyMarketingPackages,
+  OurStrategyServices,
+  ReadyStrategyPackages,
   WhyChoose,
 } from './components';
 
-export default function MarketingOperationsAdvisory() {
+export default function CorporateStrategyGuidance() {
   return (
     <main>
       <Hero />
-      <OurMarketingServices />
+      <OurStrategyServices />
       <HowWeHelp />
-      <ReadyMarketingPackages />
+      <ReadyStrategyPackages />
       <DownloadPrice />
+      <OrderDialog />
       <WhyChoose />
       <NextSteps />
-      <OrderDialog />
     </main>
   );
 }
