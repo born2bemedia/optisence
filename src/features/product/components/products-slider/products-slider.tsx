@@ -8,16 +8,16 @@ import type { Product } from '@/features/product/lib';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import styles from './products-slider.module.css';
+import st from './products-slider.module.css';
 
 export const ProductsSlider = ({ products }: { products: Product[] }) => {
   const pagination = {
     clickable: true,
     renderBullet: (_: number, className: string) => {
-      const bulletClass = `${className} ${styles.paginationBullet}`;
+      const bulletClass = `${className} ${st.paginationBullet}`;
       return `<span class="${bulletClass} !h-1.5 rounded-xl"></span>`;
     },
-    bulletActiveClass: styles.activePaginationBullet,
+    bulletActiveClass: st.activePaginationBullet,
   };
 
   return (
@@ -41,13 +41,13 @@ export const ProductsSlider = ({ products }: { products: Product[] }) => {
           slidesPerView: 4,
         },
       }}
+      wrapperClass={st.swiperWrapper}
+      className={st.swiperContainer}
       loop
       grabCursor
-      wrapperClass={styles.swiperWrapper}
-      className={styles.swiperContainer}
     >
       {products.map(item => (
-        <SwiperSlide className={styles.swiperSlide} key={item.name}>
+        <SwiperSlide className={st.swiperSlide} key={item.name}>
           <ProductCard {...item} />
         </SwiperSlide>
       ))}

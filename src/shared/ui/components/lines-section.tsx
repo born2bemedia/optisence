@@ -18,7 +18,7 @@ export const LinesSection = ({
   return (
     <FadeIn className="relative mx-[100px] mb-[122px] flex flex-col gap-3 overflow-hidden pt-[80px] text-center max-sm:mx-4 max-sm:mb-4 max-sm:px-4 max-sm:py-8 max-sm:pt-4">
       <BackgroundLines />
-      <Title as="h2" weight={600} className="leading-[120%]">
+      <Title as="h2" size="xl" weight={600} className="leading-[120%]">
         {title}
       </Title>
       <Text className="mx-auto w-[45%] max-sm:w-full">{text}</Text>

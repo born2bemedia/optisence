@@ -11,6 +11,7 @@
 
 .activePaginationBullet {
   background: #ff572d !important;
+  opacity: 1 !important;
 }
 
 .swiperWrapper {
@@ -20,7 +21,7 @@
 
 @media (max-width: 1520) {
   .swiperWrapper {
-    height: 600px;
+    height: 650px;
     margin-bottom: 60px;
   }
 }
