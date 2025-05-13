@@ -6,7 +6,9 @@ export const useOrderDialogStore = create<{
   sent: boolean;
   setSent: (value: boolean) => void;
   productName: string;
+  productPrice: string;
   setProductName: (value: string) => void;
+  setProductPrice: (value: string) => void;
 }>(set => ({
   open: false,
   setOpen: (value: boolean) => set({ open: value }),
@@ -14,4 +16,6 @@ export const useOrderDialogStore = create<{
   setSent: (value: boolean) => set({ sent: value }),
   productName: '',
   setProductName: (value: string) => set({ productName: value }),
+  productPrice: '',
+  setProductPrice: (value: string) => set({ productPrice: value }),
 }));
