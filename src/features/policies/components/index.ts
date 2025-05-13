@@ -1,3 +1,4 @@
+export * from './cookie-consent';
 export * from './header';
 export * from './heading';
 export * from './highlighted-text';
