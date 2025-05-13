@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
 import Script from 'next/script';
 
+import { CookieConsent } from '@/features/policies/components';
 import {
   RequestDialog,
   RequestStepsForm,
@@ -57,6 +58,7 @@ export default function RootLayout({
           <RequestStepsForm />
         </RequestDialog>
         <Toaster />
+        <CookieConsent />
       </body>
     </html>
   );
