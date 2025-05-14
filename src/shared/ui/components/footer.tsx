@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { useRequestDialogStore } from '@/features/request-form/services';
+
 import {
   FacebookFillIcon,
   InstagramFillIcon,
@@ -12,6 +14,8 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 
 export function Footer() {
+  const { setOpen } = useRequestDialogStore();
+
   return (
     <footer className="flex flex-col gap-12 border-t border-[#F2F2F2] py-[72px] max-md:py-8">
       <section className="flex justify-between gap-16 px-[100px] max-lg:flex-col max-md:px-8">
@@ -69,10 +73,14 @@ export function Footer() {
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
-                <Text hover>Marketing Operations Advisory</Text>
+                <Link href="/marketing-operations-advisory">
+                  <Text hover>Marketing Operations Advisory</Text>
+                </Link>
               </li>
               <li>
-                <Text hover>Corporate Strategy Guidance</Text>
+                <Link href="/corporate-strategy-guidance">
+                  <Text hover>Corporate Strategy Guidance</Text>
+                </Link>
               </li>
             </ul>
           </section>
@@ -87,10 +95,14 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Text hover>Industries We Shape</Text>
+                <Link href="/industries-we-shape">
+                  <Text hover>Industries We Shape</Text>
+                </Link>
               </li>
               <li>
-                <Text hover>Careers</Text>
+                <Link href="/careers">
+                  <Text hover>Careers</Text>
+                </Link>
               </li>
               <li>
                 <Link href="/media-center/5-signs-your-business">
@@ -104,14 +116,18 @@ export function Footer() {
               Start With Optisence
             </Text>
             <ul className="flex flex-col gap-3">
-              <li>
+              <li onClick={() => setOpen(true)}>
                 <Text hover>Get a Consultation</Text>
               </li>
               <li>
-                <Text hover>Our Work</Text>
+                <Link href="/our-work">
+                  <Text hover>Our Work</Text>
+                </Link>
               </li>
               <li>
-                <Text hover>Contact</Text>
+                <Link href="/contact-us">
+                  <Text hover>Contact</Text>
+                </Link>
               </li>
             </ul>
           </section>
