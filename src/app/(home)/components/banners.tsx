@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -14,18 +15,21 @@ const items = [
     title: 'Careers at Optisence',
     desc: 'Join Optisence and shape the future of business and marketing with a creative, innovative, and collaborative team.',
     btnText: 'Browse Our Career Opportunities',
+    link: '/careers',
     imgUrl: '/images/home/banner-1.jpg',
   },
   {
     title: 'Media Center',
     desc: 'The Optisence Media Center offers expert insights and solutions on the latest trends in business and marketing.',
     btnText: 'Visit Our Media Center',
+    link: '/media-center/5-signs-your-business',
     imgUrl: '/images/home/banner-2.jpg',
   },
   {
     title: 'Contact Us',
     desc: 'Contact us today for a consultation on marketing optimization or corporate strategy to drive your business transformation.',
     btnText: 'Get in Touch',
+    link: '/contact-us',
     imgUrl: '/images/home/banner-3.jpg',
   },
 ];
@@ -50,12 +54,14 @@ const Card = ({
   desc,
   imgUrl,
   title,
+  link,
   special = false,
 }: {
   title: string;
   desc: string;
   btnText: string;
   imgUrl: string;
+  link: string;
   special?: boolean;
 }) => {
   return (
@@ -71,9 +77,11 @@ const Card = ({
         </Title>
         <Text className={cn('text-white/80', special && 'w-7/10')}>{desc}</Text>
       </div>
-      <Button className="z-30">
-        {btnText} <ArrowRightIcon />
-      </Button>
+      <Link className="z-30" href={link}>
+        <Button>
+          {btnText} <ArrowRightIcon />
+        </Button>
+      </Link>
       <div className="absolute inset-0 z-10 rounded-4xl bg-[linear-gradient(180deg,rgba(12,3,1,0.9)_31.07%,rgba(12,3,1,0.36)_100%)]" />
       <Image
         className="rounded-4xl object-cover"

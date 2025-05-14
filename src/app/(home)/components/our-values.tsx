@@ -1,7 +1,11 @@
 'use client';
 
+import Link from 'next/link';
+
 import { useWindow } from '@/shared/lib/hooks';
 import { FadeIn } from '@/shared/ui/components/fade-in';
+import { ArrowRightIcon } from '@/shared/ui/icons/outline';
+import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -79,6 +83,11 @@ export const OurValues = () => {
           ))}
         </section>
       )}
+      <Link href="/who-we-are">
+        <Button className="mx-auto">
+          More About Optisence Team <ArrowRightIcon />
+        </Button>
+      </Link>
     </section>
   );
 };

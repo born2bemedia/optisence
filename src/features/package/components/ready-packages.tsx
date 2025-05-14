@@ -32,11 +32,11 @@ export const ReadyPackages = ({
       </FadeIn>
       {width > 768 ? (
         <FadeIn className="flex gap-5">
-          <section className="flex flex-col gap-5">
+          <section className="flex w-full flex-col gap-5">
             <PackageCard {...packages[0]} />
             <PackageCard {...packages[2]} />
           </section>
-          <section className="flex flex-col gap-5">
+          <section className="flex w-full flex-col gap-5">
             <PackageCard {...packages[1]} />
             <PackageCard {...packages[3]} className="h-full" />
           </section>

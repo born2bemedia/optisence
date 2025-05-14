@@ -65,8 +65,7 @@ export async function sendApplication({
        <p><b>Email:</b> ${email}</p>
        <p><b>Phone:</b> ${phone}</p>
        <p><b>Role:</b> ${role}</p>
-       <p><b>portfolio:</b> ${portfolio}</p>
-       <p><b>Business Needs & Goals</b></p>
+       <p><b>Portfolio:</b> ${portfolio ?? 'N/A'}</p>
        <p><b>Message:</b> ${message}</p>`,
       ...(file
         ? [

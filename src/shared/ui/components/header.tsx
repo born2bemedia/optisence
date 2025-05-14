@@ -94,12 +94,14 @@ export const Header = () => {
             <SocialIcons />
           </section>
           <section className="flex items-center justify-between px-6 py-3">
-            <Image
-              src="/full-logo.svg"
-              alt="Optisence"
-              width={132}
-              height={34}
-            />
+            <Link href="/">
+              <Image
+                src="/full-logo.svg"
+                alt="Optisence"
+                width={132}
+                height={34}
+              />
+            </Link>
             <NavigationMenu />
             <Link href="/contact-us">
               <Button size="sm">Contact</Button>

@@ -1,6 +1,7 @@
 'use client';
 
 import type { ReactNode } from 'react';
+import Link from 'next/link';
 
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
@@ -41,8 +42,10 @@ export const ConsultingSolutions = () => {
     <section className="flex flex-col gap-[92px] px-[100px] pt-[100px] pb-[145px] max-sm:px-4 max-sm:py-8">
       <FadeIn className="flex flex-col items-center gap-3 text-center">
         <div className="flex flex-col items-center">
-          <Title as="h2">Consulting Solutions for</Title>
-          <Title as="h2" color="primary">
+          <Title as="h2" className="leading-[120%]">
+            Consulting Solutions for
+          </Title>
+          <Title as="h2" color="primary" className="leading-[120%]">
             Businesses & Enterprises
           </Title>
         </div>
@@ -90,12 +93,16 @@ const Card = ({
           ))}
         </section>
       </section>
-      <Button textAlign="center" fullWidth>
-        {type === 'marketing'
-          ? 'Explore Marketing Operations Advisory'
-          : 'Discover Corporate Strategy Guidance'}
-        <ArrowRightIcon />
-      </Button>
+      <Link
+        href={`/${type === 'marketing' ? 'marketing-operations-advisory' : 'corporate-strategy-guidance'}`}
+      >
+        <Button textAlign="center" fullWidth>
+          {type === 'marketing'
+            ? 'Explore Marketing Operations Advisory'
+            : 'Discover Corporate Strategy Guidance'}
+          <ArrowRightIcon />
+        </Button>
+      </Link>
     </article>
   );
 };
