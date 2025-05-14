@@ -1,5 +1,3 @@
-'use client';
-
 import type { Metadata } from 'next';
 
 import { DropMessage, Hero, HowReachUs, StayConnected } from './components';
