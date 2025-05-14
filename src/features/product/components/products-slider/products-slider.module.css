@@ -19,7 +19,7 @@
   height: 468px !important;
 }
 
-@media (max-width: 1520) {
+@media (max-width: 1520px) {
   .swiperWrapper {
     height: 650px !important;
     margin-bottom: 60px;

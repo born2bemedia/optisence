@@ -10,8 +10,10 @@
 .swiperWrapper {
   padding: 0 4px 50px 4px;
   height: 1400px;
+}
 
-  @media (max-width: 376px) {
+@media (max-width: 376px) {
+  .swiperWrapper {
     height: 1600px;
   }
 }
