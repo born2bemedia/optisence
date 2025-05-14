@@ -14,7 +14,8 @@ const btnVariants = cva(
           'bg-primary text-white border border-primary hover:bg-[#C74524] hover:border-[#C74524]',
         outline:
           'bg-primary text-primary hover:text-white border border-primary bg-transparent hover:bg-[#C74524] hover:border-[#C74524]',
-        faded: 'bg-[#F5F5F5] text-[#575551] hover:bg-[#F5F5F5]/10 border border-[#F5F5F5]',
+        faded:
+          'bg-[#F5F5F5] text-[#575551] hover:bg-[#F5F5F5]/10 border border-[#F5F5F5]',
       },
       size: {
         sm: 'py-3 px-6',
@@ -50,7 +51,7 @@ export const Button = ({
   children: ReactNode;
   className?: string;
   fullWidth?: boolean;
-  onClick?: () => void;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
   type?: 'button' | 'submit' | 'reset';
   disabled?: boolean;
 } & ButtonVariants) => {

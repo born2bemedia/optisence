@@ -52,12 +52,14 @@ export const Text = ({
   hover = false,
   italic = false,
   underline = false,
+  capitalize = false,
 }: {
   children: ReactNode;
   className?: string;
   hover?: boolean;
   italic?: boolean;
   underline?: boolean;
+  capitalize?: boolean;
 } & TextVariants) => {
   return (
     <p
@@ -66,6 +68,7 @@ export const Text = ({
         hover && 'hover:text-primary cursor-pointer',
         italic && 'italic',
         underline && 'underline',
+        capitalize && 'capitalize',
         className,
       )}
     >
