@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+
 import {
   Header,
   HighlightedText,
@@ -9,6 +11,19 @@ import {
 import { List } from '@/shared/ui/components/list';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | Optisence',
+  openGraph: {
+    title: 'Privacy Policy | Optisence',
+    images: 'https://optisence.com/images/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy | Optisence',
+    images: ['https://optisence.com/images/meta.jpg'],
+  },
+};
 
 export default function PrivacyPolicy() {
   return (
