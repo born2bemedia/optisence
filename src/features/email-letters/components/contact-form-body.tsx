@@ -26,7 +26,7 @@ export const contactFormBody = ({ username }: { username: string }) => {
             </div>
             <div style="margin-left: 40px">
               <p class="heading">Address:</p>
-              <p class="text" style="width: 210px; font-size: 12px">Office 706, 7th Floor, 134 Bree Street, Cape Town City Centre, Cape Town, Western Cape, 8000, South Africa</p>
+              <p class="text" style="width: 210px; font-size: 12px">134 Bree Street, Cape Town City Centre, Cape Town, Western Cape, 8000</p>
             </div>
           </span>
         </footer>

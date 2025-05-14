@@ -42,8 +42,8 @@ export function Footer() {
                   info@optisence.com
                 </Text>
               </Link>
-              <Link href="tel:+1 000 000 000">
-                <Text color="dark">+1 000 000 000</Text>
+              <Link href="tel:+27218913127">
+                <Text color="dark">+27218913127</Text>
               </Link>
             </div>
           </section>
@@ -62,7 +62,7 @@ export function Footer() {
             <li>Krouder Pty Ltd.</li>
           </ul>
         </div>
-        <div className="flex gap-6 max-md:grid max-md:grid-cols-2">
+        <div className="flex w-full gap-6 max-md:grid max-md:grid-cols-2">
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
               Consulting Solutions

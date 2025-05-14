@@ -225,7 +225,10 @@ export default function CookiePolicy() {
                 text: 'Email: info@optisence.com',
                 href: 'mailto:info@optisence.com',
               },
-              'Phone number: NUMBER',
+              {
+                text: 'Phone number: +27218913127',
+                href: 'tel:+27218913127',
+              },
               { text: 'Visit our Contact page: Contact Us', href: '/contact' },
             ]}
           />
