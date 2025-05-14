@@ -16,16 +16,16 @@ export const Hero = () => {
     <section
       className={cn(
         st.bg,
-        'flex h-[650px] gap-8 p-[100px] max-sm:h-[600px] max-sm:flex-col max-sm:justify-center max-sm:gap-3 max-sm:px-4 max-sm:py-8',
+        'flex h-[650px] gap-8 p-[100px] max-md:h-[600px] max-md:flex-col max-md:justify-center max-md:gap-3 max-md:px-4 max-md:py-8',
       )}
     >
       <FadeIn>
-        <Title color="light" className="w-[60%] max-sm:w-full">
+        <Title color="light" className="w-[90%] max-sm:w-full">
           Who We Are: Shaping Your Business Success Through Expertise and
           Innovation
         </Title>
       </FadeIn>
-      <FadeIn className="mt-auto flex w-[40%] flex-col gap-8 max-sm:mt-0 max-sm:w-full">
+      <FadeIn className="mt-auto flex w-[90%] flex-col gap-8 max-sm:mt-0 max-sm:w-full">
         <Text color="light">
           We offer innovative consulting services that empower businesses to
           navigate complex challenges. Our strategies are tailored to help

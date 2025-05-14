@@ -105,7 +105,7 @@ export const BurgerMenu = () => {
                   <Link href="mailto:example@gmail.com">
                     info@optisence.com
                   </Link>
-                  <Link href="tel:+1 000 000 000">+1 000 000 000</Link>
+                  <Link href="tel:+27218913127">+27218913127</Link>
                 </section>
                 <section>
                   <FacebookFillIcon color="#fff" />
