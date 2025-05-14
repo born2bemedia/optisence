@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { useWindow } from '@/shared/lib/hooks';
-import { FacebookIcon, InstagramIcon, XIcon } from '@/shared/ui/icons/socials';
+//import { FacebookIcon, InstagramIcon, XIcon } from '@/shared/ui/icons/socials';
 import { Button } from '@/shared/ui/kit/button';
 import { Dropdown } from '@/shared/ui/kit/dropdown';
 import { Text } from '@/shared/ui/kit/text';
@@ -24,7 +24,7 @@ const ContactInfo = () => (
   </div>
 );
 
-const SocialIcons = () => (
+/* const SocialIcons = () => (
   <div className="flex items-center gap-2.5">
     <Link href="#">
       <span className="group">
@@ -42,7 +42,7 @@ const SocialIcons = () => (
       </span>
     </Link>
   </div>
-);
+); */
 
 const NavigationMenu = () => (
   <section className="flex items-center gap-6">
@@ -97,7 +97,7 @@ export const Header = () => {
         <>
           <section className="flex items-center justify-between bg-[#F9FAFF] px-6 py-3">
             <ContactInfo />
-            <SocialIcons />
+            {/* <SocialIcons /> */}
           </section>
           <section className="flex items-center justify-between px-6 py-3">
             <Link href="/">
