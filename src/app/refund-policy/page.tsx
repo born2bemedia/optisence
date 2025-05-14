@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+
 import {
   Header,
   HighlightedText,
@@ -10,6 +12,19 @@ import { List } from '@/shared/ui/components/list';
 import { Url } from '@/shared/ui/components/url';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+
+export const metadata: Metadata = {
+  title: 'Refund Policy | Optisence',
+  openGraph: {
+    title: 'Refund Policy | Optisence',
+    images: 'https://optisence.com/images/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Refund Policy | Optisence',
+    images: ['https://optisence.com/images/meta.jpg'],
+  },
+};
 
 export default function RefundPolicy() {
   return (
