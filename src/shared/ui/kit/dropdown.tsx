@@ -1,6 +1,6 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import { type ReactNode, useState } from 'react';
 import {
   DropdownMenuContent,
   DropdownMenuItem,
@@ -23,8 +23,10 @@ export function Dropdown({
   value: ReactNode;
   onChange?: (value: string) => void;
 }) {
+  const [open, setOpen] = useState(false);
+
   return (
-    <Root>
+    <Root open={open} onOpenChange={setOpen}>
       <DropdownMenuTrigger className="flex cursor-pointer items-center gap-1 rounded-full bg-transparent outline-0 hover:opacity-80 [&>svg]:transition-transform [&>svg]:duration-300 [&>svg]:ease-in-out data-[state=open]:[&>svg]:rotate-180">
         <Text>{value}</Text>
         <ChevronDown />
@@ -38,7 +40,10 @@ export function Dropdown({
             <DropdownMenuItem
               key={option.value}
               className="relative flex h-[25px] cursor-pointer items-center rounded-[3px] transition-all duration-300 ease-in-out outline-none select-none hover:bg-[#FAFAFA]"
-              onClick={() => onChange?.(option.value)}
+              onClick={() => {
+                setOpen(false);
+                onChange?.(option.value);
+              }}
             >
               <Text>{option.label}</Text>
             </DropdownMenuItem>

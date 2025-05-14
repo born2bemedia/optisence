@@ -29,7 +29,7 @@ const titleVariants = cva(
     defaultVariants: {
       size: '2xl',
       color: 'dark',
-      weight: 500,
+      weight: 600,
     },
   },
 );

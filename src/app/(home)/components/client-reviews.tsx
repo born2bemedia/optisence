@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -49,9 +50,11 @@ export const ClientReviews = () => {
           <ReviewCard key={review.name} main={i === 1} {...review} />
         ))}
       </FadeIn>
-      <Button textAlign="center">
-        Read More Reviews <ArrowRightIcon />
-      </Button>
+      <Link href="/our-work">
+        <Button textAlign="center">
+          Read More Reviews <ArrowRightIcon />
+        </Button>
+      </Link>
     </section>
   );
 };

@@ -50,7 +50,7 @@ export async function order({
     const userBody = makeEmailBody({
       to: email,
       from: EMAIL_USER,
-      subject: 'Thank You for Ordering from Optisence!',
+      subject: 'Order Confirmation - Optisence',
       message: orderEmailBody({
         username: `${firstName} ${lastName}`,
         order: {
