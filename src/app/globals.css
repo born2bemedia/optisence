@@ -17,10 +17,6 @@ body {
   font-family: var(--font-urbanist);
 }
 
-.swiper {
-  height: auto !important;
-}
-
 @keyframes slideUpAndFade {
   from {
     opacity: 0;
