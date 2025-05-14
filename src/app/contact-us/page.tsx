@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { DropMessage, Hero, HowReachUs, StayConnected } from './components';
+import { DropMessage, Hero, HowReachUs } from './components';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Optisence – Let’s Discuss Your Business Transformation',
@@ -28,7 +28,7 @@ export default function ContactUs() {
     <main>
       <Hero />
       <HowReachUs />
-      <StayConnected />
+      {/* <StayConnected /> */}
       <DropMessage />
     </main>
   );

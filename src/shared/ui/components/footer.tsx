@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 import { useRequestDialogStore } from '@/features/request-form/services';
 
-import {
+/**import {
   FacebookFillIcon,
   InstagramFillIcon,
   XFillIcon,
-} from '@/shared/ui/icons/socials';
+} from '@/shared/ui/icons/socials'; */
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 
@@ -36,9 +36,9 @@ export function Footer() {
           </section>
           <section className="flex flex-col gap-3">
             <div className="flex items-center gap-2.5 max-lg:justify-center">
-              <XFillIcon />
+              {/**<XFillIcon />
               <InstagramFillIcon />
-              <FacebookFillIcon />
+              <FacebookFillIcon /> */}
             </div>
             <div className="flex items-center gap-2.5">
               <Link href="mailto:info@optisence.com">
