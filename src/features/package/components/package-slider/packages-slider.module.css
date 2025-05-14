@@ -5,6 +5,7 @@
 
 .activePaginationBullet {
   background: #ff572d !important;
+  opacity: 1 !important;
 }
 
 .swiperWrapper {
