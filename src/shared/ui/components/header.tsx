@@ -27,13 +27,19 @@ const ContactInfo = () => (
 const SocialIcons = () => (
   <div className="flex items-center gap-2.5">
     <Link href="#">
-      <FacebookIcon />
+      <span className="group">
+        <FacebookIcon className="group-hover:[&>path]:fill-primary transition duration-300 ease-in-out group-hover:scale-110" />
+      </span>
     </Link>
     <Link href="#">
-      <InstagramIcon />
+      <span className="group">
+        <InstagramIcon className="group-hover:[&>path]:fill-primary transition duration-300 ease-in-out group-hover:scale-110" />
+      </span>
     </Link>
     <Link href="#">
-      <XIcon />
+      <span className="group">
+        <XIcon className="group-hover:[&>g>path]:fill-primary transition duration-300 ease-in-out group-hover:scale-110" />
+      </span>
     </Link>
   </div>
 );

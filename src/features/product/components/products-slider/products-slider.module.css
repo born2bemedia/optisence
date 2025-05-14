@@ -16,25 +16,26 @@
 
 .swiperWrapper {
   margin-bottom: 36px;
-  height: 468px;
+  height: 468px !important;
 }
 
-@media (max-width: 1520) {
+@media (max-width: 1520px) {
   .swiperWrapper {
-    height: 650px;
+    height: 650px !important;
     margin-bottom: 60px;
   }
 }
 
 @media (max-width: 768px) {
   .swiperWrapper {
-    height: 500px;
+    height: 500px !important;
     margin-bottom: 80px;
   }
 }
 
 .swiperContainer {
   width: 100%;
+  height: auto !important;
 }
 
 .swiperSlide {
