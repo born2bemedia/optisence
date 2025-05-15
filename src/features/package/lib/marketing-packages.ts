@@ -20,7 +20,7 @@ export const marketingPackages: Package[] = [
   },
   {
     name: 'Growth Marketing Accelerator Package',
-    price: 'Price: from €10,000',
+    price: 'Price: From €10,000',
     description:
       'This package is perfect for growing businesses that need to optimize existing marketing strategies and integrate more advanced marketing tools. It is designed to accelerate growth and improve efficiency and scale in marketing operations.',
     features: [
@@ -35,7 +35,7 @@ export const marketingPackages: Package[] = [
       'Lead Generation System Setup',
     ],
     reasonToChoose:
-      'This package is designed for businesses looking to optimize their basic marketing processes. It’s perfect for those just starting out and need a clear marketing strategy, process optimization, and initial campaign tracking setup.',
+      'For growing businesses looking to optimize their current efforts, this package provides a comprehensive approach to improving marketing operations and scaling up. We optimize key areas like email, social media, and lead generation for maximum growth.',
   },
   {
     name: 'Enterprise Marketing Transformation Package',

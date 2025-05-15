@@ -27,7 +27,7 @@ const reviews = [
   },
   {
     name: 'Tom P.',
-    position: 'DFounder of Startup Co.',
+    position: 'Founder of Startup Co.',
     review:
       'Optisence helped us streamline our marketing processes, and while we’re seeing results, we feel there’s still potential for more optimization. Looking forward to continuing our partnership',
     grade: 4,
