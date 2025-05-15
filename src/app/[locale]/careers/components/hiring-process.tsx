@@ -39,10 +39,16 @@ export const HiringProcess = () => {
         <Text>We keep it real — and respectful.</Text>
       </FadeIn>
       <FadeIn className="flex gap-12 max-md:flex-col max-md:gap-8">
-        <section className="flex w-1/2 flex-col gap-8 max-md:w-full">
-          {steps.map((item, i) => (
-            <Card key={item.title} number={++i} {...item} />
-          ))}
+        <section className="flex w-1/2 flex-col gap-5 max-md:w-full">
+          <section className="flex w-[70%] flex-col gap-8 max-md:w-full">
+            {steps.map((item, i) => (
+              <Card key={item.title} number={++i} {...item} />
+            ))}
+          </section>
+          <Text>
+            <span className="text-dark font-medium">Total time?</span> Usually
+            under 2 weeks.
+          </Text>
         </section>
         <section className="flex w-1/2 flex-col gap-5 max-md:w-full">
           <Image
@@ -61,10 +67,6 @@ export const HiringProcess = () => {
             height={181}
             unoptimized
           />
-          <Text>
-            <span className="text-dark font-medium">Total time?</span> Usually
-            under 2 weeks.
-          </Text>
         </section>
       </FadeIn>
     </section>

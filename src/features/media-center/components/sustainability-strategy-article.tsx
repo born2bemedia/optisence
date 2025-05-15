@@ -274,7 +274,7 @@ export const SustainabilityStrategyArticle = () => {
           </section>
         </ArticleSectionLayout>
         <Summary title="Is Your Business Future-Ready?">
-          <Text className="flex w-1/2 flex-col gap-3 max-sm:w-full">
+          <Text className="flex w-full flex-col gap-3 max-sm:w-full">
             <span>
               The next generation of market leaders will be purpose-led,
               strategy-driven, and impact-focused. If your current business
@@ -285,10 +285,6 @@ export const SustainabilityStrategyArticle = () => {
               strategy that delivers more than compliance — it delivers growth,
               relevance, and legacy.
             </span>
-          </Text>
-          <Text className="w-1/2 max-sm:w-full">
-            Would you like this version adapted into a downloadable whitepaper
-            or lead magnet?
           </Text>
         </Summary>
       </ArticleContentLayout>

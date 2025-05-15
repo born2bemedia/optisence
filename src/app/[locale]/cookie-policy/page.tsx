@@ -10,6 +10,7 @@ import {
 } from '@/features/policies/components';
 
 import { List } from '@/shared/ui/components/list';
+import { Url } from '@/shared/ui/components/url';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -33,7 +34,7 @@ export default function CookiePolicy() {
       <PolicyContentLayout>
         <PolicySection>
           <Title size="md" as="h3">
-            General Refund Policy Information
+            Introduction to Our Cookie Policy
           </Title>
           <Text>
             This Cookie Policy explains how{' '}
@@ -151,12 +152,17 @@ export default function CookiePolicy() {
           <Text>
             Optisence respects DNT signals and limits data collection
             accordingly. When we detect a DNT signal from your browser, we
-            adjust our data collection practices as described in our Privacy
-            Policy. However, please note that enabling DNT may affect the
-            functionality and personalization of some parts of our website.
-            <br /> It is essential to review individual website policies and
-            services for their response to DNT signals, as third-party services
-            may have different policies.
+            adjust our data collection practices as described in our{' '}
+            <Url
+              value="/privacy-policy"
+              placeholder="Privacy
+            Policy"
+            />
+            . However, please note that enabling DNT may affect the
+            functionality and personalization of some parts of our website. It
+            is essential to review individual website policies and services for
+            their response to DNT signals, as third-party services may have
+            different policies.
           </Text>
         </PolicySection>
         <PolicySection>
@@ -244,7 +250,10 @@ export default function CookiePolicy() {
                 text: 'Phone number: +27218913127',
                 href: 'tel:+27218913127',
               },
-              { text: 'Visit our Contact page: Contact Us', href: '/contact' },
+              {
+                text: 'Visit our Contact page: Contact Us',
+                href: '/contact-us',
+              },
             ]}
           />
         </PolicySection>

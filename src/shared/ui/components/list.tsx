@@ -1,5 +1,7 @@
 'use client';
 
+import type { ReactNode } from 'react';
+
 import { Text } from '@/shared/ui/kit/text';
 
 import { Url } from './url';
@@ -9,7 +11,7 @@ export const List = ({
   gap = 8,
   noHighlight = false,
 }: {
-  values: (string | { text: string; href: string })[];
+  values: (ReactNode | { text: string; href: string })[];
   gap?: number;
   noHighlight?: boolean;
 }) => {
@@ -22,12 +24,28 @@ export const List = ({
         if (noHighlight) {
           return (
             <li key={`list-item-${index}`}>
-              <Text>{typeof item === 'string' ? item : item.text}</Text>
+              <Text>
+                {typeof item === 'object' && item !== null && 'text' in item
+                  ? item.text
+                  : item}
+              </Text>
             </li>
           );
         }
 
-        const itemText = typeof item === 'string' ? item : item.text;
+        const itemText =
+          typeof item === 'object' && item !== null && 'text' in item
+            ? item.text
+            : item;
+
+        if (typeof itemText !== 'string') {
+          return (
+            <li key={`list-item-${index}`}>
+              <Text>{itemText}</Text>
+            </li>
+          );
+        }
+
         const [highlight, ...rest] = itemText.split(':');
         const remainder = rest.join(':').trim();
 
@@ -38,7 +56,9 @@ export const List = ({
               {remainder && (
                 <>
                   {' '}
-                  {typeof item === 'object' && item.href ? (
+                  {typeof item === 'object' &&
+                  item !== null &&
+                  'href' in item ? (
                     <Url value={item.href} placeholder={remainder} />
                   ) : (
                     remainder
