@@ -22,10 +22,14 @@ export const Hero = () => {
       )}
     >
       <FadeIn className="flex flex-col gap-3.5">
-        <Title color="light" className="w-[45%] max-lg:w-full">
+        <Title color="light" className="w-[45%] max-2xl:w-[70%] max-lg:w-full">
           Your Partner for Marketing and Strategy Excellence
         </Title>
-        <Text color="ghost" size="lg" className="w-[30%] max-lg:w-full">
+        <Text
+          color="ghost"
+          size="lg"
+          className="w-[30%] max-2xl:w-[50%] max-lg:w-full"
+        >
           Optisence empowers businesses with expert consulting in marketing
           operations and corporate strategy. We deliver tailored solutions that
           drive growth, enhance efficiency, and create lasting competitive
