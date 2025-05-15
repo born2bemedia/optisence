@@ -26,7 +26,7 @@ export const CookieConsent = () => {
   return (
     <div
       className={cn(
-        'fixed right-6 bottom-6 flex w-[350px] max-w-full flex-col rounded-3xl border border-[#DBDBDB] bg-white p-6 shadow-[0px_0px_25px_0px_rgba(0,0,0,0.05)] max-md:right-1/2 max-md:w-[calc(100%-3rem)] max-md:translate-x-1/2',
+        'fixed right-6 bottom-6 z-20 flex w-[350px] max-w-full flex-col rounded-3xl border border-[#DBDBDB] bg-white p-6 shadow-[0px_0px_25px_0px_rgba(0,0,0,0.05)] max-md:right-1/2 max-md:w-[calc(100%-3rem)] max-md:translate-x-1/2',
         !isVisible && 'hidden',
       )}
     >

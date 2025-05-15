@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 
 import {
   Banners,
-  ClientReviews,
   ConsultingSolutions,
   Hero,
   Industries,
@@ -40,7 +39,7 @@ export default function Home() {
       <ConsultingSolutions />
       <Industries />
       <OurValues />
-      <ClientReviews />
+      {/* <ClientReviews /> */}
       <Banners />
     </main>
   );

@@ -38,9 +38,10 @@ export const marketingProducts: Product[] = [
   },
   {
     name: 'Lead Generation Strategy',
-    description: 'Lead Generation Strategy',
-    serviceDetails:
+    description:
       'Develop a comprehensive lead generation system that attracts, captures, and nurtures high-quality leads. We’ll help you convert leads into loyal customers.',
+    serviceDetails:
+      'Creating landing pages, lead magnets, email marketing strategies, and optimizing conversion funnels.',
   },
   {
     name: 'Campaign Planning and Execution',
