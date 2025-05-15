@@ -27,6 +27,7 @@ export const BuiltForIndustries = () => {
           disruption, demanding reinvention. We bring clarity where there’s
           noise, direction where there’s drift, and traction where others stall.
           <br />
+          <br />
           Optisence isn’t for the status quo. It’s for those ready to evolve,
           scale, and lead.
         </>

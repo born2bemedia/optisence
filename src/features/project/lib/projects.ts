@@ -48,8 +48,8 @@ export const projects: Project[] = [
     ],
     problemsResults: [
       'No revenue predictability',
-      'No revenue predictability',
-      'No revenue predictability',
+      'Undefined ICP (Ideal Customer Profile)',
+      'Disconnected sales, product, and marketing priorities',
     ],
     built: [
       'GTM architecture from funnel to forecast',

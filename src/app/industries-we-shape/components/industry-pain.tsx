@@ -57,6 +57,7 @@ const WhatWeFix = () => (
         values={[
           'Fragmented customer journeys',
           'Misaligned leadership structures',
+          'Inefficient resource allocation',
         ]}
         noHighlight
       />
