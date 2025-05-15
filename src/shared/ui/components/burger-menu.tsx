@@ -17,6 +17,8 @@ import { FacebookFillIcon } from '@/shared/ui/icons/socials';
 import { Button } from '@/shared/ui/kit/button';
 import { Divider } from '@/shared/ui/kit/divider';
 
+import { LangSwitcher } from './lang-switcher';
+
 export const BurgerMenu = () => {
   const [open, setOpen] = useState(false);
   const [showConsulting, setShowConsulting] = useState(false);
@@ -95,11 +97,14 @@ export const BurgerMenu = () => {
                   Media Center
                 </Link>
               </section>
-              <Link href="/contact-us" className="mt-6">
-                <Button textAlign="center" fullWidth>
-                  Contact
-                </Button>
-              </Link>
+              <section className="mt-6 flex w-full items-center gap-3">
+                <LangSwitcher />
+                <Link href="/contact-us" className="w-full">
+                  <Button textAlign="center" fullWidth>
+                    Contact
+                  </Button>
+                </Link>
+              </section>
               <footer className="mt-auto flex flex-col items-center justify-center gap-6 py-6 text-white">
                 <section className="flex items-center gap-2.5">
                   <Link href="mailto:example@gmail.com">

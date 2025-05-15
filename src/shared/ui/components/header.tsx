@@ -10,6 +10,7 @@ import { Dropdown } from '@/shared/ui/kit/dropdown';
 import { Text } from '@/shared/ui/kit/text';
 
 import { BurgerMenu } from './burger-menu';
+import { LangSwitcher } from './lang-switcher';
 
 const ContactInfo = () => (
   <div className="flex items-center gap-2.5">
@@ -109,9 +110,12 @@ export const Header = () => {
               />
             </Link>
             <NavigationMenu />
-            <Link href="/contact-us">
-              <Button size="sm">Contact</Button>
-            </Link>
+            <div className="flex items-center gap-3">
+              <LangSwitcher />
+              <Link href="/contact-us">
+                <Button size="sm">Contact</Button>
+              </Link>
+            </div>
           </section>
         </>
       ) : (

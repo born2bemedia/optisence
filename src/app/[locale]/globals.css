@@ -8,6 +8,7 @@
 
 @theme inline {
   --color-primary: #ff572d;
+  --color-primary-opacity: #FF572D26;
   --color-secondary: #575551;
   --color-dark: #181818;
 }
