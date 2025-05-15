@@ -53,7 +53,6 @@ export const WhatYouGet = () => {
         <Title as="h2" size="xl" weight={600}>
           What You Get
         </Title>
-        <Text>Since strategy is only as good as the team behind it.</Text>
       </FadeIn>
       <section className="flex flex-col gap-5">
         <FadeIn className="flex gap-5 max-md:flex-col">
