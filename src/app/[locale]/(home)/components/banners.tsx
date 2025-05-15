@@ -1,7 +1,9 @@
 'use client';
 
+import { useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -10,31 +12,36 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const items = [
-  {
-    title: 'Careers at Optisence',
-    desc: 'Join Optisence and shape the future of business and marketing with a creative, innovative, and collaborative team.',
-    btnText: 'Browse Our Career Opportunities',
-    link: '/careers',
-    imgUrl: '/images/home/banner-1.jpg',
-  },
-  {
-    title: 'Media Center',
-    desc: 'The Optisence Media Center offers expert insights and solutions on the latest trends in business and marketing.',
-    btnText: 'Visit Our Media Center',
-    link: '/media-center/5-signs-your-business',
-    imgUrl: '/images/home/banner-2.jpg',
-  },
-  {
-    title: 'Contact Us',
-    desc: 'Contact us today for a consultation on marketing optimization or corporate strategy to drive your business transformation.',
-    btnText: 'Get in Touch',
-    link: '/contact-us',
-    imgUrl: '/images/home/banner-3.jpg',
-  },
-];
-
 export const Banners = () => {
+  const t = useTranslations('home.banners');
+
+  const items = useMemo(
+    () => [
+      {
+        title: t('0.title'),
+        desc: t('0.desc'),
+        btnText: t('0.btnText'),
+        link: '/careers',
+        imgUrl: '/images/home/banner-1.jpg',
+      },
+      {
+        title: t('1.title'),
+        desc: t('1.desc'),
+        btnText: t('1.btnText'),
+        link: '/media-center/5-signs-your-business',
+        imgUrl: '/images/home/banner-2.jpg',
+      },
+      {
+        title: t('2.title'),
+        desc: t('2.desc'),
+        btnText: t('2.btnText'),
+        link: '/contact-us',
+        imgUrl: '/images/home/banner-3.jpg',
+      },
+    ],
+    [t],
+  );
+
   return (
     <section className="flex flex-col gap-8 px-[100px] pt-[100px] pb-[145px] max-sm:px-4 max-sm:py-8">
       {items.slice(0, 1).map(item => (

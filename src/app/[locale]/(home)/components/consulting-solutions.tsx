@@ -1,7 +1,9 @@
 'use client';
 
 import type { ReactNode } from 'react';
+import { useMemo } from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
@@ -10,51 +12,43 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const items = [
-  {
-    title: 'Marketing Operations Advisory',
-    desc: 'Maximize your marketing potential with data-driven insights and optimized processes. Our team will help you streamline operations, improve team performance, and integrate cutting-edge technologies to scale efficiently.',
-    keys: [
-      'Strategic marketing planning',
-      'Marketing automation implementation',
-      'Workflow optimization',
-      'Customer journey mapping',
-      'Performance measurement',
-    ],
-    type: 'marketing',
-  },
-  {
-    title: 'Corporate Strategy Guidance',
-    desc: 'Take your business to new heights with expertly crafted corporate strategies. Optisence provides comprehensive Corporate Strategy Guidance designed to ensure your business stays ahead of the competition.',
-    keys: [
-      'Business model innovation',
-      'Market entry and expansion strategies',
-      'Competitive analysis',
-      'Change management',
-      'Leadership and governance consulting',
-    ],
-    type: 'corporate',
-  },
-];
-
 export const ConsultingSolutions = () => {
+  const t = useTranslations('home.consultingSolutions');
+
+  const items = useMemo(
+    () => [
+      {
+        title: t('items.0.title'),
+        desc: t('items.0.description'),
+        keys: t('items.0.keys')
+          .split(',')
+          .map(s => s.trim()),
+        type: 'marketing',
+      },
+      {
+        title: t('items.1.title'),
+        desc: t('items.1.description'),
+        keys: t('items.1.keys')
+          .split(',')
+          .map(s => s.trim()),
+        type: 'corporate',
+      },
+    ],
+    [t],
+  );
+
   return (
     <section className="flex flex-col gap-[92px] px-[100px] pt-[100px] pb-[145px] max-sm:px-4 max-sm:py-8">
       <FadeIn className="flex flex-col items-center gap-3 text-center">
         <div className="flex flex-col items-center">
           <Title as="h2" className="leading-[120%]">
-            Consulting Solutions for
+            {t('title.first')}
           </Title>
           <Title as="h2" color="primary" className="leading-[120%]">
-            Businesses & Enterprises
+            {t('title.second')}
           </Title>
         </div>
-        <Text className="w-[43%] max-sm:w-full">
-          We offer innovative Consulting Solutions that cater to the unique
-          needs of your business, no matter its size or scope. Whether you’re a
-          startup aiming for rapid growth or an established enterprise seeking
-          efficiency, our services are designed to drive measurable results.
-        </Text>
+        <Text className="w-[43%] max-sm:w-full">{t('description')}</Text>
       </FadeIn>
       <FadeIn className="flex gap-8 max-sm:flex-col">
         {items.map(item => (

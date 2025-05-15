@@ -1,6 +1,8 @@
 'use client';
 
+import { useMemo } from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { useRequestDialogStore } from '@/features/request-form/services';
 
@@ -11,33 +13,37 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const cards = [
-  {
-    icon: TimerIcon,
-    title: 'Future-Proofing Businesses',
-    text: 'We help our clients stay ahead by embracing innovation and preparing for market shifts.',
-  },
-  {
-    icon: CompassIcon,
-    title: 'Sustainability at the Core',
-    text: 'We believe in driving long-term value through sustainable business models.',
-  },
-  {
-    icon: WebIcon,
-    title: 'Adapting to Change',
-    text: 'We ensure our clients adapt quickly to new technologies and changing market conditions.',
-  },
-];
-
 export const LookingAhead = () => {
+  const t = useTranslations('who-we-are.lookingAhead');
   const { setOpen } = useRequestDialogStore();
+
+  const cards = useMemo(
+    () => [
+      {
+        icon: TimerIcon,
+        title: t('items.0.title'),
+        text: t('items.0.text'),
+      },
+      {
+        icon: CompassIcon,
+        title: t('items.1.title'),
+        text: t('items.1.text'),
+      },
+      {
+        icon: WebIcon,
+        title: t('items.2.title'),
+        text: t('items.2.text'),
+      },
+    ],
+    [t],
+  );
 
   return (
     <section className="flex flex-col gap-20 px-[100px] py-20 max-sm:gap-6 max-sm:px-4 max-sm:py-8">
       <FadeIn className="text-center">
         <Title as="h2" weight={600}>
-          <span className="text-primary">Looking Ahead:</span>
-          <br /> The Future of Business with Optisence
+          <span className="text-primary">{t('title.first')}</span>
+          <br /> {t('title.second')}
         </Title>
       </FadeIn>
       <FadeIn className="flex gap-5">
@@ -51,15 +57,10 @@ export const LookingAhead = () => {
               height={300}
               unoptimized
             />
-            <Text>
-              Agility, innovation, and sustainability drive the future of
-              business. At Optisence, we are already preparing for the
-              challenges and opportunities ahead. We aim to ensure our clients
-              are always one step ahead in the market.
-            </Text>
+            <Text>{t('description')}</Text>
           </section>
           <Button className="mt-auto" onClick={() => setOpen(true)}>
-            Start Your Journey with Optisence <ArrowRightIcon />
+            {t('btnLabel')} <ArrowRightIcon />
           </Button>
         </section>
         <section className="flex w-1/2 flex-col gap-5 max-lg:w-full">
@@ -68,7 +69,7 @@ export const LookingAhead = () => {
           ))}
           <section className="hidden max-lg:flex">
             <Button textAlign="center" onClick={() => setOpen(true)} fullWidth>
-              Start Your Journey with Optisence <ArrowRightIcon />
+              {t('btnLabel')} <ArrowRightIcon />
             </Button>
           </section>
         </section>

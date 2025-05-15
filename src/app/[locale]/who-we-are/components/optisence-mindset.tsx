@@ -1,44 +1,46 @@
 'use client';
 
-import type { JSX } from 'react';
+import { type JSX, useMemo } from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { CubesIcon, MingcuteIcon, SpeakIcon } from '@/shared/ui/icons/orange';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const items = [
-  {
-    icon: MingcuteIcon,
-    title: 'Embracing Emerging Technologies',
-    text: 'From AI to machine learning, we integrate the latest technologies to create smart solutions that help you stay ahead of the competition.',
-  },
-  {
-    icon: CubesIcon,
-    title: 'Industry Expertise',
-    text: 'Our team comprises seasoned professionals with deep experience across various sectors, providing you with insights that work.',
-  },
-  {
-    icon: SpeakIcon,
-    title: 'Continuous Innovation',
-    text: 'We never stop learning. Our team constantly evolves, ensuring we remain on top of market trends and innovations.',
-  },
-];
-
 export const OptisenceMindset = () => {
+  const t = useTranslations('who-we-are.optisenceMindset');
+
+  const items = useMemo(
+    () => [
+      {
+        icon: MingcuteIcon,
+        title: t('items.0.title'),
+        text: t('items.0.text'),
+      },
+      {
+        icon: CubesIcon,
+        title: t('items.1.title'),
+        text: t('items.1.text'),
+      },
+      {
+        icon: SpeakIcon,
+        title: t('items.2.title'),
+        text: t('items.2.text'),
+      },
+    ],
+    [t],
+  );
+
   return (
     <section className="flex flex-col gap-20 px-[100px] py-20 max-sm:gap-6 max-sm:px-4 max-sm:py-8">
       <FadeIn className="flex flex-col gap-3 text-center max-sm:gap-6">
         <Title as="h2" weight={600}>
-          <span className="text-primary">The Optisence Mindset:</span>
-          <br /> Innovating with Expertise
+          <span className="text-primary">{t('title.first')}</span>
+          <br /> {t('title.second')}
         </Title>
-        <Text className="mx-auto w-1/2 max-lg:w-full">
-          Innovation isn’t just a buzzword at Optisence; it’s part of our DNA.
-          We combine industry expertise with cutting-edge technologies to ensure
-          our strategies are effective today and prepared for the future.
-        </Text>
+        <Text className="mx-auto w-1/2 max-lg:w-full">{t('description')}</Text>
       </FadeIn>
       <FadeIn className="flex gap-12 max-lg:flex-col">
         <section className="flex w-1/2 flex-col gap-12 max-lg:w-full">

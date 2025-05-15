@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -12,6 +13,8 @@ import { Title } from '@/shared/ui/kit/title';
 import st from './hero.module.css';
 
 export const Hero = () => {
+  const t = useTranslations('who-we-are.hero');
+
   return (
     <section
       className={cn(
@@ -21,22 +24,14 @@ export const Hero = () => {
     >
       <FadeIn>
         <Title color="light" className="w-[90%] max-sm:w-full">
-          Who We Are: Shaping Your Business Success Through Expertise and
-          Innovation
+          {t('title')}
         </Title>
       </FadeIn>
       <FadeIn className="mt-auto flex w-[90%] flex-col gap-8 max-sm:mt-0 max-sm:w-full">
-        <Text color="light">
-          We offer innovative consulting services that empower businesses to
-          navigate complex challenges. Our strategies are tailored to help
-          companies achieve strategic growth, operational excellence, and
-          sustained success. Explore who we are, our journey, our mindset, and
-          how we can help your business thrive in a constantly changing market
-          landscape.
-        </Text>
+        <Text color="light">{t('description')}</Text>
         <Link href="/contact-us" className="ml-auto">
           <Button>
-            Get in Touch Today <ArrowRightIcon />
+            {t('btnLabel')} <ArrowRightIcon />
           </Button>
         </Link>
       </FadeIn>

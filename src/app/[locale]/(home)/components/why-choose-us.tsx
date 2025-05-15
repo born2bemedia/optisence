@@ -1,7 +1,8 @@
 'use client';
 
-import type { JSX } from 'react';
+import { type JSX, useMemo } from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import {
@@ -13,38 +14,41 @@ import {
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const reasons = [
-  {
-    icon: <GoalIcon />,
-    title: 'Expertise in Both Marketing and Strategy',
-    text: 'We offer a balanced approach to both Marketing Operations and Corporate Strategy, providing comprehensive solutions that drive success across all facets of your business.',
-  },
-  {
-    icon: <PieIcon />,
-    title: 'Data-Driven Insights',
-    text: 'Our recommendations are grounded in robust data analytics, ensuring that each decision is based on solid information and delivers measurable results.',
-  },
-  {
-    icon: <PuzzleIcon />,
-    title: 'Customized Solutions',
-    text: 'We understand that each business is unique, so we tailor our consulting services to meet your specific needs and provide personalized strategies for success.',
-  },
-  {
-    icon: <CupIcon />,
-    title: 'Proven Track Record',
-    text: 'With years of experience, we have helped countless businesses grow, optimize operations, and achieve sustainable success with long-term, strategic solutions.',
-  },
-];
-
 export const WhyChooseUs = () => {
+  const t = useTranslations('home.whyChooseUs');
+
+  const reasons = useMemo(
+    () => [
+      {
+        icon: <GoalIcon />,
+        title: t('reasons.deepIndustryKnowledge.title'),
+        text: t('reasons.deepIndustryKnowledge.description'),
+      },
+      {
+        icon: <PieIcon />,
+        title: t('reasons.dataDrivenInsights.title'),
+        text: t('reasons.dataDrivenInsights.description'),
+      },
+      {
+        icon: <PuzzleIcon />,
+        title: t('reasons.customizedSolutions.title'),
+        text: t('reasons.customizedSolutions.description'),
+      },
+      {
+        icon: <CupIcon />,
+        title: t('reasons.provenTrackRecord.title'),
+        text: t('reasons.provenTrackRecord.description'),
+      },
+    ],
+    [t],
+  );
+
   return (
     <section className="flex flex-col gap-24 px-[100px] pt-[100px] pb-[145px] max-sm:px-4 max-sm:py-8">
       <FadeIn className="flex flex-col items-center justify-center gap-3 text-center">
-        <Title as="h2">Why Choose Us</Title>
-        <Text color="foreground">
-          Optisence stands out for its deep industry knowledge, innovative
-          approach, and proven track <br /> record of success. Here’s why
-          companies partner with us:
+        <Title as="h2">{t('title')}</Title>
+        <Text color="foreground" className="w-1/2 max-md:w-full">
+          {t('description')}
         </Text>
       </FadeIn>
       <FadeIn className="flex gap-12 max-xl:flex-col-reverse">

@@ -1,7 +1,9 @@
 'use client';
 
+import { useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -10,40 +12,38 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const reviews = [
-  {
-    name: 'John H.',
-    position: 'CEO of Tech Innovators',
-    review:
-      'Optisence completely transformed our marketing strategy. Their team delivered data-driven insights that optimized our operations and increased our brand visibility. They are true experts in their field!',
-    grade: 5,
-  },
-  {
-    name: 'Lisa M.',
-    position: 'Director of Operations at Global Enterprises',
-    review:
-      'Working with Optisence was a game-changer for our company. Their corporate strategy guidance helped us navigate a tough market and make the right decisions for long-term success. I highly recommend them.',
-    grade: 5,
-  },
-  {
-    name: 'Tom P.',
-    position: 'Founder of Startup Co.',
-    review:
-      'Optisence helped us streamline our marketing processes, and while we’re seeing results, we feel there’s still potential for more optimization. Looking forward to continuing our partnership',
-    grade: 4,
-  },
-];
-
 export const ClientReviews = () => {
+  const t = useTranslations('home.clientReviews');
+
+  const reviews = useMemo(
+    () => [
+      {
+        name: t('reviews.0.name'),
+        position: t('reviews.0.position'),
+        review: t('reviews.0.review'),
+        grade: t('reviews.0.grade'),
+      },
+      {
+        name: t('reviews.1.name'),
+        position: t('reviews.1.position'),
+        review: t('reviews.1.review'),
+        grade: t('reviews.1.grade'),
+      },
+      {
+        name: t('reviews.2.name'),
+        position: t('reviews.2.position'),
+        review: t('reviews.2.review'),
+        grade: t('reviews.2.grade'),
+      },
+    ],
+    [t],
+  );
+
   return (
     <section className="flex flex-col items-center gap-12 px-[100px] pt-[100px] pb-[145px] max-sm:px-4 max-sm:py-8">
       <FadeIn className="flex flex-col items-center gap-3 text-center">
-        <Title as="h2">Client Reviews</Title>
-        <Text className="w-[70%] max-sm:w-full">
-          Our clients’ satisfaction speaks volumes about the quality of our
-          services. Here’s what some of them have to say about working with
-          Optisence:
-        </Text>
+        <Title as="h2">{t('title')}</Title>
+        <Text className="w-[70%] max-sm:w-full">{t('description')}</Text>
       </FadeIn>
       <FadeIn className="flex items-center gap-8 max-xl:flex-col">
         {reviews.map((review, i) => (
@@ -52,7 +52,7 @@ export const ClientReviews = () => {
       </FadeIn>
       <Link href="/our-work">
         <Button textAlign="center">
-          Read More Reviews <ArrowRightIcon />
+          {t('btnLabel')} <ArrowRightIcon />
         </Button>
       </Link>
     </section>
@@ -69,7 +69,7 @@ const ReviewCard = ({
   name: string;
   position: string;
   review: string;
-  grade: number;
+  grade: string;
   main: boolean;
 }) => {
   return (
@@ -86,7 +86,7 @@ const ReviewCard = ({
       <Text italic>&quot;{review}&quot;</Text>
       <Image
         src={
-          grade === 5 ? '/images/home/5-star.svg' : '/images/home/4-star.svg'
+          grade === '5' ? '/images/home/5-star.svg' : '/images/home/4-star.svg'
         }
         alt="rating"
         width={164}

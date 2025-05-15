@@ -1,10 +1,13 @@
 'use client';
 
+import { useMemo } from 'react';
+import { useTranslations } from 'next-intl';
+
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const cards = [
+const c = [
   {
     title: 'Personalized Service',
     text: 'Every client is unique. Our solutions are customized to fit your company’s culture, goals, and challenges.',
@@ -32,12 +35,44 @@ const cards = [
 ];
 
 export const WhatSetsUs = () => {
+  const t = useTranslations('who-we-are.whatSetsUsApart');
+
+  const cards = useMemo(
+    () => [
+      {
+        title: t('items.0.title'),
+        text: t('items.0.text'),
+      },
+      {
+        title: t('items.1.title'),
+        text: t('items.1.text'),
+      },
+      {
+        title: t('items.2.title'),
+        text: t('items.2.text'),
+      },
+      {
+        title: t('items.3.title'),
+        text: t('items.3.text'),
+      },
+      {
+        title: t('items.4.title'),
+        text: t('items.4.text'),
+      },
+      {
+        title: t('items.5.title'),
+        text: t('items.5.text'),
+      },
+    ],
+    [t],
+  );
+
   return (
     <section className="flex flex-col gap-20 px-[100px] pt-20 pb-[84px] max-sm:gap-8 max-sm:px-4 max-sm:py-8">
       <FadeIn className="text-center">
         <Title as="h2" weight={600} className="leading-[120%]">
-          <span className="text-primary">What Sets Us Apart:</span>
-          <br /> Beyond Strategy
+          <span className="text-primary">{t('title.first')}</span>
+          <br /> {t('title.second')}
         </Title>
       </FadeIn>
       <FadeIn className="grid grid-cols-3 gap-8 max-lg:grid-cols-2 max-sm:grid-cols-1">
