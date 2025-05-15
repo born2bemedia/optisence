@@ -37,7 +37,7 @@ export default function RefundPolicy() {
           </Title>
           <Text>
             We appreciate your decision to choose Optisence at{' '}
-            <Url value="www.optisence.com" />, operated by{' '}
+            <Url value="/" placeholder="www.optisence.com" />, operated by{' '}
             <HighlightedText>Krouder Pty Ltd</HighlightedText> with its
             registered address at{' '}
             <HighlightedText>
@@ -137,7 +137,10 @@ export default function RefundPolicy() {
                 text: 'Phone number: +27218913127',
                 href: 'tel:+27218913127',
               },
-              { text: 'Visit our Contact page: Contact Us', href: '/contact' },
+              {
+                text: 'Visit our Contact page: Contact Us',
+                href: '/contact-us',
+              },
             ]}
           />
           <Text>
