@@ -210,6 +210,58 @@ export const BusinessNeedsArticle = () => {
                 unoptimized
               />
               <Text>
+                When you walk into a leadership meeting and no two executives
+                can align on priorities — the problem isn’t people. It’s
+                purpose.
+              </Text>
+              <Text>
+                A strong corporate strategy creates shared language, common
+                direction, and unified focus. Without it, silos form. Priorities
+                conflict. Culture splinters. .
+              </Text>
+            </section>
+          </InfoBlock>
+        </ArticleSectionLayout>
+        <ArticleSectionLayout>
+          <Text
+            size="3xl"
+            color="dark"
+            weight={600}
+            className="w-1/2 max-sm:w-full"
+          >
+            5. You’re Still Making Decisions Based on the Past
+          </Text>
+          <InfoBlock
+            title={
+              <>
+                At <Url value="/" placeholder="Optisence" />, we help clients
+                future-proof their strategy by integrating:
+              </>
+            }
+            titleColor="secondary"
+            values={[
+              'Predictive analytics',
+              'Real-time market insights',
+              'Behavioral trends and macroeconomic shifts',
+            ]}
+            summary={
+              <Text>
+                We believe in decisions backed by data and sharpened by
+                foresight. Because surviving tomorrow means letting go of
+                yesterday’s map.
+              </Text>
+            }
+          >
+            <section className="flex flex-col gap-3">
+              <Image
+                className="h-[113px] w-full rounded-4xl object-cover"
+                src="/images/media-center/business-needs/3.jpg"
+                alt="Article 2"
+                width={500}
+                height={131}
+                unoptimized
+              />
+              <Text>
                 Your strategy is not a museum piece — it must live and evolve.
               </Text>
               <Text>
