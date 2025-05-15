@@ -7,33 +7,6 @@ import { FadeIn } from '@/shared/ui/components/fade-in';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const c = [
-  {
-    title: 'Personalized Service',
-    text: 'Every client is unique. Our solutions are customized to fit your company’s culture, goals, and challenges.',
-  },
-  {
-    title: 'Innovative Thinking',
-    text: 'We combine cutting-edge technology with deep industry knowledge to create solutions that are not only effective but also forward-thinking.',
-  },
-  {
-    title: 'Results-Oriented',
-    text: 'We don’t just talk strategy; we implement and track results, ensuring each decision drives measurable success.',
-  },
-  {
-    title: 'Collaborative Approach',
-    text: 'We believe in building strong partnerships with our clients, working hand-in-hand with you to implement strategies and ensure continuous improvement.',
-  },
-  {
-    title: 'Agility and Flexibility',
-    text: 'The business landscape is constantly changing. Our team is nimble and adaptable, responding quickly to new opportunities and challenges to keep your business ahead of the curve.',
-  },
-  {
-    title: 'Sustainable Impact',
-    text: 'We are focused on delivering solutions that create long-term value for your business, ensuring that the impact of our work is felt not just today but well into the future.',
-  },
-];
-
 export const WhatSetsUs = () => {
   const t = useTranslations('who-we-are.whatSetsUsApart');
 

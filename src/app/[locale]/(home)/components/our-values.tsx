@@ -15,38 +15,41 @@ export const OurValues = () => {
   const { width } = useWindow();
   const t = useTranslations('home.ourValues');
 
-  const cards = [
-    {
-      title: t('items.1.title'),
-      text: t('items.1.description'),
-      number: 1,
-    },
-    {
-      title: t('items.4.title'),
-      text: t('items.4.description'),
-      number: 4,
-    },
-    {
-      title: t('items.2.title'),
-      text: t('items.2.description'),
-      number: 2,
-    },
-    {
-      title: t('items.5.title'),
-      text: t('items.5.description'),
-      number: 5,
-    },
-    {
-      title: t('items.3.title'),
-      text: t('items.3.description'),
-      number: 3,
-    },
-    {
-      title: t('items.6.title'),
-      text: t('items.6.description'),
-      number: 6,
-    },
-  ];
+  const cards = useMemo(
+    () => [
+      {
+        title: t('items.1.title'),
+        text: t('items.1.description'),
+        number: 1,
+      },
+      {
+        title: t('items.4.title'),
+        text: t('items.4.description'),
+        number: 4,
+      },
+      {
+        title: t('items.2.title'),
+        text: t('items.2.description'),
+        number: 2,
+      },
+      {
+        title: t('items.5.title'),
+        text: t('items.5.description'),
+        number: 5,
+      },
+      {
+        title: t('items.3.title'),
+        text: t('items.3.description'),
+        number: 3,
+      },
+      {
+        title: t('items.6.title'),
+        text: t('items.6.description'),
+        number: 6,
+      },
+    ],
+    [t],
+  );
 
   const orderedCards = cards.sort((a, b) => a.number - b.number);
 
