@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { useRequestDialogStore } from '@/features/request-form/services';
 
 import { cn } from '@/shared/lib/utils';
@@ -12,6 +14,7 @@ import { Title } from '@/shared/ui/kit/title';
 import st from './hero.module.css';
 
 export const Hero = () => {
+  const t = useTranslations('home.hero');
   const { setOpen } = useRequestDialogStore();
 
   return (
@@ -23,13 +26,10 @@ export const Hero = () => {
     >
       <FadeIn className="flex flex-col gap-3.5">
         <Title color="light" className="w-[45%] max-lg:w-full">
-          Your Partner for Marketing and Strategy Excellence
+          {t('title')}
         </Title>
         <Text color="ghost" size="lg" className="w-[30%] max-lg:w-full">
-          Optisence empowers businesses with expert consulting in marketing
-          operations and corporate strategy. We deliver tailored solutions that
-          drive growth, enhance efficiency, and create lasting competitive
-          advantage.
+          {t('description')}
         </Text>
       </FadeIn>
       <FadeIn>
@@ -37,7 +37,7 @@ export const Hero = () => {
           className="max-sm:w-full max-sm:justify-center"
           onClick={() => setOpen(true)}
         >
-          Get Your Free Consultation <ArrowRightIcon />
+          {t('btnLabel')} <ArrowRightIcon />
         </Button>
       </FadeIn>
     </section>

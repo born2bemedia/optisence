@@ -1,6 +1,8 @@
 import type { ReactNode } from 'react';
 import { Urbanist } from 'next/font/google';
+import { notFound } from 'next/navigation';
 import Script from 'next/script';
+import { hasLocale, NextIntlClientProvider } from 'next-intl';
 
 import { CookieConsent } from '@/features/policies/components';
 import {
@@ -15,6 +17,7 @@ import { Header } from '@/shared/ui/components/header';
 import { Preloader } from '@/shared/ui/components/preloader';
 
 import './globals.css';
+import { routing } from '@/i18n/routing';
 
 const urbanist = Urbanist({
   subsets: ['latin'],
@@ -22,11 +25,18 @@ const urbanist = Urbanist({
   display: 'swap',
 });
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: ReactNode;
+  params: Promise<{ locale: string }>;
 }>) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
   return (
     <html lang="en">
       <head>
@@ -44,15 +54,17 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={cn(urbanist.variable, 'antialiased')}>
-        <Preloader />
-        <Header />
-        {children}
-        <Footer />
-        <RequestDialog>
-          <RequestStepsForm />
-        </RequestDialog>
-        <Toaster />
-        <CookieConsent />
+        <NextIntlClientProvider>
+          <Preloader />
+          <Header />
+          {children}
+          <Footer />
+          <RequestDialog>
+            <RequestStepsForm />
+          </RequestDialog>
+          <Toaster />
+          <CookieConsent />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
