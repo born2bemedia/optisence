@@ -1,6 +1,7 @@
 'use client';
 
 import type { JSX } from 'react';
+import { useTranslations } from 'next-intl';
 
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import {
@@ -13,45 +14,42 @@ import {
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const items = [
-  {
-    title: 'Diversity Drives Us',
-    description:
-      'Different backgrounds, voices, and perspectives make us better. Full stop.',
-    icon: HardDrivesIcon,
-  },
-  {
-    title: 'Learning That Doesn’t Stop',
-    description:
-      'Paid certifications, mentorship, workshops, and growth paths tailored to you.',
-    icon: StopIcon,
-  },
-  {
-    title: 'Work-Life Integration',
-    description:
-      'Generous PTO, mental health support, no-questions-asked personal time.',
-    icon: CaseIcon,
-  },
-  {
-    title: 'Work Anywhere, Grow Everywhere',
-    description:
-      'Flexible remote/hybrid culture rooted in trust, autonomy, and performance.',
-    icon: HomeWorkIcon,
-  },
-  {
-    title: 'Clear Paths, Real Progress',
-    description:
-      'Transparent reviews, career roadmaps, and leadership that listens.',
-    icon: ProgressionIcon,
-  },
-];
-
 export const WhatYouGet = () => {
+  const t = useTranslations('careers.whatYouGet');
+
+  const items = [
+    {
+      title: t('items.0.title'),
+      description: t('items.0.description'),
+      icon: HardDrivesIcon,
+    },
+    {
+      title: t('items.1.title'),
+      description: t('items.1.description'),
+      icon: StopIcon,
+    },
+    {
+      title: t('items.2.title'),
+      description: t('items.2.description'),
+      icon: CaseIcon,
+    },
+    {
+      title: t('items.3.title'),
+      description: t('items.3.description'),
+      icon: HomeWorkIcon,
+    },
+    {
+      title: t('items.4.title'),
+      description: t('items.4.description'),
+      icon: ProgressionIcon,
+    },
+  ];
+
   return (
     <section className="flex flex-col gap-20 px-[100px] pt-[80px] pb-[100px] max-md:gap-8 max-md:px-4 max-md:py-8">
       <FadeIn className="flex flex-col gap-3 text-center max-md:gap-6">
         <Title as="h2" size="xl" weight={600}>
-          What You Get
+          {t('title')}
         </Title>
       </FadeIn>
       <section className="flex flex-col gap-5">

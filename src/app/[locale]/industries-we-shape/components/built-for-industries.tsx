@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { useRequestDialogStore } from '@/features/request-form/services';
 
@@ -10,46 +11,43 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 
 export const BuiltForIndustries = () => {
+  const t = useTranslations('industries-we-shape.builtForIndustries');
   const { setOpen } = useRequestDialogStore();
 
   return (
     <LinesSection
       title={
         <>
-          Built for Industries That <br />
-          Refuse to Stay Still
+          {t('title.first')} <br />
+          {t('title.second')}
         </>
       }
       text={
         <>
-          If your industry is changing fast — good. That’s where we work best.
-          We thrive in transformation zones: sectors in motion, challenged by
-          disruption, demanding reinvention. We bring clarity where there’s
-          noise, direction where there’s drift, and traction where others stall.
+          {t('description.first')}
           <br />
           <br />
-          Optisence isn’t for the status quo. It’s for those ready to evolve,
-          scale, and lead.
+          {t('description.second')}
         </>
       }
       bottomContent={
         <>
           <Text size="lg" weight={500} color="dark">
-            Transform Your Industry with Optisence
+            {t('subtitle')}
           </Text>
           <div className="mt-8 flex gap-5 max-md:flex-col">
             <Button
               onClick={() => setOpen(true)}
               className="max-md:w-full max-md:justify-center"
             >
-              Request a Strategy Session <ArrowRightIcon />
+              {t('btnLabels.0')} <ArrowRightIcon />
             </Button>
             <Link href="/corporate-strategy-guidance">
               <Button
                 variant="outline"
                 className="max-md:w-full max-md:justify-center"
               >
-                Explore Our Capabilities <ArrowRightIcon color="#FF572D" />
+                {t('btnLabels.1')} <ArrowRightIcon color="#FF572D" />
               </Button>
             </Link>
           </div>

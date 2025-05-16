@@ -1,6 +1,7 @@
 'use client';
 
 import type { ReactNode } from 'react';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -9,100 +10,64 @@ import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 export const BreakTheMold = () => {
+  const t = useTranslations('industries-we-shape.breakTheMold');
+
   return (
     <section className="flex flex-col gap-20 px-[100px] pt-[80px] pb-[100px] max-md:gap-6 max-md:px-4 max-md:py-8">
       <FadeIn className="text-center">
         <Title weight={600} size="xl">
-          This Is Where We Break the Mold
+          {t('title')}
         </Title>
       </FadeIn>
       <section className="flex flex-col gap-5 max-md:gap-6">
         <section className="flex gap-5 max-lg:flex-col max-md:gap-6">
           <Card
-            title="Tech & SaaS"
-            description="From seed to Series E, we help tech companies scale without chaos."
-            impact="3x faster go-to-market. 150% lift in qualified leads. Fewer silos. More speed."
+            title={t('items.0.title')}
+            description={t('items.0.description')}
+            impact={t('items.0.impact')}
             className="w-[20%] max-lg:w-full"
           />
           <div className="flex w-[60%] flex-col gap-3 max-lg:w-full max-lg:flex-col">
             <Card
-              title="Healthcare"
-              description="We make complexity navigable — compliance, workflows, patient journeys, reimagined."
-              impact={
-                <>
-                  .+25% patient satisfaction. <br /> -30% admin friction. <br />
-                  Better care, faster delivery.
-                </>
-              }
+              title={t('items.1.title')}
+              description={t('items.1.description')}
+              impact={<>{t('items.1.impact')}</>}
               horizontal
             />
             <Card
-              title="Education & EdTech"
-              description="We turn content into experience and data into student success."
-              impact={
-                <>
-                  +40% enrollments. <br /> +50% engagement. <br /> Smarter
-                  learning systems, smarter outcomes.
-                </>
-              }
+              title={t('items.2.title')}
+              description={t('items.2.description')}
+              impact={<>{t('items.2.impact')}</>}
               horizontal
             />
           </div>
           <Card
             title="Energy & Utilities"
             description="We build sustainability strategies that don’t just check boxes — they cut carbon and costs."
-            impact={
-              <>
-                -10% emissions. <br /> +30% operational efficiency.
-                <br /> ESG with ROI.
-              </>
-            }
+            impact={<>{t('items.3.impact')}</>}
             className="w-[20%] max-lg:w-full"
           />
         </section>
         <section className="flex gap-5 max-lg:flex-col max-md:gap-6">
           <Card
-            title="Manufacturing"
-            description="We bring Industry 4.0 to life — minus the buzzwords."
-            impact={
-              <>
-                +40% productivity.
-                <br /> -25% production lag. <br /> Machines hum. Margins rise.
-              </>
-            }
+            title={t('items.4.title')}
+            description={t('items.4.description')}
+            impact={<>{t('items.4.impact')}</>}
           />
           <Card
-            title="Telecom"
-            description="We help telcos do more than connect — we help them engage, scale, and monetize."
-            impact={
-              <>
-                Impact: +12% ARPU.
-                <br /> -18% churn.
-                <br /> Signal strong. Strategy stronger.
-              </>
-            }
+            title={t('items.5.title')}
+            description={t('items.5.description')}
+            impact={<>{t('items.5.impact')}</>}
           />
           <Card
-            title="Retail & E-Com"
-            description="We design for customers who swipe fast and expect faster."
-            impact={
-              <>
-                +35% AOV.
-                <br /> +20% retention.
-                <br /> Zero guesswork.
-              </>
-            }
+            title={t('items.6.title')}
+            description={t('items.6.description')}
+            impact={<>{t('items.6.impact')}</>}
           />
           <Card
-            title="Finance & Fintech"
-            description="We turn regulation into rhythm and risk into leverage."
-            impact={
-              <>
-                -15% fraud.
-                <br /> +20% process velocity.
-                <br /> Banking, but smarter.
-              </>
-            }
+            title={t('items.7.title')}
+            description={t('items.7.description')}
+            impact={<>{t('items.7.impact')}</>}
           />
         </section>
       </section>

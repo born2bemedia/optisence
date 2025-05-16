@@ -1,42 +1,45 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const steps = [
-  {
-    title: 'Application Review',
-    text: 'Tell us who you are and what excites you.',
-  },
-  {
-    title: 'Intro Call',
-    text: 'Let’s talk about vision, goals, and vibes.',
-  },
-  {
-    title: 'Skill Showcase',
-    text: 'We’ll give you something thoughtful (never generic) to solve or present.',
-  },
-  {
-    title: 'Final Interview',
-    text: 'Meet the team, ask us anything.',
-  },
-  {
-    title: 'Offer & Onboarding',
-    text: 'If we both feel it — we move fast.',
-  },
-];
-
 export const HiringProcess = () => {
+  const t = useTranslations('careers.hiringProcess');
+
+  const steps = [
+    {
+      title: t('steps.0.title'),
+      text: t('steps.0.description'),
+    },
+    {
+      title: t('steps.1.title'),
+      text: t('steps.1.description'),
+    },
+    {
+      title: t('steps.2.title'),
+      text: t('steps.2.description'),
+    },
+    {
+      title: t('steps.3.title'),
+      text: t('steps.3.description'),
+    },
+    {
+      title: t('steps.4.title'),
+      text: t('steps.4.description'),
+    },
+  ];
+
   return (
     <section className="flex flex-col gap-20 px-[100px] py-[80px] max-md:gap-8 max-md:px-4 max-md:py-8">
       <FadeIn className="flex flex-col gap-3 text-center max-md:gap-6">
         <Title as="h2" size="xl" weight={600}>
-          Our Hiring Process
+          {t('title')}
         </Title>
-        <Text>We keep it real — and respectful.</Text>
+        <Text>{t('description')}</Text>
       </FadeIn>
       <FadeIn className="flex gap-12 max-md:flex-col max-md:gap-8">
         <section className="flex w-1/2 flex-col gap-5 max-md:w-full">
@@ -46,8 +49,8 @@ export const HiringProcess = () => {
             ))}
           </section>
           <Text>
-            <span className="text-dark font-medium">Total time?</span> Usually
-            under 2 weeks.
+            <span className="text-dark font-medium">{t('deadline.title')}</span>{' '}
+            {t('deadline.description')}
           </Text>
         </section>
         <section className="flex w-1/2 flex-col gap-5 max-md:w-full">

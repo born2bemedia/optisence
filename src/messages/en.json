@@ -284,6 +284,386 @@
       "title": "Industries We Shape",
       "subtitle": "Not Just Strategy. Industry Reinvention.",
       "description": "Optisence partners with future-focused companies across industries to challenge norms, break bottlenecks, and architect scalable growth. Our work isn’t just tailored — it’s engineered to disrupt the default and build what’s next."
+    },
+    "industryPain": {
+      "title": {
+        "first": "From Industry Pain",
+        "second": "to Competitive Edge"
+      },
+      "subtitle": "We Start Where the Pain Is Loudest.",
+      "description": "Every industry has its pressure points — legacy systems, shifting regulations, demanding customers, sluggish tech stacks. We don’t skirt around them. We zero in, dissect the complexity, and design smarter systems that move faster, cost less, and deliver more.",
+      "whatWeFix": {
+        "title": "We fix what others fear:",
+        "items": {
+          "0": "Unscalable operations",
+          "1": "Obsolete positioning",
+          "2": "Stalled digital transformation",
+          "3": "Fragmented customer journeys",
+          "4": "Misaligned leadership structures",
+          "5": "Inefficient resource allocation"
+        }
+      }
+    },
+    "breakTheMold": {
+      "title": "This Is Where We Break the Mold",
+      "items": {
+        "0": {
+          "title": "Tech & SaaS",
+          "description": "From seed to Series E, we help tech companies scale without chaos.",
+          "impact": "3x faster go-to-market. 150% lift in qualified leads. Fewer silos. More speed."
+        },
+        "1": {
+          "title": "Healthcare",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "2": {
+          "title": "Education & EdTech",
+          "description": "We turn content into experience and data into student success.",
+          "impact": "40% enrollments. 50% engagement. Smarter learning systems, smarter outcomes."
+        },
+        "3": {
+          "title": "Energy & Utilities",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "4": {
+          "title": "Manufacturing",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "5": {
+          "title": "Telecom",
+          "description": "We help telcos do more than connect — we help them engage, scale, and monetize.",
+          "impact": "Impact: +12% ARPU. -18% churn. Signal strong. Strategy stronger."
+        },
+        "6": {
+          "title": "Retail & E-Com",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "7": {
+          "title": "Finance & Fintech",
+          "description": "We turn regulation into rhythm and risk into leverage.",
+          "impact": "Impact: -15% fraud. +20% process velocity. Banking, but smarter."
+        }
+      }
+    },
+    "results": {
+      "title": {
+        "first": "Results.",
+        "second": "Or It Didn’t Happen."
+      },
+      "description": "Some of our industry wins:",
+      "items": {
+        "0": {
+          "title": "+200%",
+          "description": "social media engagement for a B2B tech firm"
+        },
+        "1": {
+          "title": "-30%",
+          "description": "delivery cost for a retail logistics client"
+        },
+        "2": {
+          "title": "+15%",
+          "description": "increase in NPS after telecom CX strategy revamp"
+        },
+        "3": {
+          "title": "+40%",
+          "description": "internal efficiency in a healthcare system after digital process redesign"
+        },
+        "4": {
+          "title": "€5M+",
+          "description": "unlocked from operational waste for a European manufacturing group"
+        }
+      }
+    },
+    "builtForIndustries": {
+      "title": {
+        "first": "Built for Industries",
+        "second": "That Refuse to Stay Still"
+      },
+      "description": {
+        "first": "We’re not just another consulting firm. We’re a team of industry experts who are passionate about helping businesses grow and succeed.",
+        "second": "We’re not just another consulting firm. We’re a team of industry experts who are passionate about helping businesses grow and succeed."
+      },
+      "subtitle": "Transform Your Industry with Optisence",
+      "btnLabels": {
+        "0": "Request a Strategy Session",
+        "1": "Explore Our Capabilities"
+      }
     }
+  },
+  "careers": {
+    "hero": {
+      "title": "Careers at Optisence",
+      "description": "Join our team of industry experts and help businesses grow and succeed.",
+      "text": {
+        "first": "At Optisence, we architect growth, amplify brands, and unlock business potential. And none of that happens without one thing: exceptional people.",
+        "second": "We’re on a mission to redefine business consulting through bold thinking, real results, and a culture where ideas win. If you’re driven by impact, fueled by curiosity, and ready to shape the future alongside clients that refuse to settle — this might be the place for you."
+      },
+      "label": "Let’s Do Transformative Work. Together!"
+    },
+    "workWithUs": {
+      "title": "Why Work With Us?",
+      "description": "Since strategy is only as good as the team behind it.",
+      "cards": {
+        "0": {
+          "title": "Bold Thinking, Grounded in Reality",
+          "description": "At Optisence, ideas matter — but outcomes matter more. You'll work on high-impact projects that challenge assumptions, shift industries, and spark meaningful change."
+        },
+        "1": {
+          "title": "Growth Is the Only Direction",
+          "description": "Whether you're just starting out or scaling your career to new heights, we offer real opportunities for development, ownership, and leadership. No corporate fluff. Just clear paths forward."
+        },
+        "2": {
+          "title": "Collaboration Over Competition",
+          "description": "We believe the best strategies are co-created. That’s why we hire listeners, challengers, builders — and give them the freedom to think, create, and lead."
+        },
+        "3": {
+          "title": "Work That Feels Good",
+          "description": "Flexible work? Always. Autonomy? Absolutely. Well-being, purpose, and inclusion? Non-negotiable. Because when people thrive, companies do too."
+        }
+      }
+    },
+    "whatYouGet": {
+      "title": "What You Get",
+      "items": {
+        "0": {
+          "title": "Diversity Drives Us",
+          "description": "Different backgrounds, voices, and perspectives make us better. Full stop."
+        },
+        "1": {
+          "title": "Learning That Doesn’t Stop",
+          "description": "Paid certifications, mentorship, workshops, and growth paths tailored to you."
+        },
+        "2": {
+          "title": "Work-Life Integration",
+          "description": "Generous PTO, mental health support, no-questions-asked personal time."
+        },
+        "3": {
+          "title": "Work Anywhere, Grow Everywhere",
+          "description": "Flexible remote/hybrid culture rooted in trust, autonomy, and performance."
+        },
+        "4": {
+          "title": "Clear Paths, Real Progress",
+          "description": "Transparent reviews, career roadmaps, and leadership that listens."
+        }
+      }
+    },
+    "hiringProcess": {
+      "title": "Our Hiring Process",
+      "description": "We keep it real — and respectful.",
+      "steps": {
+        "0": {
+          "title": "Application Review",
+          "description": "Tell us who you are and what excites you."
+        },
+        "1": {
+          "title": "Intro Call",
+          "description": "Let’s talk about vision, goals, and vibes."
+        },
+        "2": {
+          "title": "Skill Showcase",
+          "description": "We’ll give you something thoughtful (never generic) to solve or present."
+        },
+        "3": {
+          "title": "Final Interview",
+          "description": "Meet the team, ask us anything."
+        },
+        "4": {
+          "title": "Offer & Onboarding",
+          "description": "If we both feel it — we move fast."
+        }
+      },
+      "deadline": {
+        "title": "Total time?",
+        "description": "Usually under 2 weeks."
+      }
+    },
+    "optisenceLife": {
+      "title": "Life at Optisence",
+      "cards": {
+        "0": {
+          "title": "Dumisani, Consultant",
+          "description": "“You’re not boxed in. I’ve pitched to C-level execs, redesigned a GTM play, and led a sprint — all in my first year.”"
+        },
+        "1": {
+          "title": "Anika, Strategy Analyst",
+          "description": "“Optisence gave me the space to grow and the guidance to thrive. It’s rare to find that balance.”"
+        }
+      }
+    },
+    "readyToApply": {
+      "title": {
+        "first": "Ready to",
+        "second": "Apply?"
+      },
+      "subtitle": "Step into a role that matters. Do work that moves the needle.",
+      "description": {
+        "first": "Send your CV + short intro (or wild idea) to",
+        "second": "or use the form below:"
+      },
+      "form": {
+        "title": "Application Form",
+        "fields": {
+          "name": {
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "email": {
+            "label": "Email Address",
+            "placeholder": "Enter your email address"
+          },
+          "phone": {
+            "label": "Phone Number",
+            "placeholder": "Enter a contact phone number"
+          },
+          "role": {
+            "label": "Role You’re Applying For",
+            "placeholder": "Enter role"
+          },
+          "portfolio": {
+            "label": "LinkedIn / Portfolio (optional)",
+            "placeholder": "Enter your company name"
+          },
+          "message": {
+            "label": "Cover Letter / Message",
+            "placeholder": "Enter your message"
+          },
+          "submit": {
+            "label": "Submit Application",
+            "loading": "Submitting..."
+          }
+        }
+      }
+    },
+    "positions": {
+      "title": "Open Positions",
+      "description": "We’re actively hiring across several key roles. Don’t see your dream job listed? Reach out anyway — we’re always looking for standout talent.",
+      "jobs": {
+        "0": {
+          "title": "Strategic Consultant",
+          "description": {
+            "text": {
+              "0": "We don't do cookie-cutter consulting. We partner with ambitious businesses to reimagine their future — and we're looking for a Strategic Consultant who's ready to lead that charge.",
+              "1": "This role isn't just about giving advice. It's about crafting sharp, forward-looking strategies that solve real problems and spark measurable change. Whether you're helping a fintech navigate global expansion, transforming the marketing engine of a scaling SaaS, or reworking an enterprise's operating model — your work will live where insight meets execution.",
+              "2": "You'll collaborate closely with senior leadership, both internally and on the client side, guiding cross-functional teams with clarity and confidence. You'll bring structure to chaos, uncover opportunities in complexity, and help clients make decisions that drive long-term impact."
+            },
+            "bold": {
+              "0": {
+                "text": "Strategic Consultant",
+                "paragraph": "0"
+              },
+              "1": {
+                "text": "insight meets execution",
+                "paragraph": "1"
+              }
+            }
+          },
+          "requirements": {
+            "0": "3+ years in business, strategy, or marketing consulting, ideally in a fast-paced or client-facing environment.",
+            "1": "Strong analytical thinking with the ability to distill ambiguity into clarity — and clarity into action.",
+            "2": "Excellent communication and presentation skills, with a natural ability to build trust with stakeholders.",
+            "3": "A bias for execution: you're not just a thinker, you're a builder — someone who wants to see real results.",
+            "4": "Comfort with cross-functional collaboration and managing multiple workstreams with efficiency.",
+            "5": "Confidence without ego — you lead with curiosity, not arrogance. You know when to own the room and when to ask the better question."
+          },
+          "responsibilities": {
+            "0": "Leading high-stakes, high-impact client engagements across marketing, operations, and corporate strategy.",
+            "1": "Designing growth roadmaps, market entry strategies, and operating models tailored to evolving business realities.",
+            "2": "Synthesizing data, trends, and stakeholder insight into strategic narratives and clear, actionable solutions.",
+            "3": "Driving collaboration across teams — aligning product, marketing, operations, and executive leadership.",
+            "4": "Presenting to C-suite decision-makers, defending ideas with confidence, and adapting quickly based on feedback.",
+            "5": "Acting not just as a consultant, but as a trusted strategic partner who brings calm to complexity and momentum to inertia."
+          },
+          "summary": {
+            "text": "This role is ideal for someone who wants to be more than a slide-builder — someone who wants to lead change, shape industries, and see the tangible impact of their work. At Optisence, you'll find a culture that celebrates sharp thinking, bold ideas, and strategic precision — all grounded in collaboration, not hierarchy.",
+            "bold": {
+              "0": "more than a slide-builder"
+            }
+          }
+        },
+        "1": {
+          "title": "Marketing Performance Analyst",
+          "description": {
+            "text": {
+              "0": "We believe great marketing doesn’t just look good — it performs. We're seeking a Marketing Performance Analyst who can dive into the data ocean, surface the insights that matter, and turn numbers into narratives that drive growth.",
+              "1": "In this role, you won’t just be crunching numbers in the background. You’ll be embedded in our core strategic operations — working alongside consultants, creatives, and clients to turn marketing into a measurable growth engine. You’ll make sense of signals across funnels, platforms, and audiences — helping us decode what’s working, what’s not, and where the next opportunity lies.",
+              "2": "This is more than reporting. This is decision-driving. This is strategy-shaping. This is analytics that earns a seat at the table."
+            },
+            "bold": {
+              "0": {
+                "text": "Marketing Performance Analyst",
+                "paragraph": "0"
+              }
+            }
+          },
+          "requirements": {
+            "0": "Hands-on experience with GA4, Looker Studio, Power BI, Tableau, or similar marketing analytics platforms.",
+            "1": "A solid understanding of core marketing metrics and KPIs — CAC, LTV, ROI, CTR, bounce rate, conversion rates — and how to improve them.",
+            "2": "Comfort working across multiple data sources and digital platforms (Google Ads, Meta, CRM tools, etc.).",
+            "3": "A curious, pattern-seeking mind with the ability to turn data into clear, actionable insight.",
+            "4": "The soul of a storyteller — you can frame data in a way that engages, persuades, and drives action.",
+            "5": "A knack for simplifying complex information into actionable recommendations."
+          },
+          "responsibilities": {
+            "0": "Building and maintaining dashboards that tell the story behind the numbers — in tools like GA4, Looker Studio, and Power BI.",
+            "1": "Tracking full-funnel performance across digital campaigns, from awareness to conversion to retention.",
+            "2": "Surfacing actionable insights that help our marketing teams and clients optimize spend, creative, and targeting.",
+            "3": "Identifying leading indicators and anomalies before they become problems (or opportunities missed).",
+            "4": "Translating complex data into clean, compelling visuals and strategic recommendations for both internal teams and client presentations."
+          },
+          "summary": {
+            "text": "This role is for someone who doesn’t just analyze — they anticipate. Someone who’s obsessed with connecting marketing effort to business outcome, and who thrives in an environment where analytics is seen not as support, but as a strategic superpower.",
+            "bold": {
+              "0": "anticipate"
+            }
+          }
+        },
+        "2": {
+          "title": "Business Development Lead",
+          "description": {
+            "text": {
+              "0": "Business development isn’t about pushing services — it’s about crafting relevance, building trust, and creating the kinds of partnerships that unlock real business transformation.",
+              "1": "We’re looking for a Business Development Lead who sees beyond quotas and pipelines. Someone who can translate strategic potential into real-world outcomes. Someone who can walk into a conversation with a CMO or COO, understand their pain points, and articulate not just what we offer — but how we solve. You'll be shaping how companies discover us, engage with us, and grow with us.",
+              "2": "This role is equal parts strategist, relationship builder, and deal-closer — and it sits at the heart of our growth engine."
+            },
+            "bold": {
+              "0": {
+                "text": "Business Development Lead",
+                "paragraph": "1"
+              }
+            }
+          },
+          "requirements": {
+            "0": "You’ve done this before — 3+ years of demonstrable success in B2B business development, ideally in consulting, SaaS, or marketing services.",
+            "1": "You combine strategic thinking with hustle — understanding not just how to close deals, but how to open meaningful conversations.",
+            "2": "You’re a natural communicator with exceptional storytelling skills — able to frame value, tailor messaging, and build credibility fast.",
+            "3": "You think like a founder — driven by results, hungry for growth, and comfortable with ambiguity.",
+            "4": "You thrive in fast-paced, collaborative environments where initiative and experimentation are encouraged."
+          },
+          "responsibilities": {
+            "0": "Leading and executing outreach strategies that cut through noise and land with clarity — email, LinkedIn, events, partnerships.",
+            "1": "Building and nurturing relationships with key B2B decision-makers, from first touch to signed deal.",
+            "2": "Driving the sales cycle from lead generation through to proposal development and contract negotiation.",
+            "3": "Representing Optisence at virtual and in-person events, conferences, and executive briefings — being the voice of our brand.",
+            "4": "Working closely with our consulting and marketing teams to shape offers that meet real market needs.",
+            "5": "Tracking sales performance, refining strategies, and uncovering new revenue opportunities through feedback loops and market intelligence."
+          },
+          "summary": {
+            "text": "This isn’t just a sales role — it’s a growth leadership role. You’ll help define not just what we sell, but how we scale. You’ll be part of a team that values intelligence, insight, and integrity over pressure tactics and pushy sales. And most importantly, you’ll help build the next chapter of Optisence — one relationship at a time.",
+            "bold": {
+              "0": "what",
+              "1": "how we"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dropzone": {
+    "label": "Choose file",
+    "placeholder": "No file selected"
   }
 }

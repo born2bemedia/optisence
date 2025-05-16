@@ -1,36 +1,40 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const cards = [
-  {
-    title: 'Bold Thinking, Grounded in Reality',
-    desc: "At Optisence, ideas matter — but outcomes matter more. You'll work on high-impact projects that challenge assumptions, shift industries, and spark meaningful change.",
-  },
-  {
-    title: 'Growth Is the Only Direction',
-    desc: "Whether you're just starting out or scaling your career to new heights, we offer real opportunities for development, ownership, and leadership. No corporate fluff. Just clear paths forward.",
-  },
-  {
-    title: 'Collaboration Over Competition',
-    desc: 'We believe the best strategies are co-created. That’s why we hire listeners, challengers, builders — and give them the freedom to think, create, and lead.',
-  },
-  {
-    title: 'Work That Feels Good',
-    desc: 'Flexible work? Always. Autonomy? Absolutely. Well-being, purpose, and inclusion? Non-negotiable. Because when people thrive, companies do too.',
-  },
-];
-
 export const WorkWithUs = () => {
+  const t = useTranslations('careers.workWithUs');
+
+  const cards = [
+    {
+      title: t('cards.0.title'),
+      desc: t('cards.0.description'),
+    },
+    {
+      title: t('cards.1.title'),
+      desc: t('cards.1.description'),
+    },
+    {
+      title: t('cards.2.title'),
+      desc: t('cards.2.description'),
+    },
+    {
+      title: t('cards.3.title'),
+      desc: t('cards.3.description'),
+    },
+  ];
+
   return (
     <section className="flex flex-col gap-20 px-[100px] py-[80px] max-md:gap-8 max-md:px-4 max-md:py-8">
       <FadeIn className="flex flex-col gap-3 text-center max-md:gap-6">
         <Title as="h2" size="xl" weight={600}>
-          Why Work With Us?
+          {t('title')}
         </Title>
-        <Text>Since strategy is only as good as the team behind it.</Text>
+        <Text>{t('description')}</Text>
       </FadeIn>
       <FadeIn className="flex gap-5 max-md:flex-col">
         {cards.map(card => (
