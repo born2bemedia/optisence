@@ -941,5 +941,23 @@
       "8": "Contact"
     },
     "consultingSolutions": "Consulting Solutions"
+  },
+  "footer": {
+    "description": "Your partner for transforming business strategies and driving growth. Work with experts to develop tailored solutions, implement cutting-edge technologies, and measure results for long-term success.",
+    "registeredAddress": "Registered Address:",
+    "officeAddress": "Office Address:",
+    "registeredNumber": "Registered Number:",
+    "startWithOptisence": "Start With Optisence",
+    "getConsultation": "Get a Consultation",
+    "company": "Company",
+    "policies": {
+      "title": "Policies",
+      "termsAndConditions": "Terms and Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "refundPolicy": "Refund Policy",
+      "cookiePolicy": "Cookie Policy",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "allLegalRightsReserved": "All Legal Rights Reserved"
   }
 }
