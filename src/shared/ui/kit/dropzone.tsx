@@ -2,10 +2,10 @@
 
 import { useRef } from 'react';
 import { useDropzone } from 'react-dropzone';
+import { useTranslations } from 'next-intl';
 
 import { BoxIcon } from '@/shared/ui/icons/orange';
 import { Text } from '@/shared/ui/kit/text';
-
 export const Dropdzone = ({
   required,
   name,
@@ -17,6 +17,8 @@ export const Dropdzone = ({
   onDrop?: (file: File | null) => void;
   value?: File | null;
 }) => {
+  const t = useTranslations('dropzone');
+
   const hiddenInputRef = useRef<HTMLInputElement | null>(null);
 
   const { getRootProps, getInputProps, open, acceptedFiles } = useDropzone({
@@ -53,15 +55,12 @@ export const Dropdzone = ({
             open();
           }}
         >
-          Choose new file
+          {t('fullLabel')}
         </button>
         <Text color="dark">
-          Selected file: {file ? file.name : 'No file selected'}
+          {t('selectedFile')}: {file ? file.name : t('placeholder')}
         </Text>
-        <Text>
-          Attach any relevant documents, resumes, proposals, or briefs (Max
-          size: 10MB)
-        </Text>
+        <Text>{t('attachFile')}</Text>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
@@ -18,6 +19,8 @@ export const HowHelpSection = ({
   subtitle: string;
   stats: { percent: number; text: string }[];
 }) => {
+  const t = useTranslations('marketingOperations.howWeHelp');
+
   return (
     <section className="flex flex-col gap-20 px-[100px] py-20 max-sm:gap-6 max-sm:px-4 max-sm:py-8">
       <FadeIn className="flex flex-col gap-3 text-center">
@@ -36,7 +39,7 @@ export const HowHelpSection = ({
           <Text className="w-[70%] max-lg:w-full">{description}</Text>
           <Link href="/industries-we-shape">
             <Button>
-              Fields We Impact <ArrowRightIcon />
+              {t('btn')} <ArrowRightIcon />
             </Button>
           </Link>
         </FadeIn>

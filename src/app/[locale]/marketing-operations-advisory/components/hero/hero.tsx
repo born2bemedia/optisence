@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -12,6 +13,8 @@ import { Title } from '@/shared/ui/kit/title';
 import st from './hero.module.css';
 
 export const Hero = () => {
+  const t = useTranslations('marketingOperations.hero');
+
   return (
     <section
       className={cn(
@@ -25,27 +28,18 @@ export const Hero = () => {
           weight={600}
           className="w-[76%] leading-[120%] max-xl:w-full"
         >
-          Maximize Your Marketing Potential with Data-Driven Insights and
-          Optimized Processes
+          {t('title')}
         </Title>
       </FadeIn>
       <FadeIn className="ml-auto flex w-1/2 gap-5 max-xl:w-full max-sm:flex-col max-sm:gap-3">
         <Text color="light" className="w-1/2 max-sm:w-full">
-          Our crew specializes in helping businesses unlock their marketing
-          potential by streamlining operations, improving team performance, and
-          integrating cutting-edge technologies. Our Marketing Operations
-          Advisory services are designed to optimize and scale your marketing
-          efforts effectively.
+          {t('description')}
         </Text>
         <div className="flex w-1/2 flex-col gap-4 max-sm:w-full">
-          <Text color="light">
-            By leveraging data-driven insights and innovative strategies, we
-            ensure that your marketing processes are efficient and aligned with
-            your business goals, enabling sustainable growth.
-          </Text>
+          <Text color="light">{t('text')}</Text>
           <Link href="/contact-us">
             <Button textAlign="center" fullWidth>
-              Get in Touch Today
+              {t('btn')}
               <ArrowRightIcon />
             </Button>
           </Link>

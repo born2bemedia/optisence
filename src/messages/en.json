@@ -664,7 +664,10 @@
   },
   "dropzone": {
     "label": "Choose file",
-    "placeholder": "No file selected"
+    "placeholder": "No file selected",
+    "fullLabel": "Choose new file",
+    "attachFile": "Attach any relevant documents, resumes, proposals, or briefs (Max size: 10MB)",
+    "selectedFile": "Selected file"
   },
   "our-work": {
     "hero": {
@@ -1374,6 +1377,669 @@
           }
         }
       }
+    }
+  },
+  "marketingOperations": {
+    "hero": {
+      "title": "Maximize Your Marketing Potential with Data-Driven Insights and Optimized Processes",
+      "description": "Our crew specializes in helping businesses unlock their marketing potential by streamlining operations, improving team performance, and integrating cutting-edge technologies. Our Marketing Operations Advisory services are designed to optimize and scale your marketing efforts effectively.",
+      "text": "By leveraging data-driven insights and innovative strategies, we ensure that your marketing processes are efficient and aligned with your business goals, enabling sustainable growth.",
+      "btn": "Get in Touch Today"
+    },
+    "ourMarketingServices": {
+      "title": {
+        "0": "Our Custom",
+        "1": "Marketing Advisory Services"
+      }
+    },
+    "products": {
+      "0": {
+        "title": "Marketing Automation Implementation",
+        "description": "We help you implement marketing automation tools that save time and improve efficiency. From lead nurturing to campaign execution, we automate routine tasks, allowing your team to focus on high-impact strategies.",
+        "serviceDetails": "Choosing and implementing the right marketing automation tools, lead scoring, email marketing workflows, and CRM integration."
+      },
+      "1": {
+        "title": "Customer Journey Mapping",
+        "description": "Map the entire customer journey to understand your prospects’ and customers’ interactions with your brand at every touchpoint. We help you create a seamless experience that drives loyalty and sales.",
+        "serviceDetails": "Analyzing customer touchpoints, identifying pain points, and designing personalized marketing strategies that guide customers through the journey."
+      },
+      "2": {
+        "title": "Market Segmentation and Targeting",
+        "description": "We assist in identifying key customer segments, helping you tailor marketing messages that resonate with the right audiences.",
+        "serviceDetails": "Conducting demographic analysis, psychographic segmentation, and defining customer personas for targeted marketing efforts."
+      },
+      "3": {
+        "title": "Brand Positioning and Messaging",
+        "description": "Enhance your brand’s positioning with effective messaging that clearly communicates your unique value proposition. We help you differentiate your brand in the marketplace.",
+        "serviceDetails": "Brand audit, competitive analysis, crafting unique messaging, and ensuring consistency across all marketing channels."
+      },
+      "4": {
+        "title": "Content Strategy and Creation",
+        "description": "We create a content strategy that drives engagement and builds trust with your audience. Our team ensures that your content, from blogs to videos, resonates with your target market.",
+        "serviceDetails": "Content creation, editorial calendar development, content distribution planning, and ensuring alignment with your overall marketing strategy."
+      },
+      "5": {
+        "title": "Lead Generation Strategy",
+        "description": "Develop a comprehensive lead generation system that attracts, captures, and nurtures high-quality leads. We’ll help you convert leads into loyal customers.",
+        "serviceDetails": "Creating landing pages, lead magnets, email marketing strategies, and optimizing conversion funnels."
+      },
+      "6": {
+        "title": "Campaign Planning and Execution",
+        "description": "We help plan, execute, and monitor marketing campaigns to ensure they meet performance benchmarks and drive desired outcomes. Our team provides a full-service approach from start to finish.",
+        "serviceDetails": "Campaign strategy development, timeline creation, budget management, performance tracking, and results optimization."
+      },
+      "7": {
+        "title": "Social Media Strategy and Optimization",
+        "description": "Optimize your social media presence with tailored strategies that increase engagement, drive traffic, and build community across platforms.",
+        "serviceDetails": "Platform analysis, content creation, audience targeting, community engagement, and performance tracking."
+      },
+      "8": {
+        "title": "Email Marketing Optimization",
+        "description": "Enhance your email marketing campaigns with segmentation, automation, and performance tracking. We design personalized email journeys that nurture relationships and drive conversions.",
+        "serviceDetails": "List segmentation, campaign design, A/B testing, automated workflows, and performance reporting."
+      },
+      "9": {
+        "title": "Data-Driven Decision Making",
+        "description": "We help you make informed decisions by leveraging your marketing data. By using advanced analytics, we ensure that every marketing effort is optimized for success.",
+        "serviceDetails": "Data analysis, customer insights, predictive analytics, and providing actionable recommendations for marketing improvements."
+      },
+      "10": {
+        "title": "Search Engine Optimization Strategy",
+        "description": "Increase your website’s visibility and drive organic traffic with an SEO strategy tailored to your business needs. We optimize your content and technical aspects to improve search engine rankings.",
+        "serviceDetails": "Keyword research, on-page SEO, link building, content optimization, and local SEO strategies."
+      },
+      "11": {
+        "title": "Paid Media Strategy and Management",
+        "description": "Maximize your ad spend by creating and optimizing pay-per-click (PPC) campaigns, social media ads, and other paid media strategies. Our team ensures that your campaigns are cost-effective and high-performing.",
+        "serviceDetails": "Google Ads, Facebook Ads, LinkedIn campaigns, retargeting strategies, and budget management."
+      },
+      "12": {
+        "title": "Marketing Technology Integration",
+        "description": "We integrate the latest marketing technologies into your operations, ensuring that your marketing tools work seamlessly together to deliver optimal performance.",
+        "serviceDetails": "CRM integration, marketing automation tools, analytics platforms, and ensuring smooth data flow between systems."
+      },
+      "13": {
+        "title": "Competitive Analysis and Market Research",
+        "description": "We conduct in-depth competitive analysis and market research to help you understand your market position and uncover new opportunities for growth.",
+        "serviceDetails": "Competitive landscape analysis, consumer behavior insights, and identifying gaps in the market for targeted strategies."
+      },
+      "14": {
+        "title": "Reputation Management",
+        "description": "We help build and protect your brand’s reputation online. We ensure your brand maintains a positive image by managing customer feedback, reviews, and public relations.",
+        "serviceDetails": "Monitoring reviews, addressing customer concerns, social listening, and proactive public relations."
+      },
+      "15": {
+        "title": "Influencer and Partnership Marketing",
+        "description": "Leverage the power of influencers and partnerships to expand your reach and drive engagement with relevant audiences.",
+        "serviceDetails": "Identifying potential influencers, negotiating contracts, campaign management, and tracking performance."
+      },
+      "16": {
+        "title": "Marketing Budget Management",
+        "description": "We assist in developing and managing your marketing budget, ensuring that resources are allocated effectively to achieve the best possible returns on investment.",
+        "serviceDetails": "Budget planning, cost allocation, ROI tracking, and ongoing adjustments to ensure maximum efficiency."
+      }
+    },
+    "howWeHelp": {
+      "title": {
+        "0": "How We Help Our Clients",
+        "1": "in Numbers"
+      },
+      "subtitle": "Our approach is always focused on results. Here’s a snapshot of the impact we’ve had on businesses we’ve worked with:",
+      "description": "These numbers highlight just a few of the measurable successes we’ve had for our clients, demonstrating how we help businesses grow, optimize, and succeed.",
+      "stats": {
+        "0": {
+          "percent": "150",
+          "text": "Increase in Lead Conversions for a tech startup after implementing marketing automation."
+        },
+        "1": {
+          "percent": "30",
+          "text": "Improvement in Marketing Efficiency by optimizing workflows and processes for a global retailer."
+        },
+        "2": {
+          "percent": "100",
+          "text": "Client Retention Rate with businesses after completing comprehensive performance measurement and marketing optimization projects."
+        },
+        "3": {
+          "percent": "200",
+          "text": "Growth in Social Media Engagement after executing a tailored social media strategy for a B2B client."
+        }
+      },
+      "btn": "Fields We Impact"
+    },
+    "readyMarketingPackages": {
+      "title": {
+        "0": "Ready-Made",
+        "1": "Marketing Advisory Packages"
+      },
+      "description": "We offer four comprehensive packages to address businesses’ varying needs at different growth stages. Each package is tailored to help you unlock your marketing potential and drive sustainable growth. Choose the package that best suits your current needs and budget, and let us help you take your marketing to the next level."
+    },
+    "packages": {
+      "0": {
+        "name": "Starter Marketing Optimization Package",
+        "price": "Price: From €5,000",
+        "description": "Ideal for startups or companies just beginning to scale their marketing efforts. This package focuses on laying the foundation for your marketing operations, ensuring you have the right strategy, tools, and processes to grow effectively.",
+        "features": {
+          "0": "Strategic Marketing Planning",
+          "1": "Basic Workflow Optimization",
+          "2": "Performance Tracking Setup",
+          "3": "Customer Journey Mapping",
+          "4": "1-Month of Ongoing Support",
+          "5": "Target Audience Identification",
+          "6": "Lead Generation Strategy"
+        },
+        "reasonToChoose": "This package is designed for businesses looking to optimize their basic marketing processes. It’s perfect for those just starting out and need a clear marketing strategy, process optimization, and initial campaign tracking setup."
+      },
+      "1": {
+        "name": "Growth Marketing Accelerator Package",
+        "price": "Price: From €10,000",
+        "description": "This package is perfect for growing businesses that need to optimize existing marketing strategies and integrate more advanced marketing tools. It is designed to accelerate growth and improve efficiency and scale in marketing operations.",
+        "features": {
+          "0": "Full Marketing Strategy Overhaul",
+          "1": "Workflow Automation Implementation",
+          "2": "Customer Journey Mapping",
+          "3": "Campaign Planning and Execution",
+          "4": "3-Month Performance Review and Analytics",
+          "5": "Email Marketing Optimization",
+          "6": "Social Media Strategy and Optimization",
+          "7": "SEO Strategy and Implementation",
+          "8": "Lead Generation System Setup"
+        },
+        "reasonToChoose": "For growing businesses looking to optimize their current efforts, this package provides a comprehensive approach to improving marketing operations and scaling up. We optimize key areas like email, social media, and lead generation for maximum growth."
+      },
+      "2": {
+        "name": "Advanced Marketing Optimization Package",
+        "price": "Price: From €15,000",
+        "description": "Designed for mid-to-large businesses seeking comprehensive, high-level marketing optimization across multiple channels, this package is perfect for refining your marketing operations and integrating advanced tools to drive better results.",
+        "features": {
+          "0": "Full Strategic Marketing and Execution",
+          "1": "Cross-Channel Workflow Optimization",
+          "2": "Advanced Marketing Automation and CRM Integration",
+          "3": "Monthly Analytics and Performance Optimization",
+          "4": "Lead Scoring and Nurturing Campaigns",
+          "5": "Content Strategy and Creation",
+          "6": "Paid Media Strategy and Management (Google Ads, Facebook Ads, etc.)",
+          "7": "Customer Segmentation and Targeting",
+          "8": "Reputation Management",
+          "9": "Market Research and Competitive Analysis"
+        },
+        "reasonToChoose": "It is ideal for businesses that are ready for advanced marketing optimization. It includes everything you need to enhance your marketing operations. This package is for you if you need performance tracking, paid media management, and advanced automation."
+      },
+      "3": {
+        "name": "Enterprise Marketing Transformation Package",
+        "price": "Price: From €20,000",
+        "description": "This package is designed for enterprises aiming for a complete, end-to-end marketing transformation. It is designed for businesses seeking a comprehensive solution that delivers sustained, scalable growth across all marketing areas.",
+        "features": {
+          "0": "Full Business Marketing Transformation",
+          "1": "Global Workflow and Team Integration",
+          "2": "Full Performance Measurement System Setup",
+          "3": "Annual Campaign Strategy and Optimization",
+          "4": "Dedicated Marketing Expert Team",
+          "5": "Cross-Channel Marketing Campaign Management",
+          "6": "Marketing Budget Management and ROI Tracking",
+          "7": "Comprehensive Reputation Management",
+          "8": "Influencer and Partnership Marketing",
+          "9": "Advanced-Data Analytics and Predictive Modeling",
+          "10": "Custom Integration of Marketing Technologies (CRM, Automation Tools, etc.)",
+          "11": "Leadership and Governance Consulting",
+          "12": "Change Management Consulting"
+        },
+        "reasonToChoose": "The Enterprise Package is ideal for large businesses looking to transform their marketing operations. It includes an integrated, data-driven approach that optimizes every aspect of your marketing efforts, from strategy to execution, with continuous support and advanced tools."
+      }
+    },
+    "downloadPrice": {
+      "title": "Download Full Price List",
+      "description": "Get a detailed overview of all our services and packages with our full-price list. Download it now to explore all options and choose the best fit for your business.",
+      "btn": "Download Now"
+    },
+    "whyChoose": {
+      "title": {
+        "0": "Why Choose Optisence",
+        "1": "for Marketing Operations Advisory"
+      },
+      "description": "Our approach is always focused on results. Here’s a snapshot of the impact we’ve had on businesses we’ve worked with:",
+      "reasons": {
+        "0": {
+          "title": "Tailored Solutions",
+          "text": "We don’t offer one-size-fits-all solutions. Our services are designed to meet your needs, regardless of your business size or industry."
+        },
+        "1": {
+          "title": "Proven Results",
+          "text": "Our approach is built around data-driven insights and measurable outcomes, ensuring that every decision drives success for your business."
+        },
+        "2": {
+          "title": "Cutting-Edge Technology",
+          "text": "We leverage the latest technologies and marketing automation tools to make your operations more efficient and scalable."
+        },
+        "3": {
+          "title": "Experienced Team",
+          "text": "Our team of experts brings deep industry knowledge and hands-on experience to ensure your marketing operations are optimized for growth."
+        },
+        "4": {
+          "title": "Long-Term Partnership",
+          "text": "We believe in building long-term relationships with our clients. We’re with you every step of the way, helping you adapt to market changes and grow your business sustainably."
+        }
+      }
+    },
+    "nextSteps": {
+      "title": {
+        "0": "Next Steps: Ready to Maximize",
+        "1": "Your Marketing Potential?"
+      },
+      "description": "We’re committed to helping businesses unlock their full marketing potential. Whether you’re looking for a complete transformation or targeted optimization, we have the expertise to guide you. Get started today and create a marketing strategy that works for your business!",
+      "btn": "Request a Consultation"
+    }
+  },
+  "corporateStrategyGuidance": {
+    "hero": {
+      "title": "Take Your Business to New Heights with Expertly Crafted Corporate Strategies",
+      "description": "At Optisence, we provide comprehensive Corporate Strategy Guidance that empowers businesses to stay ahead of the competition. Our experts work closely with you to develop and execute strategies that drive growth, innovation, and operational excellence. Whether you’re looking to expand into new markets, optimize your business model, or lead your company through change, we’ve got you covered.",
+      "btn": "Get Your Free Consultation"
+    },
+    "ourStrategyServices": {
+      "title": {
+        "0": "Our Custom",
+        "1": "Corporate Strategy Guidance Services"
+      }
+    },
+    "products": {
+      "0": {
+        "title": "Business Model Innovation",
+        "description": "We help businesses transform their business models to meet changing market demands, ensuring they remain competitive and future-ready. Our team works with you to design business models that drive growth and efficiency, from digital transformation to new revenue streams.",
+        "serviceDetails": "Business model analysis, innovation workshops, and actionable roadmap creation for sustainable business growth."
+      },
+      "1": {
+        "title": "Market Entry and Expansion Strategies",
+        "description": "Entering new markets or expanding existing ones requires careful planning and strategy. We provide expert guidance on market entry and expansion strategies, ensuring you make informed decisions backed by research, data, and a clear execution plan.",
+        "serviceDetails": "Market research, competitor analysis, target market identification, and expansion strategy development."
+      },
+      "2": {
+        "title": "Competitive Analysis",
+        "description": "Stay ahead of the competition with a detailed understanding of your industry landscape. We conduct in-depth competitive analysis to identify your competitors’ strengths and weaknesses, providing insights that help you position your business more effectively.",
+        "serviceDetails": "Competitor profiling, SWOT analysis, and strategic recommendations for improving competitive positioning."
+      },
+      "3": {
+        "title": "Change Management",
+        "description": "Successfully navigating change is crucial for sustained success. We guide businesses through transitions, ensuring they adapt effectively to new environments, systems, or organizational structures while maintaining momentum and employee engagement.",
+        "serviceDetails": "Change readiness assessment, stakeholder engagement, implementation planning, and ongoing support."
+      },
+      "4": {
+        "title": "Leadership and Governance Consulting",
+        "description": "Strong leadership is a key to long-term success. We provide leadership consulting and governance frameworks that help businesses build strong leadership teams and effective governance structures.",
+        "serviceDetails": "Leadership development programs, board governance frameworks, executive coaching, and succession planning."
+      },
+      "5": {
+        "title": "Mergers & Acquisitions Strategy",
+        "description": "We help businesses navigate the complexities of mergers and acquisitions, ensuring strategic alignment, due diligence, and smooth integration to achieve long-term success.",
+        "serviceDetails": "M&A strategy, target identification, due diligence, integration planning, and post-merger integration support."
+      },
+      "6": {
+        "title": "Organizational Restructuring",
+        "description": "Optimize your organizational structure to improve efficiency, communication, and decision-making. We help businesses restructure their operations to meet new business demands and goals.",
+        "serviceDetails": "Organizational design, role definition, internal communication strategy, and change management support."
+      },
+      "7": {
+        "title": "Digital Transformation Strategy",
+        "description": "In today’s fast-evolving market, embracing digital transformation is essential for staying competitive. We help businesses define and implement a digital transformation strategy that drives innovation and efficiency.",
+        "serviceDetails": "Technology assessment, process digitization, cloud strategy, and AI integration."
+      },
+      "8": {
+        "title": "Strategic Partnerships and Alliances",
+        "description": "Forming strategic partnerships is crucial for expanding market reach and leveraging external expertise. We help you identify, negotiate, and manage strategic alliances that benefit your business.",
+        "serviceDetails": "Partnership identification, negotiation strategy, alliance management, and performance tracking."
+      },
+      "9": {
+        "title": "Corporate Financial Strategy",
+        "description": "We assist businesses in developing sound financial strategies that optimize resource allocation, reduce costs, and improve overall financial health, ensuring that they are well-positioned for growth.",
+        "serviceDetails": "Financial modeling, cost optimization, budgeting, and financial performance analysis."
+      },
+      "10": {
+        "title": "Risk Management and Mitigation",
+        "description": "We help businesses identify, assess, and mitigate risks to ensure they are prepared for potential challenges. Our services focus on protecting your business from both internal and external threats.",
+        "serviceDetails": "Risk assessment, mitigation strategies, crisis management planning, and insurance solutions."
+      },
+      "11": {
+        "title": "Talent Management and Development Strategy",
+        "description": "Create a strategy to attract, retain, and develop top talent. We help you build a talent pipeline and leadership development programs to ensure you have the right people to drive success.",
+        "serviceDetails": "Talent acquisition strategy, leadership training, succession planning, and employee engagement programs."
+      },
+      "12": {
+        "title": "Brand Strategy Development",
+        "description": "Establish a clear brand identity that resonates with your target audience. We work with you to define and develop a powerful brand strategy that enhances your market presence and drives customer loyalty.",
+        "serviceDetails": "Brand positioning, market differentiation, visual identity development, and brand storytelling."
+      },
+      "13": {
+        "title": "Customer Experience Strategy",
+        "description": "We help businesses design and implement customer experience strategies that improve satisfaction, loyalty, and long-term customer relationships.",
+        "serviceDetails": "Customer journey mapping, experience design, customer feedback systems, and loyalty programs."
+      },
+      "14": {
+        "title": "Sales Strategy Optimization",
+        "description": "Our sales strategy services help businesses optimize their sales processes to improve conversion rates, shorten sales cycles, and maximize revenue.",
+        "serviceDetails": "Sales funnel optimization, lead generation strategies, sales training, and CRM implementation."
+      },
+      "15": {
+        "title": "Innovation Management",
+        "description": "Foster a culture of innovation within your organization to stay ahead of the curve. We help you establish processes for continuous innovation to drive product development and market differentiation.",
+        "serviceDetails": "Innovation workshops, idea management systems, and go-to-market strategies for new products."
+      },
+      "16": {
+        "title": "Sustainability Strategy",
+        "description": "We guide businesses in developing sustainability strategies that reduce environmental impact while improving operational efficiency and corporate reputation.",
+        "serviceDetails": "Sustainability assessment, carbon footprint reduction, sustainable sourcing, and green marketing strategies."
+      },
+      "17": {
+        "title": "Corporate Social Responsibility (CSR) Strategy",
+        "description": "Develop a CSR strategy that aligns with your brand values and drives positive social and environmental impact. We help businesses integrate social responsibility into their core operations.",
+        "serviceDetails": "CSR program development, stakeholder engagement, reporting, and impact measurement."
+      },
+      "18": {
+        "title": "Strategic Communications and PR",
+        "description": "Effective communication is key to maintaining a positive brand image and building stakeholder relationships. We help businesses develop strategic communication and public relations strategies to enhance their reputation.",
+        "serviceDetails": "Media relations, crisis communication planning, press releases, and public image management."
+      },
+      "19": {
+        "title": "Market Research and Trend Analysis",
+        "description": "Gain a deeper understanding of market dynamics, customer preferences, and emerging trends with our market research services. We help businesses stay ahead of the curve by providing actionable insights.",
+        "serviceDetails": "Consumer behavior research, industry trend analysis, competitor benchmarking, and market forecasting."
+      }
+    },
+    "howWeHelp": {
+      "title": {
+        "0": "How We Help Our Clients",
+        "1": "in Numbers"
+      },
+      "subtitle": "Our results speak for themselves. Here are some key numbers that demonstrate the impact we’ve had on businesses:",
+      "description": "These numbers reflect real-world impact and measurable success for our clients.",
+      "stats": {
+        "0": {
+          "percent": "50",
+          "text": "Increase in Market Share for a client after implementing an expansion strategy."
+        },
+        "1": {
+          "percent": "40",
+          "text": "Improvement in Operational Efficiency through business model innovation."
+        },
+        "2": {
+          "percent": "200",
+          "text": "Growth in Revenue for a company following a competitive analysis and market entry strategy."
+        },
+        "3": {
+          "percent": "75",
+          "text": "Success Rate in Change Management for clients undergoing major organizational shifts."
+        }
+      }
+    },
+    "readyStrategyPackages": {
+      "title": {
+        "0": "Ready-Made",
+        "1": "Corporate Strategy Packages"
+      },
+      "description": "We understand that businesses face unique challenges at each stage of their growth journey. That’s why we’ve developed four distinct packages to address the specific needs of companies at different points in their strategy development. Whether you're looking to optimize your current operations or redefine your entire strategy, our tailored packages provide the comprehensive support you need for long-term success."
+    },
+    "packages": {
+      "0": {
+        "name": "Business Launchpad Package",
+        "price": "Price: From €5,000",
+        "description": "Ideal for startups or businesses looking to establish a strong corporate strategy foundation. This package helps you create core strategies, set clear objectives, and build a plan that sets the stage for growth.",
+        "features": {
+          "0": "Business Model Innovation",
+          "1": "Basic Market Entry Strategy",
+          "2": "Initial Competitive Analysis",
+          "3": "Change Management Readiness Assessment",
+          "4": "Governance Framework Setup",
+          "5": "Leadership Assessment",
+          "6": "Market Research for Target Segments",
+          "7": "Operational Structure Review"
+        },
+        "reasonToChoose": "This package is perfect for businesses in the beginning stages of growth. It helps you lay a strategic foundation that ensures long-term success. We focus on building your strategy, identifying growth opportunities, and preparing you for future challenges."
+      },
+      "1": {
+        "name": "Growth Catalyst Package",
+        "price": "Price: From €10,000",
+        "description": "Designed for growing businesses that need to expand into new markets or optimize their existing operations. This package enhances your strategy and scales your business by focusing on market positioning and leadership optimization.",
+        "features": {
+          "0": "Market Entry and Expansion Strategy",
+          "1": "In-depth Competitive Analysis",
+          "2": "Leadership Development and Governance Consulting",
+          "3": "Change Management Implementation",
+          "4": "Market Research for Target Audience",
+          "5": "Customer Experience Strategy",
+          "6": "Brand Positioning and Messaging",
+          "7": "Sales Strategy Optimization",
+          "8": "Digital Transformation Roadmap"
+        },
+        "reasonToChoose": "Ideal for growing businesses looking to expand their footprint, this package offers comprehensive strategies to enter new markets, refine competitive positioning, and align your leadership for scalable growth."
+      },
+      "2": {
+        "name": "Performance Accelerator Package",
+        "price": "Price: From €15,000",
+        "description": "This package is for mid-to-large businesses that must optimize and fine-tune their corporate strategy. It includes advanced services designed to accelerate growth, enhance performance, and streamline department operations.",
+        "features": {
+          "0": "Full Business Model Innovation",
+          "1": "Strategic Market Expansion Plans",
+          "2": "Advanced Competitive Analysis",
+          "3": "Innovation and Transformation Strategy",
+          "4": "Data-Driven Decision-Making Implementation",
+          "5": "Leadership and Governance Enhancements",
+          "6": "Mergers & Acquisitions Strategy",
+          "7": "Crisis Management and Risk Mitigation",
+          "8": "Cross-Functional Team Alignment",
+          "9": "Operational Process Optimization"
+        },
+        "reasonToChoose": "This package optimizes every aspect of a business for businesses that need advanced strategies. It includes performance tracking, M&A strategy, and operational improvements to ensure your company thrives in a competitive landscape."
+      },
+      "3": {
+        "name": "Enterprise Evolution Package",
+        "price": "Price: From €20,000",
+        "description": "This package offers a complete transformation for large enterprises seeking a full corporate strategy overhaul. We focus on global strategy, leadership development, and comprehensive change management, ensuring your enterprise remains competitive, efficient, and innovative.",
+        "features": {
+          "0": "Full Business Model Transformation",
+          "1": "Global Market Entry and Expansion Strategy",
+          "2": "Full-Spectrum Competitive Analysis",
+          "3": "Comprehensive Change Management and Organizational Restructuring",
+          "4": "Leadership Coaching and Succession Planning",
+          "5": "Innovation Management and Advanced Data Analytics",
+          "6": "Mergers & Acquisitions Strategy",
+          "7": "Cross-Functional Team Integration",
+          "8": "Cultural Transformation Strategy",
+          "9": "Sustainability and CSR Strategy",
+          "10": "Advanced Leadership Development",
+          "11": "Digital Ecosystem Integration",
+          "12": "Brand Transformation and Market Repositioning"
+        },
+        "reasonToChoose": "This package offers a complete transformation for large enterprises, integrating all aspects of corporate strategy from leadership to global market expansion. It’s perfect for companies looking to innovate, adapt, and thrive in an ever-changing global market."
+      }
+    },
+    "whyChoose": {
+      "title": {
+        "0": "Why Choose Optisence",
+        "1": "for Corporate Strategy Guidance"
+      },
+      "reasons": {
+        "0": {
+          "title": "Proven Success",
+          "text": "We have a track record of helping companies achieve long-term growth, operational excellence, and competitive advantage."
+        },
+        "1": {
+          "title": "Ongoing Support",
+          "text": "We don’t just deliver a strategy; we stay involved to help implement it, ensuring you see measurable success at every stage."
+        },
+        "2": {
+          "title": "Tailored Solutions",
+          "text": "Every business is unique, and our strategies are designed to fit your specific needs and challenges."
+        },
+        "3": {
+          "title": "Data-Driven Insights",
+          "text": "We use market research and industry analysis to craft strategies informed by real-time data and trends."
+        },
+        "4": {
+          "title": "Experienced Consultants",
+          "text": "Our consultants bring deep experience and expertise in corporate strategy across multiple industries."
+        }
+      }
+    },
+    "nextSteps": {
+      "title": {
+        "0": "Next Steps: Ready to Take",
+        "1": "Your Business to New Heights?"
+      },
+      "description": "The Optisence crew is happy to help you navigate complex business landscapes and achieve your corporate goals. Whether you’re looking to optimize your existing strategy or transform your entire approach, we have the expertise to guide you. Get started today, and create a corporate strategy that works for your business!",
+      "btn": "Request a Consultation"
+    }
+  },
+  "requestForm": {
+    "0": {
+      "title": "Get in Touch with Optisence",
+      "subtitle": {
+        "0": "Let’s Collaborate to Achieve",
+        "1": "Your Business Objectives"
+      },
+      "description": "At Optisence, we partner with companies like yours to provide tailored solutions that drive growth and optimize operations. To get started, please share details about your business needs, and we’ll craft a strategy to help you succeed.",
+      "basicInfo": "Basic Information",
+      "personalCompanyData": "Personal & Company Data",
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "Enter the name of the primary contact person"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Enter your email address"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Enter a contact phone number"
+        },
+        "companyName": {
+          "label": "Company Name (optional)",
+          "placeholder": "Enter your company name"
+        },
+        "companyWebsite": {
+          "label": "Company Website (optional)",
+          "placeholder": "Enter your company website"
+        }
+      }
+    },
+    "1": {
+      "title": "Business Needs & Goals",
+      "subtitle": "Select the Service You’re Interested In",
+      "description": "Please choose the consulting services that you’re most interested in. We’ll customize our solutions based on your needs.",
+      "marketingOperations": "Marketing Operations Advisory",
+      "corporateStrategy": "Corporate Strategy Guidance",
+      "pleaseSpecify": "Please specify",
+      "marketing": {
+        "0": "Strategic Marketing Planning",
+        "1": "Workflow Optimization",
+        "2": "Performance Measurement",
+        "3": "Marketing Automation Implementation",
+        "4": "Customer Journey Mapping",
+        "5": "Other"
+      },
+      "corporate": {
+        "0": "Business Model Innovation",
+        "1": "Market Entry and Expansion Strategies",
+        "2": "Competitive Analysis",
+        "3": "Change Management",
+        "4": "Leadership and Governance Consulting",
+        "5": "Other"
+      },
+      "budgetAllocation": "Budget Allocation",
+      "pleaseSelectRange": "Please select your project’s budget range. This will help us create a plan that aligns with your investment.",
+      "businessChallengesGoals": "Business Challenges & Goals",
+      "goalsDetails": "What are the key goals your company is looking to achieve, and what challenges are you currently facing? Provide us with details, and we’ll craft a solution.",
+      "yourTargetAudience": "Your Target Audience",
+      "tellUsAboutAudience": "Please tell us about the audience you wish to target. This will help us develop a more accurate strategy.",
+      "fields": {
+        "budget": {
+          "label": "Your Budget Range",
+          "placeholder": "Select your budget range"
+        },
+        "keyObjectives": {
+          "label": "Key Objectives",
+          "placeholder": "Enter your company’s key objectives"
+        },
+        "points": {
+          "label": "Challenges or Pain Points",
+          "placeholder": "Enter your company’s challenges or pain points"
+        },
+        "industry": {
+          "label": "Industry/Sector",
+          "placeholder": "Enter your company’s industry/sector"
+        },
+        "demographics": {
+          "label": "Demographics (e.g., age, location, interests)",
+          "placeholder": "Enter your company’s demographics"
+        }
+      }
+    },
+    "3": {
+      "title": "Project Timeline & Next Steps",
+      "projectTimeline": "Project Timeline",
+      "contactMethod": "Preferred Method of Contact",
+      "uploadRelevantFiles": "Upload Any Relevant Files",
+      "attachFiles": "Attach any documents, proposals, or briefs related to your project to help us better understand your needs.",
+      "timeline": {
+        "0": "Within 1 Month",
+        "1": "1-3 Months",
+        "2": "3-6 Months",
+        "3": "Flexible Timeline"
+      },
+      "contact": {
+        "0": "Email",
+        "1": "Phone",
+        "2": "Video Call"
+      }
+    },
+    "btn": {
+      "continue": "Continue",
+      "submitting": "Submitting...",
+      "submit": "Submit Request"
+    }
+  },
+  "thankYou": {
+    "title": "Thank You",
+    "msg": "Thank you for taking the time to provide your information. We are excited to collaborate with you and take the first step toward achieving your business goals. Expect to hear from us soon!",
+    "msg2": "Your request has been successfully submitted. Our team of experts is currently reviewing your information and will contact you shortly to discuss your business needs and provide customized solutions.",
+    "btn": "Continue"
+  },
+  "order": {
+    "fields": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter your first name"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter your last name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "companyName": {
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
+      },
+      "companyWebsite": {
+        "label": "Company Website",
+        "placeholder": "Enter your company website"
+      },
+      "budget": {
+        "label": "Budget",
+        "placeholder": "Enter your budget"
+      },
+      "message": {
+        "label": "Message:",
+        "placeholder": "Type here..."
+      }
+    },
+    "btn": {
+      "submit": "Submit",
+      "submitting": "Submitting..."
     }
   }
 }

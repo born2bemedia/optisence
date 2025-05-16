@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { useRequestDialogStore } from '@/features/request-form/services';
 
 import { cn } from '@/shared/lib/utils';
@@ -12,6 +14,7 @@ import { Title } from '@/shared/ui/kit/title';
 import st from './hero.module.css';
 
 export const Hero = () => {
+  const t = useTranslations('corporateStrategyGuidance.hero');
   const { setOpen } = useRequestDialogStore();
 
   return (
@@ -23,21 +26,14 @@ export const Hero = () => {
     >
       <FadeIn className="w-1/2 max-md:w-full">
         <Title weight={600} color="light">
-          Take Your Business to New Heights with Expertly Crafted Corporate
-          Strategies
+          {t('title')}
         </Title>
       </FadeIn>
       <FadeIn className="flex w-1/2 flex-col justify-between gap-5 max-md:w-full max-md:gap-12">
-        <Text color="light">
-          At Optisence, we provide comprehensive Corporate Strategy Guidance
-          that empowers businesses to stay ahead of the competition. Our experts
-          work closely with you to develop and execute strategies that drive
-          growth, innovation, and operational excellence. Whether you’re looking
-          to expand into new markets, optimize your business model, or lead your
-          company through change, we’ve got you covered.
-        </Text>
+        <Text color="light">{t('description')}</Text>
         <Button className="max-md:mx-auto" onClick={() => setOpen(true)}>
-          Get Your Free Consultation <ArrowRightIcon />
+          {t('btn')}
+          <ArrowRightIcon />
         </Button>
       </FadeIn>
     </section>

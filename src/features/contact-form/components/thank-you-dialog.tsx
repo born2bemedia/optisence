@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import {
   Close,
   Content,
@@ -14,7 +15,6 @@ import {
 import { CloseIcon } from '@/shared/ui/icons/orange';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
-
 export const ThankYouDialog = ({
   isOpen,
   setIsOpen,
@@ -22,6 +22,8 @@ export const ThankYouDialog = ({
   isOpen: boolean;
   setIsOpen: (value: boolean) => void;
 }) => {
+  const t = useTranslations('thankYou');
+
   return (
     <Root open={isOpen} onOpenChange={setIsOpen}>
       <Trigger />
@@ -34,13 +36,8 @@ export const ThankYouDialog = ({
           <DTitle />
           <Description asChild>
             <section className="flex flex-col items-center gap-6 text-center">
-              <Title size="lg">Thank You!</Title>
-              <Text>
-                Thank you for taking the time to provide your information. We
-                are excited to collaborate with you and take the first step
-                toward achieving your business goals. Expect to hear from us
-                soon!
-              </Text>
+              <Title size="lg">{t('title')}</Title>
+              <Text>{t('msg')}</Text>
             </section>
           </Description>
           <Close className="absolute top-6 right-6 cursor-pointer">
