@@ -927,5 +927,19 @@
         "1": "Discover Marketing Advisory"
       }
     }
+  },
+  "header": {
+    "links": {
+      "0": "Home",
+      "1": "Who We Are",
+      "2": "Marketing Operations Advisory",
+      "3": "Corporate Strategy Guidance",
+      "4": "Industries We Shape",
+      "5": "Our Work",
+      "6": "Careers",
+      "7": "Media Center",
+      "8": "Contact"
+    },
+    "consultingSolutions": "Consulting Solutions"
   }
 }
