@@ -1,35 +1,39 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-const items = [
-  {
-    title: 'We don’t offer generic playbooks',
-    description: 'we co-create roadmaps built on your reality.',
-  },
-  {
-    title: 'We diagnose before we prescribe',
-    description:
-      'every solution is rooted in data, context, and competitive analysis.',
-  },
-  {
-    title: 'We don’t just leave you with slides',
-    description: 'we help you execute, measure, and evolve.',
-  },
-];
-
 export const ProjectsApart = () => {
+  const t = useTranslations('our-work.projectsApart');
+
+  const items = [
+    {
+      title: t('items.0.title'),
+      description: t('items.0.description'),
+    },
+    {
+      title: t('items.1.title'),
+      description: t('items.1.description'),
+    },
+    {
+      title: t('items.2.title'),
+      description: t('items.2.description'),
+    },
+  ];
+
   return (
     <section className="flex flex-col gap-20 px-[100px] py-[80px] max-md:gap-8 max-md:px-4 max-md:py-8">
       <FadeIn className="flex flex-col gap-3 text-center">
         <Title as="h2" size="xl" weight={600}>
-          What Sets These Projects Apart?
+          {t('title')}
         </Title>
         <Text>
-          Not the logos. Not the industries.
-          <br /> But the approach:
+          {t('description.0')}
+          <br />
+          {t('description.1')}
         </Text>
       </FadeIn>
       <FadeIn className="flex items-center gap-5 max-md:flex-col max-md:items-start">

@@ -665,5 +665,267 @@
   "dropzone": {
     "label": "Choose file",
     "placeholder": "No file selected"
+  },
+  "our-work": {
+    "hero": {
+      "title": "Our Work",
+      "subtitle": "Strategy That Speaks Through Results — Not Just Names",
+      "description": {
+        "col1": {
+          "0": "At Optisence, we work with forward-thinking companies — from fast-scaling startups to global enterprises. Many of our most impactful projects are protected by strict non-disclosure agreements (NDAs). And that's fine with us.",
+          "1": "Because we believe real strategy doesn't need a spotlight, it needs outcomes."
+        },
+        "col2": {
+          "0": "Below, you'll find anonymized case stories that reflect the real transformations we deliver: complex challenges turned into smart systems, scattered teams turned into growth engines, and uncertainty turned into clarity.",
+          "1": "We don't drop names. We drop inefficiencies, barriers, and outdated thinking."
+        }
+      }
+    },
+    "projects": {
+      "0": {
+        "name": "Retail at Scale: From Fragmented Campaigns to a Marketing Machine",
+        "client": "National Retail Chain",
+        "industry": "Retail",
+        "usedServices": {
+          "0": "Marketing Ops Advisory",
+          "1": "Workflow Automation",
+          "2": "Performance Analytics"
+        },
+        "problems": {
+          "0": "100+ stores.",
+          "1": "0 unified vision.",
+          "2": "Marketing teams worked in silos, running inconsistent campaigns across regions — bloating costs and muddying brand identity."
+        },
+        "problemsResults": {
+          "0": "Duplication of effort across marketing teams",
+          "1": "No central data loop for performance feedback",
+          "2": "Disconnected tech tools with manual reporting"
+        },
+        "built": {
+          "0": "Unified marketing command center across 100+ stores",
+          "1": "Automated workflow from strategy to in-store execution",
+          "2": "Central dashboard for real-time campaign analytics"
+        },
+        "builtResults": {
+          "0": "-30% marketing overhead",
+          "1": "Campaign launch time cut by 45%",
+          "2": "+25% consistency in brand application across stores"
+        },
+        "slogan": "“This wasn’t optimization — it was transformation. Our internal chaos became a coordinated performance.”"
+      },
+      "1": {
+        "name": "SaaS Startup: Turning a Scattered Team into a Scalable Engine",
+        "client": "Tech Startup (Series A)",
+        "industry": "B2B SaaS",
+        "usedServices": {
+          "0": "Corporate Strategy",
+          "1": "Go-to-Market Alignment",
+          "2": "Revenue Architecture"
+        },
+        "problems": {
+          "0": "A fast-growing startup with a killer product — and a team burning out trying to keep up.",
+          "1": "Scaling was reactive, not strategic"
+        },
+        "problemsResults": {
+          "0": "No revenue predictability",
+          "1": "Undefined ICP (Ideal Customer Profile)",
+          "2": "Disconnected sales, product, and marketing priorities"
+        },
+        "built": {
+          "0": "GTM architecture from funnel to forecast",
+          "1": "Lead qualification engine using behavioral data",
+          "2": "Unified product-led and sales-led motions"
+        },
+        "builtResults": {
+          "0": "+150% increase in SQLs in 4 months",
+          "1": "Time-to-onboard reduced by 38%",
+          "2": "Burn rate flattened without cutting innovation velocity"
+        },
+        "slogan": "“Optisence didn’t just guide us — they built our entire growth engine and handed us the keys.”"
+      },
+      "2": {
+        "name": "Healthcare Network: Building a Patient-First, Tech-Backed Experience",
+        "client": "Multi-site Healthcare Provider",
+        "industry": "Healthcare",
+        "usedServices": {
+          "0": "Patient Journey Mapping",
+          "1": "Digital Strategy",
+          "2": "Operational Redesign"
+        },
+        "problems": {
+          "0": "Fragmented data.",
+          "1": "Frustrated patients.",
+          "2": "A digital experience stuck in 2012 — leading to high no-show rates and low trust."
+        },
+        "problemsResults": {
+          "0": "Manual intake processes causing delays",
+          "1": "Zero personalization in patient comms",
+          "2": "Lack of journey continuity between departments"
+        },
+        "built": {
+          "0": "End-to-end digital patient experience — mobile-first",
+          "1": "Unified communication flows across clinical + admin teams",
+          "2": "Smart scheduling powered by engagement data"
+        },
+        "builtResults": {
+          "0": "+55% patient engagement",
+          "1": "25% drop in no-shows",
+          "2": "Admin task load reduced by 35%"
+        },
+        "slogan": "“We didn’t just fix the pain points. We reimagined care around the patient — and it worked.”"
+      },
+      "3": {
+        "name": "Fintech Expansion: From Static Strategy to Global Growth Blueprint",
+        "client": "Mid-Sized Fintech",
+        "industry": "Financial Services",
+        "usedServices": {
+          "0": "Market Entry Strategy",
+          "1": "Brand Messaging",
+          "2": "Leadership Alignment"
+        },
+        "problems": {
+          "0": "A solid product with potential — trapped inside a brand that didn’t scale.",
+          "1": "Their growth? Stuck between ambition and confusion."
+        },
+        "problemsResults": {
+          "0": "Brand lost in translation across markets",
+          "1": "Expansion plans driven by gut, not data",
+          "2": "Leadership not aligned on who they serve"
+        },
+        "built": {
+          "0": "Multi-market expansion framework (Europe + Africa)",
+          "1": "Repositioned brand with clear messaging across touchpoints",
+          "2": "Strategy offsite to realign leadership vision + velocity"
+        },
+        "builtResults": {
+          "0": "+40% YoY revenue growth",
+          "1": "2 new markets launched — both profitable in < 9 months",
+          "2": "Leadership team realigned around one vision, one mission"
+        },
+        "slogan": "“We stopped guessing. Optisence gave us precision — and the confidence to scale globally.”"
+      },
+      "4": {
+        "name": "Manufacturing Reinvented: From Legacy Systems to Lean-Driven Growth",
+        "client": "Industrial Manufacturing Group",
+        "industry": "Manufacturing",
+        "usedServices": {
+          "0": "Process Optimization",
+          "1": "Digital Transformation",
+          "2": "Leadership Enablement"
+        },
+        "problems": {
+          "0": "Production was stable — but stagnant.",
+          "1": "Legacy systems, manual data capture, and siloed departments created hidden inefficiencies and massive opportunity cost."
+        },
+        "problemsResults": {
+          "0": "Teams relying on spreadsheets for mission-critical operations",
+          "1": "Zero visibility across supply chain performance",
+          "2": "Managers reactive instead of proactive due to lack of data"
+        },
+        "built": {
+          "0": "End-to-end operational intelligence dashboard",
+          "1": "Digital workflows across production, supply chain, and QA",
+          "2": "KPI structure aligned with lean methodology"
+        },
+        "builtResults": {
+          "0": "+40% productivity uplift across 3 core facilities",
+          "1": "€5M in cost savings from reduced operational waste",
+          "2": "Real-time visibility enabled weekly course correction"
+        },
+        "slogan": "“We didn’t just upgrade tech. Optisence helped us rethink how we work. Every process now talks to every result.”"
+      },
+      "5": {
+        "name": "Energy Sector Evolution: Aligning Sustainability with Profit",
+        "client": "Regional Energy Provider",
+        "industry": "Energy & Utilities",
+        "usedServices": {
+          "0": "Sustainability Strategy",
+          "1": "Stakeholder Alignment",
+          "2": "ESG Reporting Architecture"
+        },
+        "problems": {
+          "0": "Environmental pressure was mounting.",
+          "1": "Stakeholders demanded change — but internal teams saw sustainability as a cost center, not a strategic driver."
+        },
+        "problemsResults": {
+          "0": "Fragmented sustainability efforts with no unified roadmap",
+          "1": "Regulatory risk with outdated carbon reporting",
+          "2": "Leadership split between long-term vision and short-term pressure"
+        },
+        "built": {
+          "0": "ESG-aligned transformation plan linked to commercial goals",
+          "1": "Roadmap for reducing emissions without compromising performance",
+          "2": "Stakeholder reporting system with real-time metrics"
+        },
+        "builtResults": {
+          "0": "-12% reduction in emissions in Year 1 (without CapEx spike)",
+          "1": "+18% investor confidence as measured by quarterly sentiment report",
+          "2": "Sustainability integrated into business planning — not bolted on"
+        },
+        "slogan": "“They reframed sustainability from cost to value. It became a lever — not a lecture.”"
+      },
+      "6": {
+        "name": "Telecom Reinvention: From High Churn to High Retention",
+        "client": "National Telco Provider",
+        "industry": "Telecommunications",
+        "usedServices": {
+          "0": "Customer Experience Strategy",
+          "1": "Brand Turnaround",
+          "2": "Retention Analytics"
+        },
+        "problems": {
+          "0": "Customer churn was quietly killing growth. Marketing focused on acquisition, but no one owned retention.",
+          "1": "CX was fragmented. The brand lost emotional relevance."
+        },
+        "problemsResults": {
+          "0": "Multiple departments touching the customer journey — but no ownership",
+          "1": "Outdated segmentation ignoring behavioral trends",
+          "2": "Messaging that didn’t match modern user expectations"
+        },
+        "built": {
+          "0": "Voice-of-Customer ecosystem with unified feedback loops",
+          "1": "Predictive churn modeling using real-time usage data",
+          "2": "Repositioned brand narrative based on loyalty drivers"
+        },
+        "builtResults": {
+          "0": "-18% churn within 6 months",
+          "1": "+12% ARPU through cross-sell strategy",
+          "2": "+40% NPS lift after CX redesign rollout"
+        },
+        "slogan": "“It wasn’t about louder marketing. It was about sharper listening — and Optisence made us hear what really mattered.”"
+      }
+    },
+    "projectsApart": {
+      "title": "What Sets These Projects Apart?",
+      "description": {
+        "0": "Not the logos. Not the industries.",
+        "1": "But the approach:"
+      },
+      "items": {
+        "0": {
+          "title": "We don’t offer generic playbooks",
+          "description": "we co-create roadmaps built on your reality."
+        },
+        "1": {
+          "title": "We diagnose before we prescribes",
+          "description": "every solution is rooted in data, context, and competitive analysis."
+        },
+        "2": {
+          "title": "We don’t just leave you with slides",
+          "description": "we help you execute, measure, and evolve."
+        }
+      }
+    },
+    "buildCaseStudy": {
+      "title": {
+        "0": "Ready to Build Your Own",
+        "1": "Case Study?"
+      },
+      "description": "Whether you're scaling, transforming, or navigating complexity — Optisence becomes your unfair advantage. Let’s turn your next challenge into a win worth writing about.",
+      "buttons": {
+        "0": "Request a Custom Solution",
+        "1": "Discover Marketing Advisory"
+      }
+    }
   }
 }

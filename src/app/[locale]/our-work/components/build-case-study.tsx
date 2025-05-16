@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { useRequestDialogStore } from '@/features/request-form/services';
 
@@ -9,31 +10,33 @@ import { ArrowRightIcon } from '@/shared/ui/icons/outline';
 import { Button } from '@/shared/ui/kit/button';
 
 export const BuildCaseStudy = () => {
+  const t = useTranslations('our-work.buildCaseStudy');
   const { setOpen } = useRequestDialogStore();
 
   return (
     <LinesSection
       title={
         <>
-          Ready to Build Your Own
-          <br /> Case Study?
+          {t('title.0')}
+          <br />
+          {t('title.1')}
         </>
       }
-      text="Whether you're scaling, transforming, or navigating complexity — Optisence becomes your unfair advantage. Let’s turn your next challenge into a win worth writing about."
+      text={t('description')}
       bottomContent={
         <div className="flex gap-5 max-md:flex-col">
           <Button
             onClick={() => setOpen(true)}
             className="max-md:w-full max-md:justify-center"
           >
-            Request a Custom Solution <ArrowRightIcon />
+            {t('buttons.0')} <ArrowRightIcon />
           </Button>
           <Link href="/marketing-operations-advisory">
             <Button
               variant="outline"
               className="max-md:w-full max-md:justify-center"
             >
-              Discover Marketing Advisory <ArrowRightIcon color="#FF572D" />
+              {t('buttons.1')} <ArrowRightIcon color="#FF572D" />
             </Button>
           </Link>
         </div>
