@@ -2339,5 +2339,83 @@
         "1": "Please be aware that this Refund Policy is subject to change without prior notice. We recommend that you review it periodically for updates."
       }
     }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "0": {
+      "title": "Introduction to Our Cookie Policy",
+      "text": {
+        "0": "This Cookie Policy explains how",
+        "1": "with its registered address at",
+        "2": "with registered number",
+        "3": "(referred to as “we,” “us,” or “our”), uses cookies and similar technologies on our website. By continuing to use our site, you consent to our use of cookies as outlined in this Policy. We encourage you to read this document thoroughly to understand how we collect, use, and manage cookies."
+      }
+    },
+    "1": {
+      "title": "What Are Cookies?",
+      "text": "Cookies are small text files that websites store on your device (such as a computer, smartphone, or tablet) when you visit them. They serve various functions, including recognizing your device, storing preferences, and improving user experience."
+    },
+    "2": {
+      "title": "Types of Cookies",
+      "headings": {
+        "0": "Essential Cookies",
+        "1": "Functional Cookies",
+        "2": "Analytics Cookies",
+        "3": "Advertising Cookies",
+        "4": "Social Media Cookies",
+        "5": "Session Cookies",
+        "6": "Persistent Cookies"
+      },
+      "texts": {
+        "0": "Essential cookies are integral to the proper functioning of our website. They enable basic features such as page navigation and access to secure areas. Certain services you request, such as accessing secure areas, cannot be provided without these cookies.",
+        "1": "Functional cookies allow our website to remember your choices and provide enhanced, personalised features. They may customise text size, fonts, and other elements to align with your preferences, improving your overall browsing experience.",
+        "2": "Analytics cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This data allows us to identify trends, optimise website performance, and enhance user experience.",
+        "3": "Advertising cookies are used to track your online activity and display personalised ads based on your interests. They may be placed by third-party advertising networks and help us deliver targeted marketing campaigns.",
+        "4": "Social media cookies are used to enable you to share content with your friends and networks on social media platforms. They may be placed by third-party social media networks and help us deliver targeted marketing campaigns.",
+        "5": "Session cookies are temporary cookies that are deleted when you close your browser. They are used to track your activity on our website.",
+        "6": "Persistent cookies are cookies that remain on your device for a set period and are reactivated each time you visit our website. They help us remember your preferences and login information for future visits. Please note that blocking certain cookies may affect your experience on our website. You can manage your cookie preferences through your browser settings."
+      }
+    },
+    "3": {
+      "title": "Do Not Track (DNT) Signals",
+      "text": "“Do Not Track” is a browser feature that allows users to opt out of website tracking, including analytics and advertising. While DNT is a user preference, its effectiveness depends on how websites respond to these signals."
+    },
+    "4": {
+      "title": "Response to DNT Signals",
+      "text": {
+        "0": "Optisence respects DNT signals and limits data collection accordingly. When we detect a DNT signal from your browser, we adjust our data collection practices as described in our Privacy Policy. However, please note that enabling DNT may affect the functionality and personalization of some parts of our website. It is essential to review individual website policies and services for their response to DNT signals, as third-party services may have different policies.",
+        "1": "However, please note that enabling DNT may affect the functionality and personalization of some parts of our website. It is essential to review individual website policies and services for their response to DNT signals, as third-party services may have different policies."
+      }
+    },
+    "5": {
+      "title": "How We Use Cookies",
+      "subtitle": "Optisence uses cookies for various purposes:",
+      "headings": {
+        "0": "Essential Cookies",
+        "1": "Analytical/Performance Cookies",
+        "2": "Functionality Cookies",
+        "3": "Targeting/Advertising Cookies",
+        "4": "Third-Party Cookies"
+      },
+      "texts": {
+        "0": "Essential cookies facilitate the correct functioning of our website, enabling basic features such as page navigation and form submissions.",
+        "1": "Analytical cookies help us understand how visitors interact with our website by collecting data on visited pages and error logs. This information helps us improve our website and provide a better user experience.",
+        "2": "Functionality cookies allow our website to remember your choices and provide enhanced, personalised features. They may customise text size, fonts, and other elements to align with your preferences, improving your overall browsing experience.",
+        "3": "Targeting cookies deliver advertisements relevant to your interests and measure the effectiveness of advertising campaigns. These cookies may limit the number of times you see an ad and help us optimise our marketing efforts.",
+        "4": "Optisence may use third-party services, such as Google Analytics and social media platforms, which may employ cookies. For more information on how these services use cookies and handle your data, refer to their privacy policies."
+      }
+    },
+    "6": {
+      "title": "How to Manage Cookies",
+      "text": "You can manage cookie preferences within your browser settings. Most browsers allow you to block or delete cookies, but this may affect website functionality. Refer to your browser’s help documentation for instructions on managing cookies."
+    },
+    "7": {
+      "title": "Updates to This Cookie Policy",
+      "text": "This Cookie Policy may be updated periodically to reflect changes in cookie usage. We recommend reviewing this Policy periodically to stay informed about our practices."
+    },
+    "8": {
+      "title": "Contact Information",
+      "text": "For any questions you have, please get in touch with us:"
+    }
   }
 }
