@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 
 import {
+  ContactList,
   Header,
   HighlightedText,
   PolicyContentLayout,
@@ -389,28 +390,10 @@ export default function TermsAndConditions() {
         </PolicySection>
         <PolicySection>
           <Title size="md" as="h3">
-            Contact Information
+            {t('sections.32.title')}
           </Title>
-          <Text>
-            If you have any questions or concerns regarding these Terms and
-            Conditions, please do not hesitate to contact us at:
-          </Text>
-          <List
-            values={[
-              {
-                text: 'Email: info@optisence.com',
-                href: 'mailto:info@optisence.com',
-              },
-              {
-                text: 'Phone number: +27218913127',
-                href: 'tel:+27218913127',
-              },
-              {
-                text: 'Visit our Contact page: Contact Us',
-                href: '/contact-us',
-              },
-            ]}
-          />
+          <Text>{t('sections.32.text')}</Text>
+          <ContactList />
         </PolicySection>
       </PolicyContentLayout>
     </PolicyLayout>

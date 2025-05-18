@@ -2043,7 +2043,12 @@
     }
   },
   "policy": {
-    "updatedOn": "Updated on"
+    "updatedOn": "Updated on",
+    "contacts": {
+      "0": "Email",
+      "1": "Phone number",
+      "2": "Visit our Contact page: Contact Us"
+    }
   },
   "termsAndConditions": {
     "title": "Terms and Conditions",
@@ -2278,6 +2283,60 @@
       "32": {
         "title": "Contact Information",
         "text": "If you have any questions or concerns regarding these Terms and Conditions, please do not hesitate to contact us at:"
+      }
+    }
+  },
+  "refundPolicy": {
+    "title": "Refund Policy",
+    "0": {
+      "title": "General Refund Policy Information",
+      "text": {
+        "0": "We appreciate your decision to choose Optisence at",
+        "1": "operated by",
+        "2": "with its registered address at",
+        "3": "with registered number",
+        "4": "However, it’s important to note that we have",
+        "5": "a strict no-refund policy",
+        "6": "for all services and products purchased through our website. Once a transaction is completed, it is considered final."
+      }
+    },
+    "1": {
+      "title": "Responsibilities of the Customer",
+      "text": "Customers bear full responsibility for their purchasing decisions on our platform. We urge customers to thoroughly review all information and specifications about the services or products they intend to purchase before making a decision."
+    },
+    "2": {
+      "title": "Refund Eligibility Requirements",
+      "text": "Customers bear full responsibility for their purchasing decisions on our platform. We urge customers to thoroughly review all information and specifications about the services or products they intend to purchase before making a decision.",
+      "values": {
+        "0": "Erroneous Payments: Instances where accidental or duplicate payments occur.",
+        "1": "Incorrect Payment Amount: Cases where customers are charged an incorrect amount due to technical or clerical errors on our part.",
+        "2": "Payment Using Wrong Details: Situations where evidence is provided of a payment made using incorrect payment details, leading to an unsuccessful transaction.",
+        "3": "Non-Delivery of Service or Product: Instances where the purchased service or product is not delivered as described for reasons within our control."
+      }
+    },
+    "3": {
+      "title": "Steps to Request a Refund",
+      "text": {
+        "0": "If you believe your situation falls under one of the exceptional circumstances mentioned above, you can submit a refund request to our customer support team at",
+        "1": "Please include the following details in your refund request:"
+      },
+      "values": {
+        "0": "Your full name",
+        "1": "Email Address Used for the Purchase",
+        "2": "Transaction Date",
+        "3": "Transaction ID or Receipt",
+        "4": "Detailed Explanation of the Issue"
+      }
+    },
+    "4": {
+      "title": "Review and Processing of Refund Requests",
+      "text": "Upon receipt of your refund request, our team will thoroughly review the provided information. We aim to respond to all refund requests within 7 business days. Our decision regarding the refund request will be based on the validity of the circumstances presented and our policies."
+    },
+    "5": {
+      "title": "Contact Information",
+      "text": {
+        "0": "If you have any questions or need further clarification regarding our Refund Policy, please don’t hesitate to contact our customer support team:",
+        "1": "Please be aware that this Refund Policy is subject to change without prior notice. We recommend that you review it periodically for updates."
       }
     }
   }

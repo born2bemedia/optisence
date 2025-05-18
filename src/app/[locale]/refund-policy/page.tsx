@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
+import { useTranslations } from 'next-intl';
 
 import {
+  ContactList,
   Header,
   HighlightedText,
   PolicyContentLayout,
@@ -27,127 +29,86 @@ export const metadata: Metadata = {
 };
 
 export default function RefundPolicy() {
+  const t = useTranslations('refundPolicy');
+
   return (
     <PolicyLayout>
-      <Header title="Refund Policy" updatedOn="05/05/2025" />
+      <Header title={t('title')} updatedOn="05/05/2025" />
       <PolicyContentLayout>
         <PolicySection>
           <Title size="md" as="h3">
-            General Refund Policy Information
+            {t('0.title')}
           </Title>
           <Text>
-            We appreciate your decision to choose Optisence at{' '}
-            <Url value="/" placeholder="www.optisence.com" />, operated by{' '}
-            <HighlightedText>Krouder Pty Ltd</HighlightedText> with its
-            registered address at{' '}
+            {t('0.text.0')} <Url value="/" placeholder="www.optisence.com" />,{' '}
+            {t('0.text.1')} <HighlightedText>Krouder Pty Ltd</HighlightedText>{' '}
+            {t('0.text.2')}{' '}
             <HighlightedText>
               134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
               8000
             </HighlightedText>{' '}
-            with registered number <HighlightedText>334070</HighlightedText>.
-            However, it’s important to note that we have{' '}
-            <HighlightedText>a strict no-refund policy</HighlightedText> for all
-            services and products purchased through our website. Once a
-            transaction is completed, it is considered final.
+            {t('0.text.3')} <HighlightedText>334070</HighlightedText>.
+            {t('0.text.4')}{' '}
+            <HighlightedText>a strict no-refund policy</HighlightedText>{' '}
+            {t('0.text.5')}
           </Text>
         </PolicySection>
         <PolicySection>
           <Title size="md" as="h3">
-            Responsibilities of the Customer
+            {t('1.title')}
           </Title>
-          <Text>
-            Customers bear full responsibility for their purchasing decisions on
-            our platform. We urge customers to thoroughly review all information
-            and specifications about the services or products they intend to
-            purchase before making a decision.
-          </Text>
+          <Text>{t('1.text')}</Text>
         </PolicySection>
         <PolicySection>
           <Title size="md" as="h3">
-            Refund Eligibility Requirements
+            {t('2.title')}
           </Title>
-          <Text>
-            Customers bear full responsibility for their purchasing decisions on
-            our platform. We urge customers to thoroughly review all information
-            and specifications about the services or products they intend to
-            purchase before making a decision.
-          </Text>
+          <Text>{t('2.text')}</Text>
           <List
             values={[
-              'Erroneous Payments: Instances where accidental or duplicate payments occur.',
-              'Incorrect Payment Amount: Cases where customers are charged an incorrect amount due to technical or clerical errors on our part.',
-              'Payment Using Wrong Details: Situations where evidence is provided of a payment made using incorrect payment details, leading to an unsuccessful transaction.',
-              'Non-Delivery of Service or Product: Instances where the purchased service or product is not delivered as described for reasons within our control.',
+              t('2.values.0'),
+              t('2.values.1'),
+              t('2.values.2'),
+              t('2.values.3'),
             ]}
           />
         </PolicySection>
         <PolicySection>
           <Title size="md" as="h3">
-            Steps to Request a Refund
+            {t('3.title')}
           </Title>
           <Text>
-            If you believe your situation falls under one of the exceptional
-            circumstances mentioned above, you can submit a refund request to
-            our customer support team at{' '}
+            {t('3.text.0')}{' '}
             <Url
               value="mailto:info@optisence.com"
               placeholder="info@optisence.com"
             />
-            . Please include the following details in your refund request:
+            . {t('3.text.1')}
           </Text>
           <List
             values={[
-              'Your full name',
-              'Email Address Used for the Purchase',
-              'Transaction Date',
-              'Transaction ID or Receipt',
-              'Detailed Explanation of the Issue',
+              t('3.values.0'),
+              t('3.values.1'),
+              t('3.values.2'),
+              t('3.values.3'),
+              t('3.values.4'),
             ]}
             noHighlight
           />
         </PolicySection>
         <PolicySection>
           <Title size="md" as="h3">
-            Review and Processing of Refund Requests
+            {t('4.title')}
           </Title>
-          <Text>
-            Upon receipt of your refund request, our team will thoroughly review
-            the provided information. We aim to respond to all refund requests
-            within 7 business days. Our decision regarding the refund request
-            will be based on the validity of the circumstances presented and our
-            policies.
-          </Text>
+          <Text>{t('4.text')}</Text>
         </PolicySection>
         <PolicySection>
           <Title size="md" as="h3">
-            Contact Information
+            {t('5.title')}
           </Title>
-          <Text>
-            If you have any questions or need further clarification regarding
-            our Refund Policy, please don’t hesitate to contact our customer
-            support team:
-          </Text>
-          <List
-            values={[
-              {
-                text: 'Email: info@optisence.com',
-                href: 'mailto:info@optisence.com',
-              },
-              {
-                text: 'Phone number: +27218913127',
-                href: 'tel:+27218913127',
-              },
-              {
-                text: 'Visit our Contact page: Contact Us',
-                href: '/contact-us',
-              },
-            ]}
-          />
-          <Text>
-            Please be aware that this Refund Policy is subject to change without
-            prior notice. We recommend that you review it periodically for
-            updates.
-          </Text>
+          <Text>{t('5.text.0')}</Text>
+          <ContactList />
+          <Text>{t('5.text.1')}</Text>
         </PolicySection>
       </PolicyContentLayout>
     </PolicyLayout>
