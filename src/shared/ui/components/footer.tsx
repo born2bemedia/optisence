@@ -66,7 +66,7 @@ export function Footer() {
             <li>Krouder Pty Ltd.</li>
           </ul>
         </div>
-        <div className="flex w-full gap-6 max-md:grid max-md:grid-cols-2">
+        <div className="flex gap-6 max-2xl:w-full max-md:grid max-md:grid-cols-2">
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
               Consulting Solutions
