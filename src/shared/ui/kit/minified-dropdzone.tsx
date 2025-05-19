@@ -2,6 +2,7 @@
 
 import { useRef } from 'react';
 import { useDropzone } from 'react-dropzone';
+import { useTranslations } from 'next-intl';
 
 import { Text } from '@/shared/ui/kit/text';
 
@@ -21,6 +22,8 @@ export const MinifiedDropdzone = ({
   value?: File | null;
   error?: string;
 }) => {
+  const t = useTranslations('dropzone');
+
   const hiddenInputRef = useRef<HTMLInputElement | null>(null);
 
   const { getRootProps, getInputProps, open, acceptedFiles } = useDropzone({
@@ -56,12 +59,12 @@ export const MinifiedDropdzone = ({
             open();
           }}
         >
-          Choose file
+          {t('label')}
           <ArrowRightIcon color="#FF572D" />
         </Button>
         <section className="flex flex-col gap-3">
           <Text color={error ? 'danger' : 'dark'}>
-            {file ? file.name : 'No file selected'}
+            {file ? file.name : t('placeholder')}
           </Text>
           <Text>(PDF, 10MB max)</Text>
         </section>

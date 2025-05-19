@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { Controller, useForm, zodResolver } from '@/shared/lib/forms';
 import { ProgressBar } from '@/shared/ui/components/progress-bar';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
@@ -19,23 +21,23 @@ import { TextField } from '@/shared/ui/kit/text-field';
 import { type BusinessGoalsSchema, businessGoalsSchema } from '../lib';
 import { useRequestDialogStore } from '../services';
 
-const marketing = [
-  'Strategic Marketing Planning',
-  'Workflow Optimization',
-  'Performance Measurement',
-  'Marketing Automation Implementation',
-  'Customer Journey Mapping',
-  'Other',
-];
+// const marketing = [
+//   'Strategic Marketing Planning',
+//   'Workflow Optimization',
+//   'Performance Measurement',
+//   'Marketing Automation Implementation',
+//   'Customer Journey Mapping',
+//   'Other',
+// ];
 
-const corporate = [
-  'Business Model Innovation',
-  'Market Entry and Expansion Strategies',
-  'Competitive Analysis',
-  'Change Management',
-  'Leadership and Governance Consulting',
-  'Other',
-];
+// const corporate = [
+//   'Business Model Innovation',
+//   'Market Entry and Expansion Strategies',
+//   'Competitive Analysis',
+//   'Change Management',
+//   'Leadership and Governance Consulting',
+//   'Other',
+// ];
 
 const budget = [
   'Under €1,000',
@@ -46,7 +48,27 @@ const budget = [
 ];
 
 export const BusinessGoalsForm = () => {
+  const t = useTranslations('requestForm.1');
+  const tb = useTranslations('requestForm.btn');
   const { updateValues, setStep } = useRequestDialogStore();
+
+  const marketing = [
+    t('marketing.0'),
+    t('marketing.1'),
+    t('marketing.2'),
+    t('marketing.3'),
+    t('marketing.4'),
+    t('marketing.5'),
+  ];
+
+  const corporate = [
+    t('corporate.0'),
+    t('corporate.1'),
+    t('corporate.2'),
+    t('corporate.3'),
+    t('corporate.4'),
+    t('corporate.5'),
+  ];
 
   const {
     handleSubmit,
@@ -78,19 +100,16 @@ export const BusinessGoalsForm = () => {
     <section className="flex flex-col gap-12">
       <section className="flex flex-col items-center gap-2 text-center">
         <Text color="dark" size="2xl" weight={500}>
-          Business Needs & Goals
+          {t('title')}
         </Text>
-        <Tag>Select the Service You’re Interested In</Tag>
-        <Text className="mt-1">
-          Please choose the consulting services that you’re most interested in.
-          We’ll customize our solutions based on your needs.
-        </Text>
+        <Tag>{t('subtitle')}</Tag>
+        <Text className="mt-1">{t('description')}</Text>
       </section>
       <form onSubmit={onSubmit} className="flex flex-col gap-6">
         <section className="flex h-full gap-6 max-sm:flex-col">
           <section className="flex flex-col">
             <Text color="dark" size="xl">
-              Marketing Operations Advisory:
+              {t('marketingOperations')}
             </Text>
             <Controller
               name="marketingAdvisory"
@@ -120,7 +139,7 @@ export const BusinessGoalsForm = () => {
                   ))}
                   {field.value.includes('Other') && (
                     <TextField
-                      placeholder="Please specify"
+                      placeholder={t('pleaseSpecify')}
                       value={
                         field.value
                           .find(i => i.startsWith('Specified:'))
@@ -143,7 +162,7 @@ export const BusinessGoalsForm = () => {
           <span className="w-[1px] bg-[#DFDFDF] max-sm:h-[1px] max-sm:w-full" />
           <section className="flex flex-col">
             <Text color="dark" size="xl">
-              Corporate Strategy Guidance:
+              {t('corporateStrategy')}
             </Text>
             <Controller
               name="corporateGuidance"
@@ -173,7 +192,7 @@ export const BusinessGoalsForm = () => {
                   ))}
                   {field.value.includes('Other') && (
                     <TextField
-                      placeholder="Please specify"
+                      placeholder={t('pleaseSpecify')}
                       value={
                         field.value
                           .find(i => i.startsWith('Specified:'))
@@ -198,12 +217,9 @@ export const BusinessGoalsForm = () => {
         <section className="flex flex-col gap-12">
           <section className="flex flex-col gap-2">
             <Text color="dark" size="xl" weight={500}>
-              Budget Allocation
+              {t('budgetAllocation')}
             </Text>
-            <Text>
-              Please select your project’s budget range. This will help us
-              create a plan that aligns with your investment.
-            </Text>
+            <Text>{t('pleaseSelectRange')}</Text>
           </section>
           <Controller
             name="budget"
@@ -211,7 +227,7 @@ export const BusinessGoalsForm = () => {
             render={({ field, fieldState: { error } }) => (
               <section className="flex flex-col gap-2">
                 <div className="flex items-center gap-2">
-                  <Text color="dark">Your Budget Range</Text>
+                  <Text color="dark">{t('fields.budget.label')}</Text>
                   {error?.message && (
                     <Text color="danger" italic>
                       {error.message}
@@ -223,7 +239,9 @@ export const BusinessGoalsForm = () => {
                     {field.value ? (
                       field.value
                     ) : (
-                      <Text color="foreground">Select your budget range</Text>
+                      <Text color="foreground">
+                        {t('fields.budget.placeholder')}
+                      </Text>
                     )}
                   </SelectTrigger>
                   <SelectMenu>
@@ -245,13 +263,9 @@ export const BusinessGoalsForm = () => {
         <section className="flex flex-col gap-12">
           <section className="flex flex-col gap-2">
             <Text color="dark" size="xl" weight={500}>
-              Business Challenges & Goals
+              {t('businessChallengesGoals')}
             </Text>
-            <Text>
-              What are the key goals your company is looking to achieve, and
-              what challenges are you currently facing? Provide us with details,
-              and we’ll craft a solution.
-            </Text>
+            <Text>{t('goalsDetails')}</Text>
           </section>
           <section className="flex flex-col gap-6">
             <Controller
@@ -261,8 +275,8 @@ export const BusinessGoalsForm = () => {
                 <TextField
                   {...field}
                   intent={error?.message ? 'danger' : 'primary'}
-                  label="Key Objectives"
-                  placeholder="Enter your company’s key objectives"
+                  label={t('fields.keyObjectives.label')}
+                  placeholder={t('fields.keyObjectives.placeholder')}
                 />
               )}
             />
@@ -273,8 +287,8 @@ export const BusinessGoalsForm = () => {
                 <TextField
                   {...field}
                   intent={error?.message ? 'danger' : 'primary'}
-                  label="Challenges or Pain Points"
-                  placeholder="Enter your company’s challenges or pain points"
+                  label={t('fields.points.label')}
+                  placeholder={t('fields.points.placeholder')}
                 />
               )}
             />
@@ -284,12 +298,9 @@ export const BusinessGoalsForm = () => {
         <section className="flex flex-col gap-12">
           <section className="flex flex-col gap-2">
             <Text color="dark" size="xl" weight={500}>
-              Your Target Audience
+              {t('yourTargetAudience')}
             </Text>
-            <Text>
-              Please tell us about the audience you wish to target. This will
-              help us develop a more accurate strategy.
-            </Text>
+            <Text>{t('tellUsAboutAudience')}</Text>
           </section>
           <section className="flex flex-col gap-6">
             <Controller
@@ -299,8 +310,8 @@ export const BusinessGoalsForm = () => {
                 <TextField
                   {...field}
                   intent={error?.message ? 'danger' : 'primary'}
-                  label="Industry/Sector"
-                  placeholder="Enter your company’s industry/sector"
+                  label={t('fields.industry.label')}
+                  placeholder={t('fields.industry.placeholder')}
                 />
               )}
             />
@@ -311,15 +322,15 @@ export const BusinessGoalsForm = () => {
                 <TextField
                   {...field}
                   intent={error?.message ? 'danger' : 'primary'}
-                  label="Demographics (e.g., age, location, interests)"
-                  placeholder="Enter your company’s demographics"
+                  label={t('fields.demographics.label')}
+                  placeholder={t('fields.demographics.placeholder')}
                 />
               )}
             />
           </section>
         </section>
         <Button type="submit" textAlign="center" fullWidth>
-          {isSubmitting ? 'Submitting...' : 'Continue'}
+          {isSubmitting ? tb('submitting') : tb('continue')}
           <ArrowRightIcon />
         </Button>
         <section className="flex items-center gap-3">

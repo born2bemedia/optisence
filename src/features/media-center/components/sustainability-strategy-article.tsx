@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { List } from '@/shared/ui/components/list';
 import { Url } from '@/shared/ui/components/url';
@@ -16,39 +17,27 @@ import { InfoBlock } from './info-block';
 import { Summary } from './summary';
 
 export const SustainabilityStrategyArticle = () => {
+  const t = useTranslations('mediaCenter.sustainabilityStrategy');
+
   return (
     <ArticleLayout>
       <Heading
         title={
           <Title className="text-[48px] leading-[120%]">
-            <span className="text-primary">Sustainability as Strategy:</span>
-            <br className="max-sm:hidden" /> Building Purpose-Driven Businesses
+            <span className="text-primary">{t('title.0')}</span>
+            <br className="max-sm:hidden" /> {t('title.1')}
           </Title>
         }
-        description="Why the Future Belongs to Companies That Think Beyond Profit"
+        description={t('description')}
         images={[
           '/images/media-center/sustainability-as-strategy/heading-1.jpg',
           '/images/media-center/sustainability-as-strategy/heading-2.jpg',
         ]}
       >
         <section className="flex flex-col gap-3">
-          <Text>
-            Once, sustainability was seen as a moral choice. Now, it’s a
-            strategic imperative.
-          </Text>
-          <Text>
-            Today’s most resilient and respected companies are those that embed
-            sustainability into their business model, decision-making, and brand
-            DNA — not just their CSR reports. Consumers demand it. Investors
-            reward it. Talent expects it. And the planet, frankly, needs it.
-          </Text>
-          <Text>
-            At Optisence, we help businesses shift sustainability from a
-            checkbox to a competitive advantage — from a side initiative to a
-            core growth lever. This article explores how organizations can
-            strategically embed sustainability to build brands that matter,
-            scale with integrity, and create impact that lasts.
-          </Text>
+          <Text>{t('0.0')}</Text>
+          <Text>{t('0.1')}</Text>
+          <Text>{t('0.2')}</Text>
         </section>
       </Heading>
       <ArticleContentLayout>
@@ -59,35 +48,22 @@ export const SustainabilityStrategyArticle = () => {
             weight={600}
             className="w-1/2 max-sm:w-full"
           >
-            Why Sustainability Has Become Strategic — Not Just Ethical
+            {t('1.title')}
           </Text>
           <InfoBlock
-            title="Sustainability now impacts:"
+            title={t('1.sustainabilityNowImpacts')}
             values={[
-              'Risk management: Supply chain instability, climate exposure, and reputational damage',
-              'Operational efficiency: Energy use, resource optimization, circular design',
-              'Market differentiation: Consumers prefer brands with purpose — and they’re vocal about it',
-              'Investor perception: ESG performance directly influences funding and valuation',
+              t('1.values.0'),
+              t('1.values.1'),
+              t('1.values.2'),
+              t('1.values.3'),
             ]}
-            summary={
-              <Text>
-                In other words: ignoring sustainability isn’t neutral — it’s a
-                liability.
-              </Text>
-            }
+            summary={<Text>{t('1.summary')}</Text>}
             highlight
           >
             <section className="flex flex-col gap-3">
-              <Text>
-                We’re in the midst of a global recalibration. Environmental
-                disruption, rising stakeholder expectations, regulatory
-                pressure, and shifting investor priorities are rewriting what
-                “success” looks like.
-              </Text>
-              <Text>
-                The result? Businesses are being judged not just on what they
-                deliver, but how they operate.
-              </Text>
+              <Text>{t('1.0.0')}</Text>
+              <Text>{t('1.0.1')}</Text>
               <Image
                 className="h-[142px] w-full rounded-4xl object-cover"
                 src="/images/media-center/sustainability-as-strategy/1.jpg"
@@ -106,34 +82,28 @@ export const SustainabilityStrategyArticle = () => {
             weight={600}
             className="w-1/2 max-sm:w-full"
           >
-            Sustainable Businesses Perform Better
+            {t('2.title')}
           </Text>
           <section className="flex items-start gap-12 max-sm:flex-col max-sm:gap-3">
             <section className="flex w-1/2 flex-col gap-3 max-sm:w-full">
-              <Text>This isn’t just an ethical win. It’s a financial one.</Text>
+              <Text>{t('2.description')}</Text>
               <List
                 values={[
-                  'Study after study shows that companies with strong sustainability strategies:',
-                  'Achieve higher long-term profitability',
-                  'Outperform peers in brand loyalty and customer retention',
-                  'Are better prepared to navigate volatility and crisis',
-                  'Attract higher-quality talent and leadership',
-                  'Increase enterprise value over time',
+                  t('2.values.0'),
+                  t('2.values.1'),
+                  t('2.values.2'),
+                  t('2.values.3'),
+                  t('2.values.4'),
+                  t('2.values.5'),
                 ]}
                 noHighlight
               />
             </section>
             <section className="flex w-1/2 flex-col gap-3 max-sm:w-full">
               <Text>
-                <Url value="/" placeholder="Optisence" /> works with clients to
-                harness these advantages by designing sustainability strategies
-                that are not only responsible — but commercially intelligent. We
-                focus on measurable ROI, stakeholder alignment, and long-term
-                resilience.
+                <Url value="/" placeholder="Optisence" /> {t('2.0.0')}
               </Text>
-              <Text>
-                Because doing good and doing well are no longer separate paths.
-              </Text>
+              <Text>{t('2.0.1')}</Text>
             </section>
           </section>
         </ArticleSectionLayout>
@@ -144,24 +114,19 @@ export const SustainabilityStrategyArticle = () => {
             weight={600}
             className="w-1/2 max-sm:w-full"
           >
-            From Sustainability as Tactic to Sustainability as Strategy
+            {t('3.title')}
           </Text>
           <InfoBlock
-            title="Optisence helps companies build sustainability into:"
+            title={t('3.optisenceHelps')}
             values={[
-              'Core value propositions: Why customers choose you, not just what you sell',
-              'Product and service design: Materials, lifecycles, innovation',
-              'Supply chain and sourcing: Ethics, transparency, risk mitigation',
-              'Employee engagement: Purpose-driven culture and internal alignment',
-              'Brand positioning: Authentic narratives, not greenwashed messaging',
-              'Growth strategy: New markets, partnerships, and ESG-driven innovation',
+              t('3.values.0'),
+              t('3.values.1'),
+              t('3.values.2'),
+              t('3.values.3'),
+              t('3.values.4'),
+              t('3.values.5'),
             ]}
-            summary={
-              <Text>
-                In short: it’s not about what you say — it’s about how you
-                operate, decide, and lead.
-              </Text>
-            }
+            summary={<Text>{t('3.summary')}</Text>}
             highlight
           >
             <section className="flex flex-col gap-3">
@@ -173,16 +138,8 @@ export const SustainabilityStrategyArticle = () => {
                 height={131}
                 unoptimized
               />
-              <Text>
-                Too often, companies treat sustainability as a marketing slogan
-                or compliance requirement. A report. A recycling program. A
-                “green” tagline. These efforts may check boxes — but they rarely
-                move markets.
-              </Text>
-              <Text>
-                Real transformation happens when sustainability is embedded into
-                strategic planning, across every part of the business model.
-              </Text>
+              <Text>{t('3.0.0')}</Text>
+              <Text>{t('3.0.1')}</Text>
             </section>
           </InfoBlock>
         </ArticleSectionLayout>
@@ -213,26 +170,18 @@ export const SustainabilityStrategyArticle = () => {
             }
             additionalText={
               <Text>
-                At{' '}
+                {t('4.additionalText.0')}{' '}
                 <Link href="/" className="underline">
                   Optisence
                 </Link>
-                , we don’t build sustainability strategies that sit on shelves.
-                We build frameworks that shift culture, guide operations, and
-                drive stakeholder trust.
+                , {t('4.additionalText.1')}
               </Text>
             }
             reverse
           >
             <section className="flex flex-col gap-3">
-              <Text>
-                But most of all, we help your sustainability strategy align with
-                your corporate strategy — not compete with it.
-              </Text>
-              <Text>
-                Because your purpose and your performance should never be in
-                conflict.
-              </Text>
+              <Text>{t('4.0.0')}</Text>
+              <Text>{t('4.0.1')}</Text>
               <Image
                 className="h-[278px] w-full rounded-4xl object-cover"
                 src="/images/media-center/sustainability-as-strategy/3.jpg"
@@ -251,40 +200,22 @@ export const SustainabilityStrategyArticle = () => {
             weight={600}
             className="w-1/2 max-sm:w-full"
           >
-            Purpose is the Future of Profit
+            {t('5.title')}
           </Text>
           <section className="flex gap-12 max-sm:flex-col max-sm:gap-3">
             <Text className="flex flex-col gap-3">
-              <span>
-                Today’s leading companies are defined not just by their profits
-                — but by their principles.
-              </span>
-              <span>
-                Customers are no longer passive. Employees are no longer silent.
-                Investors are no longer patient with opacity. Sustainability is
-                no longer optional.
-              </span>
+              <span>{t('5.0.0')}</span>
+              <span>{t('5.0.1')}</span>
             </Text>
             <Text>
-              <Url value="/" placeholder="Optisence" /> helps forward-thinking
-              businesses turn sustainability into an engine for value creation —
-              unlocking new markets, building resilient operations, and standing
-              for something that matters.
+              <Url value="/" placeholder="Optisence" /> {t('5.0.2')}
             </Text>
           </section>
         </ArticleSectionLayout>
-        <Summary title="Is Your Business Future-Ready?">
+        <Summary title={t('summary.title')}>
           <Text className="flex w-full flex-col gap-3 max-sm:w-full">
-            <span>
-              The next generation of market leaders will be purpose-led,
-              strategy-driven, and impact-focused. If your current business
-              model doesn’t reflect that — now is the time to evolve.
-            </span>
-            <span>
-              Get in touch with Optisence today and let’s build a sustainability
-              strategy that delivers more than compliance — it delivers growth,
-              relevance, and legacy.
-            </span>
+            <span>{t('summary.0.0')}</span>
+            <span>{t('summary.0.1')}</span>
           </Text>
         </Summary>
       </ArticleContentLayout>

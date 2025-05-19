@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { Controller, useForm, zodResolver } from '@/shared/lib/forms';
 import { toast } from '@/shared/lib/toast';
 import { ProgressBar } from '@/shared/ui/components/progress-bar';
@@ -14,16 +16,19 @@ import { Title } from '@/shared/ui/kit/title';
 import { type ProjectTimelineSchema, projectTimelineSchema } from '../lib';
 import { sendRequestForm, useRequestDialogStore } from '../services';
 
-const timeline = [
-  'Within 1 Month',
-  '1-3 Months',
-  '3-6 Months',
-  'Flexible Timeline',
-];
+// const timeline = [
+//   'Within 1 Month',
+//   '1-3 Months',
+//   '3-6 Months',
+//   'Flexible Timeline',
+// ];
 
-const contactMethod = ['Email', 'Phone', 'Video Call'];
+// const contactMethod = ['Email', 'Phone', 'Video Call'];
 
 export const ProjectTimelineForm = () => {
+  const t = useTranslations('requestForm.3');
+  const tb = useTranslations('requestForm.btn');
+
   const { values, updateValues, setSent } = useRequestDialogStore();
 
   const {
@@ -55,16 +60,25 @@ export const ProjectTimelineForm = () => {
     }
   });
 
+  const timeline = [
+    t('timeline.0'),
+    t('timeline.1'),
+    t('timeline.2'),
+    t('timeline.3'),
+  ];
+
+  const contactMethod = [t('contact.0'), t('contact.1'), t('contact.2')];
+
   return (
     <section className="flex flex-col gap-12">
       <Title color="primary" size="lg">
-        Project Timeline & Next Steps
+        {t('title')}
       </Title>
       <form onSubmit={onSubmit} className="flex flex-col gap-6">
         <section className="flex h-full gap-6 max-sm:flex-col">
           <section className="flex flex-1/3 flex-col">
             <Text color="dark" size="xl">
-              Project Timeline
+              {t('projectTimeline')}
             </Text>
             <Controller
               name="projectTimeline"
@@ -93,7 +107,7 @@ export const ProjectTimelineForm = () => {
           <span className="w-[1px] bg-[#DFDFDF] max-sm:h-[1px] max-sm:w-full" />
           <section className="flex flex-1/3 flex-col">
             <Text color="dark" size="xl">
-              Preferred Method of Contact
+              {t('contactMethod')}
             </Text>
             <Controller
               name="contactMethod"
@@ -124,12 +138,9 @@ export const ProjectTimelineForm = () => {
         <section className="flex flex-col gap-12">
           <div className="flex flex-col gap-2">
             <Text color="dark" size="xl">
-              Upload Any Relevant Files
+              {t('uploadRelevantFiles')}
             </Text>
-            <Text>
-              Attach any documents, proposals, or briefs related to your project
-              to help us better understand your needs.
-            </Text>
+            <Text>{t('attachFiles')}</Text>
           </div>
           <Controller
             name="file"
@@ -145,7 +156,8 @@ export const ProjectTimelineForm = () => {
           disabled={isSubmitting}
           fullWidth
         >
-          {isSubmitting ? 'Submitting...' : 'Submit Request'} <ArrowRightIcon />
+          {isSubmitting ? tb('submitting') : tb('submit')}
+          <ArrowRightIcon />
         </Button>
         <section className="flex items-center gap-3">
           <ProgressBar active />

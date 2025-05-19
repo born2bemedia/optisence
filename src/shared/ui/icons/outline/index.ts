@@ -5,3 +5,4 @@ export * from './chevron-down';
 export * from './close';
 export * from './line-right';
 export * from './menu';
+export * from './translate';

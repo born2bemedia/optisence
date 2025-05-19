@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { useWindow } from '@/shared/lib/hooks';
 //import { FacebookIcon, InstagramIcon, XIcon } from '@/shared/ui/icons/socials';
@@ -10,6 +11,7 @@ import { Dropdown } from '@/shared/ui/kit/dropdown';
 import { Text } from '@/shared/ui/kit/text';
 
 import { BurgerMenu } from './burger-menu';
+import { LangSwitcher } from './lang-switcher';
 
 const ContactInfo = () => (
   <div className="flex items-center gap-2.5">
@@ -44,51 +46,53 @@ const ContactInfo = () => (
   </div>
 ); */
 
-const NavigationMenu = () => (
-  <section className="flex items-center gap-6">
-    <Link href="/">
-      <Text hover>Home</Text>
-    </Link>
-    <Link href="/who-we-are">
-      <Text hover>Who We Are</Text>
-    </Link>
-    <Dropdown
-      value="Consulting Solutions"
-      options={[
-        {
-          label: (
-            <Link href="/marketing-operations-advisory">
-              Marketing Operations Advisory
-            </Link>
-          ),
-          value: '/marketing-operations-advisory',
-        },
-        {
-          label: (
-            <Link href="/corporate-strategy-guidance">
-              Corporate Strategy Guidance
-            </Link>
-          ),
-          value: '/corporate-strategy-guidance',
-        },
-      ]}
-    />
-    <Link href="/industries-we-shape">
-      <Text hover>Industries We Shape</Text>
-    </Link>
-    <Link href="/our-work">
-      <Text hover>Our Work</Text>
-    </Link>
-    <Link href="/careers">
-      <Text hover>Careers</Text>
-    </Link>
-    <Link href="/media-center/5-signs-your-business">
-      <Text hover>Media Center</Text>
-    </Link>
-  </section>
-);
+const NavigationMenu = () => {
+  const t = useTranslations('header');
+
+  return (
+    <section className="flex items-center gap-6">
+      <Link href="/">
+        <Text hover>{t('links.0')}</Text>
+      </Link>
+      <Link href="/who-we-are">
+        <Text hover>{t('links.1')}</Text>
+      </Link>
+      <Dropdown
+        value={t('consultingSolutions')}
+        options={[
+          {
+            label: (
+              <Link href="/marketing-operations-advisory">{t('links.2')}</Link>
+            ),
+            value: '/marketing-operations-advisory',
+          },
+          {
+            label: (
+              <Link href="/corporate-strategy-guidance">{t('links.3')}</Link>
+            ),
+            value: '/corporate-strategy-guidance',
+          },
+        ]}
+      />
+      <Link href="/industries-we-shape">
+        <Text hover>{t('links.4')}</Text>
+      </Link>
+      <Link href="/our-work">
+        <Text hover>{t('links.5')}</Text>
+      </Link>
+      <Link href="/careers">
+        <Text hover>{t('links.6')}</Text>
+      </Link>
+      <Link href="/media-center/5-signs-your-business">
+        <Text hover>{t('links.7')}</Text>
+      </Link>
+    </section>
+  );
+};
 
 export const Header = () => {
+  const t = useTranslations('header.links');
+
   const { width } = useWindow();
 
   return (
@@ -109,9 +113,12 @@ export const Header = () => {
               />
             </Link>
             <NavigationMenu />
-            <Link href="/contact-us">
-              <Button size="sm">Contact</Button>
-            </Link>
+            <div className="flex items-center gap-3">
+              <LangSwitcher />
+              <Link href="/contact-us">
+                <Button size="sm">{t('8')}</Button>
+              </Link>
+            </div>
           </section>
         </>
       ) : (

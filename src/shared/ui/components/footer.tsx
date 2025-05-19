@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { useRequestDialogStore } from '@/features/request-form/services';
 
@@ -14,6 +15,8 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 
 export function Footer() {
+  const tf = useTranslations('footer');
+  const th = useTranslations('header');
   const { setOpen } = useRequestDialogStore();
 
   return (
@@ -27,12 +30,7 @@ export function Footer() {
               width={132}
               height={34}
             />
-            <Text className="w-[350px] max-sm:w-full">
-              Your partner for transforming business strategies and driving
-              growth. Work with experts to develop tailored solutions, implement
-              cutting-edge technologies, and measure results for long-term
-              success.
-            </Text>
+            <Text className="w-[350px] max-sm:w-full">{tf('description')}</Text>
           </section>
           <section className="flex flex-col gap-3">
             <div className="flex items-center gap-2.5 max-lg:justify-center">
@@ -53,107 +51,107 @@ export function Footer() {
           </section>
           <ul className="flex flex-col gap-3">
             <li>
-              Registered Address: <br />
+              {tf('registeredAddress')} <br />
               134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
               8000
             </li>
             <li>
-              Office Address: <br />
+              {tf('officeAddress')} <br />
               Office 706, 7th Floor, 134 Bree Street, Cape Town City Centre,
               Cape Town, Western Cape, 8000, South Africa
             </li>
-            <li>Registered Number: 334070</li>
+            <li>{tf('registeredNumber')}: 334070</li>
             <li>Krouder Pty Ltd.</li>
           </ul>
         </div>
         <div className="flex gap-6 max-2xl:w-full max-md:grid max-md:grid-cols-2">
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
-              Consulting Solutions
+              {th('consultingSolutions')}
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
                 <Link href="/marketing-operations-advisory">
-                  <Text hover>Marketing Operations Advisory</Text>
+                  <Text hover>{th('links.2')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/corporate-strategy-guidance">
-                  <Text hover>Corporate Strategy Guidance</Text>
+                  <Text hover>{th('links.3')}</Text>
                 </Link>
               </li>
             </ul>
           </section>
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
-              Company
+              {tf('company')}
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
                 <Link href="/who-we-are">
-                  <Text hover>Who We Are</Text>
+                  <Text hover>{th('links.1')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/industries-we-shape">
-                  <Text hover>Industries We Shape</Text>
+                  <Text hover>{th('links.4')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/careers">
-                  <Text hover>Careers</Text>
+                  <Text hover>{th('links.6')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/media-center/5-signs-your-business">
-                  <Text hover>Media Center</Text>
+                  <Text hover>{th('links.7')}</Text>
                 </Link>
               </li>
             </ul>
           </section>
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
-              Start With Optisence
+              {tf('startWithOptisence')}
             </Text>
             <ul className="flex flex-col gap-3">
               <li onClick={() => setOpen(true)}>
-                <Text hover>Get a Consultation</Text>
+                <Text hover>{tf('getConsultation')}</Text>
               </li>
               <li>
                 <Link href="/our-work">
-                  <Text hover>Our Work</Text>
+                  <Text hover>{th('links.5')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/contact-us">
-                  <Text hover>Contact</Text>
+                  <Text hover>{th('links.8')}</Text>
                 </Link>
               </li>
             </ul>
           </section>
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
-              Policies
+              {tf('policies.title')}
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
                 <Link href="/terms-and-conditions">
-                  <Text hover>Terms and Conditions</Text>
+                  <Text hover>{tf('policies.termsAndConditions')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/privacy-policy">
-                  <Text hover>Privacy Policy</Text>
+                  <Text hover>{tf('policies.privacyPolicy')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/refund-policy">
-                  <Text hover>Refund Policy</Text>
+                  <Text hover>{tf('policies.refundPolicy')}</Text>
                 </Link>
               </li>
               <li>
                 <Link href="/cookie-policy">
-                  <Text hover>Cookie Policy</Text>
+                  <Text hover>{tf('policies.cookiePolicy')}</Text>
                 </Link>
               </li>
             </ul>
@@ -164,7 +162,7 @@ export function Footer() {
         <Divider />
       </section>
       <section className="px-[100px] text-center max-md:px-8">
-        © {new Date().getFullYear()} Optisence. All Legal Rights Reserved.
+        © {new Date().getFullYear()} Optisence. {tf('allLegalRightsReserved')}
       </section>
     </footer>
   );

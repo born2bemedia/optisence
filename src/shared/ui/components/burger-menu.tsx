@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 import {
   Content,
   Description,
@@ -17,7 +18,10 @@ import { FacebookFillIcon } from '@/shared/ui/icons/socials';
 import { Button } from '@/shared/ui/kit/button';
 import { Divider } from '@/shared/ui/kit/divider';
 
+import { LangSwitcher } from './lang-switcher';
+
 export const BurgerMenu = () => {
+  const t = useTranslations('header');
   const [open, setOpen] = useState(false);
   const [showConsulting, setShowConsulting] = useState(false);
   const pathname = usePathname();
@@ -46,18 +50,18 @@ export const BurgerMenu = () => {
             <section className="flex h-full flex-col">
               <section className="flex flex-col gap-3 text-white">
                 <Link className="p-3" href="/">
-                  Home
+                  {t('links.0')}
                 </Link>
                 <Divider color="dark" />
                 <Link className="p-3" href="/who-we-are">
-                  Who We Are
+                  {t('links.1')}
                 </Link>
                 <Divider color="dark" />
                 <button
                   className="flex cursor-pointer items-center justify-between p-3"
                   onClick={() => setShowConsulting(!showConsulting)}
                 >
-                  Consulting Solutions <ChevronDown color="#fff" />
+                  {t('consultingSolutions')} <ChevronDown color="#fff" />
                 </button>
                 {showConsulting && (
                   <>
@@ -65,41 +69,44 @@ export const BurgerMenu = () => {
                       className="p-3 text-[rgba(255,255,255,0.6)]"
                       href="/marketing-operations-advisory"
                     >
-                      Marketing Operations Advisory
+                      {t('links.2')}
                     </Link>
                     <Link
                       className="p-3 text-[rgba(255,255,255,0.6)]"
                       href="/corporate-strategy-guidance"
                     >
-                      Corporate Strategy Guidance
+                      {t('links.3')}
                     </Link>
                   </>
                 )}
                 <Divider color="dark" />
                 <Link className="p-3" href="/industries-we-shape">
-                  Industries We Shape
+                  {t('links.4')}
                 </Link>
                 <Divider color="dark" />
                 <Link className="p-3" href="/our-work">
-                  Our Work
+                  {t('links.5')}
                 </Link>
                 <Divider color="dark" />
                 <Link className="p-3" href="/careers">
-                  Careers
+                  {t('links.6')}
                 </Link>
                 <Divider color="dark" />
                 <Link
                   className="p-3"
                   href="/media-center/5-signs-your-business"
                 >
-                  Media Center
+                  {t('links.7')}
                 </Link>
               </section>
-              <Link href="/contact-us" className="mt-6">
-                <Button textAlign="center" fullWidth>
-                  Contact
-                </Button>
-              </Link>
+              <section className="mt-6 flex w-full items-center gap-3">
+                <LangSwitcher />
+                <Link href="/contact-us" className="w-full">
+                  <Button textAlign="center" fullWidth>
+                    {t('links.8')}
+                  </Button>
+                </Link>
+              </section>
               <footer className="mt-auto flex flex-col items-center justify-center gap-6 py-6 text-white">
                 <section className="flex items-center gap-2.5">
                   <Link href="mailto:example@gmail.com">

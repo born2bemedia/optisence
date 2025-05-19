@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 import { cn, lsRead, lsWrite } from '@/shared/lib/utils';
 import { Button } from '@/shared/ui/kit/button';
@@ -37,9 +38,9 @@ export const CookieConsent = () => {
         Cookies help us improve our website. By clicking &apos;Accept,&apos; you
         agree to our use of cookies for functionality, analytics, and
         personalized content. Learn more in our{' '}
-        <a href="/legal/cookie-policy" className="underline">
+        <Link href="/legal/cookie-policy" className="underline">
           Cookie Policy
-        </a>
+        </Link>
         .
       </Text>
       <div className="flex items-center gap-6">
