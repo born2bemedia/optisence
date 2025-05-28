@@ -10,14 +10,14 @@ import {
   Root,
 } from '@radix-ui/react-dropdown-menu';
 
-import { DeIcon, EnIcon, ItIcon } from '@/shared/ui/icons/countries';
+import { DeIcon, EnIcon } from '@/shared/ui/icons/countries';
 import { TranslateIcon } from '@/shared/ui/icons/outline';
 import { Text } from '@/shared/ui/kit/text';
 
 const LANGUAGES = [
   { code: 'en', icon: <EnIcon />, label: 'EN' },
   { code: 'de', icon: <DeIcon />, label: 'DE' },
-  { code: 'it', icon: <ItIcon />, label: 'IT' },
+  // { code: 'it', icon: <ItIcon />, label: 'IT' },
 ];
 
 export const LangSwitcher = () => {
