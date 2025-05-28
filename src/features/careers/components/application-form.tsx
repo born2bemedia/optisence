@@ -10,6 +10,7 @@ import { Controller, useForm, zodResolver } from '@/shared/lib/forms';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
 import { Button } from '@/shared/ui/kit/button';
 import { MinifiedDropdzone } from '@/shared/ui/kit/minified-dropdzone';
+import { PhoneField } from '@/shared/ui/kit/phone-field';
 import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 
@@ -90,7 +91,7 @@ export const ApplicationForm = () => {
             name="phone"
             control={control}
             render={({ field, fieldState: { error } }) => (
-              <TextField
+              <PhoneField
                 {...field}
                 label={t('fields.phone.label')}
                 hint={error?.message}
