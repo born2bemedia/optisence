@@ -96,7 +96,6 @@ export const ApplicationForm = () => {
                 label={t('fields.phone.label')}
                 hint={error?.message}
                 placeholder={t('fields.phone.placeholder')}
-                intent={error?.message ? 'danger' : 'primary'}
               />
             )}
           />
