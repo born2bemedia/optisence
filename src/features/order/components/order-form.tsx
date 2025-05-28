@@ -1,6 +1,7 @@
 'use client';
 
 import type { ReactNode } from 'react';
+import { useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 
 import { Controller, useForm, zodResolver } from '@/shared/lib/forms';
@@ -20,6 +21,8 @@ export const OrderForm = ({
   productPrice?: string;
   onSuccess: () => void;
 }) => {
+  const t = useTranslations('order');
+
   const {
     handleSubmit,
     control,
@@ -62,10 +65,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="First Name"
+                label={t('fields.firstName.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Enter your first name"
+                placeholder={t('fields.firstName.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -76,10 +79,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Last Name"
+                label={t('fields.lastName.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Enter your last name"
+                placeholder={t('fields.lastName.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -92,10 +95,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Email Address"
+                label={t('fields.email.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Enter a contact email address"
+                placeholder={t('fields.email.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -106,10 +109,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Phone Number"
+                label={t('fields.phone.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Enter a contact phone number"
+                placeholder={t('fields.phone.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -122,10 +125,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Company Name"
+                label={t('fields.companyName.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Enter your company name"
+                placeholder={t('fields.companyName.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -136,10 +139,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Company Website"
+                label={t('fields.companyWebsite.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Enter your company website"
+                placeholder={t('fields.companyWebsite.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -152,10 +155,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Budget"
+                label={t('fields.budget.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Enter your budget"
+                placeholder={t('fields.budget.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -166,10 +169,10 @@ export const OrderForm = ({
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Message:"
+                label={t('fields.message.label')}
                 hint={error?.message}
                 hintPosition="bottom"
-                placeholder="Type here..."
+                placeholder={t('fields.message.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -177,7 +180,8 @@ export const OrderForm = ({
         </FormRow>
       </section>
       <Button type="submit" textAlign="center" fullWidth>
-        {isSubmitting ? 'Submitting...' : 'Submit'} <ArrowRightIcon />
+        {isSubmitting ? t('btn.submitting') : t('btn.submit')}{' '}
+        <ArrowRightIcon />
       </Button>
     </form>
   );

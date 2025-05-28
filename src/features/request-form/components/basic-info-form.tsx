@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { Controller, useForm, zodResolver } from '@/shared/lib/forms';
 import { ProgressBar } from '@/shared/ui/components/progress-bar';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
@@ -14,6 +16,8 @@ import { type BasicInfoSchema, basicInfoSchema } from '../lib';
 import { useRequestDialogStore } from '../services';
 
 export function BasicInfoForm() {
+  const t = useTranslations('requestForm.0');
+  const tb = useTranslations('requestForm.btn');
   const { updateValues, setStep } = useRequestDialogStore();
 
   const {
@@ -45,26 +49,22 @@ export function BasicInfoForm() {
     <section className="flex flex-col gap-12">
       <section className="flex flex-col items-center gap-4 text-center">
         <Title size="lg" color="primary">
-          Get in Touch with Optisence
+          {t('title')}
         </Title>
         <Text color="dark" size="2xl" weight={500}>
-          Let’s Collaborate to Achieve <br />
-          Your Business Objectives
+          {t('subtitle.0')}
+          <br />
+          {t('subtitle.1')}
         </Text>
-        <Text>
-          At Optisence, we partner with companies like yours to provide tailored
-          solutions that drive growth and optimize operations. To get started,
-          please share details about your business needs, and we’ll craft a
-          strategy to help you succeed.
-        </Text>
+        <Text>{t('description')}</Text>
       </section>
       <Divider />
       <form onSubmit={onSubmit} className="flex flex-col gap-4">
         <section className="flex flex-col items-center gap-2 text-center">
           <Text color="dark" size="2xl" weight={500}>
-            Basic Information
+            {t('basicInfo')}
           </Text>
-          <Tag>Personal & Company Data</Tag>
+          <Tag>{t('personalCompanyData')}</Tag>
         </section>
         <Controller
           name="fullName"
@@ -72,9 +72,9 @@ export function BasicInfoForm() {
           render={({ field, fieldState: { error } }) => (
             <TextField
               {...field}
-              label="Full Name"
+              label={t('fields.fullName.label')}
               hint={error?.message}
-              placeholder="Enter the name of the primary contact person"
+              placeholder={t('fields.fullName.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
             />
           )}
@@ -85,9 +85,9 @@ export function BasicInfoForm() {
           render={({ field, fieldState: { error } }) => (
             <TextField
               {...field}
-              label="Email Address"
+              label={t('fields.email.label')}
               hint={error?.message}
-              placeholder="Enter a contact email address"
+              placeholder={t('fields.email.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
             />
           )}
@@ -98,9 +98,9 @@ export function BasicInfoForm() {
           render={({ field, fieldState: { error } }) => (
             <TextField
               {...field}
-              label="Phone Number"
+              label={t('fields.phone.label')}
               hint={error?.message}
-              placeholder="Enter a contact phone number"
+              placeholder={t('fields.phone.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
             />
           )}
@@ -111,9 +111,9 @@ export function BasicInfoForm() {
           render={({ field, fieldState: { error } }) => (
             <TextField
               {...field}
-              label="Company Name (optional)"
+              label={t('fields.companyName.label')}
               hint={error?.message}
-              placeholder="Enter your company name"
+              placeholder={t('fields.companyName.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
             />
           )}
@@ -124,9 +124,9 @@ export function BasicInfoForm() {
           render={({ field, fieldState: { error } }) => (
             <TextField
               {...field}
-              label="Company Website (optional)"
+              label={t('fields.companyWebsite.label')}
               hint={error?.message}
-              placeholder="Enter your company website"
+              placeholder={t('fields.companyWebsite.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
             />
           )}
@@ -138,7 +138,8 @@ export function BasicInfoForm() {
             disabled={isSubmitting}
             fullWidth
           >
-            {isSubmitting ? 'Submitting' : 'Continue'} <ArrowRightIcon />
+            {isSubmitting ? tb('submitting') : tb('continue')}
+            <ArrowRightIcon />
           </Button>
           <section className="flex items-center gap-3">
             <ProgressBar active />

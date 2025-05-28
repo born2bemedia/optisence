@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { Url } from '@/shared/ui/components/url';
 import { Text } from '@/shared/ui/kit/text';
@@ -15,14 +16,13 @@ import { ListBlock } from './list-block';
 import { StepsBlock } from './steps-block';
 
 export const CustomerCentricArticle = () => {
+  const t = useTranslations('mediaCenter.customerCentricStrategy');
+
   return (
     <ArticleLayout>
       <Heading
         title={
-          <Title className="text-[48px] leading-[120%]">
-            Customer-Centric Strategy: How to Turn Feedback Into Competitive
-            Advantage
-          </Title>
+          <Title className="text-[48px] leading-[120%]">{t('title')}</Title>
         }
         images={[
           '/images/media-center/customer-centric/heading-1.jpg',
@@ -31,78 +31,40 @@ export const CustomerCentricArticle = () => {
         simplified
       >
         <section className="flex flex-col gap-3">
+          <Text>{t('0.0')}</Text>
+          <Text>{t('0.1')}</Text>
+          <Text>{t('0.2')}</Text>
           <Text>
-            Listening is good. Acting is better. Strategizing is best.
-          </Text>
-          <Text>
-            In a world where customers are more informed, connected, and vocal
-            than ever before, the companies that win are no longer the ones with
-            the best product — but the ones that listen best, respond fastest,
-            and evolve smartest.
-          </Text>
-          <Text>
-            Yet despite this shift, many businesses still treat customer
-            feedback as a post-sale activity — something to review quarterly,
-            file away, or occasionally act upon.
-          </Text>
-          <Text>
-            At <Url value="/" placeholder="Optisence" />, we take a different
-            view: customer insight is one of the most underutilized strategic
-            assets in business today. When feedback isn’t just heard but woven
-            directly into corporate strategy, it becomes a powerful
-            differentiator — and often, a shortcut to competitive advantage.
+            {t('0.3.0')} <Url value="/" placeholder="Optisence" />, {t('0.3.1')}
           </Text>
         </section>
       </Heading>
       <ArticleContentLayout>
         <ListBlock
-          title="Customer-Centricity Isn't a Campaign — It's a Company
-          Philosophy"
-          listTitle="A truly customer-centric strategy requires:"
-          listValues={[
-            'Systematic collection of feedback across every touchpoint',
-            'Cross-functional integration of that insight — not just in marketing, but in product, operations, and leadership',
-            'Strategic action based on real patterns, not just anecdotes',
-          ]}
+          title={t('1.title')}
+          listTitle={t('1.customerCentric')}
+          listValues={[t('1.values.0'), t('1.values.1'), t('1.values.2')]}
           summary={
             <Text>
-              At <Url value="/" placeholder="Optisence" />, we help companies
-              build frameworks that close the gap between feedback and forward
-              motion — translating raw insight into high-impact decision-making.
+              {t('1.summary.0')} <Url value="/" placeholder="Optisence" />,
+              {t('1.summary.1')}
             </Text>
           }
         >
-          <Text>
-            Let’s be clear: being customer-centric doesn’t mean always saying
-            yes. It means making smart, strategic decisions based on what your
-            customers value most — even when that challenges internal
-            assumptions.
-          </Text>
-          <Text>
-            Too often, businesses rely on outdated personas, guesswork, or
-            executive bias to define customer needs. The result? Misaligned
-            strategies, irrelevant messaging, and missed opportunities.
-          </Text>
+          <Text>{t('1.0.0')}</Text>
+          <Text>{t('1.0.1')}</Text>
         </ListBlock>
         <ListBlock
-          title="The Strategic Value of Listening (When Done Right)"
+          title={t('2.title')}
           listTitle=""
           listValues={[
-            'Reveal unmet needs before competitors do',
-            'Signal churn risks before they happen',
-            'Shape product roadmaps based on demand, not assumption',
-            'Validate or challenge key brand messages',
-            'Highlight market shifts in real-time',
+            t('2.values.0'),
+            t('2.values.1'),
+            t('2.values.2'),
+            t('2.values.3'),
+            t('2.values.4'),
           ]}
-          summary={
-            <Text>
-              And yet, many organizations either ignore this input, misinterpret
-              it, or collect it without clear next steps. Optisence’s consulting
-              process transforms this noise into navigation, helping clients
-              extract insight that drives innovation, loyalty, and market
-              growth.
-            </Text>
-          }
+          summary={<Text>{t('2.summary')}</Text>}
         >
           <Image
             className="h-[161px] w-full rounded-4xl object-cover"
@@ -112,10 +74,7 @@ export const CustomerCentricArticle = () => {
             height={131}
             unoptimized
           />
-          <Text>
-            Customer feedback is more than opinion — it’s a strategic data
-            stream. When properly mined and analyzed, it can:
-          </Text>
+          <Text>{t('2.0')}</Text>
         </ListBlock>
         <ArticleSectionLayout>
           <Text
@@ -124,86 +83,52 @@ export const CustomerCentricArticle = () => {
             weight={600}
             className="w-1/2 max-sm:w-full"
           >
-            A Competitive Advantage Most Companies Ignore
+            {t('3.title')}
           </Text>
           <InfoBlock
             title=""
             summary={<></>}
-            values={[
-              'While competitors chase leads, you could be learning from them.',
-              'While others guess, you could be guided by truth.',
-              'While some companies fear criticism, you could profit from it.',
-            ]}
+            values={[t('3.values.0'), t('3.values.1'), t('3.values.2')]}
             additionalText={<></>}
             reverse
           >
             <Text>
-              This is the power of customer-centric strategy — and it’s where
-              <Url value="/" placeholder="Optisence" /> helps our clients shine.
-              By embedding voice-of-customer intelligence into core planning, we
-              enable companies to become not just more responsive, but more
-              relevant.
+              {t('3.0.0')} <Url value="/" placeholder="Optisence" />,{' '}
+              {t('3.0.1')}
             </Text>
           </InfoBlock>
         </ArticleSectionLayout>
         <StepsBlock
-          title="Customer-Centricity Isn’t the Trend. It’s the Future."
+          title={t('4.title')}
           description={
             <Text className="flex flex-col gap-3">
-              <span>
-                To turn feedback into competitive advantage, it must become part
-                of your strategic operating system — not just your customer
-                service process.
-              </span>
-              <span>Here’s how we guide clients through the transition:</span>
+              <span>{t('4.description.0')}</span>
+              <span>{t('4.description.1')}</span>
             </Text>
           }
           values={[
             {
-              title: '1. Centralize Customer Data',
+              title: t('4.0.0'),
               content: (
                 <section className="flex flex-col gap-3">
+                  <Text>{t('4.0.1')}</Text>
                   <Text>
-                    Bring together feedback from surveys, reviews, social media,
-                    sales calls, and support logs into a unified view.
-                  </Text>
-                  <Text>
-                    <Url value="/" placeholder="Optisence" /> designs integrated
-                    feedback ecosystems to avoid data silos and enable real-time
-                    insight.
+                    <Url value="/" placeholder="Optisence" /> {t('4.0.2')}
                   </Text>
                 </section>
               ),
             },
             {
-              title: '2. Analyze for Strategic Patterns',
-              content: (
-                <Text>
-                  We apply qualitative and quantitative analysis to identify
-                  trends, friction points, and white-space opportunities. Not
-                  every comment matters — but patterns always do.
-                </Text>
-              ),
+              title: t('4.1.0'),
+              content: <Text>{t('4.1.1')}</Text>,
             },
             {
-              title: '3. Prioritize Action Through Business Value',
-              content: (
-                <Text>
-                  Which feedback will actually move the needle? We help
-                  prioritize initiatives based on revenue impact, customer
-                  satisfaction, and market positioning.
-                </Text>
-              ),
+              title: t('4.2.0'),
+              content: <Text>{t('4.2.1')}</Text>,
             },
             {
-              title: '4. Build Feedback Loops into Strategy Cycles',
-              content: (
-                <Text>
-                  Whether you’re launching new products, entering new markets,
-                  or optimizing service delivery — every strategic decision
-                  should be informed by customer reality.
-                </Text>
-              ),
+              title: t('4.3.0'),
+              content: <Text>{t('4.3.1')}</Text>,
             },
           ]}
           imgUrl="/images/media-center/customer-centric/2.jpg"
@@ -217,18 +142,11 @@ export const CustomerCentricArticle = () => {
                 weight={600}
                 className="mb-5 max-sm:w-full"
               >
-                Customer-Centricity Isn’t the Trend. It’s the Future.
+                {t('summary.title')}
               </Text>
+              <Text>{t('summary.0.0')}</Text>
               <Text>
-                If your customer feedback sits in spreadsheets, unread
-                dashboards, or passive reports — you’re leaving strategy on the
-                table.
-              </Text>
-              <Text>
-                <Url value="/" placeholder="Optisence" /> works with businesses
-                ready to lead with insight, design with empathy, and grow with
-                precision. Together, we turn listening into leading — and
-                feedback into fuel for lasting competitive edge.
+                <Url value="/" placeholder="Optisence" /> {t('summary.0.1')}
               </Text>
             </section>
             <section className="flex w-1/2 flex-col gap-3 rounded-4xl bg-[#F5F5F5] p-8 max-sm:w-full max-sm:p-5">
@@ -238,12 +156,11 @@ export const CustomerCentricArticle = () => {
                 weight={600}
                 className="mb-5 max-sm:w-full"
               >
-                Let’s Make Your Customers Part of Your Strategy
+                {t('summary.1.0')}
               </Text>
               <Text>
-                Connect with <Url value="/" placeholder="Optisence" /> today and
-                let’s build a customer-centric strategy that transforms how you
-                grow, innovate, and compete.
+                {t('summary.1.1.0')} <Url value="/" placeholder="Optisence" />{' '}
+                {t('summary.1.1.1')}
               </Text>
             </section>
           </section>

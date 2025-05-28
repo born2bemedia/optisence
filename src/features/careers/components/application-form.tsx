@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 
 import { ThankYouDialog } from '@/features/contact-form/components';
@@ -17,6 +18,8 @@ import { type ApplicationFormSchema, applicationFormSchema } from '../lib';
 import { sendApplication } from '../services';
 
 export const ApplicationForm = () => {
+  const t = useTranslations('careers.readyToApply.form');
+
   const [isOpen, setIsOpen] = useState(false);
 
   const {
@@ -62,9 +65,9 @@ export const ApplicationForm = () => {
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Full Name"
+                label={t('fields.name.label')}
                 hint={error?.message}
-                placeholder="Enter your full name"
+                placeholder={t('fields.name.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -75,9 +78,9 @@ export const ApplicationForm = () => {
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Email Address"
+                label={t('fields.email.label')}
                 hint={error?.message}
-                placeholder="Enter your email address"
+                placeholder={t('fields.email.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -90,9 +93,9 @@ export const ApplicationForm = () => {
             render={({ field, fieldState: { error } }) => (
               <PhoneField
                 {...field}
-                label="Phone Number"
+                label={t('fields.phone.label')}
                 hint={error?.message}
-                placeholder="Enter a contact phone number"
+                placeholder={t('fields.phone.placeholder')}
               />
             )}
           />
@@ -102,9 +105,9 @@ export const ApplicationForm = () => {
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="Role You’re Applying For"
+                label={t('fields.role.label')}
                 hint={error?.message}
-                placeholder="Enter role"
+                placeholder={t('fields.role.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -117,9 +120,9 @@ export const ApplicationForm = () => {
             render={({ field, fieldState: { error } }) => (
               <TextField
                 {...field}
-                label="LinkedIn / Portfolio (optional)"
+                label={t('fields.portfolio.label')}
                 hint={error?.message}
-                placeholder="Enter your company name"
+                placeholder={t('fields.portfolio.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -143,9 +146,9 @@ export const ApplicationForm = () => {
             render={({ field, fieldState: { error } }) => (
               <TextArea
                 {...field}
-                label="LinkedIn / Portfolio (optional)"
+                label={t('fields.message.label')}
                 hint={error?.message}
-                placeholder="Enter your company name"
+                placeholder={t('fields.message.placeholder')}
                 intent={error?.message ? 'danger' : 'primary'}
               />
             )}
@@ -153,7 +156,7 @@ export const ApplicationForm = () => {
         </FormRow>
       </section>
       <Button type="submit" disabled={isSubmitting} className="mx-auto">
-        {isSubmitting ? 'Submitting...' : 'Submit Application'}
+        {isSubmitting ? t('fields.submit.loading') : t('fields.submit.label')}
         <ArrowRightIcon />
       </Button>
       <ThankYouDialog isOpen={isOpen} setIsOpen={setIsOpen} />

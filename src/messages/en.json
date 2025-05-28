@@ -1,0 +1,2603 @@
+{
+  "home": {
+    "hero": {
+      "title": "Your Partner for Marketing and Strategy Excellence",
+      "description": "Optisence empowers businesses with expert consulting in marketing operations and corporate strategy. We deliver tailored solutions that drive growth, enhance efficiency, and create lasting competitive advantage.",
+      "btnLabel": "Get Your Free Consultation"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "description": "Optisence stands out for its deep industry knowledge, innovative approach, and proven track record of success. Here’s why companies partner with us:",
+      "reasons": {
+        "deepIndustryKnowledge": {
+          "title": "Expertise in Both Marketing and Strategy",
+          "description": "We offer a balanced approach to both Marketing Operations and Corporate Strategy, providing comprehensive solutions that drive success across all facets of your business."
+        },
+        "dataDrivenInsights": {
+          "title": "Data-Driven Insights",
+          "description": "Our recommendations are grounded in robust data analytics, ensuring that each decision is based on solid information and delivers measurable results."
+        },
+        "customizedSolutions": {
+          "title": "Customized Solutions",
+          "description": "We understand that each business is unique, so we tailor our consulting services to meet your specific needs and provide personalized strategies for success."
+        },
+        "provenTrackRecord": {
+          "title": "Proven Track Record",
+          "description": "With years of experience, we have helped countless businesses grow, optimize operations, and achieve sustainable success with long-term, strategic solutions."
+        }
+      }
+    },
+    "consultingSolutions": {
+      "title": {
+        "first": "Consulting Solutions for",
+        "second": "Businesses & Enterprises"
+      },
+      "description": "We offer innovative Consulting Solutions that cater to the unique needs of your business, no matter its size or scope. Whether you’re a startup aiming for rapid growth or an established enterprise seeking to optimize operations, we have the expertise to help you succeed.",
+      "items": {
+        "0": {
+          "title": "Marketing Operations Advisory",
+          "description": "Maximize your marketing potential with data-driven insights and optimized processes. Our team will help you streamline operations, improve team performance, and integrate cutting-edge technologies to scale efficiently.",
+          "keys": "Strategic marketing planning, Marketing automation implementation, Workflow optimization, Customer journey mapping, Performance measurement"
+        },
+        "1": {
+          "title": "Corporate Strategy Guidance",
+          "description": "Take your business to new heights with expertly crafted corporate strategies. Optisence provides comprehensive Corporate Strategy Guidance designed to ensure your business stays ahead of the competition.",
+          "keys": "Business model innovation, Market entry and expansion strategies, Competitive analysis, Change management, Leadership and governance consulting"
+        }
+      }
+    },
+    "industries": {
+      "title": "Industries We Shape",
+      "description": "Our expertise spans multiple industries, offering tailored solutions for your unique challenges. From tech startups to established enterprises in diverse sectors, Optisence is committed to driving success."
+    },
+    "ourValues": {
+      "title": "Our Values",
+      "description": "Our values are the cornerstone of everything we do. We believe in more than just delivering excellent business strategies; we strive to build a culture rooted in authenticity, collaboration, and meaningful impact.",
+      "items": {
+        "1": {
+          "title": "Integrity Beyond Expectations",
+          "description": "We don’t discuss integrity — we live it. Our commitment to transparency and honesty is reflected in everything we do. Trust is built on delivering results ethically and responsibly from our internal operations to client relationships. Every decision is rooted in the idea that integrity is the foundation for lasting success."
+        },
+        "2": {
+          "title": "Relentless Innovations",
+          "description": "Innovation is at the heart of what we do. We understand that the business world constantly evolves, and we always seek new ways to enhance our strategies and methodologies. Our approach is forward-thinking and data-driven, utilizing the latest technologies, tools, and creative solutions to keep our clients at the cutting edge of their industries."
+        },
+        "3": {
+          "title": "Excellence as a Standard",
+          "description": "Excellence is not just a goal but a mindset. We push ourselves to exceed expectations and deliver superior outcomes, ensuring that every strategy we craft is of the highest quality. We hold ourselves accountable for exceptional performance from the initial consultation to the final strategy execution."
+        },
+        "4": {
+          "title": "Collaboration that Fuels Success",
+          "description": "Collaboration is our secret weapon. We believe the best results come from working together — within our team and with our clients. We create deep, collaborative partnerships where open communication, shared goals, and collective problem-solving take center stage."
+        },
+        "5": {
+          "title": "Empowering People and Businesses",
+          "description": "We believe that empowered people lead to empowered businesses. We aim to give clients the tools, strategies, and knowledge they need to thrive in an ever-changing landscape. We believe in nurturing talent, empowering our team to think creatively, and providing our clients with the insights they need."
+        },
+        "6": {
+          "title": "Sustainability and Responsibility",
+          "description": "Sustainability isn’t just a trend — it’s an essential pillar of long-term success. We take a responsible approach to business by integrating sustainable practices into our strategies. Helping clients reduce their environmental footprint or advising on ethical business practices, we strive to create lasting value that benefits our clients and society."
+        }
+      }
+    },
+    "clientReviews": {
+      "title": "Client Reviews",
+      "description": "Our clients’ satisfaction speaks volumes about the quality of our services. Here’s what some of them have to say about working with Optisence:",
+      "reviews": {
+        "0": {
+          "name": "John H.",
+          "position": "CEO of Tech Innovators",
+          "review": "“Optisence completely transformed our marketing strategy. Their team delivered data-driven insights that optimized our operations and increased our brand visibility. They are true experts in their field!”",
+          "grade": "5"
+        },
+        "1": {
+          "name": "Lisa M.",
+          "position": "Director of Operations at Global Enterprises",
+          "review": "“Working with Optisence was a game-changer for our company. Their corporate strategy guidance helped us navigate a tough market and make the right decisions for long-term success. I highly recommend them.”.",
+          "grade": "5"
+        },
+        "2": {
+          "name": "Tom P.",
+          "position": "Founder of Startup Co.",
+          "review": "“Optisence helped us streamline our marketing processes, and while we’re seeing results, we feel there’s still potential for more optimization. Looking forward to continuing our partnership!”",
+          "grade": "4"
+        }
+      },
+      "btnLabel": "Read More Reviews"
+    },
+    "banners": {
+      "0": {
+        "title": "Careers at Optisence",
+        "desc": "Join Optisence and shape the future of business and marketing with a creative, innovative, and collaborative team.",
+        "btnText": "Browse Our Career Opportunities"
+      },
+      "1": {
+        "title": "Media Center",
+        "desc": "The Optisence Media Center offers expert insights and solutions on the latest trends in business and marketing.",
+        "btnText": "Visit Our Media Center"
+      },
+      "2": {
+        "title": "Contact Us",
+        "desc": "Contact us today for a consultation on marketing optimization or corporate strategy to drive your business transformation.",
+        "btnText": "Get in Touch"
+      }
+    }
+  },
+  "who-we-are": {
+    "hero": {
+      "title": "Who We Are: Shaping Your Business Success Through Expertise and Innovation",
+      "description": "We offer innovative consulting services that empower businesses to navigate complex challenges. Our strategies are tailored to help companies achieve strategic growth, operational excellence, and sustainable success.",
+      "btnLabel": "Get in Touch Today"
+    },
+    "ourJourney": {
+      "title": {
+        "first": "Our Journey:",
+        "second": "From Vision to Reality"
+      },
+      "description": {
+        "first": "Optisence began with a simple but powerful vision: to create a consulting firm that didn’t just provide solutions but empowered businesses to rethink their entire approach to strategy and marketing. We started small, but our vision was always global.",
+        "second": "We have encountered various challenges along the way, each serving as an opportunity to innovate and continuously refine our approach. Driven by dedication, a client-focused mindset, and a commitment to excellence, we’ve cultivated deep expertise and established ourselves as a reliable partner. Today, we help businesses transform operations, elevate strategies, and achieve sustainable growth."
+      },
+      "items": {
+        "0": {
+          "title": "Started with Purpose",
+          "text": "Optisence was created to offer businesses actionable solutions that truly empower them to succeed."
+        },
+        "1": {
+          "title": "Navigated Challenges",
+          "text": "Every setback provided valuable insights and helped shape our consulting approach and methodology."
+        },
+        "2": {
+          "title": "Global Expansion",
+          "text": "Today, we’re a global consulting firm trusted by companies worldwide for their marketing and business strategy needs."
+        }
+      }
+    },
+    "ourApproach": {
+      "title": {
+        "first": "Our Approach:",
+        "second": "Consulting That Evolves with You"
+      },
+      "description": {
+        "first": "Consulting with Optisence means embarking on a long-term partnership, not just receiving a one-time solution. Consulting should evolve as your business grows and adapts to new challenges. Our approach is built on flexibility and responsiveness to meet our clients’ ever-changing needs. We don’t provide static solutions; we create dynamic strategies that adjust as your business needs evolve.",
+        "second": "We don’t provide static solutions; we create dynamic strategies that adjust as your business needs evolve."
+      }
+    },
+    "whatSetsUsApart": {
+      "title": {
+        "first": "What Sets Us Apart:",
+        "second": "Beyond Strategy"
+      },
+      "items": {
+        "0": {
+          "title": "Personalized Service",
+          "text": "Every client is unique. Our solutions are customized to fit your company’s culture, goals, and challenges."
+        },
+        "1": {
+          "title": "Innovative Thinking",
+          "text": "We combine cutting-edge technology with deep industry knowledge to create solutions that are not only effective but also forward-thinking."
+        },
+        "2": {
+          "title": "Results-Oriented",
+          "text": "We don’t just talk strategy; we implement and track results, ensuring each decision drives measurable success."
+        },
+        "3": {
+          "title": "Collaborative Approach",
+          "text": "We believe in building strong partnerships with our clients, working hand-in-hand with you to implement strategies and ensure continuous improvement."
+        },
+        "4": {
+          "title": "Agility and Flexibility",
+          "text": "The business landscape is constantly changing. Our team is nimble and adaptable, responding quickly to new opportunities and challenges to keep your business ahead of the curve."
+        },
+        "5": {
+          "title": "Proven Results",
+          "text": "We don’t just talk strategy; we implement and track results, ensuring each decision drives measurable success."
+        }
+      }
+    },
+    "ourImpact": {
+      "title": {
+        "first": "Our Impact:",
+        "second": "Real Results for Real Businesses"
+      },
+      "description": "The transformational growth and tangible results define the success of Optisence we’ve driven for our clients. We work with businesses across industries, and the results speak for themselves. Whether helping a tech startup scale or refining operations for an international brand, we focus on delivering measurable outcomes that help our clients achieve their goals.",
+      "btnLabel": "See Our Success Stories"
+    },
+    "optisenceMindset": {
+      "title": {
+        "first": "The Optisence Mindset:",
+        "second": "Innovating with Expertise"
+      },
+      "description": "Innovation isn’t just a buzzword at Optisence; it’s part of our DNA. We combine industry expertise with cutting-edge technologies to ensure our strategies are effective today and prepared for the future.",
+      "items": {
+        "0": {
+          "title": "Embracing Emerging Technologies",
+          "text": "From AI to machine learning, we integrate the latest technologies to create smart solutions that help you stay ahead of the competition."
+        },
+        "1": {
+          "title": "Industry Expertise",
+          "text": "Our team comprises seasoned professionals with deep experience across various sectors, providing you with insights that work."
+        },
+        "2": {
+          "title": "Continuous Innovation",
+          "text": "We never stop learning. Our team constantly evolves, ensuring we remain on top of market trends and innovations."
+        }
+      }
+    },
+    "optisenceEcosystem": {
+      "title": {
+        "first": "The Optisence Ecosystem:",
+        "second": "A Network for Growth"
+      },
+      "items": {
+        "0": {
+          "title": "Global Partnerships",
+          "text": "Our international network brings you the best minds in technology, data analytics, and business development."
+        },
+        "1": {
+          "title": "Cutting-Edge Tools",
+          "text": "We integrate the latest technologies, from AI to big data analytics, to ensure the best outcomes for your business."
+        },
+        "2": {
+          "title": "Collaborative Growth",
+          "text": "We ensure you’re always ahead of the curve by tapping into our vast network, providing access to the most relevant resources and expertise."
+        },
+        "3": {
+          "title": "Access to Industry Experts",
+          "text": "Our ecosystem connects you with leading specialists across multiple sectors, ensuring your business benefits from the strategies tailored to your needs."
+        }
+      }
+    },
+    "optisenceFamily": {
+      "title": {
+        "first": "Join the Optisence Family:",
+        "second": "A Culture of Innovation and Collaboration"
+      },
+      "description": "At Optisence, we don’t just work together — we innovate together. Our team is a collaborative, passionate group of professionals who thrive on solving business challenges and creating opportunities for our clients. We offer a supportive environment where creativity is encouraged and professional development is prioritized. Our culture is built on continuous learning, teamwork, and a shared passion for results.",
+      "btnLabel": "Join Our Team"
+    },
+    "lookingAhead": {
+      "title": {
+        "first": "Looking Ahead:",
+        "second": "The Future of Business with Optisence"
+      },
+      "description": "Agility, innovation, and sustainability drive the future of business. At Optisence, we are already preparing for the challenges and opportunities ahead. We aim to ensure our clients are always one step ahead in the market.",
+      "btnLabel": "Start Your Journey with Optisence"
+    },
+    "items": {
+      "0": {
+        "title": "Future-Proofing Businesses",
+        "text": "We help our clients stay ahead by embracing innovation and preparing for market shifts."
+      },
+      "1": {
+        "title": "Sustainability at the Core",
+        "text": "We believe in driving long-term value through sustainable business models."
+      },
+      "2": {
+        "title": "Adapting to Change",
+        "text": "We ensure our clients adapt quickly to new technologies and changing market conditions."
+      }
+    }
+  },
+  "industries-we-shape": {
+    "hero": {
+      "title": "Industries We Shape",
+      "subtitle": "Not Just Strategy. Industry Reinvention.",
+      "description": "Optisence partners with future-focused companies across industries to challenge norms, break bottlenecks, and architect scalable growth. Our work isn’t just tailored — it’s engineered to disrupt the default and build what’s next."
+    },
+    "industryPain": {
+      "title": {
+        "first": "From Industry Pain",
+        "second": "to Competitive Edge"
+      },
+      "subtitle": "We Start Where the Pain Is Loudest.",
+      "description": "Every industry has its pressure points — legacy systems, shifting regulations, demanding customers, sluggish tech stacks. We don’t skirt around them. We zero in, dissect the complexity, and design smarter systems that move faster, cost less, and deliver more.",
+      "whatWeFix": {
+        "title": "We fix what others fear:",
+        "items": {
+          "0": "Unscalable operations",
+          "1": "Obsolete positioning",
+          "2": "Stalled digital transformation",
+          "3": "Fragmented customer journeys",
+          "4": "Misaligned leadership structures",
+          "5": "Inefficient resource allocation"
+        }
+      }
+    },
+    "breakTheMold": {
+      "title": "This Is Where We Break the Mold",
+      "items": {
+        "0": {
+          "title": "Tech & SaaS",
+          "description": "From seed to Series E, we help tech companies scale without chaos.",
+          "impact": "3x faster go-to-market. 150% lift in qualified leads. Fewer silos. More speed."
+        },
+        "1": {
+          "title": "Healthcare",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "2": {
+          "title": "Education & EdTech",
+          "description": "We turn content into experience and data into student success.",
+          "impact": "40% enrollments. 50% engagement. Smarter learning systems, smarter outcomes."
+        },
+        "3": {
+          "title": "Energy & Utilities",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "4": {
+          "title": "Manufacturing",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "5": {
+          "title": "Telecom",
+          "description": "We help telcos do more than connect — we help them engage, scale, and monetize.",
+          "impact": "Impact: +12% ARPU. -18% churn. Signal strong. Strategy stronger."
+        },
+        "6": {
+          "title": "Retail & E-Com",
+          "description": "We make complexity navigable — compliance, workflows, patient journeys, reimagined.",
+          "impact": "25% patient satisfaction. 30% admin friction. 100% digital transformation."
+        },
+        "7": {
+          "title": "Finance & Fintech",
+          "description": "We turn regulation into rhythm and risk into leverage.",
+          "impact": "Impact: -15% fraud. +20% process velocity. Banking, but smarter."
+        }
+      }
+    },
+    "results": {
+      "title": {
+        "first": "Results.",
+        "second": "Or It Didn’t Happen."
+      },
+      "description": "Some of our industry wins:",
+      "items": {
+        "0": {
+          "title": "+200%",
+          "description": "social media engagement for a B2B tech firm"
+        },
+        "1": {
+          "title": "-30%",
+          "description": "delivery cost for a retail logistics client"
+        },
+        "2": {
+          "title": "+15%",
+          "description": "increase in NPS after telecom CX strategy revamp"
+        },
+        "3": {
+          "title": "+40%",
+          "description": "internal efficiency in a healthcare system after digital process redesign"
+        },
+        "4": {
+          "title": "€5M+",
+          "description": "unlocked from operational waste for a European manufacturing group"
+        }
+      }
+    },
+    "builtForIndustries": {
+      "title": {
+        "first": "Built for Industries",
+        "second": "That Refuse to Stay Still"
+      },
+      "description": {
+        "first": "We’re not just another consulting firm. We’re a team of industry experts who are passionate about helping businesses grow and succeed.",
+        "second": "We’re not just another consulting firm. We’re a team of industry experts who are passionate about helping businesses grow and succeed."
+      },
+      "subtitle": "Transform Your Industry with Optisence",
+      "btnLabels": {
+        "0": "Request a Strategy Session",
+        "1": "Explore Our Capabilities"
+      }
+    }
+  },
+  "careers": {
+    "hero": {
+      "title": "Careers at Optisence",
+      "description": "Join our team of industry experts and help businesses grow and succeed.",
+      "text": {
+        "first": "At Optisence, we architect growth, amplify brands, and unlock business potential. And none of that happens without one thing: exceptional people.",
+        "second": "We’re on a mission to redefine business consulting through bold thinking, real results, and a culture where ideas win. If you’re driven by impact, fueled by curiosity, and ready to shape the future alongside clients that refuse to settle — this might be the place for you."
+      },
+      "label": "Let’s Do Transformative Work. Together!"
+    },
+    "workWithUs": {
+      "title": "Why Work With Us?",
+      "description": "Since strategy is only as good as the team behind it.",
+      "cards": {
+        "0": {
+          "title": "Bold Thinking, Grounded in Reality",
+          "description": "At Optisence, ideas matter — but outcomes matter more. You'll work on high-impact projects that challenge assumptions, shift industries, and spark meaningful change."
+        },
+        "1": {
+          "title": "Growth Is the Only Direction",
+          "description": "Whether you're just starting out or scaling your career to new heights, we offer real opportunities for development, ownership, and leadership. No corporate fluff. Just clear paths forward."
+        },
+        "2": {
+          "title": "Collaboration Over Competition",
+          "description": "We believe the best strategies are co-created. That’s why we hire listeners, challengers, builders — and give them the freedom to think, create, and lead."
+        },
+        "3": {
+          "title": "Work That Feels Good",
+          "description": "Flexible work? Always. Autonomy? Absolutely. Well-being, purpose, and inclusion? Non-negotiable. Because when people thrive, companies do too."
+        }
+      }
+    },
+    "whatYouGet": {
+      "title": "What You Get",
+      "items": {
+        "0": {
+          "title": "Diversity Drives Us",
+          "description": "Different backgrounds, voices, and perspectives make us better. Full stop."
+        },
+        "1": {
+          "title": "Learning That Doesn’t Stop",
+          "description": "Paid certifications, mentorship, workshops, and growth paths tailored to you."
+        },
+        "2": {
+          "title": "Work-Life Integration",
+          "description": "Generous PTO, mental health support, no-questions-asked personal time."
+        },
+        "3": {
+          "title": "Work Anywhere, Grow Everywhere",
+          "description": "Flexible remote/hybrid culture rooted in trust, autonomy, and performance."
+        },
+        "4": {
+          "title": "Clear Paths, Real Progress",
+          "description": "Transparent reviews, career roadmaps, and leadership that listens."
+        }
+      }
+    },
+    "hiringProcess": {
+      "title": "Our Hiring Process",
+      "description": "We keep it real — and respectful.",
+      "steps": {
+        "0": {
+          "title": "Application Review",
+          "description": "Tell us who you are and what excites you."
+        },
+        "1": {
+          "title": "Intro Call",
+          "description": "Let’s talk about vision, goals, and vibes."
+        },
+        "2": {
+          "title": "Skill Showcase",
+          "description": "We’ll give you something thoughtful (never generic) to solve or present."
+        },
+        "3": {
+          "title": "Final Interview",
+          "description": "Meet the team, ask us anything."
+        },
+        "4": {
+          "title": "Offer & Onboarding",
+          "description": "If we both feel it — we move fast."
+        }
+      },
+      "deadline": {
+        "title": "Total time?",
+        "description": "Usually under 2 weeks."
+      }
+    },
+    "optisenceLife": {
+      "title": "Life at Optisence",
+      "cards": {
+        "0": {
+          "title": "Dumisani, Consultant",
+          "description": "“You’re not boxed in. I’ve pitched to C-level execs, redesigned a GTM play, and led a sprint — all in my first year.”"
+        },
+        "1": {
+          "title": "Anika, Strategy Analyst",
+          "description": "“Optisence gave me the space to grow and the guidance to thrive. It’s rare to find that balance.”"
+        }
+      }
+    },
+    "readyToApply": {
+      "title": {
+        "first": "Ready to",
+        "second": "Apply?"
+      },
+      "subtitle": "Step into a role that matters. Do work that moves the needle.",
+      "description": {
+        "first": "Send your CV + short intro (or wild idea) to",
+        "second": "or use the form below:"
+      },
+      "form": {
+        "title": "Application Form",
+        "fields": {
+          "name": {
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "email": {
+            "label": "Email Address",
+            "placeholder": "Enter your email address"
+          },
+          "phone": {
+            "label": "Phone Number",
+            "placeholder": "Enter a contact phone number"
+          },
+          "role": {
+            "label": "Role You’re Applying For",
+            "placeholder": "Enter role"
+          },
+          "portfolio": {
+            "label": "LinkedIn / Portfolio (optional)",
+            "placeholder": "Enter your company name"
+          },
+          "message": {
+            "label": "Cover Letter / Message",
+            "placeholder": "Enter your message"
+          },
+          "submit": {
+            "label": "Submit Application",
+            "loading": "Submitting..."
+          }
+        }
+      }
+    },
+    "positions": {
+      "title": "Open Positions",
+      "description": "We’re actively hiring across several key roles. Don’t see your dream job listed? Reach out anyway — we’re always looking for standout talent.",
+      "jobs": {
+        "0": {
+          "title": "Strategic Consultant",
+          "description": {
+            "text": {
+              "0": "We don't do cookie-cutter consulting. We partner with ambitious businesses to reimagine their future — and we're looking for a Strategic Consultant who's ready to lead that charge.",
+              "1": "This role isn't just about giving advice. It's about crafting sharp, forward-looking strategies that solve real problems and spark measurable change. Whether you're helping a fintech navigate global expansion, transforming the marketing engine of a scaling SaaS, or reworking an enterprise's operating model — your work will live where insight meets execution.",
+              "2": "You'll collaborate closely with senior leadership, both internally and on the client side, guiding cross-functional teams with clarity and confidence. You'll bring structure to chaos, uncover opportunities in complexity, and help clients make decisions that drive long-term impact."
+            },
+            "bold": {
+              "0": {
+                "text": "Strategic Consultant",
+                "paragraph": "0"
+              },
+              "1": {
+                "text": "insight meets execution",
+                "paragraph": "1"
+              }
+            }
+          },
+          "requirements": {
+            "0": "3+ years in business, strategy, or marketing consulting, ideally in a fast-paced or client-facing environment.",
+            "1": "Strong analytical thinking with the ability to distill ambiguity into clarity — and clarity into action.",
+            "2": "Excellent communication and presentation skills, with a natural ability to build trust with stakeholders.",
+            "3": "A bias for execution: you're not just a thinker, you're a builder — someone who wants to see real results.",
+            "4": "Comfort with cross-functional collaboration and managing multiple workstreams with efficiency.",
+            "5": "Confidence without ego — you lead with curiosity, not arrogance. You know when to own the room and when to ask the better question."
+          },
+          "responsibilities": {
+            "0": "Leading high-stakes, high-impact client engagements across marketing, operations, and corporate strategy.",
+            "1": "Designing growth roadmaps, market entry strategies, and operating models tailored to evolving business realities.",
+            "2": "Synthesizing data, trends, and stakeholder insight into strategic narratives and clear, actionable solutions.",
+            "3": "Driving collaboration across teams — aligning product, marketing, operations, and executive leadership.",
+            "4": "Presenting to C-suite decision-makers, defending ideas with confidence, and adapting quickly based on feedback.",
+            "5": "Acting not just as a consultant, but as a trusted strategic partner who brings calm to complexity and momentum to inertia."
+          },
+          "summary": {
+            "text": "This role is ideal for someone who wants to be more than a slide-builder — someone who wants to lead change, shape industries, and see the tangible impact of their work. At Optisence, you'll find a culture that celebrates sharp thinking, bold ideas, and strategic precision — all grounded in collaboration, not hierarchy.",
+            "bold": {
+              "0": "more than a slide-builder"
+            }
+          }
+        },
+        "1": {
+          "title": "Marketing Performance Analyst",
+          "description": {
+            "text": {
+              "0": "We believe great marketing doesn’t just look good — it performs. We're seeking a Marketing Performance Analyst who can dive into the data ocean, surface the insights that matter, and turn numbers into narratives that drive growth.",
+              "1": "In this role, you won’t just be crunching numbers in the background. You’ll be embedded in our core strategic operations — working alongside consultants, creatives, and clients to turn marketing into a measurable growth engine. You’ll make sense of signals across funnels, platforms, and audiences — helping us decode what’s working, what’s not, and where the next opportunity lies.",
+              "2": "This is more than reporting. This is decision-driving. This is strategy-shaping. This is analytics that earns a seat at the table."
+            },
+            "bold": {
+              "0": {
+                "text": "Marketing Performance Analyst",
+                "paragraph": "0"
+              }
+            }
+          },
+          "requirements": {
+            "0": "Hands-on experience with GA4, Looker Studio, Power BI, Tableau, or similar marketing analytics platforms.",
+            "1": "A solid understanding of core marketing metrics and KPIs — CAC, LTV, ROI, CTR, bounce rate, conversion rates — and how to improve them.",
+            "2": "Comfort working across multiple data sources and digital platforms (Google Ads, Meta, CRM tools, etc.).",
+            "3": "A curious, pattern-seeking mind with the ability to turn data into clear, actionable insight.",
+            "4": "The soul of a storyteller — you can frame data in a way that engages, persuades, and drives action.",
+            "5": "A knack for simplifying complex information into actionable recommendations."
+          },
+          "responsibilities": {
+            "0": "Building and maintaining dashboards that tell the story behind the numbers — in tools like GA4, Looker Studio, and Power BI.",
+            "1": "Tracking full-funnel performance across digital campaigns, from awareness to conversion to retention.",
+            "2": "Surfacing actionable insights that help our marketing teams and clients optimize spend, creative, and targeting.",
+            "3": "Identifying leading indicators and anomalies before they become problems (or opportunities missed).",
+            "4": "Translating complex data into clean, compelling visuals and strategic recommendations for both internal teams and client presentations."
+          },
+          "summary": {
+            "text": "This role is for someone who doesn’t just analyze — they anticipate. Someone who’s obsessed with connecting marketing effort to business outcome, and who thrives in an environment where analytics is seen not as support, but as a strategic superpower.",
+            "bold": {
+              "0": "anticipate"
+            }
+          }
+        },
+        "2": {
+          "title": "Business Development Lead",
+          "description": {
+            "text": {
+              "0": "Business development isn’t about pushing services — it’s about crafting relevance, building trust, and creating the kinds of partnerships that unlock real business transformation.",
+              "1": "We’re looking for a Business Development Lead who sees beyond quotas and pipelines. Someone who can translate strategic potential into real-world outcomes. Someone who can walk into a conversation with a CMO or COO, understand their pain points, and articulate not just what we offer — but how we solve. You'll be shaping how companies discover us, engage with us, and grow with us.",
+              "2": "This role is equal parts strategist, relationship builder, and deal-closer — and it sits at the heart of our growth engine."
+            },
+            "bold": {
+              "0": {
+                "text": "Business Development Lead",
+                "paragraph": "1"
+              }
+            }
+          },
+          "requirements": {
+            "0": "You’ve done this before — 3+ years of demonstrable success in B2B business development, ideally in consulting, SaaS, or marketing services.",
+            "1": "You combine strategic thinking with hustle — understanding not just how to close deals, but how to open meaningful conversations.",
+            "2": "You’re a natural communicator with exceptional storytelling skills — able to frame value, tailor messaging, and build credibility fast.",
+            "3": "You think like a founder — driven by results, hungry for growth, and comfortable with ambiguity.",
+            "4": "You thrive in fast-paced, collaborative environments where initiative and experimentation are encouraged."
+          },
+          "responsibilities": {
+            "0": "Leading and executing outreach strategies that cut through noise and land with clarity — email, LinkedIn, events, partnerships.",
+            "1": "Building and nurturing relationships with key B2B decision-makers, from first touch to signed deal.",
+            "2": "Driving the sales cycle from lead generation through to proposal development and contract negotiation.",
+            "3": "Representing Optisence at virtual and in-person events, conferences, and executive briefings — being the voice of our brand.",
+            "4": "Working closely with our consulting and marketing teams to shape offers that meet real market needs.",
+            "5": "Tracking sales performance, refining strategies, and uncovering new revenue opportunities through feedback loops and market intelligence."
+          },
+          "summary": {
+            "text": "This isn’t just a sales role — it’s a growth leadership role. You’ll help define not just what we sell, but how we scale. You’ll be part of a team that values intelligence, insight, and integrity over pressure tactics and pushy sales. And most importantly, you’ll help build the next chapter of Optisence — one relationship at a time.",
+            "bold": {
+              "0": "what",
+              "1": "how we"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dropzone": {
+    "label": "Choose file",
+    "placeholder": "No file selected",
+    "fullLabel": "Choose new file",
+    "attachFile": "Attach any relevant documents, resumes, proposals, or briefs (Max size: 10MB)",
+    "selectedFile": "Selected file"
+  },
+  "our-work": {
+    "hero": {
+      "title": "Our Work",
+      "subtitle": "Strategy That Speaks Through Results — Not Just Names",
+      "description": {
+        "col1": {
+          "0": "At Optisence, we work with forward-thinking companies — from fast-scaling startups to global enterprises. Many of our most impactful projects are protected by strict non-disclosure agreements (NDAs). And that's fine with us.",
+          "1": "Because we believe real strategy doesn't need a spotlight, it needs outcomes."
+        },
+        "col2": {
+          "0": "Below, you'll find anonymized case stories that reflect the real transformations we deliver: complex challenges turned into smart systems, scattered teams turned into growth engines, and uncertainty turned into clarity.",
+          "1": "We don't drop names. We drop inefficiencies, barriers, and outdated thinking."
+        }
+      }
+    },
+    "projects": {
+      "0": {
+        "name": "Retail at Scale: From Fragmented Campaigns to a Marketing Machine",
+        "client": "National Retail Chain",
+        "industry": "Retail",
+        "usedServices": {
+          "0": "Marketing Ops Advisory",
+          "1": "Workflow Automation",
+          "2": "Performance Analytics"
+        },
+        "problems": {
+          "0": "100+ stores.",
+          "1": "0 unified vision.",
+          "2": "Marketing teams worked in silos, running inconsistent campaigns across regions — bloating costs and muddying brand identity."
+        },
+        "problemsResults": {
+          "0": "Duplication of effort across marketing teams",
+          "1": "No central data loop for performance feedback",
+          "2": "Disconnected tech tools with manual reporting"
+        },
+        "built": {
+          "0": "Unified marketing command center across 100+ stores",
+          "1": "Automated workflow from strategy to in-store execution",
+          "2": "Central dashboard for real-time campaign analytics"
+        },
+        "builtResults": {
+          "0": "-30% marketing overhead",
+          "1": "Campaign launch time cut by 45%",
+          "2": "+25% consistency in brand application across stores"
+        },
+        "slogan": "“This wasn’t optimization — it was transformation. Our internal chaos became a coordinated performance.”"
+      },
+      "1": {
+        "name": "SaaS Startup: Turning a Scattered Team into a Scalable Engine",
+        "client": "Tech Startup (Series A)",
+        "industry": "B2B SaaS",
+        "usedServices": {
+          "0": "Corporate Strategy",
+          "1": "Go-to-Market Alignment",
+          "2": "Revenue Architecture"
+        },
+        "problems": {
+          "0": "A fast-growing startup with a killer product — and a team burning out trying to keep up.",
+          "1": "Scaling was reactive, not strategic"
+        },
+        "problemsResults": {
+          "0": "No revenue predictability",
+          "1": "Undefined ICP (Ideal Customer Profile)",
+          "2": "Disconnected sales, product, and marketing priorities"
+        },
+        "built": {
+          "0": "GTM architecture from funnel to forecast",
+          "1": "Lead qualification engine using behavioral data",
+          "2": "Unified product-led and sales-led motions"
+        },
+        "builtResults": {
+          "0": "+150% increase in SQLs in 4 months",
+          "1": "Time-to-onboard reduced by 38%",
+          "2": "Burn rate flattened without cutting innovation velocity"
+        },
+        "slogan": "“Optisence didn’t just guide us — they built our entire growth engine and handed us the keys.”"
+      },
+      "2": {
+        "name": "Healthcare Network: Building a Patient-First, Tech-Backed Experience",
+        "client": "Multi-site Healthcare Provider",
+        "industry": "Healthcare",
+        "usedServices": {
+          "0": "Patient Journey Mapping",
+          "1": "Digital Strategy",
+          "2": "Operational Redesign"
+        },
+        "problems": {
+          "0": "Fragmented data.",
+          "1": "Frustrated patients.",
+          "2": "A digital experience stuck in 2012 — leading to high no-show rates and low trust."
+        },
+        "problemsResults": {
+          "0": "Manual intake processes causing delays",
+          "1": "Zero personalization in patient comms",
+          "2": "Lack of journey continuity between departments"
+        },
+        "built": {
+          "0": "End-to-end digital patient experience — mobile-first",
+          "1": "Unified communication flows across clinical + admin teams",
+          "2": "Smart scheduling powered by engagement data"
+        },
+        "builtResults": {
+          "0": "+55% patient engagement",
+          "1": "25% drop in no-shows",
+          "2": "Admin task load reduced by 35%"
+        },
+        "slogan": "“We didn’t just fix the pain points. We reimagined care around the patient — and it worked.”"
+      },
+      "3": {
+        "name": "Fintech Expansion: From Static Strategy to Global Growth Blueprint",
+        "client": "Mid-Sized Fintech",
+        "industry": "Financial Services",
+        "usedServices": {
+          "0": "Market Entry Strategy",
+          "1": "Brand Messaging",
+          "2": "Leadership Alignment"
+        },
+        "problems": {
+          "0": "A solid product with potential — trapped inside a brand that didn’t scale.",
+          "1": "Their growth? Stuck between ambition and confusion."
+        },
+        "problemsResults": {
+          "0": "Brand lost in translation across markets",
+          "1": "Expansion plans driven by gut, not data",
+          "2": "Leadership not aligned on who they serve"
+        },
+        "built": {
+          "0": "Multi-market expansion framework (Europe + Africa)",
+          "1": "Repositioned brand with clear messaging across touchpoints",
+          "2": "Strategy offsite to realign leadership vision + velocity"
+        },
+        "builtResults": {
+          "0": "+40% YoY revenue growth",
+          "1": "2 new markets launched — both profitable in < 9 months",
+          "2": "Leadership team realigned around one vision, one mission"
+        },
+        "slogan": "“We stopped guessing. Optisence gave us precision — and the confidence to scale globally.”"
+      },
+      "4": {
+        "name": "Manufacturing Reinvented: From Legacy Systems to Lean-Driven Growth",
+        "client": "Industrial Manufacturing Group",
+        "industry": "Manufacturing",
+        "usedServices": {
+          "0": "Process Optimization",
+          "1": "Digital Transformation",
+          "2": "Leadership Enablement"
+        },
+        "problems": {
+          "0": "Production was stable — but stagnant.",
+          "1": "Legacy systems, manual data capture, and siloed departments created hidden inefficiencies and massive opportunity cost."
+        },
+        "problemsResults": {
+          "0": "Teams relying on spreadsheets for mission-critical operations",
+          "1": "Zero visibility across supply chain performance",
+          "2": "Managers reactive instead of proactive due to lack of data"
+        },
+        "built": {
+          "0": "End-to-end operational intelligence dashboard",
+          "1": "Digital workflows across production, supply chain, and QA",
+          "2": "KPI structure aligned with lean methodology"
+        },
+        "builtResults": {
+          "0": "+40% productivity uplift across 3 core facilities",
+          "1": "€5M in cost savings from reduced operational waste",
+          "2": "Real-time visibility enabled weekly course correction"
+        },
+        "slogan": "“We didn’t just upgrade tech. Optisence helped us rethink how we work. Every process now talks to every result.”"
+      },
+      "5": {
+        "name": "Energy Sector Evolution: Aligning Sustainability with Profit",
+        "client": "Regional Energy Provider",
+        "industry": "Energy & Utilities",
+        "usedServices": {
+          "0": "Sustainability Strategy",
+          "1": "Stakeholder Alignment",
+          "2": "ESG Reporting Architecture"
+        },
+        "problems": {
+          "0": "Environmental pressure was mounting.",
+          "1": "Stakeholders demanded change — but internal teams saw sustainability as a cost center, not a strategic driver."
+        },
+        "problemsResults": {
+          "0": "Fragmented sustainability efforts with no unified roadmap",
+          "1": "Regulatory risk with outdated carbon reporting",
+          "2": "Leadership split between long-term vision and short-term pressure"
+        },
+        "built": {
+          "0": "ESG-aligned transformation plan linked to commercial goals",
+          "1": "Roadmap for reducing emissions without compromising performance",
+          "2": "Stakeholder reporting system with real-time metrics"
+        },
+        "builtResults": {
+          "0": "-12% reduction in emissions in Year 1 (without CapEx spike)",
+          "1": "+18% investor confidence as measured by quarterly sentiment report",
+          "2": "Sustainability integrated into business planning — not bolted on"
+        },
+        "slogan": "“They reframed sustainability from cost to value. It became a lever — not a lecture.”"
+      },
+      "6": {
+        "name": "Telecom Reinvention: From High Churn to High Retention",
+        "client": "National Telco Provider",
+        "industry": "Telecommunications",
+        "usedServices": {
+          "0": "Customer Experience Strategy",
+          "1": "Brand Turnaround",
+          "2": "Retention Analytics"
+        },
+        "problems": {
+          "0": "Customer churn was quietly killing growth. Marketing focused on acquisition, but no one owned retention.",
+          "1": "CX was fragmented. The brand lost emotional relevance."
+        },
+        "problemsResults": {
+          "0": "Multiple departments touching the customer journey — but no ownership",
+          "1": "Outdated segmentation ignoring behavioral trends",
+          "2": "Messaging that didn’t match modern user expectations"
+        },
+        "built": {
+          "0": "Voice-of-Customer ecosystem with unified feedback loops",
+          "1": "Predictive churn modeling using real-time usage data",
+          "2": "Repositioned brand narrative based on loyalty drivers"
+        },
+        "builtResults": {
+          "0": "-18% churn within 6 months",
+          "1": "+12% ARPU through cross-sell strategy",
+          "2": "+40% NPS lift after CX redesign rollout"
+        },
+        "slogan": "“It wasn’t about louder marketing. It was about sharper listening — and Optisence made us hear what really mattered.”"
+      }
+    },
+    "projectsApart": {
+      "title": "What Sets These Projects Apart?",
+      "description": {
+        "0": "Not the logos. Not the industries.",
+        "1": "But the approach:"
+      },
+      "items": {
+        "0": {
+          "title": "We don’t offer generic playbooks",
+          "description": "we co-create roadmaps built on your reality."
+        },
+        "1": {
+          "title": "We diagnose before we prescribes",
+          "description": "every solution is rooted in data, context, and competitive analysis."
+        },
+        "2": {
+          "title": "We don’t just leave you with slides",
+          "description": "we help you execute, measure, and evolve."
+        }
+      }
+    },
+    "buildCaseStudy": {
+      "title": {
+        "0": "Ready to Build Your Own",
+        "1": "Case Study?"
+      },
+      "description": "Whether you're scaling, transforming, or navigating complexity — Optisence becomes your unfair advantage. Let’s turn your next challenge into a win worth writing about.",
+      "buttons": {
+        "0": "Request a Custom Solution",
+        "1": "Discover Marketing Advisory"
+      }
+    }
+  },
+  "header": {
+    "links": {
+      "0": "Home",
+      "1": "Who We Are",
+      "2": "Marketing Operations Advisory",
+      "3": "Corporate Strategy Guidance",
+      "4": "Industries We Shape",
+      "5": "Our Work",
+      "6": "Careers",
+      "7": "Media Center",
+      "8": "Contact"
+    },
+    "consultingSolutions": "Consulting Solutions"
+  },
+  "footer": {
+    "description": "Your partner for transforming business strategies and driving growth. Work with experts to develop tailored solutions, implement cutting-edge technologies, and measure results for long-term success.",
+    "registeredAddress": "Registered Address:",
+    "officeAddress": "Office Address:",
+    "registeredNumber": "Registered Number:",
+    "startWithOptisence": "Start With Optisence",
+    "getConsultation": "Get a Consultation",
+    "company": "Company",
+    "policies": {
+      "title": "Policies",
+      "termsAndConditions": "Terms and Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "refundPolicy": "Refund Policy",
+      "cookiePolicy": "Cookie Policy",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "allLegalRightsReserved": "All Legal Rights Reserved"
+  },
+  "mediaCenter": {
+    "header": {
+      "title": "Media Center",
+      "description": {
+        "0": "Welcome to the Optisence Media Center Hub — a destination for forward-thinking business leaders, marketers, and strategists. Here, we decode complexity, challenge conventional thinking, and deliver the sharpest perspectives on business transformation, operational excellence, and sustainable growth.",
+        "1": "Our content isn’t just about trends — it’s about traction. Whether you’re scaling a startup or leading a global enterprise, these insights are built to move your business forward. Powered by real-world experience and grounded in data, every article is designed to help you think boldly, act strategically, and grow intelligently.",
+        "2": "Explore the ideas driving modern business — and discover how Optisence can help you lead the future."
+      },
+      "img": "Where Strategy Meets Execution"
+    },
+    "navigation": {
+      "0": {
+        "name": "5 Signs Your Business Needs a New Corporate Strategy",
+        "preview": "5 Signs Your Business..."
+      },
+      "1": {
+        "name": "Sustainability as Strategy: Building Purpose-Driven Businesses",
+        "preview": "Sustainability as Strategy..."
+      },
+      "2": {
+        "name": "Disrupt or Be Disrupted: Innovation Strategy for Enterprises",
+        "preview": "Disrupt or Be Disrupted..."
+      },
+      "3": {
+        "name": "Customer-Centric Strategy..",
+        "preview": "Customer-Centric Strategy..."
+      }
+    },
+    "fiveSignsYourBusiness": {
+      "title": {
+        "0": "5 Signs Your Business Needs",
+        "1": "a New Corporate Strategy"
+      },
+      "description": "Why Growth Stalls, What to Look For, and How to Lead Forward",
+      "0": {
+        "0": "In the life of every business, there comes a moment when momentum slows — not due to a lack of effort, but because the world around you has moved. What once worked starts to feel… misaligned.",
+        "1": "Customers evolve. Markets reshape. Competitors rewire. And you? You’re still running, but the finish line is no longer where it used to be.",
+        "2": "That moment is your signal — a call to reevaluate your corporate strategy, not your team’s hustle.",
+        "3": "At Optisence, we help companies navigate these turning points with clarity, intelligence, and confidence."
+      },
+      "1": {
+        "title": "1. Growth Has Flatlined — But Your Teams Are Overperforming Beyond Expectations",
+        "whatToWatchFor": "What to watch for:",
+        "values": {
+          "0": "High activity with little or no ROI",
+          "1": "Revenue stuck despite increased marketing spend",
+          "2": "Great execution that feels disconnected from real outcomes"
+        },
+        "summary": "helps businesses decode these signals using advanced diagnostics — helping leadership shift from tactical noise to strategic clarity.",
+        "0": {
+          "0": "Let’s be honest: nothing is more frustrating than doing everything right… and still not moving the needle.",
+          "1": "Your marketing campaigns are polished. Sales teams are hustling. Operations are lean. And yet — revenue’s plateaued. Market share? Shrinking. Customer engagement? Tepid.",
+          "2": "You’re doing all the right things — but something’s missing. And it’s not just your gut. It’s your data.",
+          "3": "At Optisence, we help businesses decode these signals using advanced diagnostics — helping leadership shift from tactical noise to strategic clarity."
+        }
+      },
+      "2": {
+        "title": "2. Your Competitive Advantage Has Quietly Disappeared",
+        "askYourself": "Ask yourself:",
+        "values": {
+          "0": "What truly sets us apart — today, not five years ago?",
+          "1": "Do our customers describe our value the way we do?",
+          "2": "Are we leading the conversation or reacting to it?"
+        },
+        "summary": "helps companies reimagine their positioning through data, empathy, and relevance. Because staying competitive means staying connected",
+        "0": {
+          "0": "You used to be the name in your space. Now? You’re just another option in the comparison chart.",
+          "1": "This doesn’t happen overnight — it creeps in. Slowly, your differentiation dissolves into the noise. Legacy strengths fade. Challenger brands rewrite the rules."
+        }
+      },
+      "3": {
+        "title": "3. You’re Expanding — But It Feels Disorganized",
+        "0": {
+          "0": "Scaling should feel strategic, not scattered.",
+          "1": "When every new product, region, or campaign feels like a disconnected initiative — your growth isn’t strategic. It’s reactive. Expansion becomes exhausting when it’s not guided by a cohesive, forward-looking blueprint."
+        },
+        "1": {
+          "0": "At Optisence, we help businesses transition from reactive scaling to orchestrated growth — through market validation, portfolio mapping, and clear go-to-market frameworks that evolve with your business.",
+          "1": "Growth should feel focused. Not frantic."
+        }
+      },
+      "4": {
+        "title": "4. Internally, Everyone’s Playing a Different Game",
+        "symptomsOfMisalignment": "Symptoms of misalignment:",
+        "values": {
+          "0": "Strategy means different things to different departments",
+          "1": "Leadership decisions pull in opposite directions",
+          "2": "Employees lack clarity on what success really looks like"
+        },
+        "summary": "leads strategic alignment sessions that unify teams, clarify roles, and turn company-wide confusion into coordinated action.",
+        "0": {
+          "0": "When you walk into a leadership meeting and no two executives can align on priorities — the problem isn’t people. It’s purpose.",
+          "1": "A strong corporate strategy creates shared language, common direction, and unified focus. Without it, silos form. Priorities conflict. Culture splinters."
+        }
+      },
+      "5": {
+        "title": "5. You’re Still Making Decisions Based on the Past",
+        "at": "At",
+        "weHelp": "we help clients future-proof their strategy by integrating:",
+        "values": {
+          "0": "Predictive analytics",
+          "1": "Real-time market insights",
+          "2": "Behavioral trends and macroeconomic shifts"
+        },
+        "summary": "We believe in decisions backed by data and sharpened by foresight. Because surviving tomorrow means letting go of yesterday’s map.",
+        "0": {
+          "0": "Your strategy is not a museum piece — it must live and evolve.",
+          "1": "Too many companies rely on data, assumptions, or models that are no longer relevant. The danger? Blind spots. Missed signals. Lagging behind disruptors who are already shaping the future."
+        }
+      },
+      "6": {
+        "title": "6. Your Strategy Isn’t Just a Document — It’s a Decision System",
+        "0": {
+          "0": "The most successful companies don’t just have a strategy. They live it, breathe it, and use it as a decision engine — across leadership, operations, marketing, and culture.",
+          "1": "If any of these signs sound familiar, it’s not a problem — it’s an invitation. An opportunity to evolve. To lead forward.",
+          "2": "Optisence partners with ambitious businesses to craft bold, data-driven, and execution-ready strategies that scale with you — not against you. We don’t deliver reports. We deliver transformation."
+        }
+      },
+      "summary": {
+        "title": "Ready to Rebuild with Purpose?",
+        "0": {
+          "0": "If your strategy no longer fits the business you’re becoming, let’s change that.",
+          "1": "Reach out to Optisence today to schedule a corporate strategy consultation — and let’s architect the next chapter of your growth."
+        }
+      }
+    },
+    "sustainabilityStrategy": {
+      "title": {
+        "0": "Sustainability as Strategy:",
+        "1": "Building Purpose-Driven Businesses"
+      },
+      "description": "Why the Future Belongs to Companies That Think Beyond Profit",
+      "0": {
+        "0": "Once, sustainability was seen as a moral choice. Now, it’s a strategic imperative.",
+        "1": "Today’s most resilient and respected companies are those that embed sustainability into their business model, decision-making, and brand DNA — not just their CSR reports. Consumers demand it. Investors reward it. Talent expects it. And the planet, frankly, needs it.",
+        "2": "At Optisence, we help businesses shift sustainability from a checkbox to a competitive advantage — from a side initiative to a core growth lever. This article explores how organizations can strategically embed sustainability to build brands that matter, scale with integrity, and create impact that lasts."
+      },
+      "1": {
+        "title": "Why Sustainability Has Become Strategic — Not Just Ethical",
+        "sustainabilityNowImpacts": "Sustainability now impacts:",
+        "values": {
+          "0": "Risk management: Supply chain instability, climate exposure, and reputational damage",
+          "1": "Operational efficiency: Energy use, resource optimization, circular design",
+          "2": "Market differentiation: Consumers prefer brands with purpose — and they’re vocal about it",
+          "3": "Investor perception: ESG performance directly influences funding and valuation"
+        },
+        "summary": "In other words: ignoring sustainability isn’t neutral — it’s a liability.",
+        "0": {
+          "0": "We’re in the midst of a global recalibration. Environmental disruption, rising stakeholder expectations, regulatory pressure, and shifting investor priorities are rewriting what “success” looks like.",
+          "1": "The result? Businesses are being judged not just on what they deliver, but how they operate."
+        }
+      },
+      "2": {
+        "title": "Sustainable Businesses Perform Better",
+        "description": "This isn’t just an ethical win. It’s a financial one.",
+        "values": {
+          "0": "Study after study shows that companies with strong sustainability strategies:",
+          "1": "Achieve higher long-term profitability",
+          "2": "Outperform peers in brand loyalty and customer retention",
+          "3": "Are better prepared to navigate volatility and crisis",
+          "4": "Attract higher-quality talent and leadership",
+          "5": "Increase enterprise value over time"
+        },
+        "0": {
+          "0": "works with clients to harness these advantages by designing sustainability strategies that are not only responsible — but commercially intelligent. We focus on measurable ROI, stakeholder alignment, and long-term resilience.",
+          "1": "Because doing good and doing well are no longer separate paths."
+        }
+      },
+      "3": {
+        "title": "From Sustainability as Tactic to Sustainability as Strategy",
+        "optisenceHelps": "Optisence helps companies build sustainability into:",
+        "values": {
+          "0": "Core value propositions: Why customers choose you, not just what you sell",
+          "1": "Product and service design: Materials, lifecycles, innovation",
+          "2": "Supply chain and sourcing: Ethics, transparency, risk mitigation",
+          "3": "Employee engagement: Purpose-driven culture and internal alignment",
+          "4": "Brand positioning: Authentic narratives, not greenwashed messaging",
+          "5": "Growth strategy: New markets, partnerships, and ESG-driven innovation"
+        },
+        "summary": "In short: it’s not about what you say — it’s about how you operate, decide, and lead.",
+        "0": {
+          "0": "Too often, companies treat sustainability as a marketing slogan or compliance requirement. A report. A recycling program. A “green” tagline. These efforts may check boxes — but they rarely move markets.",
+          "1": "Real transformation happens when sustainability is embedded into strategic planning, across every part of the business model."
+        }
+      },
+      "4": {
+        "title": "The Optisence Approach: Strategic, Measurable, Actionable",
+        "ourConsulting": "Our consulting process integrates:",
+        "values": {
+          "0": "ESG readiness assessments",
+          "1": "Sustainability risk and opportunity mapping",
+          "2": "Long-term impact modeling",
+          "3": "Carbon footprint and circularity planning",
+          "4": "Governance and reporting structure design"
+        },
+        "summary": "We believe in decisions backed by data and sharpened by foresight. Because surviving tomorrow means letting go of yesterday’s map.",
+        "additionalText": {
+          "0": "At",
+          "1": "we don’t build sustainability strategies that sit on shelves. We build frameworks that shift culture, guide operations, and drive stakeholder trust."
+        },
+        "0": {
+          "0": "But most of all, we help your sustainability strategy align with your corporate strategy — not compete with it.",
+          "1": "Because your purpose and your performance should never be in conflict."
+        }
+      },
+      "5": {
+        "title": "Purpose is the Future of Profit",
+        "0": {
+          "0": "Today’s leading companies are defined not just by their profits — but by their principles.",
+          "1": "Customers are no longer passive. Employees are no longer silent. Investors are no longer patient with opacity. Sustainability is no longer optional.",
+          "2": "helps forward-thinking businesses turn sustainability into an engine for value creation — unlocking new markets, building resilient operations, and standing for something that matters."
+        }
+      },
+      "summary": {
+        "title": "Is Your Business Future-Ready?",
+        "0": {
+          "0": "The next generation of market leaders will be purpose-led, strategy-driven, and impact-focused. If your current business model doesn’t reflect that — now is the time to evolve.",
+          "1": "Get in touch with Optisence today and let’s build a sustainability strategy that delivers more than compliance — it delivers growth, relevance, and legacy."
+        }
+      }
+    },
+    "disruptOrBeDisrupted": {
+      "title": {
+        "0": "Disrupt or Be Disrupted:",
+        "1": "Innovation Strategy for Established Enterprises"
+      },
+      "description": "Why Legacy Companies Must Think Like Startups to Stay Relevant",
+      "0": {
+        "0": "For decades, scale was a moat. Brand equity, market share, global reach — these were the signs of an “unshakable” business.",
+        "1": "But today? Disruption doesn’t care how big you are. It only cares how fast you adapt.",
+        "2": "From nimble startups rewriting industry rules to AI-driven models outpacing human processes, the velocity of change has never been greater. And for established enterprises, the choice is clear: disrupt — or be disrupted.",
+        "3": {
+          "0": "At",
+          "1": "we help legacy companies build innovation strategies that aren’t just reactive — they’re resilient, repeatable, and future-focused."
+        }
+      },
+      "1": {
+        "title": "Why Innovation Stalls in Mature Companies",
+        "commonInnovationBlockers": "Common innovation blockers:",
+        "values": {
+          "0": "Risk aversion baked into the culture",
+          "1": "Siloed departments that stifle collaboration",
+          "2": "Short-term incentives that punish experimentation",
+          "3": "Legacy systems that resist integration",
+          "4": "Lack of innovation governance or roadmap"
+        },
+        "summary": "Sound familiar? You’re not alone. At Optisence, we’ve worked with many global brands facing this exact challenge — and helped them rebuild innovation as a strategic capability, not just a creative initiative.",
+        "0": "Let’s start with some truth: most large organizations don’t lack ideas. They lack systems to turn those ideas into value — at scale, with speed, and without killing what works."
+      },
+      "2": {
+        "title": "Innovation as a Strategy — Not a Sideshow",
+        "thatMeans": "That means connecting it to:",
+        "values": {
+          "0": "Customer needs — not just new tech",
+          "1": "Market shifts — not just internal desires",
+          "2": "Revenue models — not just prototypes",
+          "3": "Talent and culture — not just tools"
+        },
+        "summary": {
+          "0": "At",
+          "1": "we embed innovation thinking across leadership, product development, go-to-market strategies, and operating models — so it’s no longer a nice-to-have, but a growth engine."
+        },
+        "0": {
+          "0": "Too often, innovation is treated like a side project. A “lab” in a different office. A hackathon once a year. A slogan slapped onto a PowerPoint deck.",
+          "1": "But real innovation isn’t a department. It’s a decision system.",
+          "2": "To truly thrive, innovation must be integrated into your core business model, not isolated from it."
+        }
+      },
+      "3": {
+        "title": "How to Build an Innovation Strategy That Works",
+        "0": {
+          "0": "Here’s how established enterprises can make innovation not just possible — but systematic and sustainable:",
+          "1": "Create an Innovation Governance Framework",
+          "2": "Define ownership, decision rights, resource allocation, and success metrics.",
+          "3": "helps organizations build this governance architecture — ensuring innovation isn’t ad hoc, but accountable."
+        },
+        "1": {
+          "0": "Invest in Exploration & Exploitation",
+          "1": "Balance disruptive innovation (new models, products, markets) with core optimization.",
+          "2": "We call this the ambidextrous enterprise — and we guide leadership teams through the process of managing both without conflict."
+        },
+        "2": {
+          "0": "Build Innovation into the Business DNA",
+          "1": "Train teams in design thinking, experimentation, and fast validation.",
+          "2": {
+            "0": "With",
+            "1": "enterprises shift from execution-only cultures to learning-led growth engines."
+          }
+        },
+        "3": {
+          "0": "Leverage Emerging Tech — with Purpose",
+          "1": "AI, automation, IoT, sustainability tech — all powerful tools. But only when aligned with strategic intent.",
+          "2": "We help clients identify where technology amplifies impact — and avoid shiny object traps."
+        }
+      },
+      "4": {
+        "title": "Case in Point: Disruption Happens Fast",
+        "0": {
+          "0": "Blockbuster didn’t lose to Netflix because of marketing.",
+          "1": "Kodak didn’t fall because of bad branding.",
+          "2": "They lost because their innovation strategy failed to evolve.",
+          "3": "Don’t make the same mistake."
+        },
+        "1": {
+          "0": "The market doesn’t wait for anyone to catch up. Today’s disruptors move fast, stay customer-obsessed, and innovate without the burden of legacy.",
+          "1": "That’s exactly why Optisence helps established companies reframe that legacy — not as a weight, but as a foundation for breakthrough."
+        }
+      },
+      "5": {
+        "title": "Ready to Innovate with Intention — Not Panic?",
+        "0": {
+          "0": "Innovation isn’t optional. It’s oxygen.",
+          "1": "Whether you’re looking to redesign your business model, reinvent a product line, or redefine your industry position — Optisence brings the frameworks, data, and leadership support you need to drive real transformation.",
+          "2": "Because disruption is no longer the threat. It’s the opportunity."
+        }
+      },
+      "6": {
+        "title": "Let’s Build Your Innovation Strategy Together",
+        "0": {
+          "0": "Reach out to",
+          "1": "today and discover how we help established companies lead the future — not chase it."
+        }
+      }
+    },
+    "customerCentricStrategy": {
+      "title": "Customer-Centric Strategy: How to Turn Feedback Into Competitive Advantage",
+      "0": {
+        "0": "Listening is good. Acting is better. Strategizing is best.",
+        "1": "In a world where customers are more informed, connected, and vocal than ever before, the companies that win are no longer the ones with the best product — but the ones that listen best, respond fastest, and evolve smartest.",
+        "2": "Yet despite this shift, many businesses still treat customer feedback as a post-sale activity — something to review quarterly, file away, or occasionally act upon.",
+        "3": {
+          "0": "At",
+          "1": "we take a different approach. We see customer feedback as a strategic asset — a source of insights that can drive growth, retention, and competitive advantage."
+        }
+      },
+      "1": {
+        "title": "Customer-Centricity Isn't a Campaign — It's a Company Philosophy",
+        "customerCentric": "A truly customer-centric strategy requires:",
+        "values": {
+          "0": "Systematic collection of feedback across every touchpoint",
+          "1": "Cross-functional integration of that insight — not just in marketing, but in product, operations, and leadership",
+          "2": "Strategic action based on real patterns, not just anecdotes"
+        },
+        "summary": {
+          "0": "At",
+          "1": "we help companies build frameworks that close the gap between feedback and forward motion — translating raw insight into high-impact decision-making."
+        },
+        "0": {
+          "0": "Let’s be clear: being customer-centric doesn’t mean always saying yes. It means making smart, strategic decisions based on what your customers value most — even when that challenges internal assumptions.",
+          "1": "Too often, businesses rely on outdated personas, guesswork, or executive bias to define customer needs. The result? Misaligned strategies, irrelevant messaging, and missed opportunities."
+        }
+      },
+      "2": {
+        "title": "The Strategic Value of Listening (When Done Right)",
+        "values": {
+          "0": "Reveal unmet needs before competitors do",
+          "1": "Signal churn risks before they happen",
+          "2": "Shape product roadmaps based on demand, not assumption",
+          "3": "Validate or challenge key brand messages",
+          "4": "Highlight market shifts in real-time"
+        },
+        "summary": "And yet, many organizations either ignore this input, misinterpret it, or collect it without clear next steps. Optisence’s consulting process transforms this noise into navigation, helping clients extract insight that drives innovation, loyalty, and market growth.",
+        "0": "Customer feedback is more than opinion — it’s a strategic data stream. When properly mined and analyzed, it can:"
+      },
+      "3": {
+        "title": "A Competitive Advantage Most Companies Ignore",
+        "values": {
+          "0": "While competitors chase leads, you could be learning from them.",
+          "1": "While others guess, you could be guided by truth.",
+          "2": "While some companies fear criticism, you could profit from it."
+        },
+        "0": {
+          "0": "This is the power of customer-centric strategy — and it’s where",
+          "1": "helps our clients shine. By embedding voice-of-customer intelligence into core planning, we help them stay ahead of the curve — and stay ahead of the curve."
+        }
+      },
+      "4": {
+        "title": "Customer-Centricity Isn’t the Trend. It’s the Future.",
+        "description": {
+          "0": "To turn feedback into competitive advantage, it must become part of your strategic operating system — not just your customer service process.",
+          "1": "Here’s how we guide clients through the transition:"
+        },
+        "0": {
+          "0": "1. Centralize Customer Data",
+          "1": "Bring together feedback from surveys, reviews, social media, sales calls, and support logs into a unified view.",
+          "2": "designs integrated feedback ecosystems to avoid data silos and enable real-time insight."
+        },
+        "1": {
+          "0": "2. Analyze for Strategic Patterns",
+          "1": "We apply qualitative and quantitative analysis to identify trends, friction points, and white-space opportunities. Not every comment matters — but patterns always do."
+        },
+        "2": {
+          "0": "3. Prioritize Action Through Business Value",
+          "1": "Which feedback will actually move the needle? We help prioritize initiatives based on revenue impact, customer satisfaction, and market positioning."
+        },
+        "3": {
+          "0": "4. Build Feedback Loops into Strategy Cycles",
+          "1": "Whether you’re launching new products, entering new markets, or optimizing service delivery — every strategic decision should be informed by customer reality."
+        }
+      },
+      "summary": {
+        "title": "Customer-Centricity Isn’t the Trend. It’s the Future.",
+        "0": {
+          "0": "If your customer feedback sits in spreadsheets, unread dashboards, or passive reports — you’re leaving strategy on the table.",
+          "1": "works with businesses ready to lead with insight, design with empathy, and grow with precision. Together, we turn listening into leading — and feedback into fuel for lasting competitive edge."
+        },
+        "1": {
+          "0": "Let’s Make Your Customers Part of Your Strategy",
+          "1": {
+            "0": "Connect with",
+            "1": "today and discover how we help businesses turn feedback into a competitive edge."
+          }
+        }
+      }
+    }
+  },
+  "marketingOperations": {
+    "hero": {
+      "title": "Maximize Your Marketing Potential with Data-Driven Insights and Optimized Processes",
+      "description": "Our crew specializes in helping businesses unlock their marketing potential by streamlining operations, improving team performance, and integrating cutting-edge technologies. Our Marketing Operations Advisory services are designed to optimize and scale your marketing efforts effectively.",
+      "text": "By leveraging data-driven insights and innovative strategies, we ensure that your marketing processes are efficient and aligned with your business goals, enabling sustainable growth.",
+      "btn": "Get in Touch Today"
+    },
+    "ourMarketingServices": {
+      "title": {
+        "0": "Our Custom",
+        "1": "Marketing Advisory Services"
+      }
+    },
+    "products": {
+      "0": {
+        "title": "Marketing Automation Implementation",
+        "description": "We help you implement marketing automation tools that save time and improve efficiency. From lead nurturing to campaign execution, we automate routine tasks, allowing your team to focus on high-impact strategies.",
+        "serviceDetails": "Choosing and implementing the right marketing automation tools, lead scoring, email marketing workflows, and CRM integration."
+      },
+      "1": {
+        "title": "Customer Journey Mapping",
+        "description": "Map the entire customer journey to understand your prospects’ and customers’ interactions with your brand at every touchpoint. We help you create a seamless experience that drives loyalty and sales.",
+        "serviceDetails": "Analyzing customer touchpoints, identifying pain points, and designing personalized marketing strategies that guide customers through the journey."
+      },
+      "2": {
+        "title": "Market Segmentation and Targeting",
+        "description": "We assist in identifying key customer segments, helping you tailor marketing messages that resonate with the right audiences.",
+        "serviceDetails": "Conducting demographic analysis, psychographic segmentation, and defining customer personas for targeted marketing efforts."
+      },
+      "3": {
+        "title": "Brand Positioning and Messaging",
+        "description": "Enhance your brand’s positioning with effective messaging that clearly communicates your unique value proposition. We help you differentiate your brand in the marketplace.",
+        "serviceDetails": "Brand audit, competitive analysis, crafting unique messaging, and ensuring consistency across all marketing channels."
+      },
+      "4": {
+        "title": "Content Strategy and Creation",
+        "description": "We create a content strategy that drives engagement and builds trust with your audience. Our team ensures that your content, from blogs to videos, resonates with your target market.",
+        "serviceDetails": "Content creation, editorial calendar development, content distribution planning, and ensuring alignment with your overall marketing strategy."
+      },
+      "5": {
+        "title": "Lead Generation Strategy",
+        "description": "Develop a comprehensive lead generation system that attracts, captures, and nurtures high-quality leads. We’ll help you convert leads into loyal customers.",
+        "serviceDetails": "Creating landing pages, lead magnets, email marketing strategies, and optimizing conversion funnels."
+      },
+      "6": {
+        "title": "Campaign Planning and Execution",
+        "description": "We help plan, execute, and monitor marketing campaigns to ensure they meet performance benchmarks and drive desired outcomes. Our team provides a full-service approach from start to finish.",
+        "serviceDetails": "Campaign strategy development, timeline creation, budget management, performance tracking, and results optimization."
+      },
+      "7": {
+        "title": "Social Media Strategy and Optimization",
+        "description": "Optimize your social media presence with tailored strategies that increase engagement, drive traffic, and build community across platforms.",
+        "serviceDetails": "Platform analysis, content creation, audience targeting, community engagement, and performance tracking."
+      },
+      "8": {
+        "title": "Email Marketing Optimization",
+        "description": "Enhance your email marketing campaigns with segmentation, automation, and performance tracking. We design personalized email journeys that nurture relationships and drive conversions.",
+        "serviceDetails": "List segmentation, campaign design, A/B testing, automated workflows, and performance reporting."
+      },
+      "9": {
+        "title": "Data-Driven Decision Making",
+        "description": "We help you make informed decisions by leveraging your marketing data. By using advanced analytics, we ensure that every marketing effort is optimized for success.",
+        "serviceDetails": "Data analysis, customer insights, predictive analytics, and providing actionable recommendations for marketing improvements."
+      },
+      "10": {
+        "title": "Search Engine Optimization Strategy",
+        "description": "Increase your website’s visibility and drive organic traffic with an SEO strategy tailored to your business needs. We optimize your content and technical aspects to improve search engine rankings.",
+        "serviceDetails": "Keyword research, on-page SEO, link building, content optimization, and local SEO strategies."
+      },
+      "11": {
+        "title": "Paid Media Strategy and Management",
+        "description": "Maximize your ad spend by creating and optimizing pay-per-click (PPC) campaigns, social media ads, and other paid media strategies. Our team ensures that your campaigns are cost-effective and high-performing.",
+        "serviceDetails": "Google Ads, Facebook Ads, LinkedIn campaigns, retargeting strategies, and budget management."
+      },
+      "12": {
+        "title": "Marketing Technology Integration",
+        "description": "We integrate the latest marketing technologies into your operations, ensuring that your marketing tools work seamlessly together to deliver optimal performance.",
+        "serviceDetails": "CRM integration, marketing automation tools, analytics platforms, and ensuring smooth data flow between systems."
+      },
+      "13": {
+        "title": "Competitive Analysis and Market Research",
+        "description": "We conduct in-depth competitive analysis and market research to help you understand your market position and uncover new opportunities for growth.",
+        "serviceDetails": "Competitive landscape analysis, consumer behavior insights, and identifying gaps in the market for targeted strategies."
+      },
+      "14": {
+        "title": "Reputation Management",
+        "description": "We help build and protect your brand’s reputation online. We ensure your brand maintains a positive image by managing customer feedback, reviews, and public relations.",
+        "serviceDetails": "Monitoring reviews, addressing customer concerns, social listening, and proactive public relations."
+      },
+      "15": {
+        "title": "Influencer and Partnership Marketing",
+        "description": "Leverage the power of influencers and partnerships to expand your reach and drive engagement with relevant audiences.",
+        "serviceDetails": "Identifying potential influencers, negotiating contracts, campaign management, and tracking performance."
+      },
+      "16": {
+        "title": "Marketing Budget Management",
+        "description": "We assist in developing and managing your marketing budget, ensuring that resources are allocated effectively to achieve the best possible returns on investment.",
+        "serviceDetails": "Budget planning, cost allocation, ROI tracking, and ongoing adjustments to ensure maximum efficiency."
+      }
+    },
+    "howWeHelp": {
+      "title": {
+        "0": "How We Help Our Clients",
+        "1": "in Numbers"
+      },
+      "subtitle": "Our approach is always focused on results. Here’s a snapshot of the impact we’ve had on businesses we’ve worked with:",
+      "description": "These numbers highlight just a few of the measurable successes we’ve had for our clients, demonstrating how we help businesses grow, optimize, and succeed.",
+      "stats": {
+        "0": {
+          "percent": "150",
+          "text": "Increase in Lead Conversions for a tech startup after implementing marketing automation."
+        },
+        "1": {
+          "percent": "30",
+          "text": "Improvement in Marketing Efficiency by optimizing workflows and processes for a global retailer."
+        },
+        "2": {
+          "percent": "100",
+          "text": "Client Retention Rate with businesses after completing comprehensive performance measurement and marketing optimization projects."
+        },
+        "3": {
+          "percent": "200",
+          "text": "Growth in Social Media Engagement after executing a tailored social media strategy for a B2B client."
+        }
+      },
+      "btn": "Fields We Impact"
+    },
+    "readyMarketingPackages": {
+      "title": {
+        "0": "Ready-Made",
+        "1": "Marketing Advisory Packages"
+      },
+      "description": "We offer four comprehensive packages to address businesses’ varying needs at different growth stages. Each package is tailored to help you unlock your marketing potential and drive sustainable growth. Choose the package that best suits your current needs and budget, and let us help you take your marketing to the next level."
+    },
+    "packages": {
+      "0": {
+        "name": "Starter Marketing Optimization Package",
+        "price": "Price: From €5,000",
+        "description": "Ideal for startups or companies just beginning to scale their marketing efforts. This package focuses on laying the foundation for your marketing operations, ensuring you have the right strategy, tools, and processes to grow effectively.",
+        "features": {
+          "0": "Strategic Marketing Planning",
+          "1": "Basic Workflow Optimization",
+          "2": "Performance Tracking Setup",
+          "3": "Customer Journey Mapping",
+          "4": "1-Month of Ongoing Support",
+          "5": "Target Audience Identification",
+          "6": "Lead Generation Strategy"
+        },
+        "reasonToChoose": "This package is designed for businesses looking to optimize their basic marketing processes. It’s perfect for those just starting out and need a clear marketing strategy, process optimization, and initial campaign tracking setup."
+      },
+      "1": {
+        "name": "Growth Marketing Accelerator Package",
+        "price": "Price: From €10,000",
+        "description": "This package is perfect for growing businesses that need to optimize existing marketing strategies and integrate more advanced marketing tools. It is designed to accelerate growth and improve efficiency and scale in marketing operations.",
+        "features": {
+          "0": "Full Marketing Strategy Overhaul",
+          "1": "Workflow Automation Implementation",
+          "2": "Customer Journey Mapping",
+          "3": "Campaign Planning and Execution",
+          "4": "3-Month Performance Review and Analytics",
+          "5": "Email Marketing Optimization",
+          "6": "Social Media Strategy and Optimization",
+          "7": "SEO Strategy and Implementation",
+          "8": "Lead Generation System Setup"
+        },
+        "reasonToChoose": "For growing businesses looking to optimize their current efforts, this package provides a comprehensive approach to improving marketing operations and scaling up. We optimize key areas like email, social media, and lead generation for maximum growth."
+      },
+      "2": {
+        "name": "Advanced Marketing Optimization Package",
+        "price": "Price: From €15,000",
+        "description": "Designed for mid-to-large businesses seeking comprehensive, high-level marketing optimization across multiple channels, this package is perfect for refining your marketing operations and integrating advanced tools to drive better results.",
+        "features": {
+          "0": "Full Strategic Marketing and Execution",
+          "1": "Cross-Channel Workflow Optimization",
+          "2": "Advanced Marketing Automation and CRM Integration",
+          "3": "Monthly Analytics and Performance Optimization",
+          "4": "Lead Scoring and Nurturing Campaigns",
+          "5": "Content Strategy and Creation",
+          "6": "Paid Media Strategy and Management (Google Ads, Facebook Ads, etc.)",
+          "7": "Customer Segmentation and Targeting",
+          "8": "Reputation Management",
+          "9": "Market Research and Competitive Analysis"
+        },
+        "reasonToChoose": "It is ideal for businesses that are ready for advanced marketing optimization. It includes everything you need to enhance your marketing operations. This package is for you if you need performance tracking, paid media management, and advanced automation."
+      },
+      "3": {
+        "name": "Enterprise Marketing Transformation Package",
+        "price": "Price: From €20,000",
+        "description": "This package is designed for enterprises aiming for a complete, end-to-end marketing transformation. It is designed for businesses seeking a comprehensive solution that delivers sustained, scalable growth across all marketing areas.",
+        "features": {
+          "0": "Full Business Marketing Transformation",
+          "1": "Global Workflow and Team Integration",
+          "2": "Full Performance Measurement System Setup",
+          "3": "Annual Campaign Strategy and Optimization",
+          "4": "Dedicated Marketing Expert Team",
+          "5": "Cross-Channel Marketing Campaign Management",
+          "6": "Marketing Budget Management and ROI Tracking",
+          "7": "Comprehensive Reputation Management",
+          "8": "Influencer and Partnership Marketing",
+          "9": "Advanced-Data Analytics and Predictive Modeling",
+          "10": "Custom Integration of Marketing Technologies (CRM, Automation Tools, etc.)",
+          "11": "Leadership and Governance Consulting",
+          "12": "Change Management Consulting"
+        },
+        "reasonToChoose": "The Enterprise Package is ideal for large businesses looking to transform their marketing operations. It includes an integrated, data-driven approach that optimizes every aspect of your marketing efforts, from strategy to execution, with continuous support and advanced tools."
+      }
+    },
+    "downloadPrice": {
+      "title": "Download Full Price List",
+      "description": "Get a detailed overview of all our services and packages with our full-price list. Download it now to explore all options and choose the best fit for your business.",
+      "btn": "Download Now"
+    },
+    "whyChoose": {
+      "title": {
+        "0": "Why Choose Optisence",
+        "1": "for Marketing Operations Advisory"
+      },
+      "description": "Our approach is always focused on results. Here’s a snapshot of the impact we’ve had on businesses we’ve worked with:",
+      "reasons": {
+        "0": {
+          "title": "Tailored Solutions",
+          "text": "We don’t offer one-size-fits-all solutions. Our services are designed to meet your needs, regardless of your business size or industry."
+        },
+        "1": {
+          "title": "Proven Results",
+          "text": "Our approach is built around data-driven insights and measurable outcomes, ensuring that every decision drives success for your business."
+        },
+        "2": {
+          "title": "Cutting-Edge Technology",
+          "text": "We leverage the latest technologies and marketing automation tools to make your operations more efficient and scalable."
+        },
+        "3": {
+          "title": "Experienced Team",
+          "text": "Our team of experts brings deep industry knowledge and hands-on experience to ensure your marketing operations are optimized for growth."
+        },
+        "4": {
+          "title": "Long-Term Partnership",
+          "text": "We believe in building long-term relationships with our clients. We’re with you every step of the way, helping you adapt to market changes and grow your business sustainably."
+        }
+      }
+    },
+    "nextSteps": {
+      "title": {
+        "0": "Next Steps: Ready to Maximize",
+        "1": "Your Marketing Potential?"
+      },
+      "description": "We’re committed to helping businesses unlock their full marketing potential. Whether you’re looking for a complete transformation or targeted optimization, we have the expertise to guide you. Get started today and create a marketing strategy that works for your business!",
+      "btn": "Request a Consultation"
+    }
+  },
+  "corporateStrategyGuidance": {
+    "hero": {
+      "title": "Take Your Business to New Heights with Expertly Crafted Corporate Strategies",
+      "description": "At Optisence, we provide comprehensive Corporate Strategy Guidance that empowers businesses to stay ahead of the competition. Our experts work closely with you to develop and execute strategies that drive growth, innovation, and operational excellence. Whether you’re looking to expand into new markets, optimize your business model, or lead your company through change, we’ve got you covered.",
+      "btn": "Get Your Free Consultation"
+    },
+    "ourStrategyServices": {
+      "title": {
+        "0": "Our Custom",
+        "1": "Corporate Strategy Guidance Services"
+      }
+    },
+    "products": {
+      "0": {
+        "title": "Business Model Innovation",
+        "description": "We help businesses transform their business models to meet changing market demands, ensuring they remain competitive and future-ready. Our team works with you to design business models that drive growth and efficiency, from digital transformation to new revenue streams.",
+        "serviceDetails": "Business model analysis, innovation workshops, and actionable roadmap creation for sustainable business growth."
+      },
+      "1": {
+        "title": "Market Entry and Expansion Strategies",
+        "description": "Entering new markets or expanding existing ones requires careful planning and strategy. We provide expert guidance on market entry and expansion strategies, ensuring you make informed decisions backed by research, data, and a clear execution plan.",
+        "serviceDetails": "Market research, competitor analysis, target market identification, and expansion strategy development."
+      },
+      "2": {
+        "title": "Competitive Analysis",
+        "description": "Stay ahead of the competition with a detailed understanding of your industry landscape. We conduct in-depth competitive analysis to identify your competitors’ strengths and weaknesses, providing insights that help you position your business more effectively.",
+        "serviceDetails": "Competitor profiling, SWOT analysis, and strategic recommendations for improving competitive positioning."
+      },
+      "3": {
+        "title": "Change Management",
+        "description": "Successfully navigating change is crucial for sustained success. We guide businesses through transitions, ensuring they adapt effectively to new environments, systems, or organizational structures while maintaining momentum and employee engagement.",
+        "serviceDetails": "Change readiness assessment, stakeholder engagement, implementation planning, and ongoing support."
+      },
+      "4": {
+        "title": "Leadership and Governance Consulting",
+        "description": "Strong leadership is a key to long-term success. We provide leadership consulting and governance frameworks that help businesses build strong leadership teams and effective governance structures.",
+        "serviceDetails": "Leadership development programs, board governance frameworks, executive coaching, and succession planning."
+      },
+      "5": {
+        "title": "Mergers & Acquisitions Strategy",
+        "description": "We help businesses navigate the complexities of mergers and acquisitions, ensuring strategic alignment, due diligence, and smooth integration to achieve long-term success.",
+        "serviceDetails": "M&A strategy, target identification, due diligence, integration planning, and post-merger integration support."
+      },
+      "6": {
+        "title": "Organizational Restructuring",
+        "description": "Optimize your organizational structure to improve efficiency, communication, and decision-making. We help businesses restructure their operations to meet new business demands and goals.",
+        "serviceDetails": "Organizational design, role definition, internal communication strategy, and change management support."
+      },
+      "7": {
+        "title": "Digital Transformation Strategy",
+        "description": "In today’s fast-evolving market, embracing digital transformation is essential for staying competitive. We help businesses define and implement a digital transformation strategy that drives innovation and efficiency.",
+        "serviceDetails": "Technology assessment, process digitization, cloud strategy, and AI integration."
+      },
+      "8": {
+        "title": "Strategic Partnerships and Alliances",
+        "description": "Forming strategic partnerships is crucial for expanding market reach and leveraging external expertise. We help you identify, negotiate, and manage strategic alliances that benefit your business.",
+        "serviceDetails": "Partnership identification, negotiation strategy, alliance management, and performance tracking."
+      },
+      "9": {
+        "title": "Corporate Financial Strategy",
+        "description": "We assist businesses in developing sound financial strategies that optimize resource allocation, reduce costs, and improve overall financial health, ensuring that they are well-positioned for growth.",
+        "serviceDetails": "Financial modeling, cost optimization, budgeting, and financial performance analysis."
+      },
+      "10": {
+        "title": "Risk Management and Mitigation",
+        "description": "We help businesses identify, assess, and mitigate risks to ensure they are prepared for potential challenges. Our services focus on protecting your business from both internal and external threats.",
+        "serviceDetails": "Risk assessment, mitigation strategies, crisis management planning, and insurance solutions."
+      },
+      "11": {
+        "title": "Talent Management and Development Strategy",
+        "description": "Create a strategy to attract, retain, and develop top talent. We help you build a talent pipeline and leadership development programs to ensure you have the right people to drive success.",
+        "serviceDetails": "Talent acquisition strategy, leadership training, succession planning, and employee engagement programs."
+      },
+      "12": {
+        "title": "Brand Strategy Development",
+        "description": "Establish a clear brand identity that resonates with your target audience. We work with you to define and develop a powerful brand strategy that enhances your market presence and drives customer loyalty.",
+        "serviceDetails": "Brand positioning, market differentiation, visual identity development, and brand storytelling."
+      },
+      "13": {
+        "title": "Customer Experience Strategy",
+        "description": "We help businesses design and implement customer experience strategies that improve satisfaction, loyalty, and long-term customer relationships.",
+        "serviceDetails": "Customer journey mapping, experience design, customer feedback systems, and loyalty programs."
+      },
+      "14": {
+        "title": "Sales Strategy Optimization",
+        "description": "Our sales strategy services help businesses optimize their sales processes to improve conversion rates, shorten sales cycles, and maximize revenue.",
+        "serviceDetails": "Sales funnel optimization, lead generation strategies, sales training, and CRM implementation."
+      },
+      "15": {
+        "title": "Innovation Management",
+        "description": "Foster a culture of innovation within your organization to stay ahead of the curve. We help you establish processes for continuous innovation to drive product development and market differentiation.",
+        "serviceDetails": "Innovation workshops, idea management systems, and go-to-market strategies for new products."
+      },
+      "16": {
+        "title": "Sustainability Strategy",
+        "description": "We guide businesses in developing sustainability strategies that reduce environmental impact while improving operational efficiency and corporate reputation.",
+        "serviceDetails": "Sustainability assessment, carbon footprint reduction, sustainable sourcing, and green marketing strategies."
+      },
+      "17": {
+        "title": "Corporate Social Responsibility (CSR) Strategy",
+        "description": "Develop a CSR strategy that aligns with your brand values and drives positive social and environmental impact. We help businesses integrate social responsibility into their core operations.",
+        "serviceDetails": "CSR program development, stakeholder engagement, reporting, and impact measurement."
+      },
+      "18": {
+        "title": "Strategic Communications and PR",
+        "description": "Effective communication is key to maintaining a positive brand image and building stakeholder relationships. We help businesses develop strategic communication and public relations strategies to enhance their reputation.",
+        "serviceDetails": "Media relations, crisis communication planning, press releases, and public image management."
+      },
+      "19": {
+        "title": "Market Research and Trend Analysis",
+        "description": "Gain a deeper understanding of market dynamics, customer preferences, and emerging trends with our market research services. We help businesses stay ahead of the curve by providing actionable insights.",
+        "serviceDetails": "Consumer behavior research, industry trend analysis, competitor benchmarking, and market forecasting."
+      }
+    },
+    "howWeHelp": {
+      "title": {
+        "0": "How We Help Our Clients",
+        "1": "in Numbers"
+      },
+      "subtitle": "Our results speak for themselves. Here are some key numbers that demonstrate the impact we’ve had on businesses:",
+      "description": "These numbers reflect real-world impact and measurable success for our clients.",
+      "stats": {
+        "0": {
+          "percent": "50",
+          "text": "Increase in Market Share for a client after implementing an expansion strategy."
+        },
+        "1": {
+          "percent": "40",
+          "text": "Improvement in Operational Efficiency through business model innovation."
+        },
+        "2": {
+          "percent": "200",
+          "text": "Growth in Revenue for a company following a competitive analysis and market entry strategy."
+        },
+        "3": {
+          "percent": "75",
+          "text": "Success Rate in Change Management for clients undergoing major organizational shifts."
+        }
+      }
+    },
+    "readyStrategyPackages": {
+      "title": {
+        "0": "Ready-Made",
+        "1": "Corporate Strategy Packages"
+      },
+      "description": "We understand that businesses face unique challenges at each stage of their growth journey. That’s why we’ve developed four distinct packages to address the specific needs of companies at different points in their strategy development. Whether you're looking to optimize your current operations or redefine your entire strategy, our tailored packages provide the comprehensive support you need for long-term success."
+    },
+    "packages": {
+      "0": {
+        "name": "Business Launchpad Package",
+        "price": "Price: From €5,000",
+        "description": "Ideal for startups or businesses looking to establish a strong corporate strategy foundation. This package helps you create core strategies, set clear objectives, and build a plan that sets the stage for growth.",
+        "features": {
+          "0": "Business Model Innovation",
+          "1": "Basic Market Entry Strategy",
+          "2": "Initial Competitive Analysis",
+          "3": "Change Management Readiness Assessment",
+          "4": "Governance Framework Setup",
+          "5": "Leadership Assessment",
+          "6": "Market Research for Target Segments",
+          "7": "Operational Structure Review"
+        },
+        "reasonToChoose": "This package is perfect for businesses in the beginning stages of growth. It helps you lay a strategic foundation that ensures long-term success. We focus on building your strategy, identifying growth opportunities, and preparing you for future challenges."
+      },
+      "1": {
+        "name": "Growth Catalyst Package",
+        "price": "Price: From €10,000",
+        "description": "Designed for growing businesses that need to expand into new markets or optimize their existing operations. This package enhances your strategy and scales your business by focusing on market positioning and leadership optimization.",
+        "features": {
+          "0": "Market Entry and Expansion Strategy",
+          "1": "In-depth Competitive Analysis",
+          "2": "Leadership Development and Governance Consulting",
+          "3": "Change Management Implementation",
+          "4": "Market Research for Target Audience",
+          "5": "Customer Experience Strategy",
+          "6": "Brand Positioning and Messaging",
+          "7": "Sales Strategy Optimization",
+          "8": "Digital Transformation Roadmap"
+        },
+        "reasonToChoose": "Ideal for growing businesses looking to expand their footprint, this package offers comprehensive strategies to enter new markets, refine competitive positioning, and align your leadership for scalable growth."
+      },
+      "2": {
+        "name": "Performance Accelerator Package",
+        "price": "Price: From €15,000",
+        "description": "This package is for mid-to-large businesses that must optimize and fine-tune their corporate strategy. It includes advanced services designed to accelerate growth, enhance performance, and streamline department operations.",
+        "features": {
+          "0": "Full Business Model Innovation",
+          "1": "Strategic Market Expansion Plans",
+          "2": "Advanced Competitive Analysis",
+          "3": "Innovation and Transformation Strategy",
+          "4": "Data-Driven Decision-Making Implementation",
+          "5": "Leadership and Governance Enhancements",
+          "6": "Mergers & Acquisitions Strategy",
+          "7": "Crisis Management and Risk Mitigation",
+          "8": "Cross-Functional Team Alignment",
+          "9": "Operational Process Optimization"
+        },
+        "reasonToChoose": "This package optimizes every aspect of a business for businesses that need advanced strategies. It includes performance tracking, M&A strategy, and operational improvements to ensure your company thrives in a competitive landscape."
+      },
+      "3": {
+        "name": "Enterprise Evolution Package",
+        "price": "Price: From €20,000",
+        "description": "This package offers a complete transformation for large enterprises seeking a full corporate strategy overhaul. We focus on global strategy, leadership development, and comprehensive change management, ensuring your enterprise remains competitive, efficient, and innovative.",
+        "features": {
+          "0": "Full Business Model Transformation",
+          "1": "Global Market Entry and Expansion Strategy",
+          "2": "Full-Spectrum Competitive Analysis",
+          "3": "Comprehensive Change Management and Organizational Restructuring",
+          "4": "Leadership Coaching and Succession Planning",
+          "5": "Innovation Management and Advanced Data Analytics",
+          "6": "Mergers & Acquisitions Strategy",
+          "7": "Cross-Functional Team Integration",
+          "8": "Cultural Transformation Strategy",
+          "9": "Sustainability and CSR Strategy",
+          "10": "Advanced Leadership Development",
+          "11": "Digital Ecosystem Integration",
+          "12": "Brand Transformation and Market Repositioning"
+        },
+        "reasonToChoose": "This package offers a complete transformation for large enterprises, integrating all aspects of corporate strategy from leadership to global market expansion. It’s perfect for companies looking to innovate, adapt, and thrive in an ever-changing global market."
+      }
+    },
+    "whyChoose": {
+      "title": {
+        "0": "Why Choose Optisence",
+        "1": "for Corporate Strategy Guidance"
+      },
+      "reasons": {
+        "0": {
+          "title": "Proven Success",
+          "text": "We have a track record of helping companies achieve long-term growth, operational excellence, and competitive advantage."
+        },
+        "1": {
+          "title": "Ongoing Support",
+          "text": "We don’t just deliver a strategy; we stay involved to help implement it, ensuring you see measurable success at every stage."
+        },
+        "2": {
+          "title": "Tailored Solutions",
+          "text": "Every business is unique, and our strategies are designed to fit your specific needs and challenges."
+        },
+        "3": {
+          "title": "Data-Driven Insights",
+          "text": "We use market research and industry analysis to craft strategies informed by real-time data and trends."
+        },
+        "4": {
+          "title": "Experienced Consultants",
+          "text": "Our consultants bring deep experience and expertise in corporate strategy across multiple industries."
+        }
+      }
+    },
+    "nextSteps": {
+      "title": {
+        "0": "Next Steps: Ready to Take",
+        "1": "Your Business to New Heights?"
+      },
+      "description": "The Optisence crew is happy to help you navigate complex business landscapes and achieve your corporate goals. Whether you’re looking to optimize your existing strategy or transform your entire approach, we have the expertise to guide you. Get started today, and create a corporate strategy that works for your business!",
+      "btn": "Request a Consultation"
+    }
+  },
+  "requestForm": {
+    "0": {
+      "title": "Get in Touch with Optisence",
+      "subtitle": {
+        "0": "Let’s Collaborate to Achieve",
+        "1": "Your Business Objectives"
+      },
+      "description": "At Optisence, we partner with companies like yours to provide tailored solutions that drive growth and optimize operations. To get started, please share details about your business needs, and we’ll craft a strategy to help you succeed.",
+      "basicInfo": "Basic Information",
+      "personalCompanyData": "Personal & Company Data",
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "Enter the name of the primary contact person"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Enter your email address"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Enter a contact phone number"
+        },
+        "companyName": {
+          "label": "Company Name (optional)",
+          "placeholder": "Enter your company name"
+        },
+        "companyWebsite": {
+          "label": "Company Website (optional)",
+          "placeholder": "Enter your company website"
+        }
+      }
+    },
+    "1": {
+      "title": "Business Needs & Goals",
+      "subtitle": "Select the Service You’re Interested In",
+      "description": "Please choose the consulting services that you’re most interested in. We’ll customize our solutions based on your needs.",
+      "marketingOperations": "Marketing Operations Advisory",
+      "corporateStrategy": "Corporate Strategy Guidance",
+      "pleaseSpecify": "Please specify",
+      "marketing": {
+        "0": "Strategic Marketing Planning",
+        "1": "Workflow Optimization",
+        "2": "Performance Measurement",
+        "3": "Marketing Automation Implementation",
+        "4": "Customer Journey Mapping",
+        "5": "Other"
+      },
+      "corporate": {
+        "0": "Business Model Innovation",
+        "1": "Market Entry and Expansion Strategies",
+        "2": "Competitive Analysis",
+        "3": "Change Management",
+        "4": "Leadership and Governance Consulting",
+        "5": "Other"
+      },
+      "budgetAllocation": "Budget Allocation",
+      "pleaseSelectRange": "Please select your project’s budget range. This will help us create a plan that aligns with your investment.",
+      "businessChallengesGoals": "Business Challenges & Goals",
+      "goalsDetails": "What are the key goals your company is looking to achieve, and what challenges are you currently facing? Provide us with details, and we’ll craft a solution.",
+      "yourTargetAudience": "Your Target Audience",
+      "tellUsAboutAudience": "Please tell us about the audience you wish to target. This will help us develop a more accurate strategy.",
+      "fields": {
+        "budget": {
+          "label": "Your Budget Range",
+          "placeholder": "Select your budget range"
+        },
+        "keyObjectives": {
+          "label": "Key Objectives",
+          "placeholder": "Enter your company’s key objectives"
+        },
+        "points": {
+          "label": "Challenges or Pain Points",
+          "placeholder": "Enter your company’s challenges or pain points"
+        },
+        "industry": {
+          "label": "Industry/Sector",
+          "placeholder": "Enter your company’s industry/sector"
+        },
+        "demographics": {
+          "label": "Demographics (e.g., age, location, interests)",
+          "placeholder": "Enter your company’s demographics"
+        }
+      }
+    },
+    "3": {
+      "title": "Project Timeline & Next Steps",
+      "projectTimeline": "Project Timeline",
+      "contactMethod": "Preferred Method of Contact",
+      "uploadRelevantFiles": "Upload Any Relevant Files",
+      "attachFiles": "Attach any documents, proposals, or briefs related to your project to help us better understand your needs.",
+      "timeline": {
+        "0": "Within 1 Month",
+        "1": "1-3 Months",
+        "2": "3-6 Months",
+        "3": "Flexible Timeline"
+      },
+      "contact": {
+        "0": "Email",
+        "1": "Phone",
+        "2": "Video Call"
+      }
+    },
+    "btn": {
+      "continue": "Continue",
+      "submitting": "Submitting...",
+      "submit": "Submit Request"
+    }
+  },
+  "thankYou": {
+    "title": "Thank You",
+    "msg": "Thank you for taking the time to provide your information. We are excited to collaborate with you and take the first step toward achieving your business goals. Expect to hear from us soon!",
+    "msg2": "Your request has been successfully submitted. Our team of experts is currently reviewing your information and will contact you shortly to discuss your business needs and provide customized solutions.",
+    "btn": "Continue"
+  },
+  "order": {
+    "fields": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter your first name"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter your last name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "companyName": {
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
+      },
+      "companyWebsite": {
+        "label": "Company Website",
+        "placeholder": "Enter your company website"
+      },
+      "budget": {
+        "label": "Budget",
+        "placeholder": "Enter your budget"
+      },
+      "message": {
+        "label": "Message:",
+        "placeholder": "Type here..."
+      }
+    },
+    "btn": {
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    }
+  },
+  "policy": {
+    "updatedOn": "Updated on",
+    "contacts": {
+      "0": "Email",
+      "1": "Phone number",
+      "2": "Visit our Contact page: Contact Us"
+    }
+  },
+  "termsAndConditions": {
+    "title": "Terms and Conditions",
+    "sections": {
+      "0": {
+        "title": "General Agreement",
+        "text": {
+          "0": "By accessing and placing an order with Optisence, you confirm that you are in Agreement with and bound by the Terms and Conditions outlined below. These Terms apply to the entire website and an email or other communication between you an",
+          "1": "operated under Optisence and registered at",
+          "2": "Under no circumstances shall the Optisence team be liable for any direct, indirect, special, incidental, or consequential damages, including, but not limited to, loss of data or profit arising out of the use or the inability to use the materials on this site, even if Optisence team or an authorized representative has been advised of the possibility of such damages. If using materials from this site requires servicing, repairing, or correcting equipment or data, you assume any costs thereof."
+        }
+      },
+      "1": {
+        "title": "License to Use",
+        "text": {
+          "0": "These Terms and Conditions are a contract between you and",
+          "1": "these Terms and Conditions as “Optisence,” “us,” “we,” or “our”), the provider of the Optisence website",
+          "2": "and the services accessible from the Optisence website (which are collectively referred to in these Terms and Conditions as the “Optisence Service”). You agree to be bound by these Terms and Conditions. Please do not use the Optisence Service if you disagree with these Terms and Conditions. In these Terms and Conditions, “you” refers to you as an individual and the entity you represent. If you violate any of these Terms and Conditions, we reserve the right to cancel your account or block access to your account without notice."
+        }
+      },
+      "2": {
+        "title": "Key Terms and Definitions",
+        "text": "For these Terms and Conditions:",
+        "values": {
+          "0": "Cookie: Small data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, and remember information about you, such as your language preference or login information.",
+          "1": {
+            "0": "Company",
+            "1": "When this Policy mentions “Company,” “we,” “us,” or “our,” it refers to",
+            "2": "registered at",
+            "3": "with registered number",
+            "4": "is responsible for your information under these Terms and Conditions"
+          },
+          "2": {
+            "0": "Country:",
+            "1": "Where Optisence or the owners/founders of Optisence are based, in this case, in",
+            "2": "South Africa"
+          },
+          "3": "Device: Any internet-connected device such as a phone, tablet, computer, or any other device that can be used to visit Optisence and use the services.",
+          "4": "Service: Refers to the Service provided by Optisence as described in the relative terms (if available) and on this platform.",
+          "5": "Third-Party Service: Refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.",
+          "6": {
+            "0": "Website: Krouder Pty Ltd’s site",
+            "1": "accessed via this URL"
+          },
+          "7": "You: A person or entity registered with Optisence to use the Services."
+        }
+      },
+      "3": {
+        "title": "Age Verification",
+        "text": {
+          "0": "To ensure that our services are used by individuals who meet the legal requirements for entering into a binding contract, Optisence requires that all users be",
+          "1": "18 or older",
+          "2": "or the minimum age required for entering into contractual agreements in their respective jurisdiction. If you are under",
+          "3": "or do not meet the minimum legal age for contracts in your jurisdiction, you are prohibited from accessing certain services or features on the Optisence website."
+        }
+      },
+      "4": {
+        "title": "User Restrictions",
+        "text": "You agree not to, and you will not permit others to:",
+        "values": {
+          "0": "Remove, alter, or obscure any proprietary notice (including any notice of copyright or trademark) of Optisence or its affiliates, partners, suppliers, or the licensors of the website.",
+          "1": "Licence, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose, or commercially exploit the website or make the platform available to any third party.",
+          "2": "Modify, do derivative works of, disassemble, decrypt, reverse compile, or reverse engineer any part of the website."
+        }
+      },
+      "5": {
+        "title": "Submissions and Feedback",
+        "text": "Any feedback, comments, ideas, improvements, or suggestions (collectively, “Suggestions”) you provide to Optisence concerning the website shall remain the sole and exclusive property of Optisence. Optisence shall be free to use, copy, modify, publish, or redistribute the Suggestions for any purpose and in any way without any credit or any compensation to you."
+      },
+      "6": {
+        "title": "Your Consent to Our Terms",
+        "text": "We’ve updated our Terms and Conditions to provide complete transparency into what is being set when you visit our site and how it’s used. By using our website, registering an account, or purchasing, you hereby consent to our Terms and Conditions."
+      },
+      "7": {
+        "title": "Changes to Our Terms and Conditions",
+        "text": "You acknowledge and agree that Optisence may stop (permanently or temporarily) providing the Service (or any features within the Service) to you or users generally at Optisence’s sole discretion without prior notice. You may stop using the Service at any time. You do not need to inform Optisence when you stop using the Service. You acknowledge and agree that if Optisence disables access to your account, you may be prevented from accessing the Service, your account details, or any files or other materials contained in your account."
+      },
+      "8": {
+        "title": "Updates to Our Terms",
+        "text": "Optisence reserves the right, at its sole discretion, to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion."
+      },
+      "9": {
+        "title": "Website Modifications",
+        "text": "Optisence reserves the right to modify, suspend, or discontinue, temporarily or permanently, the website or any service to which it connects, with or without notice and without liability to you."
+      },
+      "10": {
+        "title": "Updates to Our Website",
+        "text": "Optisence may occasionally provide enhancements or improvements to the features/functionality of the website, which may include, but is not limited to, updates to the website, the Optisence Service, or the technology used by Optisence to provide the Optisence Service."
+      },
+      "11": {
+        "title": "Third-Party Services",
+        "text": "We may display, include, or make available third-party content (including data, information, applications, and other product services) or provide links to third-party websites or services (“Third-Party Services”). You acknowledge and agree that Optisence shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality, or any other aspect thereof. Optisence does not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services."
+      },
+      "12": {
+        "title": "Term and Termination",
+        "text": "This Agreement shall remain in effect until you or Optisence terminates it. Optisence may, in its sole discretion, suspend or terminate this Agreement with or without prior notice at any time and for any or no reason. This Agreement will terminate immediately, without prior notice from Optisence, if you fail to comply with any provision of this Agreement. You may also terminate this Agreement by deleting the website and all copies from your computer."
+      },
+      "13": {
+        "title": "Links to Other Websites",
+        "text": "These Terms and Conditions apply only to the Services. The Services may contain links to other websites not operated or controlled by Optisence. We are not responsible for the content, accuracy, or opinions expressed on such websites, and such websites are not investigated, monitored, or checked for accuracy or completeness by us. Please remember that when you use a link from the Services to another website, our Terms and Conditions are no longer in effect."
+      },
+      "14": {
+        "title": "Cookie Policy",
+        "text": {
+          "0": "Optisence uses “Cookies” to identify the areas of our website that you have visited. A cookie is a small piece of data stored on your computer or mobile device by your web browser. We use cookies to enhance the performance and functionality of our website, but they are non-essential to their use. However, without these cookies, certain functionality, like videos, may become unavailable, or you would be required to enter your login details every time you visit the website, as we could not remember that you had logged in previously. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies. Please explore our Cookie Policy for more information.",
+          "1": "for more information."
+        }
+      },
+      "15": {
+        "title": "Copyright Notice",
+        "text": "If you are a copyright owner or such owner’s agent and believe any material on our website constitutes an infringement on your copyright, please get in touch with us setting forth the following information:",
+        "values": {
+          "0": "A physical or electronic signature of the copyright owner or someone authorised to act on his behalf.",
+          "1": "Identification of the material that is claimed to be infringing.",
+          "2": "Your contact information, including your address, telephone number, and email.",
+          "3": "A statement by you that you have a good faith belief that the copyright owners do not authorise the use of the material.",
+          "4": "A statement that the information in the notification is accurate and, under penalty of perjury, you are authorised to act on behalf of the owner."
+        }
+      },
+      "16": {
+        "title": "No Warranties",
+        "text": {
+          "0": "The website is provided to you “AS IS” and “AS AVAILABLE” with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, Optisence, on its behalf and on behalf of its affiliates and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory, or otherwise, concerning the website, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of a course of dealing, course of performance, usage or trade practice.",
+          "1": "Without limitation to the foregoing, Optisence provides no warranty or undertaking. It makes no representation of any kind that the website will meet your requirements, achieve any intended results, be compatible or work with any other software, systems, or services, operate without interruption, meet any performance or reliability standards, or be error-free or that any errors or defects can or will be corrected. Without limiting the preceding, neither Optisence nor any Optisence provider makes any representation or warranty of any kind, express or implied."
+        },
+        "values": {
+          "0": "Regarding the operation or availability of the website or the information, content, materials, or products included thereon.",
+          "1": "That the website will be uninterrupted or error-free.",
+          "2": "Your contact information, including your address, telephone number, and email.",
+          "3": "The accuracy, reliability, or currency of any information or content provided through the website.",
+          "4": "The website, its servers, the content, or emails sent from or on behalf of Optisence are free of viruses, scripts, trojan horses, worms, malware, time bombs, or other harmful components. Some jurisdictions do not allow the exclusion of or limitations on implied warranties or the applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to you."
+        }
+      },
+      "17": {
+        "title": "Liability Limitation",
+        "text": "Notwithstanding any damages you might incur, the entire liability of Optisence and any of its suppliers under any provision of this Agreement and your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by you for the website. To the maximum extent permitted by applicable law, in no event shall Optisence or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, business interruption, personal injury, or loss of privacy arising out of or in any way related to the use of or inability to use the website, third-party software and/or third-party hardware used with the website, or otherwise in connection with any provision of this Agreement), even if Optisence or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose. Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you."
+      },
+      "18": {
+        "title": "Indemnification",
+        "text": "You agree to indemnify and hold Optisence and its parents, subsidiaries, affiliates, officers, employees, agents, partners, and licensors (if any) harmless from any claim or demand, including reasonable attorneys’ fees, due to or arising out of your:",
+        "values": {
+          "0": "Use of the website",
+          "1": "Violation of this Agreement or any law or regulation.",
+          "2": "Violation of any right of a third party."
+        }
+      },
+      "19": {
+        "title": "Severability",
+        "text": {
+          "0": "With the",
+          "1": "and any other legal notices published by Optisence on the Services, this Agreement shall constitute the entire Agreement between you and Optisence concerning the Services. If any provision of this Agreement is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in full force and effect. No term of this Agreement shall be deemed a further or continuing waiver of such or any other term. Optisence’s failure to assert any right or provision under this Agreement shall not constitute a waiver of such right or provision. You and Optisence agree that any cause of action arising from or related to the Services must commence within one (1) year after the cause of action accrues. Otherwise, such cause of action is permanently barred."
+        }
+      },
+      "20": {
+        "title": "Waiver of Rights",
+        "text": "Except as provided herein, the failure to exercise a right or to require the performance of an obligation under this Agreement shall not affect a party’s ability to exercise such right or require such performance at any time thereafter, nor shall the waiver of a breach constitute waiver of any subsequent breach."
+      },
+      "21": {
+        "title": "Entire Agreement",
+        "text": "The Agreement constitutes the entire Agreement between you and Optisence regarding your website use. It supersedes all prior and contemporaneous written or oral agreements. You may be subject to additional Terms and Conditions when you use or purchase other Optisence services, which Optisence will provide at the time of such use or purchase."
+      },
+      "22": {
+        "title": "Amendments to This Agreement",
+        "text": {
+          "0": "Optisence reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a revision is material, we will provide at least 30 days’ notice before any new Terms take effect. What constitutes a material change will be determined at our sole discretion.",
+          "1": "By continuing to access or use our website after any revisions become effective, you agree to be bound by the revised Terms. If you disagree with the new Terms, you can no longer use Optisence."
+        }
+      },
+      "23": {
+        "title": "Intellectual Property Rights",
+        "text": {
+          "0": "The website and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection, and arrangement thereof) are owned by Optisence, its licensors, or other providers of such material.",
+          "1": "South Africa",
+          "2": "and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws protect them."
+        }
+      },
+      "24": {
+        "title": "Agreement to Arbitrate",
+        "text": "This section applies to any dispute, except it doesn’t include a dispute relating to claims for injunctive or equitable relief regarding the enforcement or validity of your or Optisence’s intellectual property rights. The term “dispute” means any dispute, action, or other controversy between you and Optisence concerning the Services or this Agreement, whether in contract, warranty, tort, statute, regulation, ordinance, or any other legal or equitable basis. “Dispute” will be given the broadest possible meaning allowable under law."
+      },
+      "25": {
+        "title": "Binding Arbitration",
+        "text": {
+          "0": "If a dispute arises and the parties fail to resolve it through informal negotiation, all further efforts to resolve the dispute shall be conducted exclusively by binding arbitration following the rules of the International Chamber of Commerce (ICC) (or other chosen institution). By agreeing to these Terms, you waive any rights to litigate disputes before a judge or jury, including as a class member. The dispute will be settled through arbitration in Cape Town, South Africa, or another location mutually agreed upon by the parties.",
+          "1": "rules of the International Chamber of Commerce (ICC)",
+          "2": "(or other chosen institution). By agreeing to these Terms, you waive any rights to litigate disputes before a judge or jury, including as a class member. The dispute will be settled through arbitration in",
+          "3": "Cape Town, South Africa",
+          "4": ", or another location mutually agreed upon by the parties."
+        }
+      },
+      "26": {
+        "title": "Notice of Dispute",
+        "text": {
+          "0": "In the event of a dispute, you or Optisence must give the other a Notice of Dispute, a written statement that sets forth the name, address, and contact information of the party giving it, the facts giving rise to the dispute, and the relief requested. You must send any Notice of Dispute via email to info@optisence.com. Optisence will mail any Notice of Dispute to you if we have it or otherwise to your email address. You and Optisence will attempt to resolve any dispute through informal negotiation within sixty (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or Optisence may commence arbitration.",
+          "1": "Optisence will mail any Notice of Dispute to you if we have it or otherwise to your email address. You and Optisence will attempt to resolve any dispute through informal negotiation within sixty (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or Optisence may commence arbitration."
+        }
+      },
+      "27": {
+        "title": "Governing Law",
+        "text": {
+          "0": "These Terms and Conditions are governed by and construed by the laws of",
+          "1": "South Africa",
+          "2": "without regard to its conflict of law principles. By accessing or using the Optisence website and services, you agree that any legal action or proceeding under these Terms shall be brought exclusively in the",
+          "3": "Cape Town, South Africa",
+          "4": "courts. You further consent to the personal jurisdiction of these courts, waiving any objection based on venue or inconvenience.",
+          "5": "If there is a legal dispute or disagreement between you and Optisence arising from our services, it will be resolved under",
+          "6": "South African",
+          "7": "law. You agree to submit to the exclusive jurisdiction and venue of the courts of",
+          "8": "Cape Town",
+          "9": ", which shall be the only forum for any claim or legal action."
+        }
+      },
+      "28": {
+        "title": "Submissions and Privacy",
+        "text": "If you submit or post any ideas, creative suggestions, designs, photographs, information, advertisements, data, or proposals, including ideas for new or improved products, services, features, technologies, or promotions, you expressly agree that such submissions will automatically be treated as non-confidential and non-proprietary and will become the sole property of Optisence without any compensation or credit to you whatsoever. Optisence and its affiliates shall have no obligations concerning such submissions or posts. They may use the ideas contained in such submissions or posts for any purposes in any medium in perpetuity, including, but not limited to, developing, manufacturing, and marketing products and services using such ideas."
+      },
+      "29": {
+        "title": "Promotions",
+        "text": "Optisence may sometimes include contests, promotions, sweepstakes, or other activities (“Promotions”) that require you to submit material or information concerning yourself. Please note that all promotions may be governed by separate rules containing certain eligibility requirements, such as age and geographic location restrictions. You are responsible for reading all Promotions rules to determine whether or not you are eligible to participate. If you enter any Promotion, you agree to abide by and comply with all Promotions Rules."
+      },
+      "30": {
+        "title": "Typographical Errors",
+        "text": "Suppose a product and/or Service is listed at an incorrect price or with incorrect information due to a typographical error. In that case, we shall have the right to refuse or cancel any orders for the product and/or Service listed at the incorrect price. We shall have the right to refuse or cancel any such order whether or not the order has been confirmed and your credit card charged. If your credit card has already been charged for the purchase and your order is canceled, we shall immediately issue a credit to your credit card account or other payment accounts in the amount of the charge."
+      },
+      "31": {
+        "title": "Disclaimer",
+        "text": {
+          "0": "Optisence is not responsible for content, code, or other imprecision. Optisence does not provide warranties or guarantees. In no event shall Optisence be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence, or other torts, arising out of or in connection with the use of the Service or the contents of the Service. Optisence reserves the right to make additions, deletions, or modifications to the contents of the Service at any time without prior notice.",
+          "1": "The Optisence Service and its contents are provided “as are” and “as available” without any warranty or representations, express or implied. Optisence is a distributor and not a publisher of the content supplied by third parties; as such, Optisence exercises no editorial control over such content and makes no warranty or representation as to the accuracy, reliability, or currency of any information, content, Service or merchandise provided through or accessible via the Optisence Service."
+        }
+      },
+      "32": {
+        "title": "Contact Information",
+        "text": "If you have any questions or concerns regarding these Terms and Conditions, please do not hesitate to contact us at:"
+      }
+    }
+  },
+  "refundPolicy": {
+    "title": "Refund Policy",
+    "0": {
+      "title": "General Refund Policy Information",
+      "text": {
+        "0": "We appreciate your decision to choose Optisence at",
+        "1": "operated by",
+        "2": "with its registered address at",
+        "3": "with registered number",
+        "4": "However, it’s important to note that we have",
+        "5": "a strict no-refund policy",
+        "6": "for all services and products purchased through our website. Once a transaction is completed, it is considered final."
+      }
+    },
+    "1": {
+      "title": "Responsibilities of the Customer",
+      "text": "Customers bear full responsibility for their purchasing decisions on our platform. We urge customers to thoroughly review all information and specifications about the services or products they intend to purchase before making a decision."
+    },
+    "2": {
+      "title": "Refund Eligibility Requirements",
+      "text": "Customers bear full responsibility for their purchasing decisions on our platform. We urge customers to thoroughly review all information and specifications about the services or products they intend to purchase before making a decision.",
+      "values": {
+        "0": "Erroneous Payments: Instances where accidental or duplicate payments occur.",
+        "1": "Incorrect Payment Amount: Cases where customers are charged an incorrect amount due to technical or clerical errors on our part.",
+        "2": "Payment Using Wrong Details: Situations where evidence is provided of a payment made using incorrect payment details, leading to an unsuccessful transaction.",
+        "3": "Non-Delivery of Service or Product: Instances where the purchased service or product is not delivered as described for reasons within our control."
+      }
+    },
+    "3": {
+      "title": "Steps to Request a Refund",
+      "text": {
+        "0": "If you believe your situation falls under one of the exceptional circumstances mentioned above, you can submit a refund request to our customer support team at",
+        "1": "Please include the following details in your refund request:"
+      },
+      "values": {
+        "0": "Your full name",
+        "1": "Email Address Used for the Purchase",
+        "2": "Transaction Date",
+        "3": "Transaction ID or Receipt",
+        "4": "Detailed Explanation of the Issue"
+      }
+    },
+    "4": {
+      "title": "Review and Processing of Refund Requests",
+      "text": "Upon receipt of your refund request, our team will thoroughly review the provided information. We aim to respond to all refund requests within 7 business days. Our decision regarding the refund request will be based on the validity of the circumstances presented and our policies."
+    },
+    "5": {
+      "title": "Contact Information",
+      "text": {
+        "0": "If you have any questions or need further clarification regarding our Refund Policy, please don’t hesitate to contact our customer support team:",
+        "1": "Please be aware that this Refund Policy is subject to change without prior notice. We recommend that you review it periodically for updates."
+      }
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "0": {
+      "title": "Introduction to Our Cookie Policy",
+      "text": {
+        "0": "This Cookie Policy explains how",
+        "1": "with its registered address at",
+        "2": "with registered number",
+        "3": "(referred to as “we,” “us,” or “our”), uses cookies and similar technologies on our website. By continuing to use our site, you consent to our use of cookies as outlined in this Policy. We encourage you to read this document thoroughly to understand how we collect, use, and manage cookies."
+      }
+    },
+    "1": {
+      "title": "What Are Cookies?",
+      "text": "Cookies are small text files that websites store on your device (such as a computer, smartphone, or tablet) when you visit them. They serve various functions, including recognizing your device, storing preferences, and improving user experience."
+    },
+    "2": {
+      "title": "Types of Cookies",
+      "headings": {
+        "0": "Essential Cookies",
+        "1": "Functional Cookies",
+        "2": "Analytics Cookies",
+        "3": "Advertising Cookies",
+        "4": "Social Media Cookies",
+        "5": "Session Cookies",
+        "6": "Persistent Cookies"
+      },
+      "texts": {
+        "0": "Essential cookies are integral to the proper functioning of our website. They enable basic features such as page navigation and access to secure areas. Certain services you request, such as accessing secure areas, cannot be provided without these cookies.",
+        "1": "Functional cookies allow our website to remember your choices and provide enhanced, personalised features. They may customise text size, fonts, and other elements to align with your preferences, improving your overall browsing experience.",
+        "2": "Analytics cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This data allows us to identify trends, optimise website performance, and enhance user experience.",
+        "3": "Advertising cookies are used to track your online activity and display personalised ads based on your interests. They may be placed by third-party advertising networks and help us deliver targeted marketing campaigns.",
+        "4": "Social media cookies are used to enable you to share content with your friends and networks on social media platforms. They may be placed by third-party social media networks and help us deliver targeted marketing campaigns.",
+        "5": "Session cookies are temporary cookies that are deleted when you close your browser. They are used to track your activity on our website.",
+        "6": "Persistent cookies are cookies that remain on your device for a set period and are reactivated each time you visit our website. They help us remember your preferences and login information for future visits. Please note that blocking certain cookies may affect your experience on our website. You can manage your cookie preferences through your browser settings."
+      }
+    },
+    "3": {
+      "title": "Do Not Track (DNT) Signals",
+      "text": "“Do Not Track” is a browser feature that allows users to opt out of website tracking, including analytics and advertising. While DNT is a user preference, its effectiveness depends on how websites respond to these signals."
+    },
+    "4": {
+      "title": "Response to DNT Signals",
+      "text": {
+        "0": "Optisence respects DNT signals and limits data collection accordingly. When we detect a DNT signal from your browser, we adjust our data collection practices as described in our Privacy Policy. However, please note that enabling DNT may affect the functionality and personalization of some parts of our website. It is essential to review individual website policies and services for their response to DNT signals, as third-party services may have different policies.",
+        "1": "However, please note that enabling DNT may affect the functionality and personalization of some parts of our website. It is essential to review individual website policies and services for their response to DNT signals, as third-party services may have different policies."
+      }
+    },
+    "5": {
+      "title": "How We Use Cookies",
+      "subtitle": "Optisence uses cookies for various purposes:",
+      "headings": {
+        "0": "Essential Cookies",
+        "1": "Analytical/Performance Cookies",
+        "2": "Functionality Cookies",
+        "3": "Targeting/Advertising Cookies",
+        "4": "Third-Party Cookies"
+      },
+      "texts": {
+        "0": "Essential cookies facilitate the correct functioning of our website, enabling basic features such as page navigation and form submissions.",
+        "1": "Analytical cookies help us understand how visitors interact with our website by collecting data on visited pages and error logs. This information helps us improve our website and provide a better user experience.",
+        "2": "Functionality cookies allow our website to remember your choices and provide enhanced, personalised features. They may customise text size, fonts, and other elements to align with your preferences, improving your overall browsing experience.",
+        "3": "Targeting cookies deliver advertisements relevant to your interests and measure the effectiveness of advertising campaigns. These cookies may limit the number of times you see an ad and help us optimise our marketing efforts.",
+        "4": "Optisence may use third-party services, such as Google Analytics and social media platforms, which may employ cookies. For more information on how these services use cookies and handle your data, refer to their privacy policies."
+      }
+    },
+    "6": {
+      "title": "How to Manage Cookies",
+      "text": "You can manage cookie preferences within your browser settings. Most browsers allow you to block or delete cookies, but this may affect website functionality. Refer to your browser’s help documentation for instructions on managing cookies."
+    },
+    "7": {
+      "title": "Updates to This Cookie Policy",
+      "text": "This Cookie Policy may be updated periodically to reflect changes in cookie usage. We recommend reviewing this Policy periodically to stay informed about our practices."
+    },
+    "8": {
+      "title": "Contact Information",
+      "text": "For any questions you have, please get in touch with us:"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "0": {
+      "title": "Introduction to Our Privacy Practices",
+      "text": "Optisence (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how Optisence collects, uses, and discloses your personal information. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy."
+    },
+    "1": {
+      "title": "Key Definitions and Important Terms",
+      "values": {
+        "0": "Cookie: A small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, and remember information about you, such as your language preference or login information.",
+        "1": {
+          "0": "Company",
+          "1": "When this Policy mentions “Company,” “we,” “us,” or “our,” it refers to",
+          "2": "registered at",
+          "3": "with registered number",
+          "4": "which is responsible for your information under this Privacy Policy"
+        },
+        "2": {
+          "0": "Country",
+          "1": "Where Optisence or the owners/founders of Optisence are based, in this case, in",
+          "2": "South Africa"
+        },
+        "3": "Customer: Refers to the company, organisation, or person that signs up to use the Optisence Service to manage the relationships with your consumers or service users.",
+        "4": "Device: Any internet-connected device such as a phone, tablet, computer, or other device that can be used to visit Optisence and use the services.",
+        "5": "IP address: Every device connected to the Internet is assigned a number known as an Internet protocol (IP) address. These numbers are usually assigned in geographic blocks. An IP address can often identify the location from which a device connects to the Internet.",
+        "6": "Personnel: Refers to those employed by Optisence or are under contract to perform a service on behalf of one of the parties.",
+        "7": "Personal Data: Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.",
+        "8": "Service: Refers to the service provided by Optisence as described in the relative terms (if available) and on this platform.",
+        "9": "Third-Party Service: Refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.",
+        "10": {
+          "0": "Website",
+          "1": "site, which can be accessed via this URL"
+        },
+        "11": "You: A person or entity registered with Optisence to use the Services."
+      }
+    },
+    "2": {
+      "title": "Types of Information We Collect",
+      "text": "We collect information from you when you visit our website, register, place an order, subscribe to our newsletter, respond to a survey, or fill out a form:",
+      "values": {
+        "0": "Name / Username",
+        "1": "Phone Numbers",
+        "2": "Email Addresses",
+        "3": "Mailing Addresses",
+        "4": "Billing Addresses",
+        "5": "Age",
+        "6": "Password"
+      }
+    },
+    "3": {
+      "title": "How We Utilize Your Data",
+      "text": "Any of the information we collect from you may be used in one of the following ways:",
+      "values": {
+        "0": "To personalise your experience (your information helps us to better respond to your individual needs);",
+        "1": "To improve our website (we continually strive to improve our website offerings based on the information and feedback we receive from you);",
+        "2": "To improve customer service (your information helps us to respond to your customer service requests and support needs more effectively);",
+        "3": "To process transactions;",
+        "4": "To administer a contest, promotion, survey, or other site feature;",
+        "5": "To send periodic emails."
+      }
+    },
+    "4": {
+      "title": "Information Shared With Third Parties",
+      "text": "Optisence will collect End User Data necessary to provide the Optisence services to our customers. End users may voluntarily provide us with the information they have made available on social media websites. If you provide us with such information, we may collect publicly available information from the social media websites you have indicated. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings."
+    },
+    "5": {
+      "title": "Data Collection by External Sources",
+      "text": "We receive some information from third parties when you contact us. For example, when you submit your email address to us to show interest in becoming an Optisence customer, we receive information from a third party that provides automated fraud detection services to Optisence. We also occasionally collect information that is made publicly available on social media websites. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings."
+    },
+    "6": {
+      "title": "How We Distribute Your Information",
+      "text": {
+        "0": "We may share the information that we collect, both personal and non-personal, with third parties such as advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you. We may also share it with our current and future affiliated companies and business partners. If we are involved in a merger, asset sale, or other business reorganisation, we may share or transfer your personal and non-personal information to our successors-in-interest.",
+        "1": "We may engage trusted third-party service providers to perform functions and provide services to us, such as hosting and maintaining our servers and the website, database storage and management, email management, storage marketing, credit card processing, customer service, and fulfilling orders for products and services you may purchase through the website. We will likely share your personal and possibly some non-personal information with these third parties to enable them to perform these services for us and you.",
+        "2": "We may share portions of our log file data, including IP addresses, for analytics purposes with third parties such as web analytics partners, application developers, and ad networks. If your IP address is shared, it may be used to estimate general location and other technographics such as connection speed, whether you have visited the website in a shared location, and the type of device used to visit it. They may aggregate information about our advertising and what you see on the website and provide auditing, research, and reporting for us and our advertisers.",
+        "3": "We may also disclose personal and non-personal information about you to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims, legal processes (including subpoenas), to protect our rights and interests or those of a third party, the safety of the public or any person, to prevent or stop any illegal, unethical, or legally actionable activity, or to otherwise comply with applicable court orders, laws, rules, and regulations."
+      }
+    },
+    "7": {
+      "title": "How We Protect Your Information",
+      "text": {
+        "0": "We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our payment gateway providers’ database, only to be accessible by those authorised with special access rights to such systems and are required to keep the information confidential.",
+        "1": "By submitting your email address, you also agree to allow us to use your email address for customer audience targeting on sites like Facebook, where we display custom advertising to specific people who have opted-in to receive communications from us. Email addresses submitted only through the order processing page will be used to send you information and updates about your order. If, however, you have provided the same email to us through another method, we may use it for any of the purposes stated in this Policy. Note: If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email."
+      }
+    },
+    "8": {
+      "title": "Protection of Your Information",
+      "text": {
+        "0": "We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers’ database only to be accessible by those authorised with special access rights to such systems and are required to keep the information confidential.",
+        "1": "After a transaction, your private information (credit cards, social security numbers, financials, etc.) is never kept on file. We cannot, however, ensure or warrant the absolute security of any information you transmit to Optisence or guarantee that your information on the Service may not be accessed, disclosed, altered, or destroyed by a breach of any of our physical, technical, or managerial safeguards."
+      }
+    },
+    "9": {
+      "title": "Data Security Measures",
+      "text": {
+        "0": "We take precautions to protect the security of your information. We have physical, electronic, and managerial procedures to help safeguard, prevent unauthorised access, maintain data security, and correctly use your information. However, neither people nor security systems are foolproof, including encryption systems.",
+        "1": "In addition, people can commit intentional crimes, make mistakes, or fail to follow policies. Therefore, while we use reasonable efforts to protect your personal information, we cannot guarantee its security. If applicable law imposes any non-disclaimable duty to protect your personal information, you agree that intentional misconduct will be the standard to measure our compliance with that duty."
+      }
+    },
+    "10": {
+      "title": "Your Rights to Access and Modify Your Data",
+      "text": {
+        "0": "Your rights to request updates or corrections to the information Optisence collects depend on your relationship with Optisence. Personnel may update or correct their information as detailed in our internal company employment policies. Customers have the right to request the restriction of specific uses and disclosures of personally identifiable information. You can contact us to:",
+        "1": "Customers have the right to request the restriction of specific uses and disclosures of personally identifiable information. You can contact us to:",
+        "2": "Such updates, corrections, changes, and deletions will not affect other information that we maintain or have provided to third parties by this Privacy Policy before such updates, corrections, changes, or deletions. To protect your privacy and security, we may take reasonable steps (such as requesting a unique password) to verify your identity before granting you profile access or making corrections. You are responsible for maintaining the secrecy of your unique password and account information.",
+        "3": "You should be aware that it is not technologically possible to remove every record of the information you have provided us from our system. The need to back up our systems to protect information from accidental loss means that a copy of your information may exist in a non-erasable form that will be difficult or impossible for us to locate. Promptly after receiving your request, all personal information stored in databases we actively use, and other readily searchable media will be updated, corrected, changed, or deleted, as appropriate, as soon as and to the extent reasonably and technically practicable."
+      },
+      "values": {
+        "0": "Update or correct your personally identifiable information.",
+        "1": "Change your preferences concerning communications and other information you receive from us.",
+        "2": "Cancelling your account will delete the personally identifiable information maintained about you on our systems (subject to the following paragraph)."
+      }
+    },
+    "11": {
+      "title": "Disclosing Your Information to Others",
+      "text": "We may disclose information (including personal information) about you to our Corporate Affiliates. For purposes of this Privacy Policy, \"Corporate Affiliate\" means any person or entity that directly or indirectly controls, is controlled by, or is under common control with Optisence, whether by ownership or otherwise. Those Corporate Affiliates will treat any information relating to you that we provide to our Corporate Affiliates following the terms of this Privacy Policy."
+    },
+    "12": {
+      "title": "Applicable Legal Regulations",
+      "text": {
+        "0": "The laws of",
+        "1": "South Africa",
+        "2": "governing this Privacy Policy without regard to its conflict of laws provision. You consent to the exclusive jurisdiction of the courts in connection with any action or dispute arising between the parties under or in connection with this Privacy Policy. The laws of.",
+        "3": "South Africa",
+        "4": "excluding its conflicts of law rules, shall govern this Agreement and your use of the website. Your website use may also be subject to local, state, national, or international laws.",
+        "5": "Using Optisence or contacting us directly signifies your acceptance of this Privacy Policy. If you disagree with this Privacy Policy, you should not engage with our website or use our services. Continued use of the website, direct engagement with us, or following the posting of changes to this Privacy Policy that do not significantly affect the use or disclosure of your personal information will mean that you accept those changes."
+      }
+    },
+    "13": {
+      "title": "Your Agreement to Data Usage",
+      "text": "We’ve updated our Privacy Policy to provide complete transparency into what is set when you visit our site and its use. By using our website, registering an account, or purchasing, you now consent to our Privacy Policy and agree to its terms."
+    },
+    "14": {
+      "title": "Protection of Children’s Privacy",
+      "text": "We do not address anyone under 18 and do not knowingly collect personally identifiable information from anyone under 18. If you are a parent or guardian and know that your child has provided us with Personal Data, please get in touch with us. Suppose we become aware that we have collected Personal Data from anyone under the age of 18 without verification of parental consent. In that case, we will remove that information from our servers."
+    },
+    "15": {
+      "title": "Modifications to Our Privacy Policy",
+      "text": "We may change our Services and policies, and we may need to make changes to this Privacy Policy so that they accurately reflect our Services and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to this Privacy Policy and allow you to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Privacy Policy. You can delete your account if you disagree with this or any revised Privacy Policy."
+    },
+    "16": {
+      "title": "Cookies and Tracking Technologies",
+      "text": {
+        "0": {
+          "heading": "Use of Google Maps API",
+          "values": {
+            "0": "Google Maps API is a robust tool that can be used to create a custom map, a searchable map, check-in functions, display live data synching with location, plan routes, or create a mashup, just to name a few.",
+            "1": "Google Maps API may collect information from You and Your Device for security purposes.",
+            "2": "Google Maps API collects information that its Privacy Policy holds."
+          }
+        },
+        "1": {
+          "heading": "Cookie Information",
+          "values": "We may collect and use your information if you are from the European Economic Area (EEA). This section of our Privacy Policy explains exactly how and why this data is collected and how we protect it from replication or misuse."
+        }
+      }
+    },
+    "17": {
+      "title": "Summary of GDPR Compliance",
+      "text": {
+        "0": "GDPR is an EU-wide privacy and data protection law regulating how companies protect EU residents' data and enhances the control EU residents have over their data. The GDPR is relevant to any globally operating company, not just EU-based businesses and EU residents. Our customers' data is essential irrespective of location, so we have implemented GDPR controls as our baseline standard for all our operations worldwide.",
+        "1": "The Data Protection Principles include requirements such as:"
+      },
+      "values": {
+        "0": "Personal data collected must be processed fairly, legally, and transparently and only used in a way that a person would reasonably expect.",
+        "1": "Personal data should only be collected to fulfil a specific purpose and should only be used for that purpose. Organisations must specify why they need personal data when they collect it.",
+        "2": "Personal data should be held no longer than necessary to fulfil its purpose.",
+        "3": "People covered by the GDPR have the right to access their data. They can also request a copy of their data and that their data be updated, deleted, restricted, or moved to another organisation."
+      }
+    },
+    "18": {
+      "title": "Your Rights: Access, Portability & Deletion",
+      "text": {
+        "0": "We are committed to helping our customers meet the GDPR's data subject rights requirements. Optisence processes or stores all personal data in fully vetted, DPA-compliant vendors. We store all conversations and personal data for up to 6 years unless your account is deleted. In this case, we dispose of all data following our Terms of Service and Privacy Policy, but we will not hold it for longer than 60 days.",
+        "1": "We know that if you are working with EU customers, you need to be able to give them access to, update, retrieve, and remove personal data. We got you! We’ve been set up as self-service and have always given you access to your and your customers’ data. Our customer support team is here to answer any questions about working with the API."
+      }
+    },
+    "19": {
+      "title": "How to Contact Us",
+      "text": "For any questions you have, please get in touch with us:"
+    }
+  }
+}

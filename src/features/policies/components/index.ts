@@ -1,3 +1,4 @@
+export * from './contact-list';
 export * from './cookie-consent';
 export * from './header';
 export * from './heading';
