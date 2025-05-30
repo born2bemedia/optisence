@@ -104,6 +104,9 @@
       "description": "Die Zufriedenheit unserer Kunden spricht Bände über die Qualität unserer Dienstleistungen. Hier ist, was einige von ihnen über die Zusammenarbeit mit Optisence zu sagen haben:"
     },
     "consultingSolutions": {
+      "keyOfferings": "Wesentliche Angebote",
+      "exploreMarketing": "Marketing Operations Beratung erkunden",
+      "discoverCorporate": "Leitfaden zur Unternehmensstrategie entdecken",
       "items": {
         "0": {
           "keys": "Strategische Marketingplanung, Implementierung der Marketingautomatisierung, Workflow-Optimierung, Customer Journey Mapping, Leistungsmessung",
@@ -127,6 +130,14 @@
     "btn": {
       "submit": "Einreichen",
       "submitting": "Einreichen..."
+    },
+    "errors": {
+      "name": "Geben Sie den Namen des Kontaktpartners ein",
+      "email": "Geben Sie eine E-Mail-Adresse ein",
+      "phone": "Geben Sie eine Kontakttelefonnummer ein",
+      "invalidPhone": "Ungültiges Telefonnummernformat",
+      "budget": "Bitte wählen Sie den Budgetbereich Ihres Projekts",
+      "message": "Geben Sie eine Nachricht ein"
     },
     "fields": {
       "email": {
@@ -213,6 +224,7 @@
       "description": "Werden Sie Teil unseres Teams von Branchenexperten und unterstützen Sie Unternehmen bei Wachstum und Erfolg."
     },
     "positions": {
+      "type": "Typ",
       "jobs": {
         "0": {
           "title": "Strategischer Berater",
@@ -385,6 +397,15 @@
     "readyToApply": {
       "form": {
         "title": "Bewerbungsformular",
+        "errors": {
+          "fullName": "Geben Sie den Namen des Hauptansprechpartners ein",
+          "email": "Geben Sie eine E-Mail-Adresse ein",
+          "phone": "Geben Sie eine Kontakttelefonnummer ein",
+          "invalidPhone": "Ungültiges Telefonnummernformat",
+          "role": "Wählen Sie eine Rolle",
+          "portfolio": "Datei hochladen",
+          "message": "Geben Sie eine Nachricht ein"
+        },
         "fields": {
           "name": {
             "label": "Vollständiger Name",
@@ -493,6 +514,12 @@
       }
     },
     "projects": {
+      "client": "Kunde",
+      "industry": "Branche",
+      "usedServices": "Verwendete Dienstleistungen",
+      "problem": "Das Problem",
+      "whatWeSaw": "Was wir sahen",
+      "whatWeBuilt": "Was wir gebaut haben",
       "0": {
         "name": "Einzelhandel im Maßstab: Von fragmentierten Kampagnen zu einer Marketing-Maschine",
         "built": {
@@ -822,6 +849,30 @@
       },
       "btnLabel": "Unserem Team beitreten",
       "description": "Bei Optisence arbeiten wir nicht nur zusammen - wir sind auch gemeinsam innovativ. Unser Team ist eine kollaborative, leidenschaftliche Gruppe von Fachleuten, die sich für die Lösung von geschäftlichen Herausforderungen und die Schaffung von Möglichkeiten für unsere Kunden begeistern. Wir bieten ein kollegiales Umfeld, in dem Kreativität gefördert wird und die berufliche Entwicklung im Vordergrund steht. Unsere Kultur basiert auf kontinuierlichem Lernen, Teamarbeit und einer gemeinsamen Leidenschaft für Ergebnisse."
+    },
+    "optisenceEcosystem": {
+      "title": {
+        "first": "Das Optisence-Ökosystem:",
+        "second": "Ein Netz für Wachstum"
+      },
+      "items": {
+        "0": {
+          "title": "Globale Partnerschaften",
+          "text": "Unser internationales Netzwerk bringt Ihnen die besten Köpfe aus den Bereichen Technologie, Datenanalyse und Geschäftsentwicklung."
+        },
+        "1": {
+          "title": "Hochmoderne Tools",
+          "text": "Wir integrieren die neuesten Technologien, von KI bis zu Big-Data-Analysen, um die besten Ergebnisse für Ihr Unternehmen zu erzielen."
+        },
+        "2": {
+          "title": "Kollaboratives Wachstum",
+          "text": "Wir sorgen dafür, dass Sie immer einen Schritt voraus sind, indem wir unser umfangreiches Netzwerk nutzen und Ihnen Zugang zu den wichtigsten Ressourcen und Fachkenntnissen verschaffen."
+        },
+        "3": {
+          "title": "Zugang zu Branchenexperten",
+          "text": "Unser Ökosystem verbindet Sie mit führenden Spezialisten aus verschiedenen Bereichen und stellt sicher, dass Ihr Unternehmen von den auf Ihre Bedürfnisse zugeschnittenen Strategien profitiert."
+        }
+      }
     },
     "whatSetsUsApart": {
       "items": {
@@ -1320,6 +1371,12 @@
   "requestForm": {
     "0": {
       "title": "Nehmen Sie Kontakt mit Optisence auf",
+      "errors": {
+        "fullName": "Geben Sie den Namen des Hauptansprechpartners ein",
+        "email": "Geben Sie eine E-Mail-Adresse ein",
+        "phone": "Geben Sie eine Kontakttelefonnummer ein",
+        "invalidPhone": "Ungültiges Telefonnummernformat"
+      },
       "fields": {
         "email": {
           "label": "E-Mail Adresse",
@@ -1383,6 +1440,15 @@
         "4": "Beratung zu Führung und Governance",
         "5": "Andere"
       },
+      "errors": {
+        "marketingAdvisory": "Bitte wählen Sie die Beratungsleistungen",
+        "corporateStrategy": "Bitte wählen Sie die Beratungsleistungen",
+        "budget": "Bitte wählen Sie den Budgetbereich Ihres Projekts",
+        "keyObjectives": "Geben Sie die wichtigsten Ziele Ihres Unternehmens ein",
+        "points": "Geben Sie Herausforderungen oder Schmerzpunkte Ihres Unternehmens ein",
+        "industry": "Geben Sie die Branche Ihres Unternehmens ein",
+        "demographics": "Geben Sie die demografischen Daten Ihres Unternehmens ein"
+      },
       "marketing": {
         "0": "Strategische Marketingplanung",
         "1": "Optimierung des Arbeitsablaufs",
@@ -1408,6 +1474,10 @@
         "0": "E-Mail",
         "1": "Telefon",
         "2": "Videoanruf"
+      },
+      "errors": {
+        "projectTimeline": "Bitte wählen Sie den Zeitplan Ihres Projekts",
+        "contactMethod": "Bitte wählen Sie die bevorzugte Kontaktart"
       },
       "timeline": {
         "0": "Innerhalb von 1 Monat",
@@ -2099,6 +2169,9 @@
       "description": "Unser Team ist darauf spezialisiert, Unternehmen dabei zu helfen, ihr Marketingpotenzial durch die Optimierung von Abläufen, die Verbesserung der Teamleistung und die Integration von Spitzentechnologien auszuschöpfen. Unsere Marketing Operations Advisory Services sind darauf ausgerichtet, Ihre Marketingaktivitäten effektiv zu optimieren und zu skalieren."
     },
     "packages": {
+      "includes": "Inklusive",
+      "whyChoose": "Warum dieses Paket wählen?",
+      "order": "Bestellen",
       "0": {
         "name": "Starter-Marketing-Optimierungspaket",
         "price": "Preis: Ab 5.000 €",
@@ -2597,6 +2670,68 @@
         "1": "Unternehmensstrategie-Pakete"
       },
       "description": "Wir wissen, dass Unternehmen in jeder Phase ihres Wachstumsprozesses vor besonderen Herausforderungen stehen. Deshalb haben wir vier verschiedene Pakete entwickelt, die auf die spezifischen Bedürfnisse von Unternehmen an unterschiedlichen Punkten ihrer Strategieentwicklung eingehen. Ganz gleich, ob Sie Ihre aktuellen Abläufe optimieren oder Ihre gesamte Strategie neu definieren möchten, unsere maßgeschneiderten Pakete bieten Ihnen die umfassende Unterstützung, die Sie für Ihren langfristigen Erfolg benötigen."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Lass uns verbinden und führe dein Unternehmen voran",
+      "text": "Wir sind dazu verpflichtet, angepasste Lösungen zu liefern, die Ihr Unternehmen fördern. Egal, ob Sie eine Frage haben, Expertenberatung benötigen oder Möglichkeiten für Zusammenarbeit erkunden möchten, wir sind hier, um Sie bei jedem Schritt zu unterstützen."
+    },
+    "howReachUs": {
+      "title": "Wie können wir erreicht werden",
+      "text": "Wir sind immer bereit, Ihre Geschäftsanforderungen zu besprechen und angepasste Lösungen bereitzustellen. Sie können uns über die folgenden Kontaktstellen erreichen:",
+      "officeAddress": "Büroadresse",
+      "registeredAddress": "Registrierte Adresse",
+      "email": "E-Mail",
+      "phone": "Telefon"
+    },
+    "form": {
+      "title": "Schreib uns eine Nachricht",
+      "text": "Wir würden gerne von Ihnen hören! Füllen Sie das Formular unten aus, und ein Mitglied unseres Teams wird sich schnell bei Ihnen melden, um zu besprechen, wie wir Ihre Geschäftsanforderungen unterstützen können:",
+      "submit": "Anfrage senden",
+      "submitting": "Senden...",
+      "errors": {
+        "firstName": "Bitte geben Sie Ihren Vornamen ein",
+        "lastName": "Bitte geben Sie Ihren Nachnamen ein",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+        "invalidPhone": "Bitte geben Sie eine gültige Telefonnummer ein",
+        "budget": "Bitte geben Sie Ihr Budget ein",
+        "message": "Bitte geben Sie Ihre Nachricht ein"
+      },
+      "fields": {
+        "firstName": {
+          "label": "Vorname",
+          "placeholder": "Geben Sie Ihren Vornamen ein"
+        },
+        "lastName": {
+          "label": "Nachname",
+          "placeholder": "Geben Sie Ihren Nachnamen ein"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Geben Sie Ihre E-Mail-Adresse ein"
+        },
+        "phone": {
+          "label": "Telefonnummer"
+        },
+        "companyName": {
+          "label": "Unternehmensname",
+          "placeholder": "Geben Sie den Namen Ihres Unternehmens ein"
+        },
+        "companyWebsite": {
+          "label": "Unternehmenswebsite",
+          "placeholder": "Geben Sie die URL Ihrer Unternehmenswebsite ein"
+        },
+        "budget": {
+          "label": "Budget",
+          "placeholder": "Geben Sie Ihr Budget ein"
+        },
+        "message": {
+          "label": "Nachricht",
+          "placeholder": "Geben Sie Ihre Nachricht ein"
+        }
+      }
     }
   }
 }

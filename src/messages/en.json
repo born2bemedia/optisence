@@ -32,6 +32,9 @@
         "first": "Consulting Solutions for",
         "second": "Businesses & Enterprises"
       },
+      "keyOfferings": "Key Offerings",
+      "exploreMarketing": "Explore Marketing Operations Advisory",
+      "discoverCorporate": "Discover Corporate Strategy Guidance",
       "description": "We offer innovative Consulting Solutions that cater to the unique needs of your business, no matter its size or scope. Whether you’re a startup aiming for rapid growth or an established enterprise seeking to optimize operations, we have the expertise to help you succeed.",
       "items": {
         "0": {
@@ -255,6 +258,30 @@
       },
       "description": "At Optisence, we don’t just work together — we innovate together. Our team is a collaborative, passionate group of professionals who thrive on solving business challenges and creating opportunities for our clients. We offer a supportive environment where creativity is encouraged and professional development is prioritized. Our culture is built on continuous learning, teamwork, and a shared passion for results.",
       "btnLabel": "Join Our Team"
+    },
+    "optisenceEcosystem": {
+      "title": {
+        "first": "The Optisence Ecosystem:",
+        "second": "A Network for Growth"
+      },
+      "items": {
+        "0": {
+          "title": "Global Partnerships",
+          "text": "Our international network brings you the best minds in technology, data analytics, and business development."
+        },
+        "1": {
+          "title": "Cutting-Edge Tools",
+          "text": "We integrate the latest technologies, from AI to big data analytics, to ensure the best outcomes for your business."
+        },
+        "2": {
+          "title": "Collaborative Growth",
+          "text": "We ensure you’re always ahead of the curve by tapping into our vast network, providing access to the most relevant resources and expertise."
+        },
+        "3": {
+          "title": "Access to Industry Experts",
+          "text": "Our ecosystem connects you with leading specialists across multiple sectors, ensuring your business benefits from the strategies tailored to your needs."
+        }
+      }
     },
     "lookingAhead": {
       "title": {
@@ -506,6 +533,15 @@
       },
       "form": {
         "title": "Application Form",
+        "errors": {
+          "fullName": "Enter the name of the primary contact person",
+          "email": "Enter a contact email address",
+          "phone": "Enter a contact phone number",
+          "invalidPhone": "Invalid phone number format",
+          "role": "Select a role",
+          "portfolio": "Upload a file",
+          "message": "Enter a message"
+        },
         "fields": {
           "name": {
             "label": "Full Name",
@@ -540,6 +576,7 @@
     },
     "positions": {
       "title": "Open Positions",
+      "type": "Type",
       "description": "We’re actively hiring across several key roles. Don’t see your dream job listed? Reach out anyway — we’re always looking for standout talent.",
       "jobs": {
         "0": {
@@ -685,6 +722,15 @@
       }
     },
     "projects": {
+      "client": "Client",
+      "industry": "Industry",
+      "usedServices": "Used Services",
+      "problem": "The Problem",
+      "whatWeSaw": "What We Saw",
+      "whatWeBuilt": "What We Built",
+      "whatChanged": "What Changed",
+      "builtResults": "What Changed",
+      "learnMore": "Learn More",
       "0": {
         "name": "Retail at Scale: From Fragmented Campaigns to a Marketing Machine",
         "client": "National Retail Chain",
@@ -1514,6 +1560,9 @@
       "description": "We offer four comprehensive packages to address businesses’ varying needs at different growth stages. Each package is tailored to help you unlock your marketing potential and drive sustainable growth. Choose the package that best suits your current needs and budget, and let us help you take your marketing to the next level."
     },
     "packages": {
+      "includes": "Includes",
+      "whyChoose": "Why Choose This Package?",
+      "order": "Order",
       "0": {
         "name": "Starter Marketing Optimization Package",
         "price": "Price: From €5,000",
@@ -1897,6 +1946,12 @@
       "description": "At Optisence, we partner with companies like yours to provide tailored solutions that drive growth and optimize operations. To get started, please share details about your business needs, and we’ll craft a strategy to help you succeed.",
       "basicInfo": "Basic Information",
       "personalCompanyData": "Personal & Company Data",
+      "errors": {
+        "fullName": "Enter the name of the primary contact person",
+        "email": "Enter a contact email address",
+        "phone": "Enter a contact phone number",
+        "invalidPhone": "Invalid phone number format"
+      },
       "fields": {
         "fullName": {
           "label": "Full Name",
@@ -1943,6 +1998,15 @@
         "4": "Leadership and Governance Consulting",
         "5": "Other"
       },
+      "errors": {
+        "marketingAdvisory": "Please choose the consulting services",
+        "corporateStrategy": "Please choose the consulting services",
+        "budget": "Please select your project’s budget range",
+        "keyObjectives": "Enter your company’s key objectives",
+        "points": "Enter your company’s challenges or pain points",
+        "industry": "Enter your company’s industry/sector",
+        "demographics": "Enter your company’s demographics"
+      },
       "budgetAllocation": "Budget Allocation",
       "pleaseSelectRange": "Please select your project’s budget range. This will help us create a plan that aligns with your investment.",
       "businessChallengesGoals": "Business Challenges & Goals",
@@ -1984,6 +2048,10 @@
         "2": "3-6 Months",
         "3": "Flexible Timeline"
       },
+      "errors": {
+        "projectTimeline": "Please select your project’s timeline",
+        "contactMethod": "Please select your preferred contact method"
+      },
       "contact": {
         "0": "Email",
         "1": "Phone",
@@ -2003,6 +2071,14 @@
     "btn": "Continue"
   },
   "order": {
+    "errors": {
+      "name": "Enter the name of the contact person",
+      "email": "Enter a contact email address",
+      "phone": "Enter a contact phone number",
+      "invalidPhone": "Invalid phone number format",
+      "budget": "Please select your project’s budget range",
+      "message": "Enter a message"
+    },
     "fields": {
       "firstName": {
         "label": "First Name",
@@ -2598,6 +2674,68 @@
     "19": {
       "title": "How to Contact Us",
       "text": "For any questions you have, please get in touch with us:"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Let’s Connect and Drive Your Business Forward",
+      "text": "We’re committed to providing tailored solutions that help your business thrive. Whether you have a question, need expert advice, or want to explore collaboration opportunities, we’re here to assist you every step of the way."
+    },
+    "howReachUs": {
+      "title": "How to Reach Us",
+      "text": "We are always ready to discuss your business needs and provide personalized solutions. You can get in touch with us through the following contact points:",
+      "officeAddress": "Office Address",
+      "registeredAddress": "Registered Address",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "form": {
+      "title": "Drop Us a Message",
+      "text": "We’d love to hear from you! Fill out the form below, and a member of our team will get in touch with you shortly to discuss how we can support your business needs:",
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "errors": {
+        "firstName": "Please enter your first name",
+        "lastName": "Please enter your last name",
+        "email": "Please enter a valid email address",
+        "phone": "Please enter phone number",
+        "invalidPhone": "Please enter a valid phone number",
+        "budget": "Please enter your budget",
+        "message": "Please enter your message"
+      },
+      "fields": {
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "Enter your first name"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Enter your last name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email"
+        },
+        "phone": {
+          "label": "Phone Number"
+        },
+        "companyName": {
+          "label": "Company Name",
+          "placeholder": "Enter your company name"
+        },
+        "companyWebsite": {
+          "label": "Company Website",
+          "placeholder": "Enter your company website"
+        },
+        "budget": {
+          "label": "Budget",
+          "placeholder": "Enter your budget"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Enter your message"
+        }
+      }
     }
   }
 }

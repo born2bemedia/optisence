@@ -14,13 +14,19 @@ import { PhoneField } from '@/shared/ui/kit/phone-field';
 import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 
-import { type ApplicationFormSchema, applicationFormSchema } from '../lib';
+import {
+  type ApplicationFormSchema,
+  createApplicationFormSchema,
+} from '../lib';
 import { sendApplication } from '../services';
 
 export const ApplicationForm = () => {
   const t = useTranslations('careers.readyToApply.form');
+  const te = useTranslations('careers.readyToApply.form.errors');
 
   const [isOpen, setIsOpen] = useState(false);
+
+  const applicationFormSchema = createApplicationFormSchema(te);
 
   const {
     handleSubmit,

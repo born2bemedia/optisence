@@ -13,23 +13,20 @@ import { Dropdzone } from '@/shared/ui/kit/dropzone';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
-import { type ProjectTimelineSchema, projectTimelineSchema } from '../lib';
+import {
+  createProjectTimelineSchema,
+  type ProjectTimelineSchema,
+} from '../lib';
 import { sendRequestForm, useRequestDialogStore } from '../services';
-
-// const timeline = [
-//   'Within 1 Month',
-//   '1-3 Months',
-//   '3-6 Months',
-//   'Flexible Timeline',
-// ];
-
-// const contactMethod = ['Email', 'Phone', 'Video Call'];
 
 export const ProjectTimelineForm = () => {
   const t = useTranslations('requestForm.3');
   const tb = useTranslations('requestForm.btn');
+  const te = useTranslations('requestForm.3.errors');
 
   const { values, updateValues, setSent } = useRequestDialogStore();
+
+  const projectTimelineSchema = createProjectTimelineSchema(te);
 
   const {
     handleSubmit,

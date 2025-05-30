@@ -2,6 +2,7 @@
 
 import { type ReactNode, useState } from 'react';
 import dynamic from 'next/dynamic';
+import { useTranslations } from 'next-intl';
 
 import { Controller, useForm, zodResolver } from '@/shared/lib/forms';
 import { useCountryCode } from '@/shared/lib/hooks';
@@ -11,7 +12,7 @@ import { Button } from '@/shared/ui/kit/button';
 import { PhoneField } from '@/shared/ui/kit/phone-field';
 import { TextField } from '@/shared/ui/kit/text-field';
 
-import { type ContactSchema, contactSchema } from '../lib';
+import { type ContactSchema, createContactSchema } from '../lib';
 import { sendContact } from '../services';
 
 const ThankYouDialog = dynamic(() =>
@@ -21,7 +22,11 @@ const ThankYouDialog = dynamic(() =>
 export const ContactForm = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const t = useTranslations('contact.form');
+  const te = useTranslations('contact.form.errors');
   const countryCode = useCountryCode();
+
+  const contactSchema = createContactSchema(te);
 
   const {
     handleSubmit,
@@ -68,9 +73,9 @@ export const ContactForm = () => {
             <TextField
               {...field}
               variant="white"
-              label="First Name"
+              label={t('fields.firstName.label')}
               rounded="full"
-              placeholder="Enter your first name"
+              placeholder={t('fields.firstName.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
               hint={error?.message}
             />
@@ -82,10 +87,10 @@ export const ContactForm = () => {
           render={({ field, fieldState: { error } }) => (
             <TextField
               {...field}
-              label="Last Name"
+              label={t('fields.lastName.label')}
               variant="white"
               rounded="full"
-              placeholder="Enter your last name"
+              placeholder={t('fields.lastName.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
               hint={error?.message}
             />
@@ -100,9 +105,9 @@ export const ContactForm = () => {
             <TextField
               {...field}
               variant="white"
-              label="Email"
+              label={t('fields.email.label')}
               rounded="full"
-              placeholder="Enter your email"
+              placeholder={t('fields.email.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
               hint={error?.message}
             />
@@ -114,7 +119,7 @@ export const ContactForm = () => {
           render={({ field, fieldState: { error } }) => (
             <PhoneField
               {...field}
-              label="Phone Number"
+              label={t('fields.phone.label')}
               country={countryCode}
               hint={error?.message}
             />
@@ -129,9 +134,9 @@ export const ContactForm = () => {
             <TextField
               {...field}
               variant="white"
-              label="Company Name"
+              label={t('fields.companyName.label')}
               rounded="full"
-              placeholder="Enter your company name"
+              placeholder={t('fields.companyName.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
               hint={error?.message}
             />
@@ -144,9 +149,9 @@ export const ContactForm = () => {
             <TextField
               {...field}
               variant="white"
-              label="Company Website"
+              label={t('fields.companyWebsite.label')}
               rounded="full"
-              placeholder="Enter your company website "
+              placeholder={t('fields.companyWebsite.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
               hint={error?.message}
             />
@@ -161,9 +166,9 @@ export const ContactForm = () => {
             <TextField
               {...field}
               variant="white"
-              label="Budget"
+              label={t('fields.budget.label')}
               rounded="full"
-              placeholder="Enter your budget"
+              placeholder={t('fields.budget.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
               hint={error?.message}
             />
@@ -176,9 +181,9 @@ export const ContactForm = () => {
             <TextField
               {...field}
               variant="white"
-              label="Message"
+              label={t('fields.message.label')}
               rounded="full"
-              placeholder="Enter your message"
+              placeholder={t('fields.message.placeholder')}
               intent={error?.message ? 'danger' : 'primary'}
               hint={error?.message}
             />
@@ -186,7 +191,7 @@ export const ContactForm = () => {
         />
       </FormRow>
       <Button type="submit" disabled={isSubmitting} className="mr-auto ml-auto">
-        {isSubmitting ? 'Submitting...' : 'Submit Request'} <ArrowRightIcon />
+        {isSubmitting ? t('submitting') : t('submit')} <ArrowRightIcon />
       </Button>
       <ThankYouDialog isOpen={isOpen} setIsOpen={setIsOpen} />
     </form>

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 import { useRequestDialogStore } from '@/features/request-form/services';
 
@@ -18,6 +18,7 @@ export function Footer() {
   const tf = useTranslations('footer');
   const th = useTranslations('header');
   const { setOpen } = useRequestDialogStore();
+  const locale = useLocale();
 
   return (
     <footer className="flex flex-col gap-12 border-t border-[#F2F2F2] py-[72px] max-md:py-8">
@@ -68,15 +69,16 @@ export function Footer() {
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
               {th('consultingSolutions')}
+              {th('consultingSolutions')}
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
-                <Link href="/marketing-operations-advisory">
+                <Link href={`/${locale}/marketing-operations-advisory`}>
                   <Text hover>{th('links.2')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/corporate-strategy-guidance">
+                <Link href={`/${locale}/corporate-strategy-guidance`}>
                   <Text hover>{th('links.3')}</Text>
                 </Link>
               </li>
@@ -88,22 +90,22 @@ export function Footer() {
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
-                <Link href="/who-we-are">
+                <Link href={`/${locale}/who-we-are`}>
                   <Text hover>{th('links.1')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/industries-we-shape">
+                <Link href={`/${locale}/industries-we-shape`}>
                   <Text hover>{th('links.4')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/careers">
+                <Link href={`/${locale}/careers`}>
                   <Text hover>{th('links.6')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/media-center/5-signs-your-business">
+                <Link href={`/${locale}/media-center/5-signs-your-business`}>
                   <Text hover>{th('links.7')}</Text>
                 </Link>
               </li>
@@ -118,12 +120,12 @@ export function Footer() {
                 <Text hover>{tf('getConsultation')}</Text>
               </li>
               <li>
-                <Link href="/our-work">
+                <Link href={`/${locale}/our-work`}>
                   <Text hover>{th('links.5')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/contact-us">
+                <Link href={`/${locale}/contact-us`}>
                   <Text hover>{th('links.8')}</Text>
                 </Link>
               </li>
@@ -135,22 +137,22 @@ export function Footer() {
             </Text>
             <ul className="flex flex-col gap-3">
               <li>
-                <Link href="/terms-and-conditions">
+                <Link href={`/${locale}/terms-and-conditions`}>
                   <Text hover>{tf('policies.termsAndConditions')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/privacy-policy">
+                <Link href={`/${locale}/privacy-policy`}>
                   <Text hover>{tf('policies.privacyPolicy')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/refund-policy">
+                <Link href={`/${locale}/refund-policy`}>
                   <Text hover>{tf('policies.refundPolicy')}</Text>
                 </Link>
               </li>
               <li>
-                <Link href="/cookie-policy">
+                <Link href={`/${locale}/cookie-policy`}>
                   <Text hover>{tf('policies.cookiePolicy')}</Text>
                 </Link>
               </li>

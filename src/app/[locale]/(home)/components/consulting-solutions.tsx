@@ -70,6 +70,8 @@ const Card = ({
   keys: string[];
   type: string;
 }) => {
+  const t = useTranslations('home.consultingSolutions');
+
   return (
     <article className="flex flex-col justify-between gap-12 rounded-4xl bg-[#F5F5F5] p-8">
       <section className="flex flex-col gap-6">
@@ -79,7 +81,7 @@ const Card = ({
         <Text>{desc}</Text>
         <Divider className="bg-[#DFDFDF]" />
         <Text color="dark" size="xl">
-          Key Offerings
+          {t('keyOfferings')}
         </Text>
         <section className="flex flex-wrap gap-1.5">
           {keys.map(item => (
@@ -92,8 +94,8 @@ const Card = ({
       >
         <Button textAlign="center" fullWidth>
           {type === 'marketing'
-            ? 'Explore Marketing Operations Advisory'
-            : 'Discover Corporate Strategy Guidance'}
+            ? t('exploreMarketing')
+            : t('discoverCorporate')}
           <ArrowRightIcon />
         </Button>
       </Link>

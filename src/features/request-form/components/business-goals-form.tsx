@@ -18,26 +18,8 @@ import { Tag } from '@/shared/ui/kit/tag';
 import { Text } from '@/shared/ui/kit/text';
 import { TextField } from '@/shared/ui/kit/text-field';
 
-import { type BusinessGoalsSchema, businessGoalsSchema } from '../lib';
+import { type BusinessGoalsSchema, createBusinessGoalsSchema } from '../lib';
 import { useRequestDialogStore } from '../services';
-
-// const marketing = [
-//   'Strategic Marketing Planning',
-//   'Workflow Optimization',
-//   'Performance Measurement',
-//   'Marketing Automation Implementation',
-//   'Customer Journey Mapping',
-//   'Other',
-// ];
-
-// const corporate = [
-//   'Business Model Innovation',
-//   'Market Entry and Expansion Strategies',
-//   'Competitive Analysis',
-//   'Change Management',
-//   'Leadership and Governance Consulting',
-//   'Other',
-// ];
 
 const budget = [
   'Under €1,000',
@@ -49,6 +31,7 @@ const budget = [
 
 export const BusinessGoalsForm = () => {
   const t = useTranslations('requestForm.1');
+  const te = useTranslations('requestForm.1.errors');
   const tb = useTranslations('requestForm.btn');
   const { updateValues, setStep } = useRequestDialogStore();
 
@@ -69,6 +52,8 @@ export const BusinessGoalsForm = () => {
     t('corporate.4'),
     t('corporate.5'),
   ];
+
+  const businessGoalsSchema = createBusinessGoalsSchema(te);
 
   const {
     handleSubmit,

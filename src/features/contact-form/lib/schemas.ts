@@ -1,20 +1,21 @@
+import type { useTranslations } from 'next-intl';
+
 import { z } from '@/shared/lib/forms';
 import { isPhoneValid } from '@/shared/lib/utils';
 
-export const contactSchema = z.object({
-  firstName: z.string().min(1, { message: 'Provide your first name' }),
-  lastName: z.string().min(1, { message: 'Provide your last name' }),
-  email: z.string().email({ message: 'Enter a contact email address' }),
-  phone: z
-    .string()
-    .nonempty('Enter a contact phone number')
-    .refine(isPhoneValid, 'Invalid phone number format'),
-  companyName: z.string().optional(),
-  companyWebsite: z.string().optional(),
-  budget: z
-    .string()
-    .min(1, { message: 'Please select your project’s budget range' }),
-  message: z.string().min(1, { message: 'Enter your message' }),
-});
+export const createContactSchema = (t: ReturnType<typeof useTranslations>) =>
+  z.object({
+    firstName: z.string().min(1, { message: t('firstName') }),
+    lastName: z.string().min(1, { message: t('lastName') }),
+    email: z.string().email({ message: t('email') }),
+    phone: z
+      .string()
+      .nonempty(t('phone'))
+      .refine(isPhoneValid, t('invalidPhone')),
+    companyName: z.string().optional(),
+    companyWebsite: z.string().optional(),
+    budget: z.string().min(1, { message: t('budget') }),
+    message: z.string().min(1, { message: t('message') }),
+  });
 
-export type ContactSchema = z.infer<typeof contactSchema>;
+export type ContactSchema = z.infer<ReturnType<typeof createContactSchema>>;

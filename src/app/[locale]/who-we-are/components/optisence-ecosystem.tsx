@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils';
 import { FadeIn } from '@/shared/ui/components/fade-in';
@@ -8,19 +9,21 @@ import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 export const OptisenceEcosystem = () => {
+  const t = useTranslations('who-we-are.optisenceEcosystem');
+
   return (
     <section className="flex flex-col gap-20 px-[100px] py-20 max-sm:gap-6 max-sm:px-4 max-sm:py-8">
       <FadeIn className="text-center">
         <Title as="h2" weight={600} className="leading-[120%]">
-          <span className="text-primary">The Optisence Ecosystem:</span>
-          <br /> A Network for Growth
+          <span className="text-primary">{t('title.first')}</span>
+          <br /> {t('title.second')}
         </Title>
       </FadeIn>
       <FadeIn className="flex flex-col gap-5">
         <section className="flex gap-5 max-xl:flex-col">
           <Card
-            title="Global Partnerships"
-            text="Our international network brings you the best minds in technology, data analytics, and business development."
+            title={t('items.0.title')}
+            text={t('items.0.text')}
             className="w-[30%] max-lg:w-full"
           />
           <Image
@@ -32,20 +35,14 @@ export const OptisenceEcosystem = () => {
             unoptimized
           />
           <Card
-            title="Cutting-Edge Tools "
-            text="We integrate the latest technologies, from AI to big data analytics, to ensure the best outcomes for your business."
+            title={t('items.1.title')}
+            text={t('items.1.text')}
             className="w-[30%] max-lg:w-full"
           />
         </section>
         <section className="flex gap-5 max-xl:flex-col">
-          <Card
-            title="Collaborative Growth"
-            text="We ensure you’re always ahead of the curve by tapping into our vast network, providing access to the most relevant resources and expertise."
-          />
-          <Card
-            title="Access to Industry Experts"
-            text="Our ecosystem connects you with leading specialists across multiple sectors, ensuring your business benefits from the strategies tailored to your needs."
-          />
+          <Card title={t('items.2.title')} text={t('items.2.text')} />
+          <Card title={t('items.3.title')} text={t('items.3.text')} />
         </section>
       </FadeIn>
     </section>

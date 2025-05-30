@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
+import { useTranslations } from 'next-intl';
 
 import { List } from '@/shared/ui/components/list';
 import { ArrowRightIcon } from '@/shared/ui/icons/outline';
@@ -21,6 +22,7 @@ const ProjectDetailsDialog = dynamic(
 
 export const ProjectCard = ({ project }: { project: Project }) => {
   const [open, setOpen] = useState(false);
+  const t = useTranslations('our-work.projects');
 
   return (
     <article className="flex flex-col gap-8 rounded-xl bg-[#F5F5F5] p-8 max-md:gap-5">
@@ -35,11 +37,12 @@ export const ProjectCard = ({ project }: { project: Project }) => {
         </Text>
         <section className="flex w-1/2 flex-col rounded-[20px] border border-[#5755514d] p-5 max-md:w-full">
           <div>
-            <span className="font-bold">Client:</span> {project.client} |{' '}
-            <span className="font-bold">Industry:</span> {project.industry}
+            <span className="font-bold">{t('client')}:</span> {project.client} |{' '}
+            <span className="font-bold">{t('industry')}:</span>{' '}
+            {project.industry}
           </div>
           <div>
-            <span className="font-bold">Services used:</span>{' '}
+            <span className="font-bold">{t('usedServices')}:</span>{' '}
             {project.usedServices.join(' · ')}
           </div>
         </section>
@@ -48,13 +51,13 @@ export const ProjectCard = ({ project }: { project: Project }) => {
         <section className="flex w-full gap-5">
           <ListLayout>
             <Text size="xl" color="primary" weight={600}>
-              The Problem:
+              {t('problem')}:
             </Text>
             <List values={project.problems} noHighlight />
           </ListLayout>
           <ListLayout>
             <Text size="xl" color="primary" weight={600}>
-              What We Saw:
+              {t('whatWeSaw')}:
             </Text>
             <List values={project.problemsResults} noHighlight />
           </ListLayout>
@@ -63,13 +66,13 @@ export const ProjectCard = ({ project }: { project: Project }) => {
         <section className="flex w-full gap-5 max-md:hidden">
           <ListLayout>
             <Text size="xl" color="primary" weight={600}>
-              What We Built:
+              {t('whatWeBuilt')}:
             </Text>
             <List values={project.built} noHighlight />
           </ListLayout>
           <ListLayout>
             <Text size="xl" color="primary" weight={600}>
-              What Changed:
+              {t('whatChanged')}:
             </Text>
             <List values={project.builtResults} noHighlight />
           </ListLayout>
@@ -82,7 +85,7 @@ export const ProjectCard = ({ project }: { project: Project }) => {
         onClick={() => setOpen(true)}
         fullWidth
       >
-        Learn More <ArrowRightIcon />
+        {t('learnMore')} <ArrowRightIcon />
       </Button>
       <ProjectDetailsDialog
         project={project}

@@ -1,5 +1,7 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { ArrowDownIcon } from '@/shared/ui/icons/orange';
 import { Text } from '@/shared/ui/kit/text';
 
@@ -10,6 +12,8 @@ export const JobTitle = ({
 }: {
   data: Pick<JobPosition, 'name' | 'type'>;
 }) => {
+  const t = useTranslations('careers.positions');
+
   return (
     <section className="flex w-full cursor-pointer items-center">
       <section className="flex w-full items-center max-md:flex-col max-md:items-start max-md:gap-3">
@@ -23,7 +27,7 @@ export const JobTitle = ({
         </Text>
         <div className="flex items-center gap-3">
           <Text color="dark" weight={600} size="xl">
-            Type:
+            {t('type')}:
           </Text>
           <JobType type={type} />
         </div>
