@@ -17,8 +17,6 @@ import { Text } from '@/shared/ui/kit/text';
 export function Footer() {
   const tf = useTranslations('footer');
   const th = useTranslations('header');
-  const tf = useTranslations('footer');
-  const th = useTranslations('header');
   const { setOpen } = useRequestDialogStore();
   const locale = useLocale();
 
