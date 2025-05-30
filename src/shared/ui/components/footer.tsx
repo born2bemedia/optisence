@@ -17,6 +17,8 @@ import { Text } from '@/shared/ui/kit/text';
 export function Footer() {
   const tf = useTranslations('footer');
   const th = useTranslations('header');
+  const tf = useTranslations('footer');
+  const th = useTranslations('header');
   const { setOpen } = useRequestDialogStore();
   const locale = useLocale();
 
@@ -31,6 +33,7 @@ export function Footer() {
               width={132}
               height={34}
             />
+            <Text className="w-[350px] max-sm:w-full">{tf('description')}</Text>
             <Text className="w-[350px] max-sm:w-full">{tf('description')}</Text>
           </section>
           <section className="flex flex-col gap-3">
@@ -53,14 +56,17 @@ export function Footer() {
           <ul className="flex flex-col gap-3">
             <li>
               {tf('registeredAddress')} <br />
+              {tf('registeredAddress')} <br />
               134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
               8000
             </li>
             <li>
               {tf('officeAddress')} <br />
+              {tf('officeAddress')} <br />
               Office 706, 7th Floor, 134 Bree Street, Cape Town City Centre,
               Cape Town, Western Cape, 8000, South Africa
             </li>
+            <li>{tf('registeredNumber')}: 334070</li>
             <li>{tf('registeredNumber')}: 334070</li>
             <li>Krouder Pty Ltd.</li>
           </ul>
@@ -68,6 +74,7 @@ export function Footer() {
         <div className="flex gap-6 max-2xl:w-full max-md:grid max-md:grid-cols-2">
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
+              {th('consultingSolutions')}
               {th('consultingSolutions')}
             </Text>
             <ul className="flex flex-col gap-3">
@@ -85,6 +92,7 @@ export function Footer() {
           </section>
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
+              {tf('company')}
               {tf('company')}
             </Text>
             <ul className="flex flex-col gap-3">
@@ -113,9 +121,11 @@ export function Footer() {
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
               {tf('startWithOptisence')}
+              {tf('startWithOptisence')}
             </Text>
             <ul className="flex flex-col gap-3">
               <li onClick={() => setOpen(true)}>
+                <Text hover>{tf('getConsultation')}</Text>
                 <Text hover>{tf('getConsultation')}</Text>
               </li>
               <li>
@@ -132,6 +142,7 @@ export function Footer() {
           </section>
           <section className="flex flex-col gap-6">
             <Text color="dark" weight={500}>
+              {tf('policies.title')}
               {tf('policies.title')}
             </Text>
             <ul className="flex flex-col gap-3">
@@ -163,6 +174,7 @@ export function Footer() {
         <Divider />
       </section>
       <section className="px-[100px] text-center max-md:px-8">
+        © {new Date().getFullYear()} Optisence. {tf('allLegalRightsReserved')}
         © {new Date().getFullYear()} Optisence. {tf('allLegalRightsReserved')}
       </section>
     </footer>

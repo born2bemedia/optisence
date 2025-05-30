@@ -12,6 +12,7 @@ import { Text } from '@/shared/ui/kit/text';
 
 import { BurgerMenu } from './burger-menu';
 import { LangSwitcher } from './lang-switcher';
+import { LangSwitcher } from './lang-switcher';
 
 const ContactInfo = () => (
   <div className="flex items-center gap-2.5">
