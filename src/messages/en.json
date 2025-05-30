@@ -256,6 +256,30 @@
       "description": "At Optisence, we don’t just work together — we innovate together. Our team is a collaborative, passionate group of professionals who thrive on solving business challenges and creating opportunities for our clients. We offer a supportive environment where creativity is encouraged and professional development is prioritized. Our culture is built on continuous learning, teamwork, and a shared passion for results.",
       "btnLabel": "Join Our Team"
     },
+    "optisenceEcosystem": {
+      "title": {
+        "first": "The Optisence Ecosystem:",
+        "second": "A Network for Growth"
+      },
+      "items": {
+        "0": {
+          "title": "Global Partnerships",
+          "text": "Our international network brings you the best minds in technology, data analytics, and business development."
+        },
+        "1": {
+          "title": "Cutting-Edge Tools",
+          "text": "We integrate the latest technologies, from AI to big data analytics, to ensure the best outcomes for your business."
+        },
+        "2": {
+          "title": "Collaborative Growth",
+          "text": "We ensure you’re always ahead of the curve by tapping into our vast network, providing access to the most relevant resources and expertise."
+        },
+        "3": {
+          "title": "Access to Industry Experts",
+          "text": "Our ecosystem connects you with leading specialists across multiple sectors, ensuring your business benefits from the strategies tailored to your needs."
+        }
+      }
+    },
     "lookingAhead": {
       "title": {
         "first": "Looking Ahead:",
@@ -540,6 +564,7 @@
     },
     "positions": {
       "title": "Open Positions",
+      "type": "Type",
       "description": "We’re actively hiring across several key roles. Don’t see your dream job listed? Reach out anyway — we’re always looking for standout talent.",
       "jobs": {
         "0": {
@@ -685,6 +710,15 @@
       }
     },
     "projects": {
+      "client": "Client",
+      "industry": "Industry",
+      "usedServices": "Used Services",
+      "problem": "The Problem",
+      "whatWeSaw": "What We Saw",
+      "whatWeBuilt": "What We Built",
+      "whatChanged": "What Changed",
+      "builtResults": "What Changed",
+      "learnMore": "Learn More",
       "0": {
         "name": "Retail at Scale: From Fragmented Campaigns to a Marketing Machine",
         "client": "National Retail Chain",
@@ -1514,6 +1548,9 @@
       "description": "We offer four comprehensive packages to address businesses’ varying needs at different growth stages. Each package is tailored to help you unlock your marketing potential and drive sustainable growth. Choose the package that best suits your current needs and budget, and let us help you take your marketing to the next level."
     },
     "packages": {
+      "includes": "Includes",
+      "whyChoose": "Why Choose This Package?",
+      "order": "Order",
       "0": {
         "name": "Starter Marketing Optimization Package",
         "price": "Price: From €5,000",
@@ -2598,6 +2635,68 @@
     "19": {
       "title": "How to Contact Us",
       "text": "For any questions you have, please get in touch with us:"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Let’s Connect and Drive Your Business Forward",
+      "text": "We’re committed to providing tailored solutions that help your business thrive. Whether you have a question, need expert advice, or want to explore collaboration opportunities, we’re here to assist you every step of the way."
+    },
+    "howReachUs": {
+      "title": "How to Reach Us",
+      "text": "We are always ready to discuss your business needs and provide personalized solutions. You can get in touch with us through the following contact points:",
+      "officeAddress": "Office Address",
+      "registeredAddress": "Registered Address",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "form": {
+      "title": "Drop Us a Message",
+      "text": "We’d love to hear from you! Fill out the form below, and a member of our team will get in touch with you shortly to discuss how we can support your business needs:",
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "errors": {
+        "firstName": "Please enter your first name",
+        "lastName": "Please enter your last name",
+        "email": "Please enter a valid email address",
+        "phone": "Please enter phone number",
+        "invalidPhone": "Please enter a valid phone number",
+        "budget": "Please enter your budget",
+        "message": "Please enter your message"
+      },
+      "fields": {
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "Enter your first name"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Enter your last name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email"
+        },
+        "phone": {
+          "label": "Phone Number"
+        },
+        "companyName": {
+          "label": "Company Name",
+          "placeholder": "Enter your company name"
+        },
+        "companyWebsite": {
+          "label": "Company Website",
+          "placeholder": "Enter your company website"
+        },
+        "budget": {
+          "label": "Budget",
+          "placeholder": "Enter your budget"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Enter your message"
+        }
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 import { useWindow } from '@/shared/lib/hooks';
 //import { FacebookIcon, InstagramIcon, XIcon } from '@/shared/ui/icons/socials';
@@ -48,13 +48,14 @@ const ContactInfo = () => (
 
 const NavigationMenu = () => {
   const t = useTranslations('header');
+  const locale = useLocale();
 
   return (
     <section className="flex items-center gap-6">
-      <Link href="/">
+      <Link href={`/${locale}`}>
         <Text hover>{t('links.0')}</Text>
       </Link>
-      <Link href="/who-we-are">
+      <Link href={`/${locale}/who-we-are`}>
         <Text hover>{t('links.1')}</Text>
       </Link>
       <Dropdown
@@ -62,28 +63,32 @@ const NavigationMenu = () => {
         options={[
           {
             label: (
-              <Link href="/marketing-operations-advisory">{t('links.2')}</Link>
+              <Link href={`/${locale}/marketing-operations-advisory`}>
+                {t('links.2')}
+              </Link>
             ),
             value: '/marketing-operations-advisory',
           },
           {
             label: (
-              <Link href="/corporate-strategy-guidance">{t('links.3')}</Link>
+              <Link href={`/${locale}/corporate-strategy-guidance`}>
+                {t('links.3')}
+              </Link>
             ),
             value: '/corporate-strategy-guidance',
           },
         ]}
       />
-      <Link href="/industries-we-shape">
+      <Link href={`/${locale}/industries-we-shape`}>
         <Text hover>{t('links.4')}</Text>
       </Link>
-      <Link href="/our-work">
+      <Link href={`/${locale}/our-work`}>
         <Text hover>{t('links.5')}</Text>
       </Link>
-      <Link href="/careers">
+      <Link href={`/${locale}/careers`}>
         <Text hover>{t('links.6')}</Text>
       </Link>
-      <Link href="/media-center/5-signs-your-business">
+      <Link href={`/${locale}/media-center/5-signs-your-business`}>
         <Text hover>{t('links.7')}</Text>
       </Link>
     </section>
@@ -92,6 +97,7 @@ const NavigationMenu = () => {
 
 export const Header = () => {
   const t = useTranslations('header.links');
+  const locale = useLocale();
 
   const { width } = useWindow();
 
@@ -104,7 +110,7 @@ export const Header = () => {
             {/* <SocialIcons /> */}
           </section>
           <section className="flex items-center justify-between px-6 py-3">
-            <Link href="/">
+            <Link href={`/${locale}`}>
               <Image
                 src="/full-logo.svg"
                 alt="Optisence"
@@ -115,7 +121,7 @@ export const Header = () => {
             <NavigationMenu />
             <div className="flex items-center gap-3">
               <LangSwitcher />
-              <Link href="/contact-us">
+              <Link href={`/${locale}/contact-us`}>
                 <Button size="sm">{t('8')}</Button>
               </Link>
             </div>

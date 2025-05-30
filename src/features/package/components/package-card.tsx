@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback } from 'react';
+import { useTranslations } from 'next-intl';
 
 import { useOrderDialogStore } from '@/features/order/services';
 
@@ -20,6 +21,7 @@ export const PackageCard = ({
   reasonToChoose,
   className,
 }: Package & { className?: string }) => {
+  const t = useTranslations('marketingOperations.packages');
   const { setProductName, setOpen, setProductPrice } = useOrderDialogStore();
 
   const onOrder = useCallback(() => {
@@ -49,7 +51,7 @@ export const PackageCard = ({
       <Divider />
       <section className="flex flex-col gap-5">
         <Text size="xl" color="dark" weight={500}>
-          Includes:
+          {t('includes')}:
         </Text>
         <ul className="grid grid-cols-2 gap-3 max-md:flex max-md:flex-col">
           {features.map(feature => (
@@ -61,7 +63,7 @@ export const PackageCard = ({
         </ul>
       </section>
       <Text size="xl" color="dark" weight={500}>
-        Why Choose This Package?
+        {t('whyChoose')}
       </Text>
       <Text>{reasonToChoose}</Text>
       <Button
@@ -70,7 +72,7 @@ export const PackageCard = ({
         className="mt-auto"
         fullWidth
       >
-        Order <ArrowRightIcon />
+        {t('order')} <ArrowRightIcon />
       </Button>
     </article>
   );

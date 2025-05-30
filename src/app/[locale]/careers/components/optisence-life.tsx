@@ -14,7 +14,7 @@ export const OptisenceLife = () => {
     <section className="flex flex-col gap-20 px-[100px] py-[80px] max-md:gap-8 max-md:px-4 max-md:py-8">
       <FadeIn className="text-center">
         <Title as="h2" size="xl" weight={600}>
-          Life at Optisence
+          {t('title')}
         </Title>
       </FadeIn>
       <FadeIn className="flex gap-5 max-md:flex-col">

@@ -15,27 +15,28 @@ import { Title } from '@/shared/ui/kit/title';
 
 export const LookingAhead = () => {
   const t = useTranslations('who-we-are.lookingAhead');
+  const ti = useTranslations('who-we-are');
   const { setOpen } = useRequestDialogStore();
 
   const cards = useMemo(
     () => [
       {
         icon: TimerIcon,
-        title: t('items.0.title'),
-        text: t('items.0.text'),
+        title: ti('items.0.title'),
+        text: ti('items.0.text'),
       },
       {
         icon: CompassIcon,
-        title: t('items.1.title'),
-        text: t('items.1.text'),
+        title: ti('items.1.title'),
+        text: ti('items.1.text'),
       },
       {
         icon: WebIcon,
-        title: t('items.2.title'),
-        text: t('items.2.text'),
+        title: ti('items.2.title'),
+        text: ti('items.2.text'),
       },
     ],
-    [t],
+    [ti],
   );
 
   return (
