@@ -32,6 +32,9 @@
         "first": "Consulting Solutions for",
         "second": "Businesses & Enterprises"
       },
+      "keyOfferings": "Key Offerings",
+      "exploreMarketing": "Explore Marketing Operations Advisory",
+      "discoverCorporate": "Discover Corporate Strategy Guidance",
       "description": "We offer innovative Consulting Solutions that cater to the unique needs of your business, no matter its size or scope. Whether you’re a startup aiming for rapid growth or an established enterprise seeking to optimize operations, we have the expertise to help you succeed.",
       "items": {
         "0": {
@@ -530,6 +533,15 @@
       },
       "form": {
         "title": "Application Form",
+        "errors": {
+          "fullName": "Enter the name of the primary contact person",
+          "email": "Enter a contact email address",
+          "phone": "Enter a contact phone number",
+          "invalidPhone": "Invalid phone number format",
+          "role": "Select a role",
+          "portfolio": "Upload a file",
+          "message": "Enter a message"
+        },
         "fields": {
           "name": {
             "label": "Full Name",
@@ -1934,6 +1946,12 @@
       "description": "At Optisence, we partner with companies like yours to provide tailored solutions that drive growth and optimize operations. To get started, please share details about your business needs, and we’ll craft a strategy to help you succeed.",
       "basicInfo": "Basic Information",
       "personalCompanyData": "Personal & Company Data",
+      "errors": {
+        "fullName": "Enter the name of the primary contact person",
+        "email": "Enter a contact email address",
+        "phone": "Enter a contact phone number",
+        "invalidPhone": "Invalid phone number format"
+      },
       "fields": {
         "fullName": {
           "label": "Full Name",
@@ -1980,6 +1998,15 @@
         "4": "Leadership and Governance Consulting",
         "5": "Other"
       },
+      "errors": {
+        "marketingAdvisory": "Please choose the consulting services",
+        "corporateStrategy": "Please choose the consulting services",
+        "budget": "Please select your project’s budget range",
+        "keyObjectives": "Enter your company’s key objectives",
+        "points": "Enter your company’s challenges or pain points",
+        "industry": "Enter your company’s industry/sector",
+        "demographics": "Enter your company’s demographics"
+      },
       "budgetAllocation": "Budget Allocation",
       "pleaseSelectRange": "Please select your project’s budget range. This will help us create a plan that aligns with your investment.",
       "businessChallengesGoals": "Business Challenges & Goals",
@@ -2021,6 +2048,10 @@
         "2": "3-6 Months",
         "3": "Flexible Timeline"
       },
+      "errors": {
+        "projectTimeline": "Please select your project’s timeline",
+        "contactMethod": "Please select your preferred contact method"
+      },
       "contact": {
         "0": "Email",
         "1": "Phone",
@@ -2040,6 +2071,14 @@
     "btn": "Continue"
   },
   "order": {
+    "errors": {
+      "name": "Enter the name of the contact person",
+      "email": "Enter a contact email address",
+      "phone": "Enter a contact phone number",
+      "invalidPhone": "Invalid phone number format",
+      "budget": "Please select your project’s budget range",
+      "message": "Enter a message"
+    },
     "fields": {
       "firstName": {
         "label": "First Name",

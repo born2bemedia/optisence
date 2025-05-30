@@ -104,6 +104,9 @@
       "description": "La soddisfazione dei nostri clienti la dice lunga sulla qualità dei nostri servizi. Ecco cosa hanno da dire alcuni di loro sulla collaborazione con Optisence:"
     },
     "consultingSolutions": {
+      "keyOfferings": "Offerte chiave",
+      "exploreMarketing": "Esplora la consulenza sulle operazioni di marketing",
+      "discoverCorporate": "Scopri la guida alla strategia aziendale",
       "items": {
         "0": {
           "keys": "Pianificazione strategica del marketing, implementazione dell'automazione del marketing, ottimizzazione del flusso di lavoro, mappatura del viaggio del cliente, misurazione delle prestazioni",
@@ -127,6 +130,14 @@
     "btn": {
       "submit": "Invia",
       "submitting": "Invio..."
+    },
+    "errors": {
+      "name": "Inserire il nome della persona di contatto",
+      "email": "Inserire un indirizzo e-mail di contatto",
+      "phone": "Inserire un numero di telefono di contatto",
+      "invalidPhone": "Formato numero di telefono non valido",
+      "budget": "Selezionare il budget del progetto",
+      "message": "Inserire un messaggio"
     },
     "fields": {
       "email": {
@@ -386,6 +397,15 @@
     "readyToApply": {
       "form": {
         "title": "Modulo di richiesta",
+        "errors": {
+          "fullName": "Inserire il nome della persona di contatto principale",
+          "email": "Inserire un indirizzo e-mail di contatto",
+          "phone": "Inserire un numero di telefono di contatto",
+          "invalidPhone": "Formato numero di telefono non valido",
+          "role": "Selezionare un ruolo",
+          "portfolio": "Caricare un file",
+          "message": "Inserire un messaggio"
+        },
         "fields": {
           "name": {
             "label": "Nome completo",
@@ -1354,6 +1374,12 @@
   "requestForm": {
     "0": {
       "title": "Entrare in contatto con Optisence",
+      "errors": {
+        "fullName": "Inserire il nome della persona di contatto principale",
+        "email": "Inserire un indirizzo e-mail di contatto",
+        "phone": "Inserire un numero di telefono di contatto",
+        "invalidPhone": "Formato numero di telefono non valido"
+      },
       "fields": {
         "email": {
           "label": "Indirizzo e-mail",
@@ -1386,6 +1412,15 @@
     },
     "1": {
       "title": "Esigenze e obiettivi aziendali",
+      "errors": {
+        "marketingAdvisory": "Selezionare il servizio di consulenza",
+        "corporateStrategy": "Selezionare il servizio di consulenza",
+        "budget": "Selezionare la fascia di budget del vostro progetto",
+        "keyObjectives": "Inserite gli obiettivi chiave della vostra azienda",
+        "points": "Inserite le sfide o i punti dolenti della vostra azienda",
+        "industry": "Inserite l'industria/settore della vostra azienda",
+        "demographics": "Inserite i dati demografici della vostra azienda"
+      },
       "fields": {
         "budget": {
           "label": "Il vostro budget",
@@ -1442,6 +1477,10 @@
         "0": "Email",
         "1": "Telefono",
         "2": "Videochiamata"
+      },
+      "errors": {
+        "projectTimeline": "Selezionare la cronologia del vostro progetto",
+        "contactMethod": "Selezionare il metodo di contatto preferito"
       },
       "timeline": {
         "0": "Entro 1 mese",

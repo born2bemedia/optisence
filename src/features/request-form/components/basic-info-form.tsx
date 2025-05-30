@@ -12,13 +12,16 @@ import { Text } from '@/shared/ui/kit/text';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
 
-import { type BasicInfoSchema, basicInfoSchema } from '../lib';
+import { type BasicInfoSchema, createBasicInfoSchema } from '../lib';
 import { useRequestDialogStore } from '../services';
 
 export function BasicInfoForm() {
   const t = useTranslations('requestForm.0');
+  const te = useTranslations('requestForm.0.errors');
   const tb = useTranslations('requestForm.btn');
   const { updateValues, setStep } = useRequestDialogStore();
+
+  const basicInfoSchema = createBasicInfoSchema(te);
 
   const {
     handleSubmit,

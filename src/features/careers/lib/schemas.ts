@@ -1,19 +1,24 @@
+import type { useTranslations } from 'next-intl';
+
 import { z } from '@/shared/lib/forms';
 import { isPhoneValid } from '@/shared/lib/utils';
 
-export const applicationFormSchema = z.object({
-  fullName: z
-    .string()
-    .min(1, { message: 'Enter the name of the primary contact person' }),
-  email: z.string().email({ message: 'Enter a contact email address' }),
-  phone: z
-    .string()
-    .nonempty('Enter a contact phone number')
-    .refine(isPhoneValid, 'Invalid phone number format'),
-  role: z.string().min(1, { message: 'Select a role' }),
-  portfolio: z.string().optional(),
-  file: z.instanceof(File, { message: 'Upload a file' }),
-  message: z.string().min(1, { message: 'Enter a message' }),
-});
+export const createApplicationFormSchema = (
+  t: ReturnType<typeof useTranslations>,
+) =>
+  z.object({
+    fullName: z.string().min(1, { message: t('fullName') }),
+    email: z.string().email({ message: t('email') }),
+    phone: z
+      .string()
+      .nonempty(t('phone'))
+      .refine(isPhoneValid, t('invalidPhone')),
+    role: z.string().min(1, { message: t('role') }),
+    portfolio: z.string().optional(),
+    file: z.instanceof(File, { message: t('portfolio') }),
+    message: z.string().min(1, { message: t('message') }),
+  });
 
-export type ApplicationFormSchema = z.infer<typeof applicationFormSchema>;
+export type ApplicationFormSchema = z.infer<
+  ReturnType<typeof createApplicationFormSchema>
+>;

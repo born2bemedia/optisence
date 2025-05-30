@@ -61,17 +61,17 @@ export const OurValues = () => {
       </FadeIn>
       {width > 768 ? (
         <section className="flex gap-8">
-          <FadeIn className="flex flex-col gap-8">
+          <FadeIn className="flex w-full flex-col gap-8">
             {[cards[0], cards[3]].map(card => (
               <Card key={card.title} {...card} />
             ))}
           </FadeIn>
-          <FadeIn className="mt-[30px] flex flex-col gap-8 max-sm:mt-0">
+          <FadeIn className="mt-[30px] flex w-full flex-col gap-8 max-sm:mt-0">
             {[cards[1], cards[4]].map(card => (
               <Card key={card.title} {...card} />
             ))}
           </FadeIn>
-          <FadeIn className="mt-[60px] flex flex-col gap-8 max-sm:mt-0">
+          <FadeIn className="mt-[60px] flex w-full flex-col gap-8 max-sm:mt-0">
             {[cards[2], cards[5]].map(card => (
               <Card key={card.title} {...card} />
             ))}

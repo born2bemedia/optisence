@@ -9,7 +9,7 @@ import { ArrowRightIcon } from '@/shared/ui/icons/outline';
 import { Button } from '@/shared/ui/kit/button';
 import { TextField } from '@/shared/ui/kit/text-field';
 
-import { type OrderSchema, orderSchema } from '../lib';
+import { createOrderSchema, type OrderSchema } from '../lib';
 import { order } from '../services';
 
 export const OrderForm = ({
@@ -22,6 +22,9 @@ export const OrderForm = ({
   onSuccess: () => void;
 }) => {
   const t = useTranslations('order');
+  const te = useTranslations('order.errors');
+
+  const orderSchema = createOrderSchema(te);
 
   const {
     handleSubmit,
