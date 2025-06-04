@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import { LinesSection } from '@/shared/ui/components/lines-section';
@@ -14,10 +15,12 @@ export const DownloadPrice = () => {
       title={t('title')}
       text={t('description')}
       bottomContent={
-        <Button>
-          {t('btn')}
-          <ArrowRightIcon />
-        </Button>
+        <Link href="/price_list_optisence.pdf">
+          <Button>
+            {t('btn')}
+            <ArrowRightIcon />
+          </Button>
+        </Link>
       }
     />
   );
