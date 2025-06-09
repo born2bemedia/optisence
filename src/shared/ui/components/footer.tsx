@@ -54,14 +54,14 @@ export function Footer() {
             <li>
               {tf('registeredAddress')} <br />
               134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
-              8000
+              8000, South Africa
             </li>
             <li>
               {tf('officeAddress')} <br />
               Office 706, 7th Floor, 134 Bree Street, Cape Town City Centre,
               Cape Town, Western Cape, 8000, South Africa
             </li>
-            <li>{tf('registeredNumber')}: 334070</li>
+            <li>{tf('registeredNumber')} 2025 / 334070 / 07</li>
             <li>Krouder Pty Ltd.</li>
           </ul>
         </div>

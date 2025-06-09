@@ -44,9 +44,10 @@ export default function CookiePolicy() {
             {t('0.text.1')}{' '}
             <HighlightedText>
               134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
-              8000
+              8000, South Africa
             </HighlightedText>{' '}
-            {t('0.text.2')} <HighlightedText>334070</HighlightedText>{' '}
+            {t('0.text.2')}{' '}
+            <HighlightedText>2025 / 334070 / 07</HighlightedText>{' '}
             {t('0.text.3')}
           </Text>
         </PolicySection>
