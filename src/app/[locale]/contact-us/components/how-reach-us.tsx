@@ -37,7 +37,7 @@ export const HowReachUs = () => {
           <PrimitiveCard title={t('registeredAddress')} icon={<BookIcon />}>
             <Text>
               134 Bree Street, Cape Town City Centre, Cape Town, Western Cape,
-              8000
+              8000, South Africa
             </Text>
           </PrimitiveCard>
         </FadeIn>
