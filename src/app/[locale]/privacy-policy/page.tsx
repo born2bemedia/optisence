@@ -55,9 +55,10 @@ export default function PrivacyPolicy() {
                 {t('1.values.1.2')}{' '}
                 <span className="text-primary">
                   134 Bree Street, Cape Town City Centre, Cape Town, Western
-                  Cape, 8000
+                  Cape, 8000, South Africa
                 </span>{' '}
-                {t('1.values.1.3')} <span className="text-primary">334070</span>{' '}
+                {t('1.values.1.3')}{' '}
+                <span className="text-primary">2025 / 334070 / 07</span>{' '}
                 {t('1.values.1.4')}.
               </span>,
               <span key="country">
