@@ -10,6 +10,7 @@ import { Button } from '@/shared/ui/kit/button';
 import { Dropdown } from '@/shared/ui/kit/dropdown';
 import { Text } from '@/shared/ui/kit/text';
 
+import { FacebookIcon } from '../icons/socials';
 import { BurgerMenu } from './burger-menu';
 import { LangSwitcher } from './lang-switcher';
 
@@ -26,14 +27,12 @@ const ContactInfo = () => (
   </div>
 );
 
-/* const SocialIcons = () => (
+const SocialIcons = () => (
   <div className="flex items-center gap-2.5">
-    <Link href="#">
-      <span className="group">
-        <FacebookIcon className="group-hover:[&>path]:fill-primary transition duration-300 ease-in-out group-hover:scale-110" />
-      </span>
-    </Link>
-    <Link href="#">
+    <span className="group">
+      <FacebookIcon className="group-hover:[&>path]:fill-primary transition duration-300 ease-in-out group-hover:scale-110" />
+    </span>
+    {/* <Link href="#">
       <span className="group">
         <InstagramIcon className="group-hover:[&>path]:fill-primary transition duration-300 ease-in-out group-hover:scale-110" />
       </span>
@@ -42,9 +41,9 @@ const ContactInfo = () => (
       <span className="group">
         <XIcon className="group-hover:[&>g>path]:fill-primary transition duration-300 ease-in-out group-hover:scale-110" />
       </span>
-    </Link>
+    </Link> */}
   </div>
-); */
+);
 
 const NavigationMenu = () => {
   const t = useTranslations('header');
@@ -107,7 +106,7 @@ export const Header = () => {
         <>
           <section className="flex items-center justify-between bg-[#F9FAFF] px-6 py-3">
             <ContactInfo />
-            {/* <SocialIcons /> */}
+            <SocialIcons />
           </section>
           <section className="flex items-center justify-between px-6 py-3">
             <Link href={`/${locale}`}>
