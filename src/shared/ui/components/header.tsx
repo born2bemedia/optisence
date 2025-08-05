@@ -103,6 +103,7 @@ export const Header = () => {
           <section className="flex items-center justify-between bg-[#F9FAFF] px-6 py-3">
             <ContactInfo />
             <SocialIcons />
+            <SocialIcons />
           </section>
           <section className="flex items-center justify-between px-6 py-3">
             <Link href={`/${locale}`}>
