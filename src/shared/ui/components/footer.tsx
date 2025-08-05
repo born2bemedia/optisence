@@ -14,7 +14,11 @@ import { useRequestDialogStore } from '@/features/request-form/services';
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 
-import { FacebookFillIcon } from '../icons/socials';
+import {
+  FacebookFillIcon,
+  InstagramFillIcon,
+  XFillIcon,
+} from '../icons/socials';
 
 export function Footer() {
   const tf = useTranslations('footer');
@@ -37,8 +41,8 @@ export function Footer() {
           </section>
           <section className="flex flex-col gap-3">
             <div className="flex items-center gap-2.5 max-lg:justify-center">
-              {/* <XFillIcon />
-              <InstagramFillIcon /> */}
+              <XFillIcon />
+              <InstagramFillIcon />
               <FacebookFillIcon />
             </div>
             <div className="flex items-center gap-2.5">

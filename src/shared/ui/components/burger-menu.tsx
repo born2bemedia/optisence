@@ -14,7 +14,11 @@ import {
 } from '@radix-ui/react-dialog';
 
 import { ChevronDown, MenuIcon } from '@/shared/ui/icons/outline';
-import { FacebookFillIcon } from '@/shared/ui/icons/socials';
+import {
+  FacebookFillIcon,
+  InstagramFillIcon,
+  XFillIcon,
+} from '@/shared/ui/icons/socials';
 import { Button } from '@/shared/ui/kit/button';
 import { Divider } from '@/shared/ui/kit/divider';
 
@@ -114,8 +118,10 @@ export const BurgerMenu = () => {
                   </Link>
                   <Link href="tel:+27218913127">+27218913127</Link>
                 </section>
-                <section>
+                <section className="flex items-center gap-6">
                   <FacebookFillIcon color="#fff" />
+                  <InstagramFillIcon color="#fff" />
+                  <XFillIcon color="#fff" />
                 </section>
               </footer>
             </section>
