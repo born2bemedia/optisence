@@ -5,7 +5,11 @@ import Image from 'next/image';
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { PrimitiveCard } from '@/shared/ui/components/primitive-card';
 import { Url } from '@/shared/ui/components/url';
-import { FacebookOrangeIcon } from '@/shared/ui/icons/socials';
+import {
+  FacebookOrangeIcon,
+  InstagramOrangeIcon,
+  XOrangeIcon,
+} from '@/shared/ui/icons/socials';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -40,14 +44,24 @@ export const StayConnected = () => {
             value="https://www.facebook.com/optisence/ "
             placeholder="https://www.facebook.com/optisence/ "
           />
+          <Url
+            value="https://www.facebook.com/optisence/ "
+            placeholder="https://www.facebook.com/optisence/ "
+          />
         </PrimitiveCard>
-        {/* <PrimitiveCard title="Instagram" icon={<InstagramOrangeIcon />}> */}
-        {/* <Url value="#" placeholder="Insert Link" />
-        </PrimitiveCard> */}
+        <PrimitiveCard title="Instagram" icon={<InstagramOrangeIcon />}>
+          <Url
+            value="https://www.instagram.com/optisence/"
+            placeholder="https://www.instagram.com/optisence/"
+          />
+        </PrimitiveCard>
         <GirlCard />
-        {/* <PrimitiveCard title="Twitter" icon={<XOrangeIcon />}>
-          <Url value="#" placeholder="Insert Link" />
-        </PrimitiveCard> */}
+        <PrimitiveCard title="Twitter" icon={<XOrangeIcon />}>
+          <Url
+            value="https://x.com/optisence"
+            placeholder="https://x.com/optisence"
+          />
+        </PrimitiveCard>
       </FadeIn>
     </section>
   );
