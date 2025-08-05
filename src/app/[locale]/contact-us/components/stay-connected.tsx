@@ -44,10 +44,6 @@ export const StayConnected = () => {
             value="https://www.facebook.com/optisence/ "
             placeholder="https://www.facebook.com/optisence/ "
           />
-          <Url
-            value="https://www.facebook.com/optisence/ "
-            placeholder="https://www.facebook.com/optisence/ "
-          />
         </PrimitiveCard>
         <PrimitiveCard title="Instagram" icon={<InstagramOrangeIcon />}>
           <Url
