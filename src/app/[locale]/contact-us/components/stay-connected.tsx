@@ -5,11 +5,7 @@ import Image from 'next/image';
 import { FadeIn } from '@/shared/ui/components/fade-in';
 import { PrimitiveCard } from '@/shared/ui/components/primitive-card';
 import { Url } from '@/shared/ui/components/url';
-import {
-  FacebookOrangeIcon,
-  InstagramOrangeIcon,
-  XOrangeIcon,
-} from '@/shared/ui/icons/socials';
+import { FacebookOrangeIcon, XOrangeIcon } from '@/shared/ui/icons/socials';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -45,12 +41,12 @@ export const StayConnected = () => {
             placeholder="https://www.facebook.com/optisence/ "
           />
         </PrimitiveCard>
-        <PrimitiveCard title="Instagram" icon={<InstagramOrangeIcon />}>
+        {/* <PrimitiveCard title="Instagram" icon={<InstagramOrangeIcon />}>
           <Url
             value="https://www.instagram.com/optisence/"
             placeholder="https://www.instagram.com/optisence/"
           />
-        </PrimitiveCard>
+        </PrimitiveCard> */}
         <GirlCard />
         <PrimitiveCard title="Twitter" icon={<XOrangeIcon />}>
           <Url
