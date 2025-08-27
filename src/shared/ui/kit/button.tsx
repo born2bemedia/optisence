@@ -6,7 +6,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '@/shared/lib/utils';
 
 const btnVariants = cva(
-  'rounded-full flex items-center gap-3 text-base cursor-pointer transition duration-300 ease-in-out font-semibold',
+  'rounded-full disabled:opacity-70 flex items-center gap-3 text-base cursor-pointer transition duration-300 ease-in-out font-semibold',
   {
     variants: {
       variant: {
