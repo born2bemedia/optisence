@@ -1,6 +1,7 @@
 'use client';
 
 import { type ReactNode, useState } from 'react';
+import ReCaptcha from 'react-google-recaptcha';
 import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
 
@@ -21,6 +22,7 @@ const ThankYouDialog = dynamic(() =>
 
 export const ContactForm = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVerified, setIsVerified] = useState(false);
 
   const t = useTranslations('contact.form');
   const te = useTranslations('contact.form.errors');
@@ -59,6 +61,8 @@ export const ContactForm = () => {
       toast.error('Failed to send message');
     }
   });
+
+  const onChange = (value: string | null) => setIsVerified(!!value);
 
   return (
     <form
@@ -190,9 +194,18 @@ export const ContactForm = () => {
           )}
         />
       </FormRow>
-      <Button type="submit" disabled={isSubmitting} className="mr-auto ml-auto">
+      <Button
+        type="submit"
+        disabled={!isVerified || isSubmitting}
+        className="mr-auto ml-auto"
+      >
         {isSubmitting ? t('submitting') : t('submit')} <ArrowRightIcon />
       </Button>
+      <ReCaptcha
+        className="mx-auto"
+        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ''}
+        onChange={onChange}
+      />
       <ThankYouDialog isOpen={isOpen} setIsOpen={setIsOpen} />
     </form>
   );
