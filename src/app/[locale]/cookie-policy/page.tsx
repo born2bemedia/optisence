@@ -33,7 +33,7 @@ export default function CookiePolicy() {
 
   return (
     <PolicyLayout>
-      <Header title="Cookie Policy" updatedOn="05/05/2025" />
+      <Header title="Cookie Policy" />
       <PolicyContentLayout>
         <PolicySection>
           <Title size="md" as="h3">
