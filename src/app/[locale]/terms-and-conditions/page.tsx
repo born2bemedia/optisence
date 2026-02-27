@@ -33,7 +33,7 @@ export default function TermsAndConditions() {
 
   return (
     <PolicyLayout>
-      <Header title={t('title')} updatedOn="05/05/2025" />
+      <Header title={t('title')} />
       <PolicyContentLayout>
         <PolicySection>
           <Title size="md" as="h3">
