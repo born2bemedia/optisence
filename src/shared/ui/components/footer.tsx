@@ -47,8 +47,8 @@ export function Footer() {
                   info@optisence.com
                 </Text>
               </Link>
-              <Link href="tel:+27218913127">
-                <Text color="dark">+27218913127</Text>
+              <Link href="tel:+27218919701">
+                <Text color="dark">+27218919701</Text>
               </Link>
             </div>
           </section>

@@ -20,8 +20,8 @@ const ContactInfo = () => (
         info@optisence.com
       </Text>
     </Link>
-    <Link href="tel:+27218913127">
-      <Text size="sm">+27218913127</Text>
+    <Link href="tel:+27218919701">
+      <Text size="sm">+27218919701</Text>
     </Link>
   </div>
 );

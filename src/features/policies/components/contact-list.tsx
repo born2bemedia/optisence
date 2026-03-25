@@ -15,8 +15,8 @@ export const ContactList = () => {
           href: 'mailto:info@optisence.com',
         },
         {
-          text: `${t('1')}: +27218913127`,
-          href: 'tel:+27218913127',
+          text: `${t('1')}: +27218919701`,
+          href: 'tel:+27218919701',
         },
         {
           text: `${t('2')}`,

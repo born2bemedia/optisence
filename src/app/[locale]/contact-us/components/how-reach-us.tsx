@@ -49,7 +49,7 @@ export const HowReachUs = () => {
             />
           </PrimitiveCard>
           <PrimitiveCard title={t('phone')} icon={<PhoneIcon />}>
-            <Link href="tel:+27218913127">+27218913127</Link>
+            <Link href="tel:+27218919701">+27218919701</Link>
           </PrimitiveCard>
         </FadeIn>
       </section>

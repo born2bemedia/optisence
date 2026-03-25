@@ -2204,7 +2204,7 @@
       },
       "8": {
         "title": "Updates to Our Terms",
-        "text": "Optisence reserves the right, at its sole discretion, to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion."
+        "text": "We may change our Services and policies and need to make changes to these Terms so that they accurately reflect our Services and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to these Terms and allow you to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Terms. You can delete your account if you do not want to agree to these or any updated Terms."
       },
       "9": {
         "title": "Website Modifications",
@@ -2212,11 +2212,11 @@
       },
       "10": {
         "title": "Updates to Our Website",
-        "text": "Optisence may occasionally provide enhancements or improvements to the features/functionality of the website, which may include, but is not limited to, updates to the website, the Optisence Service, or the technology used by Optisence to provide the Optisence Service."
+        "text": "Optisence may occasionally provide enhancements or improvements to the features/ functionality of the website, which may include patches, bug fixes, updates, upgrades, and other modifications (“Updates”). Updates may modify or delete certain website features and/or functionalities. You agree that Optisence has no obligation to (i) provide any Updates or (ii) continue to provide or enable any particular features and/or functionalities of the website to you. You further agree that all Updates will be (i) deemed an integral part of the website and (ii) subject to the Terms and Conditions of this Agreement."
       },
       "11": {
         "title": "Third-Party Services",
-        "text": "We may display, include, or make available third-party content (including data, information, applications, and other product services) or provide links to third-party websites or services (“Third-Party Services”). You acknowledge and agree that Optisence shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality, or any other aspect thereof. Optisence does not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services."
+        "text": "We may display, include, or make available third-party content (including data, information, applications, and other product services) or provide links to third-party websites or services (“Third-Party Services”). You acknowledge and agree that Optisence shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality, or any other aspect thereof. Optisence does not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services. Third-party services and links thereto are provided solely for your convenience, and you access and use them entirely at your own risk and subject to such third parties’ Terms and Conditions."
       },
       "12": {
         "title": "Term and Termination",
@@ -2224,7 +2224,7 @@
       },
       "13": {
         "title": "Links to Other Websites",
-        "text": "These Terms and Conditions apply only to the Services. The Services may contain links to other websites not operated or controlled by Optisence. We are not responsible for the content, accuracy, or opinions expressed on such websites, and such websites are not investigated, monitored, or checked for accuracy or completeness by us. Please remember that when you use a link from the Services to another website, our Terms and Conditions are no longer in effect."
+        "text": "These Terms and Conditions apply only to the Services. The Services may contain links to other websites not operated or controlled by Optisence. We are not responsible for the content, accuracy, or opinions expressed on such websites, and such websites are not investigated, monitored, or checked for accuracy or completeness by us. Please remember that when you use a link from the Services to another website, our Terms and Conditions are no longer in effect. Your browsing and interaction on any other website, including those with a link on our platform, is subject to that website’s rules and policies. Third parties may use cookies or other methods to collect information about you."
       },
       "14": {
         "title": "Cookie Policy",
@@ -2298,7 +2298,7 @@
         "text": {
           "0": "The website and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection, and arrangement thereof) are owned by Optisence, its licensors, or other providers of such material.",
           "1": "South Africa",
-          "2": "and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws protect them."
+          "2": "and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws protect them. The material may not be copied, modified, reproduced, downloaded, or distributed in any way, in whole or in part, without the express prior written permission of Optisence unless and except as expressly provided in these Terms and Conditions. Any unauthorised use of the material is prohibited."
         }
       },
       "24": {
@@ -2573,9 +2573,9 @@
       }
     },
     "7": {
-      "title": "How We Protect Your Information",
+      "title": "Use of Your Email Address",
       "text": {
-        "0": "We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our payment gateway providers’ database, only to be accessible by those authorised with special access rights to such systems and are required to keep the information confidential.",
+        "0": "By submitting your email address on this website, you agree to receive emails from us. You can cancel participation in these email lists by clicking the opt-out link or other unsubscribe options in the email. We only email people authorised to contact them directly or through a third party. We do not send unsolicited commercial emails because we hate spam as much as you do.",
         "1": "By submitting your email address, you also agree to allow us to use your email address for customer audience targeting on sites like Facebook, where we display custom advertising to specific people who have opted-in to receive communications from us. Email addresses submitted only through the order processing page will be used to send you information and updates about your order. If, however, you have provided the same email to us through another method, we may use it for any of the purposes stated in this Policy. Note: If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email."
       }
     },
